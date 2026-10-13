@@ -1,0 +1,6 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- teardrop naan -->
+    <path android:fillColor="#FBEBCB" android:pathData="M54,26 C70,26 80,44 78,60 C76,76 66,84 54,84 C42,84 32,76 30,60 C28,44 38,26 54,26 Z"/>
+    <path android:fillColor="#7A4A00" android:pathData="M44,48 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 M60,44 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0 M55,62 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 M66,64 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0 M42,68 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+</vector>
