@@ -6,11 +6,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
-        with: { distribution: temurin, java-version: '17' }
-      - uses: android-actions/setup-android@v3
-      - run: ./gradlew assembleRelease --no-daemon
+      - uses: actions/checkout@v5
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      # The ubuntu runner already ships the Android SDK (ANDROID_HOME).
+      - name: Build APK
+        run: |
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
+          chmod +x gradlew
+          set -o pipefail
+          ./gradlew assembleRelease --no-daemon --console=plain 2>&1 | tee build.log
+      - name: Report errors
+        if: failure()
+        run: |
+          grep -E "error|Error|FAILURE|What went wrong|Could not|>" build.log | tail -25 | while IFS= read -r line; do echo "::error::$line"; done || true
+          tail -15 build.log | while IFS= read -r line; do echo "::error::$line"; done || true
       - uses: actions/upload-artifact@v4
         with:
           name: naan-calculator-apk
