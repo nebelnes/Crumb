@@ -7,14 +7,24 @@ android {
         applicationId = "com.naan.calculator"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        // Each GitHub build gets a higher number so phones accept it as an update.
+        val build = (System.getenv("GITHUB_RUN_NUMBER") ?: "1").toInt()
+        versionCode = build
+        versionName = "1.$build"
+    }
+    signingConfigs {
+        // One fixed key, kept in this private repo, so every build can update the installed app.
+        create("release") {
+            storeFile = file("naan-release.jks")
+            storePassword = "naancalc"
+            keyAlias = "naan"
+            keyPassword = "naancalc"
+        }
     }
     buildTypes {
         release {
             isMinifyEnabled = false
-            // Signed with the debug key so the APK installs without extra setup.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
