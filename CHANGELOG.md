@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-14 — Yeast type
+- Ripe dough: yeast set to instant dry yeast.
+
 ## 2026-10-14 — Wording
 - Ripe dough 65 %: "sifted" rye flour is now called "white rye flour".
 

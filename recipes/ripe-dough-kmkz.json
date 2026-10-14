@@ -77,19 +77,18 @@
               "extra": true
             },
             {
-              "en": "Yeast",
+              "en": "Instant dry yeast",
               "orig": "Дрожжи",
               "pct": 0.6667,
               "flour": false,
               "water": 0,
-              "extra": true,
-              "note": "yeast type not given in the sheet"
+              "extra": true
             }
           ]
         }
       ],
       "method": [
-        "Mix КМКЗ, rye flour (whole-grain (обойная/обдирная)), water, salt and yeast.",
+        "Mix КМКЗ, rye flour (whole-grain (обойная/обдирная)), water, salt and instant dry yeast.",
         "Ferment for 18–20 hours at 28 °C."
       ],
       "notes": "The sheet's 70 % (влажность) = water ÷ flour, counting the water and flour inside the КМКЗ. In the calculator that's \"Effective hydration\"."
@@ -139,19 +138,18 @@
               "extra": true
             },
             {
-              "en": "Yeast",
+              "en": "Instant dry yeast",
               "orig": "Дрожжи",
               "pct": 0.6667,
               "flour": false,
               "water": 0,
-              "extra": true,
-              "note": "yeast type not given in the sheet"
+              "extra": true
             }
           ]
         }
       ],
       "method": [
-        "Mix КМКЗ, white rye flour, water, salt and yeast.",
+        "Mix КМКЗ, white rye flour, water, salt and instant dry yeast.",
         "Ferment for 18 hours at 28 °C."
       ],
       "notes": "The sheet's 65 % (влажность) = water ÷ flour, counting the water and flour inside the КМКЗ. In the calculator that's \"Effective hydration\"."
