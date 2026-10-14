@@ -52,5 +52,12 @@ Ingredient fields:
 - `flourIn`: flour share inside a culture brought in from outside the recipe (e.g. КМКЗ at 190 % hydration = 0.3448). Used for effective hydration.
 - `converted: true`: amount converted from cups/spoons to grams.
 - `note`: optional short remark shown under the ingredient.
+- `extra: true`: added on top of the target amount (e.g. salt and yeast in спелое тесто, as in the КМКЗ sheet).
+
+## Variants (selectable proportions)
+
+A recipe can have `"variants": [...]` plus `"variantLabel"`. Each variant has `id`, `label`, optional `sub`, and its own `stages`, `method`, `notes` and `yield`, which override the shared fields. The app shows them as buttons.
+
+`yield.label`, `yield.hint` and `yield.slider` (`min`, `max`, `step`) set up the amount slider.
 
 Status `placeholder` shows a red banner: the formula is not from the source yet.

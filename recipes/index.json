@@ -1,10 +1,6 @@
 {
   "recipes": [
-    "kmkz-refresh-1-9.json",
-    "kmkz-refresh-1-5.json",
-    "kmkz-refresh-1-2.json",
-    "kmkz-refresh-malt.json",
-    "ripe-dough-kmkz-70.json",
-    "ripe-dough-kmkz-65.json"
+    "kmkz-refresh.json",
+    "ripe-dough-kmkz.json"
   ]
 }

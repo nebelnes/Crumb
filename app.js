@@ -59,7 +59,8 @@ const flourShare = i => (i.flour ? 1 : (i.flourIn || 0));
 
 function calc(r, c) {
   const ings = allIngredients(r);
-  const sumPct = ings.reduce((a, i) => a + i.pct, 0);
+  // ингредиенты с extra: true (соль, дрожжи «сверху») не входят в заданный вес
+  const sumPct = ings.filter(i => !i.extra).reduce((a, i) => a + i.pct, 0);
   const flourPct = ings.filter(i => i.flour).reduce((a, i) => a + i.pct, 0);
   const target = c.mode === 'pieces' ? c.pieces * c.pieceWeight : c.total;
   const withLoss = target * (1 + (c.loss || 0) / 100);
@@ -75,8 +76,10 @@ function calc(r, c) {
   const allFlour = ings.reduce((a, i) => a + g(i) * flourShare(i), 0);
   const water = ings.reduce((a, i) => a + g(i) * (i.water || 0), 0);
 
+  const dough = stages.reduce((a, s) => a + s.total, 0);
+
   return {
-    stages, target, withLoss, freshFlour, allFlour, water,
+    stages, target, withLoss, dough, freshFlour, allFlour, water,
     hydration: allFlour > 0 ? water / allFlour * 100 : 0,
     flourPct,
     flourOk: Math.abs(flourPct - 100) < 0.05,
@@ -89,8 +92,9 @@ function shoppingList(r, res, c) {
     const k = i.ru;
     map.set(k, (map.get(k) || 0) + i.g);
   }));
-  const size = c.mode === 'pieces' ? `${c.pieces} × ${num(c.pieceWeight)} г` : `${num(c.total)} г теста`;
-  const lines = [`${r.name.ru} — ${size}${c.loss ? `, +${num(c.loss, 1)} % на потери` : ''}`];
+  const size = c.mode === 'pieces' ? `${c.pieces} × ${num(c.pieceWeight)} г` : `${num(c.total)} г`;
+  const vlabel = r._variant ? ` (${r._variant.label})` : '';
+  const lines = [`${r.name.ru}${vlabel} — ${size}${c.loss ? `, +${num(c.loss, 1)} % на потери` : ''}`];
   map.forEach((g, k) => lines.push(`• ${k}: ${grams(g)} г`));
   return lines.join('\n');
 }
@@ -142,6 +146,7 @@ function renderList() {
       <a class="rcard" href="#/r/${encodeURIComponent(r.id)}">
         <h2>${esc(r.name.ru)}</h2>
         ${r.name.orig && r.name.orig !== r.name.ru ? `<div class="orig">${esc(r.name.orig)}</div>` : ''}
+        ${r.variants ? `<div class="orig">${esc(r.variantLabel || 'Варианты')}: ${r.variants.map(v => esc(v.label)).join(' · ')}</div>` : ''}
         <div class="meta">${badge(r.status)}${r.category ? `<span class="tag">${esc(r.category)}</span>` : ''}${(r.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
       </a>`).join('') || '<p class="muted">Ничего не найдено.</p>';
     document.getElementById('count').textContent = `Рецептов: ${items.length} из ${state.recipes.length}`;
@@ -157,56 +162,99 @@ function renderList() {
 }
 
 function renderRecipe(id) {
-  const r = state.byId[id];
-  if (!r) { view.innerHTML = `<a class="back" href="#/">← Все рецепты</a><p>Рецепт не найден.</p>`; return; }
-  document.title = r.name.ru + ' — Crumb';
+  const r0 = state.byId[id];
+  if (!r0) { view.innerHTML = `<a class="back" href="#/">← Все рецепты</a><p>Рецепт не найден.</p>`; return; }
+  document.title = r0.name.ru + ' — Crumb';
   window.scrollTo(0, 0);
 
-  const y = r.yield || {};
+  const variants = r0.variants || null;
+  const saved = store('calc:' + r0.id) || {};
+  const firstV = variants ? (variants.find(v => v.id === saved.variant) || variants[0]) : null;
+  const y0 = Object.assign({}, r0.yield, firstV?.yield);
   const c = Object.assign({
-    mode: y.mode || 'pieces',
-    pieces: y.pieces || 1,
-    pieceWeight: y.pieceWeight || 500,
-    total: y.total || (y.pieces || 1) * (y.pieceWeight || 500),
-    loss: y.loss || 0,
-  }, store('calc:' + r.id) || {});
+    variant: firstV?.id,
+    mode: y0.mode || 'pieces',
+    pieces: y0.pieces || 1,
+    pieceWeight: y0.pieceWeight || 500,
+    total: y0.total || (y0.pieces || 1) * (y0.pieceWeight || 500),
+    loss: y0.loss || 0,
+  }, saved);
+
+  // текущий рецепт = общие поля + выбранный вариант (пропорция)
+  const cur = () => {
+    if (!variants) return r0;
+    const v = variants.find(x => x.id === c.variant) || variants[0];
+    return { ...r0, ...v, id: r0.id, name: r0.name, yield: Object.assign({}, r0.yield, v.yield), _variant: v };
+  };
+  const save = () => store('calc:' + r0.id, c);
 
   view.innerHTML = `
     <a class="back" href="#/">← Все рецепты</a>
     <div class="rhead">
-      <h1>${esc(r.name.ru)}</h1>
-      ${r.name.orig && r.name.orig !== r.name.ru ? `<div class="orig">${esc(r.name.orig)}</div>` : ''}
-      <div class="meta">${badge(r.status)}${r.category ? `<span class="tag">${esc(r.category)}</span>` : ''}${(r.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
-      ${r.source ? `<div class="source">Источник: ${sourceText(r.source)}</div>` : ''}
-      ${r.status === 'placeholder' ? '<div class="placeholder-banner">Это заглушка: настоящей формулы из источника ещё нет. Цифры не использовать.</div>' : ''}
+      <h1>${esc(r0.name.ru)}</h1>
+      ${r0.name.orig && r0.name.orig !== r0.name.ru ? `<div class="orig">${esc(r0.name.orig)}</div>` : ''}
+      <div class="meta">${badge(r0.status)}${r0.category ? `<span class="tag">${esc(r0.category)}</span>` : ''}${(r0.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+      ${r0.source ? `<div class="source">Источник: ${sourceText(r0.source)}</div>` : ''}
+      ${r0.status === 'placeholder' ? '<div class="placeholder-banner">Это заглушка: настоящей формулы из источника ещё нет. Цифры не использовать.</div>' : ''}
     </div>
 
     <div class="panel">
-      <div class="seg" id="mode">
-        <button data-mode="pieces" aria-pressed="${c.mode === 'pieces'}">По штукам</button>
-        <button data-mode="total" aria-pressed="${c.mode === 'total'}">По весу теста</button>
-      </div>
-      <div class="fields" id="fields"></div>
+      ${variants ? `
+        <div class="plabel">${esc(r0.variantLabel || 'Вариант')}</div>
+        <div class="variants" id="variants" style="--n:${Math.min(variants.length, 4)}">
+          ${variants.map(v => `<button data-v="${esc(v.id)}" aria-pressed="${v.id === c.variant}">
+            <b>${esc(v.label)}</b>${v.sub ? `<span>${esc(v.sub)}</span>` : ''}</button>`).join('')}
+        </div>` : ''}
+      ${r0.yield?.mode === 'total' && !r0.yield?.allowPieces ? '' : `
+        <div class="seg" id="mode">
+          <button data-mode="pieces" aria-pressed="${c.mode === 'pieces'}">По штукам</button>
+          <button data-mode="total" aria-pressed="${c.mode === 'total'}">По весу теста</button>
+        </div>`}
+      <div id="amount"></div>
       <div id="out"></div>
       <button class="btn" id="copy">Скопировать список покупок</button>
     </div>
-
-    ${r.method?.length ? `<div class="section"><h2>Как делать</h2><ol class="steps">${r.method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></div>` : ''}
-    ${r.notes ? `<div class="section"><h2>Заметки</h2><div class="notes">${esc(r.notes)}</div></div>` : ''}
+    <div id="info"></div>
   `;
 
-  const field = (key, label, step = 'any') =>
-    `<div class="field"><label for="f-${key}">${label}</label><input id="f-${key}" data-k="${key}" type="number" inputmode="decimal" min="0" step="${step}" value="${c[key]}"></div>`;
+  const sl = Object.assign({ min: 50, max: 2000, step: 5 }, r0.yield?.slider);
 
-  const drawFields = () => {
-    document.getElementById('fields').innerHTML = (c.mode === 'pieces'
-      ? field('pieces', 'Штук', '1') + field('pieceWeight', 'Вес штуки, г')
-      : field('total', 'Вес теста, г')) + field('loss', 'Потери, %');
+  const slider = (key, label, hint) => {
+    const v = c[key];
+    const max = Math.max(sl.max, v);
+    return `
+      <div class="amount">
+        <div class="amount-head">
+          <label for="r-${key}">${esc(label)}</label>
+          <span class="amount-val"><input id="n-${key}" data-k="${key}" type="number" inputmode="decimal" min="0" step="any" value="${v}"> г</span>
+        </div>
+        <input class="slider" id="r-${key}" data-k="${key}" type="range" min="${sl.min}" max="${max}" step="${sl.step}" value="${v}"
+          style="--p:${((v - sl.min) / (max - sl.min) * 100).toFixed(2)}%">
+        <div class="range-ends"><span>${num(sl.min)} г</span><span>${num(max)} г</span></div>
+        ${hint ? `<p class="hint">${esc(hint)}</p>` : ''}
+      </div>`;
+  };
+
+  const drawAmount = () => {
+    const y = cur().yield || {};
+    const small = k => `<div class="field"><label for="f-${k}">${k === 'pieces' ? 'Штук' : 'Потери, %'}</label><input id="f-${k}" data-k="${k}" type="number" inputmode="decimal" min="0" step="${k === 'pieces' ? 1 : 'any'}" value="${c[k]}"></div>`;
+    document.getElementById('amount').innerHTML = c.mode === 'pieces'
+      ? slider('pieceWeight', 'Вес одной штуки') + `<div class="fields">${small('pieces')}${small('loss')}</div>`
+      : slider('total', y.label || 'Вес теста', y.hint) + `<div class="fields">${small('loss')}</div>`;
+  };
+
+  const drawInfo = () => {
+    const r = cur();
+    document.getElementById('info').innerHTML = `
+      ${r.method?.length ? `<div class="section"><h2>Как делать</h2><ol class="steps">${r.method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></div>` : ''}
+      ${r.notes ? `<div class="section"><h2>Заметки</h2><div class="notes">${esc(r.notes)}</div></div>` : ''}`;
   };
 
   const drawOut = () => {
+    const r = cur();
     const res = calc(r, c);
     const cond = s => [s.time, s.temp].filter(Boolean).map(esc).join(' · ');
+    const hasExtra = allIngredients(r).some(i => i.extra);
     document.getElementById('out').innerHTML = `
       ${!res.flourOk ? `<div class="warn">Мука в формуле даёт ${pct(res.flourPct)} %, а должна 100 %. Проверьте проценты.</div>` : ''}
       ${res.stages.map(s => `
@@ -216,7 +264,7 @@ function renderRecipe(id) {
             <thead><tr><th>Ингредиент</th><th class="n">%</th><th class="n">г</th></tr></thead>
             <tbody>
               ${s.rows.map(i => `<tr>
-                <td class="ing">${esc(i.ru)}${i.flour ? '<span class="flag">мука</span>' : ''}${i.converted ? '<span class="flag">пересчитано</span>' : ''}
+                <td class="ing">${esc(i.ru)}${i.flour ? '<span class="flag">мука</span>' : ''}${i.extra ? '<span class="flag">сверху</span>' : ''}${i.converted ? '<span class="flag">пересчитано</span>' : ''}
                   ${i.orig && i.orig !== i.ru ? `<small>${esc(i.orig)}</small>` : ''}${i.note ? `<small>${esc(i.note)}</small>` : ''}</td>
                 <td class="n">${pct(i.pct)}</td>
                 <td class="n g">${grams(i.g)}</td>
@@ -227,32 +275,46 @@ function renderRecipe(id) {
           ${s.note ? `<p class="stage-cond">${esc(s.note)}</p>` : ''}
         </div>`).join('')}
       <div class="totals">
-        <div class="tot"><div class="k">Всего теста</div><div class="v">${grams(res.withLoss)} г</div></div>
+        <div class="tot"><div class="k">Всего${hasExtra ? ', с солью и дрожжами' : ''}</div><div class="v">${grams(res.dough)} г</div></div>
         <div class="tot"><div class="k">Мука в формуле (100 %)</div><div class="v">${grams(res.freshFlour)} г</div></div>
         <div class="tot"><div class="k">Мука всего, с заквасками</div><div class="v">${grams(res.allFlour)} г</div></div>
         <div class="tot"><div class="k">Гидратация эффективная</div><div class="v">${num(res.hydration, 1)} %</div></div>
       </div>
       <p class="muted" style="font-size:13px;margin:8px 0 0">Эффективная гидратация учитывает воду и муку внутри заквасок, молочных продуктов и яиц.</p>`;
-    return res;
   };
 
-  drawFields(); drawOut();
+  drawAmount(); drawOut(); drawInfo();
 
-  document.getElementById('mode').addEventListener('click', e => {
+  document.getElementById('variants')?.addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
-    // при переключении сохраняем текущий вес теста
+    c.variant = b.dataset.v;
+    document.querySelectorAll('#variants button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    save(); drawOut(); drawInfo();
+  });
+  document.getElementById('mode')?.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
     if (b.dataset.mode === 'total' && c.mode === 'pieces') c.total = Math.round(c.pieces * c.pieceWeight);
     c.mode = b.dataset.mode;
     document.querySelectorAll('#mode button').forEach(x => x.setAttribute('aria-pressed', x === b));
-    store('calc:' + r.id, c); drawFields(); drawOut();
+    save(); drawAmount(); drawOut();
   });
-  document.getElementById('fields').addEventListener('input', e => {
+  document.getElementById('amount').addEventListener('input', e => {
     const k = e.target.dataset.k; if (!k) return;
     const v = parseFloat(String(e.target.value).replace(',', '.'));
     if (!isFinite(v) || v < 0) return;
-    c[k] = v; store('calc:' + r.id, c); drawOut();
+    c[k] = v;
+    // слайдер и поле двигаются вместе
+    const rng = document.getElementById('r-' + k), box = document.getElementById('n-' + k);
+    if (rng && e.target !== rng) {
+      if (v > Number(rng.max)) rng.max = v;
+      rng.value = v;
+    }
+    if (box && e.target !== box) box.value = v;
+    if (rng) rng.style.setProperty('--p', ((Number(rng.value) - rng.min) / (rng.max - rng.min) * 100).toFixed(2) + '%');
+    save(); drawOut();
   });
   document.getElementById('copy').addEventListener('click', async () => {
+    const r = cur();
     const ok = await copyText(shoppingList(r, calc(r, c), c));
     toast(ok ? 'Список скопирован' : 'Не удалось скопировать');
   });
