@@ -2,6 +2,7 @@
   "recipes": [
     "kmkz-refresh.json",
     "ripe-dough-kmkz.json",
-    "naan-modernist-bread.json"
+    "naan-modernist-bread.json",
+    "focaccia-modernist-bread.json"
   ]
 }

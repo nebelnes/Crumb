@@ -1,0 +1,336 @@
+{
+  "id": "focaccia-modernist-bread",
+  "name": {
+    "en": "Focaccia",
+    "orig": "Focaccia"
+  },
+  "category": "Flatbreads",
+  "tags": [
+    "focaccia",
+    "flatbread",
+    "levain"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II: master p. 87, Direct p. 92–93, Modernist p. 94–95"
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "total": 1090,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 2000,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1200,
+      "step": 10
+    }
+  },
+  "variantLabel": "Version",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master",
+      "sub": "levain · p. 87",
+      "yield": {
+        "total": 1090
+      },
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "temp": "DDT 24–26 °C",
+          "note": "Stir together and set aside; it goes in after the autolyse.",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 7.0,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "pct": 3.4,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 2.2,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 85.0,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "pct": 20.0,
+              "flour": false,
+              "water": 0.5,
+              "flourIn": 0.5,
+              "note": "mature liquid levain, 100 % hydration (book p. 3·54)"
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.33,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "time": "autolyse 20–30 min",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "pct": 100.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "pct": 0.2,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "By machine: stir ① together and set aside. Dissolve ② (levain and yeast in the water), add ③ and mix on low to a shaggy mass. Autolyse 20–30 min.",
+        "Mix on medium to low gluten development, then turn to low and add ①. Once it's homogeneous, mix on medium to medium gluten development. Move to a lightly oiled tub and cover well.",
+        "Bulk 3 h total with 4 folds, one every 30 min after the first hour, and 30 min rest after the last fold. Check for full gluten development with the windowpane test.",
+        "By hand instead: same order, autolyse 30 min, add ① and mix until homogeneous. Bulk 4½ h with 6 folds, one every 30 min after the first hour.",
+        "Shape: one large focaccia (don't divide), 2 medium (500 g each) or 4 small (250 g each), all pan-shaped. Oil the pan; for shaping see the book's focaccia instructions (p. 90).",
+        "Final proof, covered. At 27 °C / 65 % RH: large 2½–3 h, medium 2–2½ h, small 1½–2 h. At 21 °C: large 3–4 h, medium 3–3½ h, small 2½–3 h. Stipple with your fingertips before the proof and again 1 h after it starts.",
+        "Drizzle with olive oil, add any toppings just before baking, and bake: 8–45 min depending on size (book's focaccia baking table, p. 91). Eat the same day, or freeze up to 2 months."
+      ],
+      "notes": "Total time by machine about 15 min active, 8½ h inactive; by hand 20 min active, 9 h 45 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nThe book lists the yield as about 1.00 kg, but the ingredients add up to 1,090 g. The calculator starts at 1,090 g so the grams match the table."
+    },
+    {
+      "id": "direct",
+      "label": "Direct",
+      "sub": "no levain · p. 92",
+      "yield": {
+        "total": 1093
+      },
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "temp": "DDT 24–26 °C",
+          "note": "Stir together and set aside; it goes in after the autolyse.",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 6.3636,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "pct": 3.0909,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 2.0,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 86.3636,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.7273,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "time": "autolyse 20–30 min",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "pct": 100.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "pct": 0.1818,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Twice the yeast of the master and no levain, so it can be made start to finish in one day, with a little less flavor.",
+        "By machine: stir ① together and set aside. Dissolve ②, add ③ and mix on low to a shaggy mass. Autolyse 20–30 min. Mix on medium to low gluten development, turn to low, add ①, mix until homogeneous, then medium to medium gluten development. Oiled tub, covered.",
+        "Bulk 3 h total with 4 folds, one every 30 min after the first hour, and 30 min rest after the last fold. Because of the high yeast, refrigerate the covered dough after the first fold and take it out after the last fold to come back to room temperature.",
+        "By hand instead: autolyse 30 min, then bulk 4½ h with 6 folds (refrigerate the same way).",
+        "Put each piece straight into its oiled pan after dividing. Pour olive oil generously over the top and stipple with your fingertips, pushing the dough out to the pan's shape. If it starts to tear, let it relax 10–15 min and stipple again.",
+        "Final proof, covered. At 27 °C / 65 % RH: large 2–2½ h, medium 1½–2 h, small 1–1½ h. At 21 °C: large 3–3½ h, medium 2½–3 h, small 2–2½ h. Stipple with your fingertips before the proof and again 1 h after it starts.",
+        "Drizzle with olive oil, add any toppings just before baking, and bake: 8–45 min depending on size (book's focaccia baking table, p. 91). Eat the same day, or freeze up to 2 months."
+      ],
+      "notes": "Total time by machine about 15 min active, 8 h inactive; by hand 20 min active, 9 h 15 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nShapes: 1 large (don't divide), 2 medium (500 g) or 4 small (250 g).\nThe book's table prints diastatic malt as 0.20 %, but 1 g of 550 g flour is 0.18 % (as in its net contents). 0.18 % is used here."
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "sub": "lecithin + gluten · p. 94",
+      "yield": {
+        "total": 1104
+      },
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 76.1278,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.4323,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "② Levain",
+          "ingredients": [
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "pct": 20.6767,
+              "flour": false,
+              "water": 0.5,
+              "flourIn": 0.5,
+              "note": "mature liquid levain, 100 % hydration (book p. 3·54)"
+            }
+          ]
+        },
+        {
+          "name": "③ Flours",
+          "time": "autolyse 20–30 min",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "pct": 95.8647,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Vital wheat gluten",
+              "orig": "Vital wheat gluten",
+              "pct": 4.1353,
+              "flour": true,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "④ Salt",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 2.2556,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "⑤ Fats",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "pct": 3.7594,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Shortening, melted and cooled",
+              "orig": "Shortening, melted and cooled",
+              "pct": 3.7594,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Liquid soy lecithin",
+              "orig": "Liquid soy lecithin",
+              "pct": 0.5,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Soy lecithin lets this dough carry more fat by keeping it evenly mixed in; vital wheat gluten adds structure and makes the dough easier to handle.",
+        "By machine: stir ① together, then combine with ② and ③ and mix on low to a shaggy mass. Autolyse 20–30 min. Add ④ and mix on medium to medium gluten development. Turn to low, add ⑤ and mix until fully incorporated. Oiled tub, covered.",
+        "Bulk 2½ h total with 2 folds, one every hour after the first hour, and 30 min rest after the last fold. Check with the windowpane test.",
+        "By hand instead: autolyse 30 min, add ④ and ⑤, mix until homogeneous. Bulk 4½ h with 6 folds, one every 30 min after the first hour. Refrigerate the covered dough after the third fold. If the gluten isn't fully developed after the last fold, do one more fold and rest 30 min before testing again (7–8 folds in total may be needed). Bring it back to room temperature for the last 30 min of bulk.",
+        "Shape: one large focaccia (don't divide), 2 medium (500 g each) or 4 small (250 g each), all pan-shaped. Oil the pan; for shaping see the book's focaccia instructions (p. 90).",
+        "Final proof, covered. At 27 °C / 65 % RH: large 1½–2½ h, medium 1–2 h, small 1–1½ h. At 21 °C: large 2½–3½ h, medium 1½–2½ h, small 1–1½ h. Stipple with your fingertips before the proof and again 1 h after it starts.",
+        "Drizzle with olive oil, add any toppings just before baking, and bake: 8–45 min depending on size (book's focaccia baking table, p. 91). Eat the same day, or freeze up to 2 months."
+      ],
+      "notes": "Total time by machine about 15 min active, 7 h 33 min inactive; by hand 20 min active, 9 h 15 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nThe book counts vital wheat gluten as part of the flour (bread flour 95.86 % + gluten 4.14 % = 100 %), and so does the calculator.\nThe book's yield is about 1.10 kg; the ingredients add up to 1,104 g."
+    }
+  ]
+}

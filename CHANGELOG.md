@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-14 — Focaccia (Modernist Bread)
+- Added Focaccia with three versions: Master (vol. 5 p. 87, liquid levain), Direct (p. 92–93, yeast only) and Modernist (p. 94–95, vital wheat gluten + soy lecithin). Draft until checked.
+
 ## 2026-10-14 — Naan dough-weight range
 - Naan "By dough weight" slider now runs 500–2,000 g. Weight-per-piece and dough-weight sliders can have separate ranges.
 
