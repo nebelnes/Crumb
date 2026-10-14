@@ -17,7 +17,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 const num = (v, d = 0) => Number(v).toLocaleString('en-US', { maximumFractionDigits: d, minimumFractionDigits: 0 });
-const grams = g => num(g, g < 10 ? 1 : 0);
+const grams = g => num(g, g < 1 ? 2 : g < 10 ? 1 : 0);
 const pct = p => num(p, 2);
 
 function store(key, val) {
@@ -50,8 +50,10 @@ async function loadRecipes() {
 
 /* ---------- calculator ---------- */
 
+// Ingredients of the dough itself. Stages marked topping: true (sauce, cheese, ghee)
+// scale with the dough but stay out of the dough weight, flour and hydration.
 function allIngredients(r) {
-  return r.stages.flatMap(s => s.ingredients);
+  return r.stages.filter(s => !s.topping).flatMap(s => s.ingredients);
 }
 
 // Flour share inside an ingredient: flour = 1, starter/preferment = flourIn, everything else = 0
@@ -76,7 +78,7 @@ function calc(r, c) {
   const allFlour = ings.reduce((a, i) => a + g(i) * flourShare(i), 0);
   const water = ings.reduce((a, i) => a + g(i) * (i.water || 0), 0);
 
-  const dough = stages.reduce((a, s) => a + s.total, 0);
+  const dough = stages.filter(s => !s.topping).reduce((a, s) => a + s.total, 0);
 
   return {
     stages, target, withLoss, dough, freshFlour, allFlour, water,
@@ -270,6 +272,9 @@ function renderRecipe(id) {
   document.getElementById('variants')?.addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
     c.variant = b.dataset.v;
+    // a style with its own piece size (e.g. pizza) sets pieces and weight
+    const vy = (variants.find(x => x.id === c.variant) || {}).yield || {};
+    if (vy.pieceWeight) { c.pieceWeight = vy.pieceWeight; if (vy.pieces) c.pieces = vy.pieces; drawAmount(); }
     document.querySelectorAll('#variants button').forEach(x => x.setAttribute('aria-pressed', x === b));
     save(); drawOut(); drawInfo();
   });

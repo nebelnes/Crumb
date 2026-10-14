@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-10-14 — Pizza dough (Modernist Bread)
+- Added Pizza dough with four styles: Neapolitan (vol. 5 p. 113), Modernist Neapolitan (p. 120–121), New York (p. 122–123) and Sicilian (p. 124–125). Draft until checked.
+- Topping sections (sauce, cheese, ghee) now scale with the dough but are kept out of the dough weight and hydration.
+- Amounts under 1 g show two decimals.
+
 ## 2026-10-14 — Focaccia (Modernist Bread)
 - Added Focaccia with three versions: Master (vol. 5 p. 87, liquid levain), Direct (p. 92–93, yeast only) and Modernist (p. 94–95, vital wheat gluten + soy lecithin). Draft until checked.
 

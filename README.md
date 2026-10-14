@@ -60,4 +60,6 @@ A recipe can have `"variants": [...]` plus `"variantLabel"`. Each variant has `i
 
 `yield.label`, `yield.hint` and `yield.slider` (`min`, `max`, `step`) set up the dough-weight slider; `yield.pieceSlider` sets the weight-per-piece slider (default 50–250 g).
 
+A stage with `"topping": true` (sauce, cheese, ghee…) scales with the dough but isn't counted in the dough weight, flour or hydration.
+
 Status `placeholder` shows a red banner: the formula is not from the source yet.

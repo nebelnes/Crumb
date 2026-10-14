@@ -1,0 +1,615 @@
+{
+  "id": "pizza-modernist-bread",
+  "name": {
+    "en": "Pizza dough",
+    "orig": "Pizza dough"
+  },
+  "category": "Flatbreads",
+  "tags": [
+    "pizza",
+    "flatbread",
+    "poolish"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II: Neapolitan p. 113, Modernist p. 120–121, New York p. 122–123, Sicilian p. 124–125"
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 250,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 2000,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 150,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "variantLabel": "Style",
+  "variants": [
+    {
+      "id": "neapolitan",
+      "label": "Neapolitan",
+      "sub": "p. 113",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      },
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "time": "12 h",
+          "temp": "",
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container (book p. 3·20).",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "pct": 9.0909,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 9.0909,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.0091,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "① Water and yeast",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 65.4545,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.5455,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "pct": 90.9091,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "pct": 1.8182,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 2.0,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "pct": 0.9091,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "⑤ Margherita topping",
+          "topping": true,
+          "note": "Per 250 g pizza: 75 g sauce, 100 g cheese, 1 g salt, 1 g basil. Not part of the dough weight.",
+          "ingredients": [
+            {
+              "en": "Tomato sauce",
+              "orig": "Tomato sauce",
+              "pct": 54.5455,
+              "flour": false,
+              "water": 0,
+              "note": "book p. 132"
+            },
+            {
+              "en": "Fresh mozzarella, air-dried",
+              "orig": "Fresh mozzarella, air-dried",
+              "pct": 72.7273,
+              "flour": false,
+              "water": 0,
+              "note": "whole-milk fior di latte or brine-packed mozzarella di bufala; book p. 119"
+            },
+            {
+              "en": "Fine salt (for the cheese)",
+              "orig": "Fine salt (for the cheese)",
+              "pct": 0.7273,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Fresh basil leaves",
+              "orig": "Fresh basil leaves",
+              "pct": 0.7273,
+              "flour": false,
+              "water": 0,
+              "note": "16–20 leaves"
+            }
+          ]
+        }
+      ],
+      "method": [
+        "By machine: put ① in the mixer bowl and stir until the yeast dissolves. Add the poolish ② and ③ and mix on low to a shaggy mass. Add ④ and mix on medium to full gluten development. Cover well.",
+        "Bulk 1½ h with one book fold after 1 h and 30 min rest after it.",
+        "By hand instead: dissolve the yeast in ①, add the poolish ② and ③ and mix to a shaggy mass, add ④ and mix to low gluten development. Bulk 4½ h with 5 folds (one right away, then one every hour) and 30 min rest after the last fold.",
+        "Divide into 250 g pieces and preshape each into a tight boule.",
+        "Cold proof at 4 °C for 1–2 days. Take the dough out of the fridge 1½–2 h before shaping.",
+        "Shape following the book's step-by-step photos (p. 116).",
+        "Ladle 75 g sauce on, leaving a 2.5 cm border. Add 100 g cheese and season it with 1 g salt. Bake right away; each pizza takes 4–10 min (book's Neapolitan baking table, p. 117). Add 1 g basil after baking."
+      ],
+      "notes": "Total time by machine about 1 h 2 min active, 49 h 43 min inactive; by hand 1 h 21 min active, 52½ h inactive.\nMakes 4 pizzas from about 1 kg of dough (the ingredients add up to 989 g)."
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "sub": "p. 120",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      },
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "time": "12 h",
+          "temp": "",
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container (book p. 3·20).",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "pct": 9.0909,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 9.0909,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.0091,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "① Water and yeast",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 65.4545,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.5455,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Fresh pineapple juice (dough relaxer)",
+              "orig": "Fresh pineapple juice (dough relaxer)",
+              "pct": 0.01,
+              "flour": false,
+              "water": 0.87,
+              "note": "add with the water, just before mixing. Book alternatives (%): kiwi juice 0.08, papaya juice 0.03, papain 0.01, meat tenderizer 0.01, bromelain powder 0.0005; powders go in with the dry ingredients"
+            }
+          ]
+        },
+        {
+          "name": "③ Flour and dry ingredients",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "pct": 90.9091,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "pct": 1.8182,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Polydextrose",
+              "orig": "Polydextrose",
+              "pct": 0.9091,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Soy lecithin powder",
+              "orig": "Soy lecithin powder",
+              "pct": 0.3636,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 1.8182,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "pct": 0.9091,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "⑥ New York topping",
+          "topping": true,
+          "note": "Per 250 g pizza: 75 g sauce, 100 g cheese, 20 g (8–9 slices) pepperoni. Not part of the dough weight.",
+          "ingredients": [
+            {
+              "en": "Tomato sauce",
+              "orig": "Tomato sauce",
+              "pct": 54.5455,
+              "flour": false,
+              "water": 0,
+              "note": "book p. 132"
+            },
+            {
+              "en": "Mozzarella, shredded",
+              "orig": "Mozzarella, shredded",
+              "pct": 72.7273,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Pepperoni slices",
+              "orig": "Pepperoni slices",
+              "pct": 14.5455,
+              "flour": false,
+              "water": 0,
+              "note": "32–36 slices"
+            }
+          ]
+        }
+      ],
+      "method": [
+        "A little dough relaxer makes the fully developed dough much easier to roll thin and even. It can make the crust less crisp, so polydextrose is added to counter that. Soy lecithin gives more volume. Once you're confident shaping, you can go back to the Neapolitan master.",
+        "By machine: put ① in the mixer bowl and stir until the yeast dissolves. Add the poolish ② and ③ and mix on low to a shaggy mass. Add ④ and mix on medium to full gluten development. Move to a lightly oiled tub and cover well.",
+        "Bulk 1½ h with one book fold after 1 h and 30 min rest after it, covered.",
+        "By hand instead: dissolve the yeast in ①, add the poolish ② and ③ and mix to a shaggy mass, add ④ and mix until mix to low gluten development. Bulk 4½ h with 5 folds (one right away, then one every hour) and 30 min rest after the last fold.",
+        "Divide into 250 g pieces and preshape each into a tight boule. Put them on a sheet pan lined with lightly oiled parchment, or in a lightly oiled tub. Cover well (lightly oil the dough so the wrap doesn't stick).",
+        "Cold proof at 4 °C overnight or up to 2 days. Take out 1½–2 h before shaping. If you don't want to cold-proof, proof at 21 °C for 1½–2 h on parchment-lined sheet pans dusted with cornmeal.",
+        "Shape as in steps 11–12 of the master (p. 113–116).",
+        "Ladle 75 g sauce on, leaving a 2.5 cm border. Sprinkle 100 g cheese and 20 g pepperoni over. Bake right away; each pizza takes 3–7 min (book's Neapolitan baking table, p. 117)."
+      ],
+      "notes": "Total time by machine about 46 min active, 49 h 43 min inactive; by hand 1 h 5 min active, 52½ h inactive.\nMakes 4 pizzas. The dough relaxer is your choice (book p. 121); pineapple juice at 0.01 % is set as default, which is only about 0.05 g for a batch.\nSalt is 10 g here (11 g in the master)."
+    },
+    {
+      "id": "newyork",
+      "label": "NY",
+      "sub": "p. 122",
+      "yield": {
+        "pieces": 3,
+        "pieceWeight": 330
+      },
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "time": "12 h",
+          "temp": "",
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container (book p. 3·20).",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "pct": 13.6364,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 13.6364,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.0136,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "① Water and yeast",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 60.9091,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.5455,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "pct": 86.3636,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "pct": 1.8182,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 2.0,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "pct": 0.9091,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "⑤ Topping",
+          "topping": true,
+          "note": "Divide evenly between the pizzas. Not part of the dough weight.",
+          "ingredients": [
+            {
+              "en": "Tomato sauce",
+              "orig": "Tomato sauce",
+              "pct": 36.3636,
+              "flour": false,
+              "water": 0,
+              "note": "book p. 132"
+            },
+            {
+              "en": "Part-skim mozzarella, shredded",
+              "orig": "Part-skim mozzarella, shredded",
+              "pct": 65.4545,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Pepperoni, thinly sliced (optional)",
+              "orig": "Pepperoni, thinly sliced (optional)",
+              "pct": 20.0,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "By machine: put ① in the mixer bowl and stir until the yeast dissolves. Add the poolish ② and ③ and mix on low to a shaggy mass. Add ④ and mix on medium to full gluten development. Move to a lightly oiled tub and cover well.",
+        "Bulk 1½ h with one book fold after 1 h and 30 min rest after it, covered.",
+        "By hand instead: dissolve the yeast in ①, add the poolish ② and ③ and mix to a shaggy mass, add ④ and mix until it reaches low gluten development. Bulk 4½ h with 5 folds (one right away, then one every hour) and 30 min rest after the last fold.",
+        "Divide by oven: 2 × 500 g for a deck or pizza oven, or 3 × 330 g for a home, convection or combi oven. Preshape each into a boule.",
+        "Cold proof at 4 °C for 1–2 days (24–48 h). Take out 2 h before shaping.",
+        "Press each piece into a 15 cm disc, a little thicker at the edge. Pick it up and stretch over the backs of your knuckles: to 50 cm for 500 g, 35 cm for 330 g. Keep about a 2.5 cm thicker border.",
+        "Spread the toppings evenly. Slide onto a peel or rimless sheet pan and bake; each pizza takes 9–15 min.",
+        "Home gas oven: stone or steel 20 cm below the broiler, preheat 260 °C for 1 h, switch to high broil 5 min before baking; 10–12 min.",
+        "Home electric oven: stone or steel 10 cm below the broiler, same preheat and broil; 10–12 min.",
+        "Convection: stone or steel on the shelf, preheat 230 °C for 30–45 min, high fan; 2–6 min initial bake, vent at 8 min, 10–14 min total.",
+        "Combi: as convection; 1–4 min initial, vent at 8 min, 9–12 min total.",
+        "Deck: preheat 245 °C for 1 h; 2–4 min initial, vent at 11 min, 13–15 min total.",
+        "Wood-fired or gas pizza oven: preheat 280 °C for 1 h; 13–15 min, turning 180° after the first 3 min."
+      ],
+      "notes": "Total time by machine about 59 min active, 49 h 43 min inactive; by hand 1 h 18 min active, 52½ h inactive.\nThe default 330 g piece is for a home oven (3 pizzas); switch to 500 g for 2 large pizzas in a deck or pizza oven."
+    },
+    {
+      "id": "sicilian",
+      "label": "Sicilian",
+      "sub": "pan · p. 124",
+      "yield": {
+        "pieces": 2,
+        "pieceWeight": 500
+      },
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "time": "12 h",
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container (book p. 3·20).",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "pct": 8.547,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 8.547,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.0085,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "① Water and yeast",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 56.4103,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.5128,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "② Flour (with the poolish)",
+          "time": "autolyse 20–30 min",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "pct": 91.453,
+              "flour": true,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "③ Salt and oil",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 2.0513,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "pct": 0.8547,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "④ Topping",
+          "topping": true,
+          "note": "The book's amounts are for a 1 kg piece; split evenly if you make smaller pizzas. Not part of the dough weight.",
+          "ingredients": [
+            {
+              "en": "Tomato sauce",
+              "orig": "Tomato sauce",
+              "pct": 51.2821,
+              "flour": false,
+              "water": 0,
+              "note": "book p. 132"
+            },
+            {
+              "en": "Part-skim mozzarella, shredded",
+              "orig": "Part-skim mozzarella, shredded",
+              "pct": 18.8034,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "By machine: put ① in the mixer bowl and stir until the yeast dissolves. Add ② (the poolish and the bread flour) and mix on medium to a shaggy mass. Autolyse 30 min. Add ③ and mix on medium to medium gluten development. Move to a lightly oiled tub and cover well.",
+        "Bulk 2½ h with 2 book folds (one each hour) and 30 min rest after the last fold. Check with the windowpane test.",
+        "By hand instead: dissolve the yeast in ①, add ② and mix to a shaggy mass, autolyse 20–30 min, add ③ and mix until homogeneous. Bulk 4 h with 6 folds (the first after 1 h, then every 30 min). More folds and bulk time may be needed for full gluten development.",
+        "Oil the baking pan(s) heavily. Make 1 large rectangular pizza (don't divide) or 2 medium ones (500 g each).",
+        "Put the dough in the pan, drizzle the top with olive oil and stipple with your fingers to spread it out without tearing it. Keep stippling until it reaches the corners.",
+        "Final proof, covered. At 27 °C / 65 % RH: large 1½–2 h, medium 30–45 min. At 21 °C: large 2–3 h, medium 1–1½ h.",
+        "Cheese goes on first: sprinkle it evenly over the dough, then spread the tomato sauce on top, leaving about a 1.25 cm border. This way the sauce covers the cheese and it melts without browning.",
+        "Bake until golden on the bottom, 10–45 min (book's focaccia baking table, p. 91). Take it out of the pan right away with an offset spatula and cool on a wire rack so the base doesn't go soggy."
+      ],
+      "notes": "Total time by machine about 16 min active, 6 h 58 min inactive; by hand 24 min active, 8 h 15 min inactive.\nThe thickest pizza, up to 5 cm; the generous oil in the pan gives a crispy, almost fried crust. Usually baked, cooled and portioned, but fine eaten warm."
+    }
+  ]
+}

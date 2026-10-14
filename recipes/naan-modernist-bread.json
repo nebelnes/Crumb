@@ -130,10 +130,10 @@
               "orig": "Ghee or clarified butter, melted",
               "pct": 9.4828,
               "flour": false,
-              "water": 0,
-              "extra": true
+              "water": 0
             }
-          ]
+          ],
+          "topping": true
         }
       ],
       "method": [
@@ -250,10 +250,10 @@
               "orig": "Ghee or clarified butter, melted",
               "pct": 9.4828,
               "flour": false,
-              "water": 0,
-              "extra": true
+              "water": 0
             }
-          ]
+          ],
+          "topping": true
         }
       ],
       "method": [
