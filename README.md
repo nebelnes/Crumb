@@ -1,16 +1,56 @@
-# Наан — калькулятор теста (Android)
+# Crumb
 
-Android app that wraps the naan dough calculator. The calculator page is bundled inside the app, so it works offline. Formula edits are saved on the phone.
+Personal bread-baking app: a recipe library plus a dough calculator. Installable web app (PWA), Russian interface, works offline and picks up changes automatically when opened.
 
-## Get the APK without installing anything (GitHub)
-1. Create a new repository on github.com and upload the contents of this folder (including the hidden `.github` folder).
-2. Open the **Actions** tab. The "Build APK" workflow runs automatically (about 3–5 minutes).
-3. Open the finished run and download **naan-calculator-apk**. Unzip it to get `app-release.apk`.
-4. Copy the APK to your phone, open it, and allow "Install unknown apps" when Android asks.
+## Layout
 
-## Or build in Android Studio
-Open this folder in Android Studio, wait for Gradle sync, then use **Build > Build App Bundle(s) / APK(s) > Build APK(s)**, or press Run with your phone connected.
+| Path | What it is |
+|---|---|
+| `index.html`, `styles.css`, `app.js` | The app |
+| `sw.js` | Offline support: network first, cache when offline |
+| `manifest.webmanifest`, `icons/` | Install on the home screen |
+| `recipes/*.json` | One file per recipe |
+| `recipes/index.json` | List of recipe files the app loads |
+| `CHANGELOG.md` | What changed and when |
 
-## Updating the calculator
-Replace `app/src/main/assets/index.html` with a new version of the page and rebuild.
-Requires Android 8.0 or newer.
+No build step: the repository root is the website.
+
+## Adding a recipe
+
+1. Create `recipes/<id>.json` (see the format below).
+2. Add `"<id>.json"` to `recipes/index.json`.
+3. Commit. The app shows it the next time it's opened.
+
+## Recipe format
+
+```json
+{
+  "id": "unique-id",
+  "name": { "ru": "Русское название", "orig": "Original name" },
+  "category": "Закваски",
+  "tags": ["ржаной", "закваска"],
+  "source": { "type": "book", "title": "Modernist Bread", "volume": 4, "page": 123, "url": "" },
+  "status": "verified | draft | placeholder",
+  "yield": { "mode": "pieces | total", "pieces": 1, "pieceWeight": 500, "total": 500, "loss": 0 },
+  "stages": [
+    {
+      "name": "Закваска", "time": "12 ч", "temp": "28 °C", "note": "",
+      "ingredients": [
+        { "ru": "Мука ржаная", "orig": "Rye flour", "pct": 100, "flour": true, "water": 0 }
+      ]
+    }
+  ],
+  "method": ["Short steps in our own words"],
+  "notes": ""
+}
+```
+
+Ingredient fields:
+
+- `pct`: baker's % of the **total fresh flour across all stages**. Rows with `"flour": true` must add up to 100.
+- `water`: water share (water 1.0, milk 0.87, yogurt 0.85, egg 0.75, butter 0.16, oil/ghee 0).
+- `flourIn`: flour share inside a culture brought in from outside the recipe (e.g. КМКЗ at 190 % hydration = 0.3448). Used for effective hydration.
+- `converted: true`: amount converted from cups/spoons to grams.
+- `note`: optional short remark shown under the ingredient.
+
+Status `placeholder` shows a red banner: the formula is not from the source yet.
