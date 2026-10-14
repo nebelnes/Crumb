@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-14 — Wording
+- Ripe dough 65 %: "sifted" rye flour is now called "white rye flour".
+
 ## 2026-10-14 — Shopping list removed
 - Removed the "Copy shopping list" button.
 

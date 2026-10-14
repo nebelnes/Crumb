@@ -97,7 +97,7 @@
     {
       "id": "65",
       "label": "65 %",
-      "sub": "sifted (сеяная)",
+      "sub": "white rye flour",
       "yield": {
         "total": 165
       },
@@ -117,7 +117,7 @@
               "note": "concentrated lactic-acid rye starter, 190 % hydration"
             },
             {
-              "en": "Rye flour, sifted (сеяная)",
+              "en": "White rye flour",
               "orig": "Мука ржаная (сеяная)",
               "pct": 100,
               "flour": true,
@@ -151,7 +151,7 @@
         }
       ],
       "method": [
-        "Mix КМКЗ, rye flour (sifted (сеяная)), water, salt and yeast.",
+        "Mix КМКЗ, white rye flour, water, salt and yeast.",
         "Ferment for 18 hours at 28 °C."
       ],
       "notes": "The sheet's 65 % (влажность) = water ÷ flour, counting the water and flour inside the КМКЗ. In the calculator that's \"Effective hydration\"."
