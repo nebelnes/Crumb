@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-14 — Shopping list removed
+- Removed the "Copy shopping list" button.
+
 ## 2026-10-14 — English interface
 - The whole app is now in English. Russian names stay in the data as originals; КМКЗ stays КМКЗ.
 

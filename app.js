@@ -86,28 +86,6 @@ function calc(r, c) {
   };
 }
 
-function shoppingList(r, res, c) {
-  const map = new Map();
-  res.stages.forEach(s => s.rows.forEach(i => {
-    const k = i.en;
-    map.set(k, (map.get(k) || 0) + i.g);
-  }));
-  const size = c.mode === 'pieces' ? `${c.pieces} × ${num(c.pieceWeight)} g` : `${num(c.total)} g`;
-  const vlabel = r._variant ? ` (${r._variant.label})` : '';
-  const lines = [`${r.name.en}${vlabel} — ${size}${c.loss ? `, +${num(c.loss, 1)} % for loss` : ''}`];
-  map.forEach((g, k) => lines.push(`• ${k}: ${grams(g)} g`));
-  return lines.join('\n');
-}
-
-async function copyText(text) {
-  try { await navigator.clipboard.writeText(text); return true; } catch (e) {
-    const ta = document.createElement('textarea');
-    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
-    document.body.appendChild(ta); ta.select();
-    const ok = document.execCommand('copy'); ta.remove(); return ok;
-  }
-}
-
 /* ---------- views ---------- */
 
 function badge(status) {
@@ -212,7 +190,6 @@ function renderRecipe(id) {
         </div>`}
       <div id="amount"></div>
       <div id="out"></div>
-      <button class="btn" id="copy">Copy shopping list</button>
     </div>
     <div id="info"></div>
   `;
@@ -312,11 +289,6 @@ function renderRecipe(id) {
     if (box && e.target !== box) box.value = v;
     if (rng) rng.style.setProperty('--p', ((Number(rng.value) - rng.min) / (rng.max - rng.min) * 100).toFixed(2) + '%');
     save(); drawOut();
-  });
-  document.getElementById('copy').addEventListener('click', async () => {
-    const r = cur();
-    const ok = await copyText(shoppingList(r, calc(r, c), c));
-    toast(ok ? 'Shopping list copied' : 'Couldn’t copy');
   });
 }
 
