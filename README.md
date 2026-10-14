@@ -1,6 +1,6 @@
 # Crumb
 
-Personal bread-baking app: a recipe library plus a dough calculator. Installable web app (PWA), Russian interface, works offline and picks up changes automatically when opened.
+Personal bread-baking app: a recipe library plus a dough calculator. Installable web app (PWA), English interface (Russian names kept as originals, КМКЗ stays КМКЗ), works offline and picks up changes automatically when opened.
 
 ## Layout
 
@@ -26,17 +26,17 @@ No build step: the repository root is the website.
 ```json
 {
   "id": "unique-id",
-  "name": { "ru": "Русское название", "orig": "Original name" },
-  "category": "Закваски",
-  "tags": ["ржаной", "закваска"],
+  "name": { "en": "English name", "orig": "Original name" },
+  "category": "Starters",
+  "tags": ["rye", "starter"],
   "source": { "type": "book", "title": "Modernist Bread", "volume": 4, "page": 123, "url": "" },
   "status": "verified | draft | placeholder",
   "yield": { "mode": "pieces | total", "pieces": 1, "pieceWeight": 500, "total": 500, "loss": 0 },
   "stages": [
     {
-      "name": "Закваска", "time": "12 ч", "temp": "28 °C", "note": "",
+      "name": "Starter", "time": "12 h", "temp": "28 °C", "note": "",
       "ingredients": [
-        { "ru": "Мука ржаная", "orig": "Rye flour", "pct": 100, "flour": true, "water": 0 }
+        { "en": "Rye flour", "orig": "Мука ржаная", "pct": 100, "flour": true, "water": 0 }
       ]
     }
   ],

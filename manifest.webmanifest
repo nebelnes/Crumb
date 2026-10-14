@@ -1,8 +1,8 @@
 {
-  "name": "Crumb — рецепты хлеба",
+  "name": "Crumb — bread recipes",
   "short_name": "Crumb",
-  "description": "Книга рецептов хлеба и калькулятор теста",
-  "lang": "ru",
+  "description": "Bread recipe library and dough calculator",
+  "lang": "en",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

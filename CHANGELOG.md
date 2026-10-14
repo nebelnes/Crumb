@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-14 — English interface
+- The whole app is now in English. Russian names stay in the data as originals; КМКЗ stays КМКЗ.
+
 ## 2026-10-14 — Interactive КМКЗ calculator
 - Proportion buttons: КМКЗ refresh 1:9 / 1:5 / 1:2 / malt and спелое тесто 70 % / 65 % are now one recipe each with selectable variants.
 - Amount (the green "Задайте желаемое количество" cell) is a draggable slider with an exact-number box.

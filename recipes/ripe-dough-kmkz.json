@@ -1,19 +1,19 @@
 {
   "id": "ripe-dough-kmkz",
   "name": {
-    "ru": "Спелое тесто на КМКЗ",
+    "en": "Ripe dough on КМКЗ",
     "orig": "Ржаное спелое тесто на КМКЗ"
   },
-  "category": "Закваски",
+  "category": "Starters",
   "tags": [
-    "ржаной",
-    "спелое тесто",
+    "rye",
+    "ripe dough",
     "КМКЗ"
   ],
   "source": {
     "type": "sheet",
-    "title": "Таблица «Калькулятор КМКЗ»",
-    "detail": "лист «Спелое тесто на КМКЗ»",
+    "title": "«Калькулятор КМКЗ» sheet",
+    "detail": "tab «Спелое тесто на КМКЗ»",
     "url": "https://docs.google.com/spreadsheets/d/1Ne3ZHto0I0OdSSCHWVtowaeGHbMPAaM3RuUnCGzqNVQ/edit"
   },
   "status": "draft",
@@ -22,54 +22,54 @@
     "total": 170,
     "pieces": 1,
     "pieceWeight": 170,
-    "label": "Сколько нужно спелого теста",
-    "hint": "Как в таблице: КМКЗ + мука + вода. Соль и дрожжи добавляются сверху.",
+    "label": "How much ripe dough you need",
+    "hint": "As in the sheet: КМКЗ + flour + water. Salt and yeast go on top.",
     "slider": {
       "min": 50,
       "max": 2000,
       "step": 5
     }
   },
-  "variantLabel": "Влажность",
+  "variantLabel": "Hydration",
   "variants": [
     {
       "id": "70",
       "label": "70 %",
-      "sub": "обойная или обдирная мука",
+      "sub": "whole-grain (обойная/обдирная)",
       "yield": {
         "total": 170
       },
       "stages": [
         {
-          "name": "Спелое тесто",
-          "time": "18–20 ч",
+          "name": "Ripe dough",
+          "time": "18–20 h",
           "temp": "28 °C",
           "ingredients": [
             {
-              "ru": "КМКЗ",
+              "en": "КМКЗ",
               "orig": "КМКЗ",
               "pct": 32.2222,
               "flour": false,
               "water": 0.6552,
               "flourIn": 0.3448,
-              "note": "концентрированная молочнокислая закваска, 190 % гидратации"
+              "note": "concentrated lactic-acid rye starter, 190 % hydration"
             },
             {
-              "ru": "Мука ржаная",
+              "en": "Rye flour, whole-grain (обойная/обдирная)",
               "orig": "Мука ржаная (обойная или обдирная)",
               "pct": 100,
               "flour": true,
               "water": 0
             },
             {
-              "ru": "Вода",
+              "en": "Water",
               "orig": "Вода",
               "pct": 56.6667,
               "flour": false,
               "water": 1
             },
             {
-              "ru": "Соль",
+              "en": "Salt",
               "orig": "Соль",
               "pct": 2.2222,
               "flour": false,
@@ -77,61 +77,61 @@
               "extra": true
             },
             {
-              "ru": "Дрожжи",
+              "en": "Yeast",
               "orig": "Дрожжи",
               "pct": 0.6667,
               "flour": false,
               "water": 0,
               "extra": true,
-              "note": "тип дрожжей в таблице не указан"
+              "note": "yeast type not given in the sheet"
             }
           ]
         }
       ],
       "method": [
-        "Смешать КМКЗ, ржаную муку (обойная или обдирная), воду, соль и дрожжи.",
-        "Бродить 18–20 часов при 28 °C."
+        "Mix КМКЗ, rye flour (whole-grain (обойная/обдирная)), water, salt and yeast.",
+        "Ferment for 18–20 hours at 28 °C."
       ],
-      "notes": "Влажность 70 % в таблице = вода / мука с учётом воды и муки внутри КМКЗ (в калькуляторе это «гидратация эффективная»)."
+      "notes": "The sheet's 70 % (влажность) = water ÷ flour, counting the water and flour inside the КМКЗ. In the calculator that's \"Effective hydration\"."
     },
     {
       "id": "65",
       "label": "65 %",
-      "sub": "сеяная мука",
+      "sub": "sifted (сеяная)",
       "yield": {
         "total": 165
       },
       "stages": [
         {
-          "name": "Спелое тесто",
-          "time": "18 ч",
+          "name": "Ripe dough",
+          "time": "18 h",
           "temp": "28 °C",
           "ingredients": [
             {
-              "ru": "КМКЗ",
+              "en": "КМКЗ",
               "orig": "КМКЗ",
               "pct": 32.2222,
               "flour": false,
               "water": 0.6552,
               "flourIn": 0.3448,
-              "note": "концентрированная молочнокислая закваска, 190 % гидратации"
+              "note": "concentrated lactic-acid rye starter, 190 % hydration"
             },
             {
-              "ru": "Мука ржаная",
+              "en": "Rye flour, sifted (сеяная)",
               "orig": "Мука ржаная (сеяная)",
               "pct": 100,
               "flour": true,
               "water": 0
             },
             {
-              "ru": "Вода",
+              "en": "Water",
               "orig": "Вода",
               "pct": 51.1111,
               "flour": false,
               "water": 1
             },
             {
-              "ru": "Соль",
+              "en": "Salt",
               "orig": "Соль",
               "pct": 2.2222,
               "flour": false,
@@ -139,22 +139,22 @@
               "extra": true
             },
             {
-              "ru": "Дрожжи",
+              "en": "Yeast",
               "orig": "Дрожжи",
               "pct": 0.6667,
               "flour": false,
               "water": 0,
               "extra": true,
-              "note": "тип дрожжей в таблице не указан"
+              "note": "yeast type not given in the sheet"
             }
           ]
         }
       ],
       "method": [
-        "Смешать КМКЗ, ржаную муку (сеяная), воду, соль и дрожжи.",
-        "Бродить 18 часов при 28 °C."
+        "Mix КМКЗ, rye flour (sifted (сеяная)), water, salt and yeast.",
+        "Ferment for 18 hours at 28 °C."
       ],
-      "notes": "Влажность 65 % в таблице = вода / мука с учётом воды и муки внутри КМКЗ (в калькуляторе это «гидратация эффективная»)."
+      "notes": "The sheet's 65 % (влажность) = water ÷ flour, counting the water and flour inside the КМКЗ. In the calculator that's \"Effective hydration\"."
     }
   ]
 }

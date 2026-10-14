@@ -1,19 +1,19 @@
 {
   "id": "kmkz-refresh",
   "name": {
-    "ru": "Освежение КМКЗ",
+    "en": "КМКЗ refresh",
     "orig": "Освежение КМКЗ"
   },
-  "category": "Закваски",
+  "category": "Starters",
   "tags": [
-    "ржаной",
-    "закваска",
+    "rye",
+    "starter",
     "КМКЗ"
   ],
   "source": {
     "type": "sheet",
-    "title": "Таблица «Калькулятор КМКЗ»",
-    "detail": "лист «Освежение»",
+    "title": "«Калькулятор КМКЗ» sheet",
+    "detail": "tab «Освежение»",
     "url": "https://docs.google.com/spreadsheets/d/1Ne3ZHto0I0OdSSCHWVtowaeGHbMPAaM3RuUnCGzqNVQ/edit"
   },
   "status": "draft",
@@ -22,44 +22,44 @@
     "total": 290,
     "pieces": 1,
     "pieceWeight": 290,
-    "label": "Сколько нужно КМКЗ",
+    "label": "How much КМКЗ you need",
     "slider": {
       "min": 20,
       "max": 1000,
       "step": 5
     }
   },
-  "variantLabel": "Пропорция освежения",
+  "variantLabel": "Refresh ratio",
   "variants": [
     {
       "id": "1-9",
       "label": "1 : 9",
-      "sub": "12 ч",
+      "sub": "12 h",
       "stages": [
         {
-          "name": "Освежение",
-          "time": "12 ч",
+          "name": "Refresh",
+          "time": "12 h",
           "temp": "",
-          "note": "Стартер из холодильника: начальную температуру задать водой 50 °C.",
+          "note": "Starter from the fridge: set the starting temperature with 50 °C water.",
           "ingredients": [
             {
-              "ru": "КМКЗ (стартер)",
+              "en": "КМКЗ (starter)",
               "orig": "КМКЗ",
               "pct": 32.2222,
               "flour": false,
               "water": 0.6552,
               "flourIn": 0.3448,
-              "note": "концентрированная молочнокислая закваска, 190 % гидратации"
+              "note": "concentrated lactic-acid rye starter, 190 % hydration"
             },
             {
-              "ru": "Мука ржаная",
+              "en": "Rye flour",
               "orig": "Мука ржаная",
               "pct": 100,
               "flour": true,
               "water": 0
             },
             {
-              "ru": "Вода",
+              "en": "Water",
               "orig": "Вода",
               "pct": 190,
               "flour": false,
@@ -69,41 +69,41 @@
         }
       ],
       "method": [
-        "Если стартер из холодильника, взять воду около 50 °C, чтобы выйти на нужную начальную температуру.",
-        "Смешать стартер, ржаную муку и воду до однородности.",
-        "Накрыть и оставить бродить 12 часов."
+        "If the starter is from the fridge, use water at about 50 °C to reach the right starting temperature.",
+        "Mix starter, rye flour and water until smooth.",
+        "Cover and ferment for 12 hours."
       ],
-      "notes": "В таблице температура брожения для этого освежения не указана."
+      "notes": "The sheet doesn't give a fermentation temperature for this refresh."
     },
     {
       "id": "1-5",
       "label": "1 : 5",
-      "sub": "8 ч",
+      "sub": "8 h",
       "stages": [
         {
-          "name": "Освежение",
-          "time": "8 ч",
+          "name": "Refresh",
+          "time": "8 h",
           "temp": "",
-          "note": "Стартер из холодильника сначала подогреть, иначе начальную температуру не задать.",
+          "note": "Starter from the fridge: warm it up first, otherwise you can't reach the right starting temperature.",
           "ingredients": [
             {
-              "ru": "КМКЗ (стартер)",
+              "en": "КМКЗ (starter)",
               "orig": "КМКЗ",
               "pct": 58.0,
               "flour": false,
               "water": 0.6552,
               "flourIn": 0.3448,
-              "note": "концентрированная молочнокислая закваска, 190 % гидратации"
+              "note": "concentrated lactic-acid rye starter, 190 % hydration"
             },
             {
-              "ru": "Мука ржаная",
+              "en": "Rye flour",
               "orig": "Мука ржаная",
               "pct": 100,
               "flour": true,
               "water": 0
             },
             {
-              "ru": "Вода",
+              "en": "Water",
               "orig": "Вода",
               "pct": 190,
               "flour": false,
@@ -113,41 +113,41 @@
         }
       ],
       "method": [
-        "Если стартер из холодильника, сначала подогреть его.",
-        "Смешать стартер, ржаную муку и воду до однородности.",
-        "Накрыть и оставить бродить 8 часов."
+        "If the starter is from the fridge, warm it up first.",
+        "Mix starter, rye flour and water until smooth.",
+        "Cover and ferment for 8 hours."
       ],
-      "notes": "В таблице температура брожения для этого освежения не указана."
+      "notes": "The sheet doesn't give a fermentation temperature for this refresh."
     },
     {
       "id": "1-2",
       "label": "1 : 2",
-      "sub": "5 ч",
+      "sub": "5 h",
       "stages": [
         {
-          "name": "Освежение",
-          "time": "5 ч",
+          "name": "Refresh",
+          "time": "5 h",
           "temp": "",
-          "note": "Стартер из холодильника сначала подогреть, иначе начальную температуру не задать.",
+          "note": "Starter from the fridge: warm it up first, otherwise you can't reach the right starting temperature.",
           "ingredients": [
             {
-              "ru": "КМКЗ (стартер)",
+              "en": "КМКЗ (starter)",
               "orig": "КМКЗ",
               "pct": 145.0,
               "flour": false,
               "water": 0.6552,
               "flourIn": 0.3448,
-              "note": "концентрированная молочнокислая закваска, 190 % гидратации"
+              "note": "concentrated lactic-acid rye starter, 190 % hydration"
             },
             {
-              "ru": "Мука ржаная",
+              "en": "Rye flour",
               "orig": "Мука ржаная",
               "pct": 100,
               "flour": true,
               "water": 0
             },
             {
-              "ru": "Вода",
+              "en": "Water",
               "orig": "Вода",
               "pct": 190,
               "flour": false,
@@ -157,48 +157,49 @@
         }
       ],
       "method": [
-        "Если стартер из холодильника, сначала подогреть его.",
-        "Смешать стартер, ржаную муку и воду до однородности.",
-        "Накрыть и оставить бродить 5 часов."
+        "If the starter is from the fridge, warm it up first.",
+        "Mix starter, rye flour and water until smooth.",
+        "Cover and ferment for 5 hours."
       ],
-      "notes": "В таблице температура брожения для этого освежения не указана."
+      "notes": "The sheet doesn't give a fermentation temperature for this refresh."
     },
     {
       "id": "malt",
-      "label": "Солод",
-      "sub": "1 : 19 · лучший",
+      "label": "Malt",
+      "sub": "1 : 19 · best",
       "stages": [
         {
-          "name": "Освежение",
-          "time": "12 ч + 8–12 ч",
-          "temp": "38–42 °C, затем комнатная",
-          "note": "Стартер из холодильника: начальную температуру задать водой 45–48 °C.",
+          "name": "Refresh",
+          "time": "12 h + 8–12 h",
+          "temp": "38–42 °C, then room temp",
+          "note": "Starter from the fridge: set the starting temperature with 45–48 °C water.",
           "ingredients": [
             {
-              "ru": "КМКЗ (стартер)",
+              "en": "КМКЗ (starter)",
               "orig": "КМКЗ",
               "pct": 15.2632,
               "flour": false,
               "water": 0.6552,
               "flourIn": 0.3448,
-              "note": "концентрированная молочнокислая закваска, 190 % гидратации"
+              "note": "concentrated lactic-acid rye starter, 190 % hydration"
             },
             {
-              "ru": "Мука ржаная",
+              "en": "Rye flour",
               "orig": "Мука ржаная",
               "pct": 90,
               "flour": true,
               "water": 0
             },
             {
-              "ru": "Солод белый",
-              "orig": "Солод белый (неферментированный)",
+              "en": "White malt",
+              "orig": "Солод белый",
               "pct": 10,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "note": "unfermented rye malt"
             },
             {
-              "ru": "Вода",
+              "en": "Water",
               "orig": "Вода",
               "pct": 190,
               "flour": false,
@@ -208,12 +209,12 @@
         }
       ],
       "method": [
-        "Если стартер из холодильника, взять воду 45–48 °C.",
-        "Смешать стартер, муку, белый солод и воду до однородности.",
-        "Бродить 12 часов при 38–42 °C.",
-        "Перемешать и оставить ещё на 8–12 часов при комнатной температуре."
+        "If the starter is from the fridge, use water at 45–48 °C.",
+        "Mix starter, flour, white malt and water until smooth.",
+        "Ferment for 12 hours at 38–42 °C.",
+        "Stir and leave for another 8–12 hours at room temperature."
       ],
-      "notes": "По таблице это предпочтительный способ освежения: улучшает качество КМКЗ и продлевает её срок службы.\nБелый солод считается здесь мукой: вода в таблице рассчитана на муку + солод."
+      "notes": "The sheet calls this the preferred refresh: it improves the КМКЗ and extends its working life.\nWhite malt counts as flour here, because the sheet calculates the water on flour + malt."
     }
   ]
 }
