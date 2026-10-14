@@ -7,16 +7,96 @@
 const view = document.getElementById('view');
 const state = { recipes: [], byId: {}, q: '', cat: '' };
 
+/* ---------- language ---------- */
+
+let LANG = 'en';
+try { LANG = localStorage.getItem('crumb:lang') === 'ru' ? 'ru' : 'en'; } catch (e) {}
+
+const UI = {
+  en: {
+    verified: 'Verified', draft: 'Draft', placeholder: 'Placeholder: no formula yet',
+    search: 'Search: name, tag…', all: 'All', variants: 'Variants', nothing: 'Nothing found.',
+    count: (n, t) => `${n} of ${t} recipes`, back: '← All recipes', notFound: 'Recipe not found.',
+    source: 'Source', vol: 'vol.', page: 'p.',
+    phBanner: 'Placeholder: the real formula from the source isn’t here yet. Don’t use these numbers.',
+    variant: 'Variant', byPieces: 'By pieces', byWeight: 'By dough weight', g: 'g',
+    pieces: 'Pieces', loss: 'Loss, %', perPiece: 'Weight per piece', doughWeight: 'Dough weight',
+    method: 'Method', notes: 'Notes',
+    flourWarn: p => `Flour rows add up to ${p} % instead of 100 %. Check the percentages.`,
+    ingredient: 'Ingredient', flour: 'flour', onTop: 'on top', converted: 'converted', stageTotal: 'Stage total',
+    total: 'Total', with: ', with ', and: ' and ', formulaFlour: 'Formula flour (100 %)',
+    allFlour: 'Total flour, incl. starters', hydration: 'Effective hydration',
+    hydNote: 'Effective hydration counts the water and flour inside starters, dairy and eggs.',
+    loadErr: 'Couldn’t load recipes. Open the app with an internet connection at least once.',
+    offline: 'offline', switchTo: 'Русский',
+  },
+  ru: {
+    verified: 'Проверено', draft: 'Черновик', placeholder: 'Заглушка: формулы ещё нет',
+    search: 'Поиск: название, тег…', all: 'Все', variants: 'Варианты', nothing: 'Ничего не найдено.',
+    count: (n, t) => `Рецептов: ${n} из ${t}`, back: '← Все рецепты', notFound: 'Рецепт не найден.',
+    source: 'Источник', vol: 'т.', page: 'с.',
+    phBanner: 'Заглушка: настоящей формулы из источника ещё нет. Эти цифры не использовать.',
+    variant: 'Вариант', byPieces: 'По штукам', byWeight: 'По весу теста', g: 'г',
+    pieces: 'Штук', loss: 'Потери, %', perPiece: 'Вес одной штуки', doughWeight: 'Вес теста',
+    method: 'Как делать', notes: 'Заметки',
+    flourWarn: p => `Мука в формуле даёт ${p} %, а должна 100 %. Проверьте проценты.`,
+    ingredient: 'Ингредиент', flour: 'мука', onTop: 'сверху', converted: 'пересчитано', stageTotal: 'Итого этап',
+    total: 'Всего', with: ', с ', and: ' и ', formulaFlour: 'Мука в формуле (100 %)',
+    allFlour: 'Мука всего, с заквасками', hydration: 'Гидратация эффективная',
+    hydNote: 'Эффективная гидратация учитывает воду и муку внутри заквасок, молочных продуктов и яиц.',
+    loadErr: 'Не удалось загрузить рецепты. Откройте приложение с интернетом хотя бы один раз.',
+    offline: 'офлайн', switchTo: 'English',
+  },
+};
+const T = k => UI[LANG][k];
+
+// Localised field: obj.key_ru in Russian mode when present, otherwise obj.key.
+// Short time/temperature strings without a _ru version get their units translated.
+const RU_UNITS = [[/\bh\b/g, 'ч'], [/\bmin\b/g, 'мин'], [/\bd\b/g, 'дн'], [/autolyse/g, 'автолиз'],
+  [/room temp/g, 'комнатная'], [/then/g, 'затем'], [/\bDDT\b/g, 'Т теста'], [/best/g, 'лучший'], [/\bp\./g, 'с.']];
+// Sources and page references are hidden for now. They stay in the recipe files;
+// set SHOW_SOURCES to true to bring them all back.
+const SHOW_SOURCES = false;
+const PAGE = '(?<!\\p{L})(?:pp?|с)\\.\\s*\\d[\\d·–-]*';
+const HIDE_REFS = [
+  new RegExp(`\\s*\\([^()]*${PAGE}[^()]*\\)`, 'gu'),                  // "(book p. 132)", "(книга, с. 3·20)"
+  new RegExp(`[;,]?\\s*(?:book|книга),?\\s*${PAGE}`, 'giu'),            // "; book p. 119"
+  new RegExp(`\\s*·?\\s*${PAGE}`, 'gu'),                               // "· p. 87", "p. 113"
+];
+function hideRefs(t) {
+  if (SHOW_SOURCES || typeof t !== 'string') return t;
+  return HIDE_REFS.reduce((a, re) => a.replace(re, ''), t)
+    .replace(/\s+([.,;])/g, '$1').replace(/^[\s·;,]+|[\s·;,]+$/g, '').replace(/ {2,}/g, ' ');
+}
+function L(obj, key, units = false) {
+  if (!obj) return '';
+  let v = (LANG === 'ru' && obj[key + '_ru'] != null) ? obj[key + '_ru'] : obj[key];
+  if (LANG === 'ru' && units && obj[key + '_ru'] == null && typeof v === 'string') v = RU_UNITS.reduce((a, [re, to]) => a.replace(re, to), v);
+  return Array.isArray(v) ? v.map(hideRefs) : hideRefs(v);
+}
+const ingName = i => (LANG === 'ru' ? (i.ru || i.en) : i.en);
+// second line under a name: the other language / original
+const ingAlt = i => {
+  const shown = ingName(i);
+  const alt = LANG === 'ru' ? i.en : i.orig;
+  return alt && alt !== shown ? alt : '';
+};
+const recName = r => (LANG === 'ru' ? (r.name.ru || r.name.en) : r.name.en);
+const recAlt = r => {
+  const alt = LANG === 'ru' ? r.name.en : r.name.orig;
+  return alt && alt !== recName(r) ? alt : '';
+};
+
 const STATUS = {
-  verified: ['Verified', 'ok'],
-  draft: ['Draft', 'draft'],
-  placeholder: ['Placeholder: no formula yet', 'ph'],
+  verified: ['verified', 'ok'],
+  draft: ['draft', 'draft'],
+  placeholder: ['placeholder', 'ph'],
 };
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-const num = (v, d = 0) => Number(v).toLocaleString('en-US', { maximumFractionDigits: d, minimumFractionDigits: 0 });
+const num = (v, d = 0) => Number(v).toLocaleString(LANG === 'ru' ? 'ru-RU' : 'en-US', { maximumFractionDigits: d, minimumFractionDigits: 0 });
 const grams = g => num(g, g < 1 ? 2 : g < 10 ? 1 : 0);
 const pct = p => num(p, 2);
 
@@ -92,26 +172,29 @@ function calc(r, c) {
 
 function badge(status) {
   const [label, cls] = STATUS[status] || STATUS.draft;
-  return `<span class="badge ${cls}">${esc(label)}</span>`;
+  return `<span class="badge ${cls}">${esc(T(label))}</span>`;
 }
 
 function sourceText(src) {
   if (!src) return '';
-  const parts = [src.title];
-  if (src.volume) parts.push(`vol. ${src.volume}`);
-  if (src.page) parts.push(`p. ${src.page}`);
-  if (src.detail) parts.push(src.detail);
+  const parts = [L(src, 'title')];
+  if (src.volume) parts.push(`${T('vol')} ${src.volume}`);
+  if (src.page) parts.push(`${T('page')} ${src.page}`);
+  if (src.detail) parts.push(L(src, 'detail'));
   const text = esc(parts.filter(Boolean).join(', '));
   return src.url ? `<a href="${esc(src.url)}" target="_blank" rel="noopener">${text}</a>` : text;
 }
 
 function renderList() {
   document.title = 'Crumb';
-  const cats = [...new Set(state.recipes.map(r => r.category).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'en'));
+  const catOf = r => L(r, 'category');
+  const tagsOf = r => L(r, 'tags') || [];
+  const cats = [...new Set(state.recipes.map(catOf).filter(Boolean))].sort((a, b) => a.localeCompare(b, LANG));
+  if (state.cat && !cats.includes(state.cat)) state.cat = '';
   view.innerHTML = `
-    <input class="search" id="q" type="search" placeholder="Search: name, tag…" value="${esc(state.q)}" autocomplete="off">
+    <input class="search" id="q" type="search" placeholder="${esc(T('search'))}" value="${esc(state.q)}" autocomplete="off">
     <div class="chips" id="cats">
-      <button class="chip" data-cat="" aria-pressed="${!state.cat}">All</button>
+      <button class="chip" data-cat="" aria-pressed="${!state.cat}">${esc(T('all'))}</button>
       ${cats.map(c => `<button class="chip" data-cat="${esc(c)}" aria-pressed="${state.cat === c}">${esc(c)}</button>`).join('')}
     </div>
     <div class="cards" id="cards"></div>
@@ -119,17 +202,17 @@ function renderList() {
   const draw = () => {
     const q = state.q.trim().toLowerCase();
     const items = state.recipes
-      .filter(r => !state.cat || r.category === state.cat)
-      .filter(r => !q || [r.name.en, r.name.orig, r.category, ...(r.tags || [])].join(' ').toLowerCase().includes(q))
-      .sort((a, b) => a.name.en.localeCompare(b.name.en, 'en'));
+      .filter(r => !state.cat || catOf(r) === state.cat)
+      .filter(r => !q || [r.name.en, r.name.ru, r.name.orig, r.category, r.category_ru, ...(r.tags || []), ...(r.tags_ru || [])].join(' ').toLowerCase().includes(q))
+      .sort((a, b) => recName(a).localeCompare(recName(b), LANG));
     document.getElementById('cards').innerHTML = items.map(r => `
       <a class="rcard" href="#/r/${encodeURIComponent(r.id)}">
-        <h2>${esc(r.name.en)}</h2>
-        ${r.name.orig && r.name.orig !== r.name.en ? `<div class="orig">${esc(r.name.orig)}</div>` : ''}
-        ${r.variants ? `<div class="orig">${esc(r.variantLabel || 'Variants')}: ${r.variants.map(v => esc(v.label)).join(' · ')}</div>` : ''}
-        <div class="meta">${badge(r.status)}${r.category ? `<span class="tag">${esc(r.category)}</span>` : ''}${(r.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
-      </a>`).join('') || '<p class="muted">Nothing found.</p>';
-    document.getElementById('count').textContent = `${items.length} of ${state.recipes.length} recipes`;
+        <h2>${esc(recName(r))}</h2>
+        ${recAlt(r) ? `<div class="orig">${esc(recAlt(r))}</div>` : ''}
+        ${r.variants ? `<div class="orig">${esc(L(r, 'variantLabel') || T('variants'))}: ${r.variants.map(v => esc(L(v, 'label', true))).join(' · ')}</div>` : ''}
+        <div class="meta">${badge(r.status)}${catOf(r) ? `<span class="tag">${esc(catOf(r))}</span>` : ''}${tagsOf(r).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+      </a>`).join('') || `<p class="muted">${esc(T('nothing'))}</p>`;
+    document.getElementById('count').textContent = T('count')(items.length, state.recipes.length);
   };
   document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; draw(); });
   document.getElementById('cats').addEventListener('click', e => {
@@ -143,8 +226,8 @@ function renderList() {
 
 function renderRecipe(id) {
   const r0 = state.byId[id];
-  if (!r0) { view.innerHTML = `<a class="back" href="#/">← All recipes</a><p>Recipe not found.</p>`; return; }
-  document.title = r0.name.en + ' — Crumb';
+  if (!r0) { view.innerHTML = `<a class="back" href="#/">${esc(T('back'))}</a><p>${esc(T('notFound'))}</p>`; return; }
+  document.title = recName(r0) + ' — Crumb';
   window.scrollTo(0, 0);
 
   const variants = r0.variants || null;
@@ -169,26 +252,26 @@ function renderRecipe(id) {
   const save = () => store('calc:' + r0.id, c);
 
   view.innerHTML = `
-    <a class="back" href="#/">← All recipes</a>
+    <a class="back" href="#/">${esc(T('back'))}</a>
     <div class="rhead">
-      <h1>${esc(r0.name.en)}</h1>
-      ${r0.name.orig && r0.name.orig !== r0.name.en ? `<div class="orig">${esc(r0.name.orig)}</div>` : ''}
-      <div class="meta">${badge(r0.status)}${r0.category ? `<span class="tag">${esc(r0.category)}</span>` : ''}${(r0.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
-      ${r0.source ? `<div class="source">Source: ${sourceText(r0.source)}</div>` : ''}
-      ${r0.status === 'placeholder' ? '<div class="placeholder-banner">Placeholder: the real formula from the source isn’t here yet. Don’t use these numbers.</div>' : ''}
+      <h1>${esc(recName(r0))}</h1>
+      ${recAlt(r0) ? `<div class="orig">${esc(recAlt(r0))}</div>` : ''}
+      <div class="meta">${badge(r0.status)}${L(r0, 'category') ? `<span class="tag">${esc(L(r0, 'category'))}</span>` : ''}${(L(r0, 'tags') || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+      ${r0.source && SHOW_SOURCES ? `<div class="source">${esc(T('source'))}: ${sourceText(r0.source)}</div>` : ''}
+      ${r0.status === 'placeholder' ? `<div class="placeholder-banner">${esc(T('phBanner'))}</div>` : ''}
     </div>
 
     <div class="panel">
       ${variants ? `
-        <div class="plabel">${esc(r0.variantLabel || 'Variant')}</div>
+        <div class="plabel">${esc(L(r0, 'variantLabel') || T('variant'))}</div>
         <div class="variants" id="variants" style="--n:${Math.min(variants.length, 4)}">
           ${variants.map(v => `<button data-v="${esc(v.id)}" aria-pressed="${v.id === c.variant}">
-            <b>${esc(v.label)}</b>${v.sub ? `<span>${esc(v.sub)}</span>` : ''}</button>`).join('')}
+            <b>${esc(L(v, 'label', true))}</b>${L(v, 'sub', true) ? `<span>${esc(L(v, 'sub', true))}</span>` : ''}</button>`).join('')}
         </div>` : ''}
       ${r0.yield?.mode === 'total' && !r0.yield?.allowPieces ? '' : `
         <div class="seg" id="mode">
-          <button data-mode="pieces" aria-pressed="${c.mode === 'pieces'}">By pieces</button>
-          <button data-mode="total" aria-pressed="${c.mode === 'total'}">By dough weight</button>
+          <button data-mode="pieces" aria-pressed="${c.mode === 'pieces'}">${esc(T('byPieces'))}</button>
+          <button data-mode="total" aria-pressed="${c.mode === 'total'}">${esc(T('byWeight'))}</button>
         </div>`}
       <div id="amount"></div>
       <div id="out"></div>
@@ -210,61 +293,63 @@ function renderRecipe(id) {
       <div class="amount">
         <div class="amount-head">
           <label for="r-${key}">${esc(label)}</label>
-          <span class="amount-val"><input id="n-${key}" data-k="${key}" type="number" inputmode="decimal" min="0" step="any" value="${v}"> g</span>
+          <span class="amount-val"><input id="n-${key}" data-k="${key}" type="number" inputmode="decimal" min="0" step="any" value="${v}"> ${T('g')}</span>
         </div>
         <input class="slider" id="r-${key}" data-k="${key}" type="range" min="${sl.min}" max="${max}" step="${sl.step}" value="${v}"
           style="--p:${((v - sl.min) / (max - sl.min) * 100).toFixed(2)}%">
-        <div class="range-ends"><span>${num(sl.min)} g</span><span>${num(max)} g</span></div>
+        <div class="range-ends"><span>${num(sl.min)} ${T('g')}</span><span>${num(max)} ${T('g')}</span></div>
         ${hint ? `<p class="hint">${esc(hint)}</p>` : ''}
       </div>`;
   };
 
   const drawAmount = () => {
     const y = cur().yield || {};
-    const small = k => `<div class="field"><label for="f-${k}">${k === 'pieces' ? 'Pieces' : 'Loss, %'}</label><input id="f-${k}" data-k="${k}" type="number" inputmode="decimal" min="0" step="${k === 'pieces' ? 1 : 'any'}" value="${c[k]}"></div>`;
+    const small = k => `<div class="field"><label for="f-${k}">${k === 'pieces' ? T('pieces') : T('loss')}</label><input id="f-${k}" data-k="${k}" type="number" inputmode="decimal" min="0" step="${k === 'pieces' ? 1 : 'any'}" value="${c[k]}"></div>`;
     document.getElementById('amount').innerHTML = c.mode === 'pieces'
-      ? slider('pieceWeight', 'Weight per piece') + `<div class="fields">${small('pieces')}${small('loss')}</div>`
-      : slider('total', y.label || 'Dough weight', y.hint) + `<div class="fields">${small('loss')}</div>`;
+      ? slider('pieceWeight', T('perPiece')) + `<div class="fields">${small('pieces')}${small('loss')}</div>`
+      : slider('total', L(y, 'label') || T('doughWeight'), L(y, 'hint')) + `<div class="fields">${small('loss')}</div>`;
   };
 
   const drawInfo = () => {
     const r = cur();
+    const method = L(r, 'method') || [];
+    const notes = L(r, 'notes');
     document.getElementById('info').innerHTML = `
-      ${r.method?.length ? `<div class="section"><h2>Method</h2><ol class="steps">${r.method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></div>` : ''}
-      ${r.notes ? `<div class="section"><h2>Notes</h2><div class="notes">${esc(r.notes)}</div></div>` : ''}`;
+      ${method.length ? `<div class="section"><h2>${esc(T('method'))}</h2><ol class="steps">${method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></div>` : ''}
+      ${notes ? `<div class="section"><h2>${esc(T('notes'))}</h2><div class="notes">${esc(notes)}</div></div>` : ''}`;
   };
 
   const drawOut = () => {
     const r = cur();
     const res = calc(r, c);
-    const cond = s => [s.time, s.temp].filter(Boolean).map(esc).join(' · ');
-    const extras = allIngredients(r).filter(i => i.extra).map(i => i.en.split(',')[0].toLowerCase());
+    const cond = s => [L(s, 'time', true), L(s, 'temp', true)].filter(Boolean).map(esc).join(' · ');
+    const extras = allIngredients(r).filter(i => i.extra).map(i => ingName(i).split(',')[0].toLowerCase());
     document.getElementById('out').innerHTML = `
-      ${!res.flourOk ? `<div class="warn">Flour rows add up to ${pct(res.flourPct)} % instead of 100 %. Check the percentages.</div>` : ''}
+      ${!res.flourOk ? `<div class="warn">${esc(T('flourWarn')(pct(res.flourPct)))}</div>` : ''}
       ${res.stages.map(s => `
         <div class="stage">
-          <div class="stage-head"><h3>${esc(s.name)}</h3><span class="stage-cond">${cond(s)}</span></div>
+          <div class="stage-head"><h3>${esc(L(s, 'name'))}</h3><span class="stage-cond">${cond(s)}</span></div>
           <table class="f">
-            <thead><tr><th>Ingredient</th><th class="n">%</th><th class="n">g</th></tr></thead>
+            <thead><tr><th>${esc(T('ingredient'))}</th><th class="n">%</th><th class="n">${T('g')}</th></tr></thead>
             <tbody>
               ${s.rows.map(i => `<tr>
-                <td class="ing">${esc(i.en)}${i.flour ? '<span class="flag">flour</span>' : ''}${i.extra ? '<span class="flag">on top</span>' : ''}${i.converted ? '<span class="flag">converted</span>' : ''}
-                  ${i.orig && i.orig !== i.en ? `<small>${esc(i.orig)}</small>` : ''}${i.note ? `<small>${esc(i.note)}</small>` : ''}</td>
+                <td class="ing">${esc(ingName(i))}${i.flour ? `<span class="flag">${T('flour')}</span>` : ''}${i.extra ? `<span class="flag">${T('onTop')}</span>` : ''}${i.converted ? `<span class="flag">${T('converted')}</span>` : ''}
+                  ${ingAlt(i) ? `<small>${esc(ingAlt(i))}</small>` : ''}${L(i, 'note') ? `<small>${esc(L(i, 'note'))}</small>` : ''}</td>
                 <td class="n">${pct(i.pct)}</td>
                 <td class="n g">${grams(i.g)}</td>
               </tr>`).join('')}
-              ${res.stages.length > 1 ? `<tr class="sub"><td>Stage total</td><td></td><td class="n">${grams(s.total)}</td></tr>` : ''}
+              ${res.stages.length > 1 ? `<tr class="sub"><td>${esc(T('stageTotal'))}</td><td></td><td class="n">${grams(s.total)}</td></tr>` : ''}
             </tbody>
           </table>
-          ${s.note ? `<p class="stage-cond">${esc(s.note)}</p>` : ''}
+          ${L(s, 'note') ? `<p class="stage-cond">${esc(L(s, 'note'))}</p>` : ''}
         </div>`).join('')}
       <div class="totals">
-        <div class="tot"><div class="k">Total${extras.length ? ', with ' + extras.join(' and ') : ''}</div><div class="v">${grams(res.dough)} g</div></div>
-        <div class="tot"><div class="k">Formula flour (100 %)</div><div class="v">${grams(res.freshFlour)} g</div></div>
-        <div class="tot"><div class="k">Total flour, incl. starters</div><div class="v">${grams(res.allFlour)} g</div></div>
-        <div class="tot"><div class="k">Effective hydration</div><div class="v">${num(res.hydration, 1)} %</div></div>
+        <div class="tot"><div class="k">${esc(T('total'))}${extras.length ? esc(T('with') + extras.join(T('and'))) : ''}</div><div class="v">${grams(res.dough)} ${T('g')}</div></div>
+        <div class="tot"><div class="k">${esc(T('formulaFlour'))}</div><div class="v">${grams(res.freshFlour)} ${T('g')}</div></div>
+        <div class="tot"><div class="k">${esc(T('allFlour'))}</div><div class="v">${grams(res.allFlour)} ${T('g')}</div></div>
+        <div class="tot"><div class="k">${esc(T('hydration'))}</div><div class="v">${num(res.hydration, 1)} %</div></div>
       </div>
-      <p class="muted" style="font-size:13px;margin:8px 0 0">Effective hydration counts the water and flour inside starters, dairy and eggs.</p>`;
+      <p class="muted" style="font-size:13px;margin:8px 0 0">${esc(T('hydNote'))}</p>`;
   };
 
   drawAmount(); drawOut(); drawInfo();
@@ -310,6 +395,24 @@ function route() {
 /* ---------- start ---------- */
 
 function netStatus() { document.getElementById('net').hidden = navigator.onLine; }
+
+function applyLang() {
+  document.documentElement.lang = LANG;
+  document.getElementById('net').textContent = T('offline');
+  const b = document.getElementById('lang');
+  b.textContent = LANG === 'ru' ? 'EN' : 'RU';
+  b.setAttribute('aria-label', T('switchTo'));
+  b.title = T('switchTo');
+}
+document.getElementById('lang').addEventListener('click', () => {
+  LANG = LANG === 'ru' ? 'en' : 'ru';
+  try { localStorage.setItem('crumb:lang', LANG); } catch (e) {}
+  applyLang();
+  if (state.recipes.length) {
+    const y = scrollY; route(); scrollTo(0, y);
+  }
+});
+applyLang();
 addEventListener('online', netStatus);
 addEventListener('offline', netStatus);
 netStatus();
@@ -322,5 +425,5 @@ loadRecipes()
   .then(() => { addEventListener('hashchange', route); route(); })
   .catch(e => {
     console.error(e);
-    view.innerHTML = '<p class="pad">Couldn’t load recipes. Open the app with an internet connection at least once.</p>';
+    view.innerHTML = `<p class="pad">${esc(T('loadErr'))}</p>`;
   });

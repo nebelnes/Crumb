@@ -2,7 +2,8 @@
   "id": "naan-modernist-bread",
   "name": {
     "en": "Naan",
-    "orig": "Naan"
+    "orig": "Naan",
+    "ru": "Наан"
   },
   "category": "Flatbreads",
   "tags": [
@@ -14,7 +15,8 @@
     "type": "book",
     "title": "Modernist Bread",
     "volume": 5,
-    "detail": "Recipes II: master recipe p. 17, Modernist Naan p. 22–23"
+    "detail": "Recipes II: master recipe p. 17, Modernist Naan p. 22–23",
+    "detail_ru": "Recipes II: мастер-рецепт с. 17, модернист-наан с. 22–23"
   },
   "status": "draft",
   "yield": {
@@ -51,30 +53,35 @@
               "orig": "Water",
               "pct": 45.69,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Whole milk",
               "orig": "Whole milk",
               "pct": 24.14,
               "flour": false,
-              "water": 0.87
+              "water": 0.87,
+              "ru": "Молоко цельное"
             },
             {
               "en": "Sugar",
               "orig": "Sugar",
               "pct": 0.69,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Сахар"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.69,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "① Жидкость и дрожжи"
         },
         {
           "name": "② Flours",
@@ -86,14 +93,16 @@
               "orig": "Bread flour",
               "pct": 68.1,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная"
             },
             {
               "en": "Durum flour",
               "orig": "Durum flour",
               "pct": 31.9,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)"
             },
             {
               "en": "Plain yogurt",
@@ -101,9 +110,12 @@
               "pct": 1.72,
               "flour": false,
               "water": 0.85,
-              "note": "full-fat recommended; low-fat or skim also works"
+              "note": "full-fat recommended; low-fat or skim also works",
+              "ru": "Йогурт натуральный",
+              "note_ru": "лучше жирный; подойдёт и нежирный или обезжиренный"
             }
-          ]
+          ],
+          "name_ru": "② Мука"
         },
         {
           "name": "③ Salt",
@@ -115,9 +127,11 @@
               "orig": "Fine salt",
               "pct": 1.72,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             }
-          ]
+          ],
+          "name_ru": "③ Соль"
         },
         {
           "name": "Topping",
@@ -130,10 +144,13 @@
               "orig": "Ghee or clarified butter, melted",
               "pct": 9.4828,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное"
             }
           ],
-          "topping": true
+          "topping": true,
+          "name_ru": "Для смазывания",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки."
         }
       ],
       "method": [
@@ -146,7 +163,20 @@
         "By hand instead: stir ① until the yeast dissolves, mix in ② to a shaggy mass, autolyse 30 min, add ③ and mix to low gluten development. Bulk 4½ h with 4 folds, one every hour after the first hour, and 30 min rest after the last fold.",
         "Optional topping: spray with water, press cilantro leaves in with a rolling pin, spray again and sprinkle sesame before baking."
       ],
-      "notes": "Total time by machine: about 1 h 8 min active, 2 h 27 min inactive. By hand: about 1 h 17 min active, 5 h 45 min inactive.\nYield about 1 kg of dough, 10 flatbreads. Eat the same day, ideally warm, or freeze up to 2 months."
+      "notes": "Total time by machine: about 1 h 8 min active, 2 h 27 min inactive. By hand: about 1 h 17 min active, 5 h 45 min inactive.\nYield about 1 kg of dough, 10 flatbreads. Eat the same day, ideally warm, or freeze up to 2 months.",
+      "label_ru": "Мастер",
+      "sub_ru": "с йогуртом · с. 17",
+      "method_ru": [
+        "В миксере: налить ① в чашу и размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и месить на средней скорости до полного развития клейковины.",
+        "Переложить в слегка смазанный маслом контейнер, хорошо накрыть. Брожение 1 ч с одной обминкой-«книжкой» через 30 мин.",
+        "Разделить на куски по 100 г и скруглить каждый в плотный шар. Отлёжка 45 мин, хорошо укрыв.",
+        "Раскатать каждый шар в диск 15 см. Для формы капли вытянуть один край.",
+        "Прямо перед выпечкой наколоть тесто вилкой по всей поверхности, чтобы оно не вздувалось слишком сильно.",
+        "Сразу выпекать в очень горячей печи: каждый наан 2–5 мин (таблица выпечки в книге, с. 21). Сразу после выпечки смазать гхи.",
+        "Вручную: размешать ① до растворения дрожжей, добавить ② и замесить до лохматой массы, автолиз 30 мин, добавить ③ и вымешать до слабого развития клейковины. Брожение 4½ ч с 4 обминками — по одной каждый час после первого часа — и 30 мин отдыха после последней.",
+        "Посыпка по желанию: сбрызнуть водой, вдавить листья кинзы скалкой, снова сбрызнуть и посыпать кунжутом перед выпечкой."
+      ],
+      "notes_ru": "Общее время в миксере: около 1 ч 8 мин активно, 2 ч 27 мин пассивно. Вручную: около 1 ч 17 мин активно, 5 ч 45 мин пассивно.\nВыход около 1 кг теста, 10 лепёшек. Съесть в тот же день, лучше тёплыми, или заморозить до 2 месяцев."
     },
     {
       "id": "modernist",
@@ -163,30 +193,35 @@
               "orig": "Water",
               "pct": 45.69,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Whole milk",
               "orig": "Whole milk",
               "pct": 24.14,
               "flour": false,
-              "water": 0.87
+              "water": 0.87,
+              "ru": "Молоко цельное"
             },
             {
               "en": "Sugar",
               "orig": "Sugar",
               "pct": 0.69,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Сахар"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.69,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "① Жидкость и дрожжи"
         },
         {
           "name": "② Flours",
@@ -198,14 +233,16 @@
               "orig": "Bread flour",
               "pct": 68.1,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная"
             },
             {
               "en": "Durum flour",
               "orig": "Durum flour",
               "pct": 31.9,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)"
             },
             {
               "en": "Probiotic capsule contents",
@@ -213,7 +250,9 @@
               "pct": 1.72,
               "flour": false,
               "water": 0,
-              "note": "break the capsule open and add the powder with the flours; crush pills finely if that's all you have"
+              "note": "break the capsule open and add the powder with the flours; crush pills finely if that's all you have",
+              "ru": "Содержимое капсулы пробиотика",
+              "note_ru": "вскрыть капсулу и добавить порошок вместе с мукой; если есть только таблетки — мелко растолочь"
             },
             {
               "en": "Fresh pineapple juice (dough relaxer)",
@@ -221,9 +260,12 @@
               "pct": 0.05,
               "flour": false,
               "water": 0.87,
-              "note": "add with the water, just before mixing. Book alternatives: kiwi juice 0.08 %, papaya juice 0.01 %, papain 0.01 %, meat tenderizer 0.01 %, bromelain powder 0.0005 %"
+              "note": "add with the water, just before mixing. Book alternatives: kiwi juice 0.08 %, papaya juice 0.01 %, papain 0.01 %, meat tenderizer 0.01 %, bromelain powder 0.0005 %",
+              "ru": "Свежий ананасовый сок (релаксант теста)",
+              "note_ru": "добавить в воду прямо перед замесом. Альтернативы из книги: сок киви 0,08 %, сок папайи 0,01 %, папаин 0,01 %, размягчитель для мяса 0,01 %, бромелайн в порошке 0,0005 %"
             }
-          ]
+          ],
+          "name_ru": "② Мука"
         },
         {
           "name": "③ Salt",
@@ -235,9 +277,11 @@
               "orig": "Fine salt",
               "pct": 1.72,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             }
-          ]
+          ],
+          "name_ru": "③ Соль"
         },
         {
           "name": "Topping",
@@ -250,10 +294,13 @@
               "orig": "Ghee or clarified butter, melted",
               "pct": 9.4828,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное"
             }
           ],
-          "topping": true
+          "topping": true,
+          "name_ru": "Для смазывания",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки."
         }
       ],
       "method": [
@@ -266,7 +313,27 @@
         "Bake straight away, very hot: each naan takes 2–5 min (book's baking table, p. 21). Brush with ghee as soon as it comes out.",
         "By hand instead: stir ① until the yeast dissolves, mix in ② to a shaggy mass, autolyse 30 min, add ③ and mix to low gluten development. Bulk 4½ h with 4 folds, one every hour after the first hour, and 30 min rest after the last fold."
       ],
-      "notes": "Yield about 1 kg of dough, 10 flatbreads. Eat the same day, ideally warm, or freeze up to 2 months.\nThe book lets you choose the dough relaxer (p. 23). Pineapple juice is set as default; tell me if you use a different one."
+      "notes": "Yield about 1 kg of dough, 10 flatbreads. Eat the same day, ideally warm, or freeze up to 2 months.\nThe book lets you choose the dough relaxer (p. 23). Pineapple juice is set as default; tell me if you use a different one.",
+      "label_ru": "Модернист",
+      "sub_ru": "пробиотик + релаксант · с. 22",
+      "method_ru": [
+        "Метод как у мастер-рецепта. Пробиотик заменяет йогурт и даёт более яркий кисловатый вкус; релаксант делает тесто легче в раскатке и не даёт ему стягиваться.",
+        "В миксере: налить ① в чашу, добавить ананасовый сок и размешать до растворения дрожжей. Добавить ② (с порошком пробиотика), замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и месить на средней скорости до полного развития клейковины.",
+        "Переложить в слегка смазанный маслом контейнер, хорошо накрыть. Брожение 1 ч с одной обминкой-«книжкой» через 30 мин.",
+        "Разделить на куски по 100 г и скруглить каждый в плотный шар. Отлёжка 45 мин, хорошо укрыв.",
+        "Раскатать каждый шар в диск 15 см. Для формы капли вытянуть один край.",
+        "Прямо перед выпечкой наколоть тесто вилкой по всей поверхности, чтобы оно не вздувалось слишком сильно.",
+        "Сразу выпекать в очень горячей печи: каждый наан 2–5 мин (таблица выпечки в книге, с. 21). Сразу после выпечки смазать гхи.",
+        "Вручную: размешать ① до растворения дрожжей, добавить ② и замесить до лохматой массы, автолиз 30 мин, добавить ③ и вымешать до слабого развития клейковины. Брожение 4½ ч с 4 обминками — по одной каждый час после первого часа — и 30 мин отдыха после последней."
+      ],
+      "notes_ru": "Выход около 1 кг теста, 10 лепёшек. Съесть в тот же день, лучше тёплыми, или заморозить до 2 месяцев.\nРелаксант теста можно выбрать (книга, с. 23). По умолчанию стоит ананасовый сок; скажите, если используете другой."
     }
-  ]
+  ],
+  "category_ru": "Лепёшки",
+  "tags_ru": [
+    "наан",
+    "лепёшка",
+    "на дрожжах"
+  ],
+  "variantLabel_ru": "Версия"
 }

@@ -62,4 +62,8 @@ A recipe can have `"variants": [...]` plus `"variantLabel"`. Each variant has `i
 
 A stage with `"topping": true` (sauce, cheese, ghee…) scales with the dough but isn't counted in the dough weight, flour or hydration.
 
+Russian text: any text field can have a `_ru` twin (`name.ru`, `category_ru`, `tags_ru`, `variantLabel_ru`, variant `label_ru`/`sub_ru`/`method_ru`/`notes_ru`, stage `name_ru`/`note_ru`, ingredient `ru`/`note_ru`, yield `label_ru`/`hint_ru`). Without one, the English text is shown.
+
+Sources and page references are hidden while `SHOW_SOURCES = false` in `app.js`; the data keeps them.
+
 Status `placeholder` shows a red banner: the formula is not from the source yet.

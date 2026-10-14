@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-14 — Russian version, sources hidden
+- EN / RU switch in the top corner; every recipe has Russian names, ingredients, stages, method and notes (remembered per device).
+- Sources and page references are hidden for now (`SHOW_SOURCES = false` in app.js). They are still in the recipe files.
+
 ## 2026-10-14 — Pizza dough (Modernist Bread)
 - Added Pizza dough with four styles: Neapolitan (vol. 5 p. 113), Modernist Neapolitan (p. 120–121), New York (p. 122–123) and Sicilian (p. 124–125). Draft until checked.
 - Topping sections (sauce, cheese, ghee) now scale with the dough but are kept out of the dough weight and hydration.

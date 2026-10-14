@@ -2,7 +2,8 @@
   "id": "focaccia-modernist-bread",
   "name": {
     "en": "Focaccia",
-    "orig": "Focaccia"
+    "orig": "Focaccia",
+    "ru": "Фокачча"
   },
   "category": "Flatbreads",
   "tags": [
@@ -14,7 +15,8 @@
     "type": "book",
     "title": "Modernist Bread",
     "volume": 5,
-    "detail": "Recipes II: master p. 87, Direct p. 92–93, Modernist p. 94–95"
+    "detail": "Recipes II: master p. 87, Direct p. 92–93, Modernist p. 94–95",
+    "detail_ru": "Recipes II: мастер с. 87, прямая с. 92–93, модернист с. 94–95"
   },
   "status": "draft",
   "yield": {
@@ -55,23 +57,28 @@
               "orig": "Water",
               "pct": 7.0,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Olive oil",
               "orig": "Olive oil",
               "pct": 3.4,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Оливковое масло"
             },
             {
               "en": "Fine salt",
               "orig": "Fine salt",
               "pct": 2.2,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             }
-          ]
+          ],
+          "name_ru": "① Солёное масло",
+          "note_ru": "Перемешать и отставить; добавляется после автолиза."
         },
         {
           "name": "② Liquids, levain and yeast",
@@ -81,7 +88,8 @@
               "orig": "Water",
               "pct": 85.0,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Liquid levain, mature",
@@ -90,16 +98,20 @@
               "flour": false,
               "water": 0.5,
               "flourIn": 0.5,
-              "note": "mature liquid levain, 100 % hydration (book p. 3·54)"
+              "note": "mature liquid levain, 100 % hydration (book p. 3·54)",
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 % (книга, с. 3·54)"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.33,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "② Жидкость, закваска и дрожжи"
         },
         {
           "name": "③ Flour",
@@ -110,16 +122,19 @@
               "orig": "High-gluten bread flour",
               "pct": 100.0,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная с высоким содержанием клейковины"
             },
             {
               "en": "Diastatic malt powder",
               "orig": "Diastatic malt powder",
               "pct": 0.2,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Диастатический солодовый порошок"
             }
-          ]
+          ],
+          "name_ru": "③ Мука"
         }
       ],
       "method": [
@@ -131,7 +146,19 @@
         "Final proof, covered. At 27 °C / 65 % RH: large 2½–3 h, medium 2–2½ h, small 1½–2 h. At 21 °C: large 3–4 h, medium 3–3½ h, small 2½–3 h. Stipple with your fingertips before the proof and again 1 h after it starts.",
         "Drizzle with olive oil, add any toppings just before baking, and bake: 8–45 min depending on size (book's focaccia baking table, p. 91). Eat the same day, or freeze up to 2 months."
       ],
-      "notes": "Total time by machine about 15 min active, 8½ h inactive; by hand 20 min active, 9 h 45 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nThe book lists the yield as about 1.00 kg, but the ingredients add up to 1,090 g. The calculator starts at 1,090 g so the grams match the table."
+      "notes": "Total time by machine about 15 min active, 8½ h inactive; by hand 20 min active, 9 h 45 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nThe book lists the yield as about 1.00 kg, but the ingredients add up to 1,090 g. The calculator starts at 1,090 g so the grams match the table.",
+      "label_ru": "Мастер",
+      "sub_ru": "закваска · с. 87",
+      "method_ru": [
+        "В миксере: перемешать ① и отставить. Растворить ② (закваску и дрожжи в воде), добавить ③ и замесить на низкой скорости до лохматой массы. Автолиз 20–30 мин.",
+        "Месить на средней скорости до слабого развития клейковины, затем перейти на низкую и добавить ①. Когда тесто станет однородным, месить на средней до среднего развития клейковины. Переложить в слегка смазанный контейнер и хорошо накрыть.",
+        "Брожение всего 3 ч с 4 обминками — по одной каждые 30 мин после первого часа — и 30 мин отдыха после последней. Проверить полное развитие клейковины тестом на «окошко».",
+        "Вручную: тот же порядок, автолиз 30 мин, добавить ① и вымешать до однородности. Брожение 4½ ч с 6 обминками — по одной каждые 30 мин после первого часа.",
+        "Формовка: одна большая фокачча (не делить), 2 средние (по 500 г) или 4 маленькие (по 250 г), все в формах. Форму смазать маслом; формовка — по инструкции в книге (с. 90).",
+        "Окончательная расстойка под крышкой. При 27 °C и влажности 65 %: большая 2½–3 ч, средняя 2–2½ ч, маленькая 1½–2 ч. При 21 °C: большая 3–4 ч, средняя 3–3½ ч, маленькая 2½–3 ч. Сделать «пальцевые ямки» перед расстойкой и ещё раз через 1 ч после её начала.",
+        "Сбрызнуть оливковым маслом, начинку добавить прямо перед выпечкой и выпекать 8–45 мин в зависимости от размера (таблица выпечки фокаччи в книге, с. 91). Съесть в тот же день или заморозить до 2 месяцев."
+      ],
+      "notes_ru": "Общее время в миксере около 15 мин активно, 8½ ч пассивно; вручную 20 мин активно, 9 ч 45 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nВ книге выход указан около 1,00 кг, но ингредиенты в сумме дают 1 090 г. Калькулятор начинает с 1 090 г, чтобы граммы совпадали с таблицей."
     },
     {
       "id": "direct",
@@ -151,23 +178,28 @@
               "orig": "Water",
               "pct": 6.3636,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Olive oil",
               "orig": "Olive oil",
               "pct": 3.0909,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Оливковое масло"
             },
             {
               "en": "Fine salt",
               "orig": "Fine salt",
               "pct": 2.0,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             }
-          ]
+          ],
+          "name_ru": "① Солёное масло",
+          "note_ru": "Перемешать и отставить; добавляется после автолиза."
         },
         {
           "name": "② Water and yeast",
@@ -177,16 +209,19 @@
               "orig": "Water",
               "pct": 86.3636,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.7273,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "② Вода и дрожжи"
         },
         {
           "name": "③ Flour",
@@ -197,16 +232,19 @@
               "orig": "High-gluten bread flour",
               "pct": 100.0,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная с высоким содержанием клейковины"
             },
             {
               "en": "Diastatic malt powder",
               "orig": "Diastatic malt powder",
               "pct": 0.1818,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Диастатический солодовый порошок"
             }
-          ]
+          ],
+          "name_ru": "③ Мука"
         }
       ],
       "method": [
@@ -218,7 +256,19 @@
         "Final proof, covered. At 27 °C / 65 % RH: large 2–2½ h, medium 1½–2 h, small 1–1½ h. At 21 °C: large 3–3½ h, medium 2½–3 h, small 2–2½ h. Stipple with your fingertips before the proof and again 1 h after it starts.",
         "Drizzle with olive oil, add any toppings just before baking, and bake: 8–45 min depending on size (book's focaccia baking table, p. 91). Eat the same day, or freeze up to 2 months."
       ],
-      "notes": "Total time by machine about 15 min active, 8 h inactive; by hand 20 min active, 9 h 15 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nShapes: 1 large (don't divide), 2 medium (500 g) or 4 small (250 g).\nThe book's table prints diastatic malt as 0.20 %, but 1 g of 550 g flour is 0.18 % (as in its net contents). 0.18 % is used here."
+      "notes": "Total time by machine about 15 min active, 8 h inactive; by hand 20 min active, 9 h 15 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nShapes: 1 large (don't divide), 2 medium (500 g) or 4 small (250 g).\nThe book's table prints diastatic malt as 0.20 %, but 1 g of 550 g flour is 0.18 % (as in its net contents). 0.18 % is used here.",
+      "label_ru": "Прямая",
+      "sub_ru": "без закваски · с. 92",
+      "method_ru": [
+        "Дрожжей вдвое больше, чем в мастер-рецепте, и без закваски — можно испечь за один день, но вкус чуть проще.",
+        "В миксере: перемешать ① и отставить. Растворить ②, добавить ③ и замесить на низкой скорости до лохматой массы. Автолиз 20–30 мин. Месить на средней до слабого развития клейковины, перейти на низкую, добавить ①, вымешать до однородности, затем на средней до среднего развития клейковины. В смазанный контейнер, накрыть.",
+        "Брожение всего 3 ч с 4 обминками — по одной каждые 30 мин после первого часа — и 30 мин отдыха после последней. Из-за большого количества дрожжей убрать накрытое тесто в холодильник после первой обминки и достать после последней, чтобы оно согрелось до комнатной температуры.",
+        "Вручную: автолиз 30 мин, затем брожение 4½ ч с 6 обминками (с холодильником так же).",
+        "После деления сразу выложить каждый кусок в смазанную форму. Щедро полить оливковым маслом и пальцами сделать ямки, растягивая тесто по форме. Если тесто рвётся, дать ему отдохнуть 10–15 мин и повторить.",
+        "Окончательная расстойка под крышкой. При 27 °C и влажности 65 %: большая 2–2½ ч, средняя 1½–2 ч, маленькая 1–1½ ч. При 21 °C: большая 3–3½ ч, средняя 2½–3 ч, маленькая 2–2½ ч. Сделать «пальцевые ямки» перед расстойкой и ещё раз через 1 ч после её начала.",
+        "Сбрызнуть оливковым маслом, начинку добавить прямо перед выпечкой и выпекать 8–45 мин в зависимости от размера (таблица выпечки фокаччи в книге, с. 91). Съесть в тот же день или заморозить до 2 месяцев."
+      ],
+      "notes_ru": "Общее время в миксере около 15 мин активно, 8 ч пассивно; вручную 20 мин активно, 9 ч 15 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nФормы: 1 большая (не делить), 2 средние (500 г) или 4 маленькие (250 г).\nВ таблице книги солод указан как 0,20 %, но 1 г на 550 г муки — это 0,18 % (как и в «чистом составе» книги). Здесь используется 0,18 %."
     },
     {
       "id": "modernist",
@@ -237,16 +287,19 @@
               "orig": "Water",
               "pct": 76.1278,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.4323,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "① Вода и дрожжи"
         },
         {
           "name": "② Levain",
@@ -258,9 +311,12 @@
               "flour": false,
               "water": 0.5,
               "flourIn": 0.5,
-              "note": "mature liquid levain, 100 % hydration (book p. 3·54)"
+              "note": "mature liquid levain, 100 % hydration (book p. 3·54)",
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 % (книга, с. 3·54)"
             }
-          ]
+          ],
+          "name_ru": "② Закваска (левен)"
         },
         {
           "name": "③ Flours",
@@ -271,16 +327,19 @@
               "orig": "Bread flour",
               "pct": 95.8647,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная"
             },
             {
               "en": "Vital wheat gluten",
               "orig": "Vital wheat gluten",
               "pct": 4.1353,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Сухая пшеничная клейковина (глютен)"
             }
-          ]
+          ],
+          "name_ru": "③ Мука"
         },
         {
           "name": "④ Salt",
@@ -290,9 +349,11 @@
               "orig": "Fine salt",
               "pct": 2.2556,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             }
-          ]
+          ],
+          "name_ru": "④ Соль"
         },
         {
           "name": "⑤ Fats",
@@ -302,23 +363,27 @@
               "orig": "Olive oil",
               "pct": 3.7594,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Оливковое масло"
             },
             {
               "en": "Shortening, melted and cooled",
               "orig": "Shortening, melted and cooled",
               "pct": 3.7594,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Шортенинг, растопленный и остуженный"
             },
             {
               "en": "Liquid soy lecithin",
               "orig": "Liquid soy lecithin",
               "pct": 0.5,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соевый лецитин жидкий"
             }
-          ]
+          ],
+          "name_ru": "⑤ Жиры"
         }
       ],
       "method": [
@@ -330,7 +395,26 @@
         "Final proof, covered. At 27 °C / 65 % RH: large 1½–2½ h, medium 1–2 h, small 1–1½ h. At 21 °C: large 2½–3½ h, medium 1½–2½ h, small 1–1½ h. Stipple with your fingertips before the proof and again 1 h after it starts.",
         "Drizzle with olive oil, add any toppings just before baking, and bake: 8–45 min depending on size (book's focaccia baking table, p. 91). Eat the same day, or freeze up to 2 months."
       ],
-      "notes": "Total time by machine about 15 min active, 7 h 33 min inactive; by hand 20 min active, 9 h 15 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nThe book counts vital wheat gluten as part of the flour (bread flour 95.86 % + gluten 4.14 % = 100 %), and so does the calculator.\nThe book's yield is about 1.10 kg; the ingredients add up to 1,104 g."
+      "notes": "Total time by machine about 15 min active, 7 h 33 min inactive; by hand 20 min active, 9 h 15 min inactive.\nOlive oil for the pan and drizzling: as needed (not in the formula).\nThe book counts vital wheat gluten as part of the flour (bread flour 95.86 % + gluten 4.14 % = 100 %), and so does the calculator.\nThe book's yield is about 1.10 kg; the ingredients add up to 1,104 g.",
+      "label_ru": "Модернист",
+      "sub_ru": "лецитин + глютен · с. 94",
+      "method_ru": [
+        "Соевый лецитин позволяет добавить больше жира — он равномерно распределяет его в тесте; сухая клейковина добавляет структуры и делает тесто послушнее.",
+        "В миксере: перемешать ①, соединить с ② и ③ и замесить на низкой скорости до лохматой массы. Автолиз 20–30 мин. Добавить ④ и месить на средней до среднего развития клейковины. Перейти на низкую, добавить ⑤ и вымешать до полного соединения. В смазанный контейнер, накрыть.",
+        "Брожение всего 2½ ч с 2 обминками — по одной каждый час после первого часа — и 30 мин отдыха после последней. Проверить тестом на «окошко».",
+        "Вручную: автолиз 30 мин, добавить ④ и ⑤, вымешать до однородности. Брожение 4½ ч с 6 обминками — по одной каждые 30 мин после первого часа. После третьей обминки убрать накрытое тесто в холодильник. Если после последней обминки клейковина ещё не развита, сделать ещё одну и дать отдохнуть 30 мин перед повторной проверкой (всего может понадобиться 7–8 обминок). Последние 30 мин брожения — при комнатной температуре.",
+        "Формовка: одна большая фокачча (не делить), 2 средние (по 500 г) или 4 маленькие (по 250 г), все в формах. Форму смазать маслом; формовка — по инструкции в книге (с. 90).",
+        "Окончательная расстойка под крышкой. При 27 °C и влажности 65 %: большая 1½–2½ ч, средняя 1–2 ч, маленькая 1–1½ ч. При 21 °C: большая 2½–3½ ч, средняя 1½–2½ ч, маленькая 1–1½ ч. Сделать «пальцевые ямки» перед расстойкой и ещё раз через 1 ч после её начала.",
+        "Сбрызнуть оливковым маслом, начинку добавить прямо перед выпечкой и выпекать 8–45 мин в зависимости от размера (таблица выпечки фокаччи в книге, с. 91). Съесть в тот же день или заморозить до 2 месяцев."
+      ],
+      "notes_ru": "Общее время в миксере около 15 мин активно, 7 ч 33 мин пассивно; вручную 20 мин активно, 9 ч 15 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nВ книге сухая клейковина считается частью муки (мука 95,86 % + клейковина 4,14 % = 100 %), в калькуляторе так же.\nВыход в книге около 1,10 кг; ингредиенты в сумме дают 1 104 г."
     }
-  ]
+  ],
+  "category_ru": "Лепёшки",
+  "tags_ru": [
+    "фокачча",
+    "лепёшка",
+    "закваска"
+  ],
+  "variantLabel_ru": "Версия"
 }

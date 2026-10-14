@@ -2,7 +2,8 @@
   "id": "pizza-modernist-bread",
   "name": {
     "en": "Pizza dough",
-    "orig": "Pizza dough"
+    "orig": "Pizza dough",
+    "ru": "Тесто для пиццы"
   },
   "category": "Flatbreads",
   "tags": [
@@ -14,7 +15,8 @@
     "type": "book",
     "title": "Modernist Bread",
     "volume": 5,
-    "detail": "Recipes II: Neapolitan p. 113, Modernist p. 120–121, New York p. 122–123, Sicilian p. 124–125"
+    "detail": "Recipes II: Neapolitan p. 113, Modernist p. 120–121, New York p. 122–123, Sicilian p. 124–125",
+    "detail_ru": "Recipes II: неаполитанская с. 113, модернист с. 120–121, нью-йоркская с. 122–123, сицилийская с. 124–125"
   },
   "status": "draft",
   "yield": {
@@ -57,23 +59,28 @@
               "orig": "Bread flour or 00 pizza flour",
               "pct": 9.0909,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы"
             },
             {
               "en": "Water",
               "orig": "Water",
               "pct": 9.0909,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.0091,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "② Пулиш (за 12 ч)",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере (книга, с. 3·20)."
         },
         {
           "name": "① Water and yeast",
@@ -84,16 +91,19 @@
               "orig": "Water",
               "pct": 65.4545,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.5455,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "① Вода и дрожжи"
         },
         {
           "name": "③ Flour",
@@ -103,16 +113,19 @@
               "orig": "Bread flour or 00 pizza flour",
               "pct": 90.9091,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы"
             },
             {
               "en": "Diastatic malt powder",
               "orig": "Diastatic malt powder",
               "pct": 1.8182,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Диастатический солодовый порошок"
             }
-          ]
+          ],
+          "name_ru": "③ Мука"
         },
         {
           "name": "④ Salt and oil",
@@ -122,16 +135,19 @@
               "orig": "Fine salt",
               "pct": 2.0,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             },
             {
               "en": "Olive oil",
               "orig": "Olive oil",
               "pct": 0.9091,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Оливковое масло"
             }
-          ]
+          ],
+          "name_ru": "④ Соль и масло"
         },
         {
           "name": "⑤ Margherita topping",
@@ -144,7 +160,9 @@
               "pct": 54.5455,
               "flour": false,
               "water": 0,
-              "note": "book p. 132"
+              "note": "book p. 132",
+              "ru": "Томатный соус",
+              "note_ru": "книга, с. 132"
             },
             {
               "en": "Fresh mozzarella, air-dried",
@@ -152,14 +170,17 @@
               "pct": 72.7273,
               "flour": false,
               "water": 0,
-              "note": "whole-milk fior di latte or brine-packed mozzarella di bufala; book p. 119"
+              "note": "whole-milk fior di latte or brine-packed mozzarella di bufala; book p. 119",
+              "ru": "Свежая моцарелла, подсушенная на воздухе",
+              "note_ru": "фиор ди латте из цельного молока или моцарелла ди буфала в рассоле; книга, с. 119"
             },
             {
               "en": "Fine salt (for the cheese)",
               "orig": "Fine salt (for the cheese)",
               "pct": 0.7273,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая (для сыра)"
             },
             {
               "en": "Fresh basil leaves",
@@ -167,9 +188,13 @@
               "pct": 0.7273,
               "flour": false,
               "water": 0,
-              "note": "16–20 leaves"
+              "note": "16–20 leaves",
+              "ru": "Листья свежего базилика",
+              "note_ru": "16–20 листиков"
             }
-          ]
+          ],
+          "name_ru": "⑤ Начинка «Маргарита»",
+          "note_ru": "На пиццу 250 г: 75 г соуса, 100 г сыра, 1 г соли, 1 г базилика. Не входит в вес теста."
         }
       ],
       "method": [
@@ -181,7 +206,18 @@
         "Shape following the book's step-by-step photos (p. 116).",
         "Ladle 75 g sauce on, leaving a 2.5 cm border. Add 100 g cheese and season it with 1 g salt. Bake right away; each pizza takes 4–10 min (book's Neapolitan baking table, p. 117). Add 1 g basil after baking."
       ],
-      "notes": "Total time by machine about 1 h 2 min active, 49 h 43 min inactive; by hand 1 h 21 min active, 52½ h inactive.\nMakes 4 pizzas from about 1 kg of dough (the ingredients add up to 989 g)."
+      "notes": "Total time by machine about 1 h 2 min active, 49 h 43 min inactive; by hand 1 h 21 min active, 52½ h inactive.\nMakes 4 pizzas from about 1 kg of dough (the ingredients add up to 989 g).",
+      "label_ru": "Неаполь",
+      "method_ru": [
+        "В миксере: налить ① в чашу и размешать до растворения дрожжей. Добавить пулиш ② и ③ и замесить на низкой скорости до лохматой массы. Добавить ④ и месить на средней скорости до полного развития клейковины. Хорошо накрыть.",
+        "Брожение 1½ ч с одной обминкой-«книжкой» через 1 ч и 30 мин отдыха после неё, под крышкой.",
+        "Вручную: растворить дрожжи в ①, добавить пулиш ② и ③ и замесить до лохматой массы, добавить ④ и вымешать до слабого развития клейковины. Брожение 4½ ч с 5 обминками (одна сразу, потом по одной каждый час) и 30 мин отдыха после последней.",
+        "Разделить на куски по 250 г и скруглить каждый в плотный шар.",
+        "Холодная расстойка при 4 °C 1–2 дня. Достать тесто из холодильника за 1½–2 ч до формовки.",
+        "Формовать по пошаговым фото в книге (с. 116).",
+        "Выложить половником 75 г соуса, оставляя край 2,5 см. Положить 100 г сыра и посолить его 1 г соли. Сразу выпекать: каждая пицца 4–10 мин (таблица выпечки неаполитанской пиццы, с. 117). После выпечки добавить 1 г базилика."
+      ],
+      "notes_ru": "Общее время в миксере около 1 ч 2 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 21 мин активно, 52½ ч пассивно.\nВыходит 4 пиццы из примерно 1 кг теста (ингредиенты в сумме дают 989 г)."
     },
     {
       "id": "modernist",
@@ -203,23 +239,28 @@
               "orig": "Bread flour or 00 pizza flour",
               "pct": 9.0909,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы"
             },
             {
               "en": "Water",
               "orig": "Water",
               "pct": 9.0909,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.0091,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "② Пулиш (за 12 ч)",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере (книга, с. 3·20)."
         },
         {
           "name": "① Water and yeast",
@@ -230,14 +271,16 @@
               "orig": "Water",
               "pct": 65.4545,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.5455,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             },
             {
               "en": "Fresh pineapple juice (dough relaxer)",
@@ -245,9 +288,12 @@
               "pct": 0.01,
               "flour": false,
               "water": 0.87,
-              "note": "add with the water, just before mixing. Book alternatives (%): kiwi juice 0.08, papaya juice 0.03, papain 0.01, meat tenderizer 0.01, bromelain powder 0.0005; powders go in with the dry ingredients"
+              "note": "add with the water, just before mixing. Book alternatives (%): kiwi juice 0.08, papaya juice 0.03, papain 0.01, meat tenderizer 0.01, bromelain powder 0.0005; powders go in with the dry ingredients",
+              "ru": "Свежий ананасовый сок (релаксант теста)",
+              "note_ru": "добавить в воду прямо перед замесом. Альтернативы из книги (%): сок киви 0,08, сок папайи 0,03, папаин 0,01, размягчитель для мяса 0,01, бромелайн в порошке 0,0005; порошки — вместе с сухими ингредиентами"
             }
-          ]
+          ],
+          "name_ru": "① Вода и дрожжи"
         },
         {
           "name": "③ Flour and dry ingredients",
@@ -257,30 +303,35 @@
               "orig": "Bread flour or 00 pizza flour",
               "pct": 90.9091,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы"
             },
             {
               "en": "Diastatic malt powder",
               "orig": "Diastatic malt powder",
               "pct": 1.8182,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Диастатический солодовый порошок"
             },
             {
               "en": "Polydextrose",
               "orig": "Polydextrose",
               "pct": 0.9091,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Полидекстроза"
             },
             {
               "en": "Soy lecithin powder",
               "orig": "Soy lecithin powder",
               "pct": 0.3636,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соевый лецитин в порошке"
             }
-          ]
+          ],
+          "name_ru": "③ Мука и сухие ингредиенты"
         },
         {
           "name": "④ Salt and oil",
@@ -290,16 +341,19 @@
               "orig": "Fine salt",
               "pct": 1.8182,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             },
             {
               "en": "Olive oil",
               "orig": "Olive oil",
               "pct": 0.9091,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Оливковое масло"
             }
-          ]
+          ],
+          "name_ru": "④ Соль и масло"
         },
         {
           "name": "⑥ New York topping",
@@ -312,14 +366,17 @@
               "pct": 54.5455,
               "flour": false,
               "water": 0,
-              "note": "book p. 132"
+              "note": "book p. 132",
+              "ru": "Томатный соус",
+              "note_ru": "книга, с. 132"
             },
             {
               "en": "Mozzarella, shredded",
               "orig": "Mozzarella, shredded",
               "pct": 72.7273,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Моцарелла тёртая"
             },
             {
               "en": "Pepperoni slices",
@@ -327,9 +384,13 @@
               "pct": 14.5455,
               "flour": false,
               "water": 0,
-              "note": "32–36 slices"
+              "note": "32–36 slices",
+              "ru": "Пепперони, ломтики",
+              "note_ru": "32–36 ломтиков"
             }
-          ]
+          ],
+          "name_ru": "⑥ Начинка «Нью-Йорк»",
+          "note_ru": "На пиццу 250 г: 75 г соуса, 100 г сыра, 20 г пепперони (8–9 ломтиков). Не входит в вес теста."
         }
       ],
       "method": [
@@ -342,7 +403,19 @@
         "Shape as in steps 11–12 of the master (p. 113–116).",
         "Ladle 75 g sauce on, leaving a 2.5 cm border. Sprinkle 100 g cheese and 20 g pepperoni over. Bake right away; each pizza takes 3–7 min (book's Neapolitan baking table, p. 117)."
       ],
-      "notes": "Total time by machine about 46 min active, 49 h 43 min inactive; by hand 1 h 5 min active, 52½ h inactive.\nMakes 4 pizzas. The dough relaxer is your choice (book p. 121); pineapple juice at 0.01 % is set as default, which is only about 0.05 g for a batch.\nSalt is 10 g here (11 g in the master)."
+      "notes": "Total time by machine about 46 min active, 49 h 43 min inactive; by hand 1 h 5 min active, 52½ h inactive.\nMakes 4 pizzas. The dough relaxer is your choice (book p. 121); pineapple juice at 0.01 % is set as default, which is only about 0.05 g for a batch.\nSalt is 10 g here (11 g in the master).",
+      "label_ru": "Модернист",
+      "method_ru": [
+        "Немного релаксанта делает полностью развитое тесто гораздо легче в раскатке — тонко и ровно. Он может сделать корочку менее хрустящей, поэтому добавлена полидекстроза. Соевый лецитин даёт больший объём. Когда освоите формовку, можно вернуться к неаполитанскому мастер-рецепту.",
+        "В миксере: налить ① в чашу и размешать до растворения дрожжей. Добавить пулиш ② и ③ и замесить на низкой скорости до лохматой массы. Добавить ④ и месить на средней скорости до полного развития клейковины. Переложить в слегка смазанный контейнер и хорошо накрыть.",
+        "Брожение 1½ ч с одной обминкой-«книжкой» через 1 ч и 30 мин отдыха после неё, под крышкой.",
+        "Вручную: растворить дрожжи в ①, добавить пулиш ② и ③ и замесить до лохматой массы, добавить ④ и вымешать до слабого развития клейковины. Брожение 4½ ч с 5 обминками (одна сразу, потом по одной каждый час) и 30 мин отдыха после последней.",
+        "Разделить на куски по 250 г и скруглить каждый в плотный шар. Выложить на противень с слегка смазанным пергаментом или в смазанный контейнер. Хорошо накрыть (тесто слегка смазать маслом, чтобы плёнка не прилипала).",
+        "Холодная расстойка при 4 °C ночь или до 2 дней. Достать за 1½–2 ч до формовки. Без холодной расстойки — расстаивать при 21 °C 1½–2 ч на противнях с пергаментом, присыпанным кукурузной крупой.",
+        "Формовать как в шагах 11–12 мастер-рецепта (с. 113–116).",
+        "Выложить половником 75 г соуса, оставляя край 2,5 см. Посыпать 100 г сыра и выложить 20 г пепперони. Сразу выпекать: каждая пицца 3–7 мин (таблица выпечки неаполитанской пиццы, с. 117)."
+      ],
+      "notes_ru": "Общее время в миксере около 46 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 5 мин активно, 52½ ч пассивно.\nВыходит 4 пиццы. Релаксант теста на ваш выбор (книга, с. 121); по умолчанию ананасовый сок 0,01 % — это всего около 0,05 г на замес.\nСоли здесь 10 г (в мастер-рецепте 11 г)."
     },
     {
       "id": "newyork",
@@ -364,23 +437,28 @@
               "orig": "Bread flour",
               "pct": 13.6364,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная"
             },
             {
               "en": "Water",
               "orig": "Water",
               "pct": 13.6364,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.0136,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "② Пулиш (за 12 ч)",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере (книга, с. 3·20)."
         },
         {
           "name": "① Water and yeast",
@@ -391,16 +469,19 @@
               "orig": "Water",
               "pct": 60.9091,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.5455,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "① Вода и дрожжи"
         },
         {
           "name": "③ Flour",
@@ -410,16 +491,19 @@
               "orig": "Bread flour",
               "pct": 86.3636,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная"
             },
             {
               "en": "Diastatic malt powder",
               "orig": "Diastatic malt powder",
               "pct": 1.8182,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Диастатический солодовый порошок"
             }
-          ]
+          ],
+          "name_ru": "③ Мука"
         },
         {
           "name": "④ Salt and oil",
@@ -429,16 +513,19 @@
               "orig": "Fine salt",
               "pct": 2.0,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             },
             {
               "en": "Olive oil",
               "orig": "Olive oil",
               "pct": 0.9091,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Оливковое масло"
             }
-          ]
+          ],
+          "name_ru": "④ Соль и масло"
         },
         {
           "name": "⑤ Topping",
@@ -451,23 +538,29 @@
               "pct": 36.3636,
               "flour": false,
               "water": 0,
-              "note": "book p. 132"
+              "note": "book p. 132",
+              "ru": "Томатный соус",
+              "note_ru": "книга, с. 132"
             },
             {
               "en": "Part-skim mozzarella, shredded",
               "orig": "Part-skim mozzarella, shredded",
               "pct": 65.4545,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Моцарелла пониженной жирности, тёртая"
             },
             {
               "en": "Pepperoni, thinly sliced (optional)",
               "orig": "Pepperoni, thinly sliced (optional)",
               "pct": 20.0,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Пепперони тонкими ломтиками (по желанию)"
             }
-          ]
+          ],
+          "name_ru": "⑤ Начинка",
+          "note_ru": "Разделить поровну на все пиццы. Не входит в вес теста."
         }
       ],
       "method": [
@@ -485,7 +578,24 @@
         "Deck: preheat 245 °C for 1 h; 2–4 min initial, vent at 11 min, 13–15 min total.",
         "Wood-fired or gas pizza oven: preheat 280 °C for 1 h; 13–15 min, turning 180° after the first 3 min."
       ],
-      "notes": "Total time by machine about 59 min active, 49 h 43 min inactive; by hand 1 h 18 min active, 52½ h inactive.\nThe default 330 g piece is for a home oven (3 pizzas); switch to 500 g for 2 large pizzas in a deck or pizza oven."
+      "notes": "Total time by machine about 59 min active, 49 h 43 min inactive; by hand 1 h 18 min active, 52½ h inactive.\nThe default 330 g piece is for a home oven (3 pizzas); switch to 500 g for 2 large pizzas in a deck or pizza oven.",
+      "label_ru": "Нью-Йорк",
+      "method_ru": [
+        "В миксере: налить ① в чашу и размешать до растворения дрожжей. Добавить пулиш ② и ③ и замесить на низкой скорости до лохматой массы. Добавить ④ и месить на средней скорости до полного развития клейковины. Переложить в слегка смазанный контейнер и хорошо накрыть.",
+        "Брожение 1½ ч с одной обминкой-«книжкой» через 1 ч и 30 мин отдыха после неё, под крышкой.",
+        "Вручную: растворить дрожжи в ①, добавить пулиш ② и ③ и замесить до лохматой массы, добавить ④ и вымешать до слабого развития клейковины. Брожение 4½ ч с 5 обминками (одна сразу, потом по одной каждый час) и 30 мин отдыха после последней.",
+        "Делить по типу печи: 2 × 500 г для подовой или печи для пиццы, 3 × 330 г для домашней, конвекционной или комби-печи. Скруглить каждый кусок в шар.",
+        "Холодная расстойка при 4 °C 1–2 дня (24–48 ч). Достать за 2 ч до формовки.",
+        "Прижать каждый кусок в диск 15 см, чуть толще по краю. Поднять и растянуть на тыльной стороне кулаков: до 50 см для 500 г, до 35 см для 330 г. Сохранить утолщённый край около 2,5 см.",
+        "Равномерно распределить начинку. Переложить на лопату или противень без бортов и выпекать; каждая пицца 9–15 мин.",
+        "Домашняя газовая духовка: камень или сталь в 20 см под грилем, разогрев 260 °C 1 ч, за 5 мин до выпечки включить сильный гриль; 10–12 мин.",
+        "Домашняя электрическая духовка: камень или сталь в 10 см под грилем, такой же разогрев и гриль; 10–12 мин.",
+        "Конвекция: камень или сталь на решётке, разогрев 230 °C 30–45 мин, сильный обдув; начальная выпечка 2–6 мин, открыть клапан на 8 мин, всего 10–14 мин.",
+        "Комби: как конвекция; начальная 1–4 мин, клапан на 8 мин, всего 9–12 мин.",
+        "Подовая печь: разогрев 245 °C 1 ч; начальная 2–4 мин, клапан на 11 мин, всего 13–15 мин.",
+        "Дровяная или газовая печь для пиццы: разогрев 280 °C 1 ч; 13–15 мин, развернуть на 180° после первых 3 мин."
+      ],
+      "notes_ru": "Общее время в миксере около 59 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 18 мин активно, 52½ ч пассивно.\nПо умолчанию кусок 330 г — для домашней духовки (3 пиццы); для 2 больших пицц в подовой печи или печи для пиццы поставьте 500 г."
     },
     {
       "id": "sicilian",
@@ -506,23 +616,28 @@
               "orig": "Bread flour",
               "pct": 8.547,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная"
             },
             {
               "en": "Water",
               "orig": "Water",
               "pct": 8.547,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.0085,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "② Пулиш (за 12 ч)",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере (книга, с. 3·20)."
         },
         {
           "name": "① Water and yeast",
@@ -533,16 +648,19 @@
               "orig": "Water",
               "pct": 56.4103,
               "flour": false,
-              "water": 1
+              "water": 1,
+              "ru": "Вода"
             },
             {
               "en": "Instant dry yeast",
               "orig": "Instant dry yeast",
               "pct": 0.5128,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие"
             }
-          ]
+          ],
+          "name_ru": "① Вода и дрожжи"
         },
         {
           "name": "② Flour (with the poolish)",
@@ -553,9 +671,11 @@
               "orig": "Bread flour",
               "pct": 91.453,
               "flour": true,
-              "water": 0
+              "water": 0,
+              "ru": "Мука хлебопекарная"
             }
-          ]
+          ],
+          "name_ru": "② Мука (с пулишем)"
         },
         {
           "name": "③ Salt and oil",
@@ -565,16 +685,19 @@
               "orig": "Fine salt",
               "pct": 2.0513,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Соль мелкая"
             },
             {
               "en": "Olive oil",
               "orig": "Olive oil",
               "pct": 0.8547,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Оливковое масло"
             }
-          ]
+          ],
+          "name_ru": "③ Соль и масло"
         },
         {
           "name": "④ Topping",
@@ -587,16 +710,21 @@
               "pct": 51.2821,
               "flour": false,
               "water": 0,
-              "note": "book p. 132"
+              "note": "book p. 132",
+              "ru": "Томатный соус",
+              "note_ru": "книга, с. 132"
             },
             {
               "en": "Part-skim mozzarella, shredded",
               "orig": "Part-skim mozzarella, shredded",
               "pct": 18.8034,
               "flour": false,
-              "water": 0
+              "water": 0,
+              "ru": "Моцарелла пониженной жирности, тёртая"
             }
-          ]
+          ],
+          "name_ru": "④ Начинка",
+          "note_ru": "Количества в книге — на кусок теста 1 кг; для пицц поменьше разделить поровну. Не входит в вес теста."
         }
       ],
       "method": [
@@ -609,7 +737,27 @@
         "Cheese goes on first: sprinkle it evenly over the dough, then spread the tomato sauce on top, leaving about a 1.25 cm border. This way the sauce covers the cheese and it melts without browning.",
         "Bake until golden on the bottom, 10–45 min (book's focaccia baking table, p. 91). Take it out of the pan right away with an offset spatula and cool on a wire rack so the base doesn't go soggy."
       ],
-      "notes": "Total time by machine about 16 min active, 6 h 58 min inactive; by hand 24 min active, 8 h 15 min inactive.\nThe thickest pizza, up to 5 cm; the generous oil in the pan gives a crispy, almost fried crust. Usually baked, cooled and portioned, but fine eaten warm."
+      "notes": "Total time by machine about 16 min active, 6 h 58 min inactive; by hand 24 min active, 8 h 15 min inactive.\nThe thickest pizza, up to 5 cm; the generous oil in the pan gives a crispy, almost fried crust. Usually baked, cooled and portioned, but fine eaten warm.",
+      "label_ru": "Сицилия",
+      "sub_ru": "в форме · с. 124",
+      "method_ru": [
+        "В миксере: налить ① в чашу и размешать до растворения дрожжей. Добавить ② (пулиш и муку) и замесить на средней скорости до лохматой массы. Автолиз 30 мин. Добавить ③ и месить на средней до среднего развития клейковины. Переложить в слегка смазанный контейнер и хорошо накрыть.",
+        "Брожение 2½ ч с 2 обминками-«книжками» (по одной каждый час) и 30 мин отдыха после последней. Проверить тестом на «окошко».",
+        "Вручную: растворить дрожжи в ①, добавить ② и замесить до лохматой массы, автолиз 20–30 мин, добавить ③ и вымешать до однородности. Брожение 4 ч с 6 обминками (первая через 1 ч, потом каждые 30 мин). Для полного развития клейковины может понадобиться больше обминок и времени.",
+        "Щедро смазать форму(ы) оливковым маслом. Одна большая прямоугольная пицца (не делить) или 2 средние (по 500 г).",
+        "Выложить тесто в форму, полить сверху маслом и пальцами растянуть его по форме, не разрывая. Продолжать, пока тесто не дойдёт до углов.",
+        "Окончательная расстойка под крышкой. При 27 °C и влажности 65 %: большая 1½–2 ч, средняя 30–45 мин. При 21 °C: большая 2–3 ч, средняя 1–1½ ч.",
+        "Сначала сыр: равномерно посыпать тесто, затем сверху соус, оставляя край около 1,25 см. Так соус укрывает сыр, и он плавится, не подрумяниваясь.",
+        "Выпекать до золотистого низа, 10–45 мин (таблица выпечки фокаччи, с. 91). Сразу вынуть из формы лопаткой и остудить на решётке, чтобы низ не отсырел."
+      ],
+      "notes_ru": "Общее время в миксере около 16 мин активно, 6 ч 58 мин пассивно; вручную 24 мин активно, 8 ч 15 мин пассивно.\nСамая толстая пицца, до 5 см; много масла в форме даёт хрустящую, почти жареную корочку. Обычно её пекут, остужают и режут на порции, но можно есть и тёплой."
     }
-  ]
+  ],
+  "category_ru": "Лепёшки",
+  "tags_ru": [
+    "пицца",
+    "лепёшка",
+    "пулиш"
+  ],
+  "variantLabel_ru": "Стиль"
 }
