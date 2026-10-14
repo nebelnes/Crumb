@@ -58,6 +58,6 @@ Ingredient fields:
 
 A recipe can have `"variants": [...]` plus `"variantLabel"`. Each variant has `id`, `label`, optional `sub`, and its own `stages`, `method`, `notes` and `yield`, which override the shared fields. The app shows them as buttons.
 
-`yield.label`, `yield.hint` and `yield.slider` (`min`, `max`, `step`) set up the amount slider.
+`yield.label`, `yield.hint` and `yield.slider` (`min`, `max`, `step`) set up the dough-weight slider; `yield.pieceSlider` sets the weight-per-piece slider (default 50–250 g).
 
 Status `placeholder` shows a red banner: the formula is not from the source yet.

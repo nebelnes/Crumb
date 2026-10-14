@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-14 — Naan dough-weight range
+- Naan "By dough weight" slider now runs 500–2,000 g. Weight-per-piece and dough-weight sliders can have separate ranges.
+
 ## 2026-10-14 — Naan (Modernist Bread)
 - Added Naan with two versions: Master (vol. 5 p. 17, with yogurt) and Modernist (p. 22–23, probiotic capsule + pineapple-juice dough relaxer). Draft until checked.
 - Totals box now names the "on top" items (e.g. "with ghee").
