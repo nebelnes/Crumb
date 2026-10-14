@@ -1,0 +1,267 @@
+{
+  "id": "naan-modernist-bread",
+  "name": {
+    "en": "Naan",
+    "orig": "Naan"
+  },
+  "category": "Flatbreads",
+  "tags": [
+    "naan",
+    "flatbread",
+    "yeasted"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II: master recipe p. 17, Modernist Naan p. 22–23"
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master",
+      "sub": "with yogurt · p. 17",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 45.69,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "pct": 24.14,
+              "flour": false,
+              "water": 0.87
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "pct": 0.69,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.69,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "pct": 68.1,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "pct": 31.9,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "pct": 1.72,
+              "flour": false,
+              "water": 0.85,
+              "note": "full-fat recommended; low-fat or skim also works"
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 1.72,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "time": "",
+          "temp": "",
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "pct": 9.4828,
+              "flour": false,
+              "water": 0,
+              "extra": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "By machine: put ① in the mixer bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, then autolyse 20–30 min. Add ③ and mix on medium to full gluten development.",
+        "Move to a lightly oiled tub, cover well. Bulk 1 h with one book fold after 30 min.",
+        "Divide into 100 g pieces and roll each into a tight ball. Rest 45 min, well covered.",
+        "Roll each ball into a 15 cm disc. For the teardrop shape, stretch one end out.",
+        "Dock the dough all over with a fork right before baking so it doesn't puff too much.",
+        "Bake straight away, very hot: each naan takes 2–5 min (book's baking table, p. 21). Brush with ghee as soon as it comes out.",
+        "By hand instead: stir ① until the yeast dissolves, mix in ② to a shaggy mass, autolyse 30 min, add ③ and mix to low gluten development. Bulk 4½ h with 4 folds, one every hour after the first hour, and 30 min rest after the last fold.",
+        "Optional topping: spray with water, press cilantro leaves in with a rolling pin, spray again and sprinkle sesame before baking."
+      ],
+      "notes": "Total time by machine: about 1 h 8 min active, 2 h 27 min inactive. By hand: about 1 h 17 min active, 5 h 45 min inactive.\nYield about 1 kg of dough, 10 flatbreads. Eat the same day, ideally warm, or freeze up to 2 months."
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "sub": "probiotic + relaxer · p. 22",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "pct": 45.69,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "pct": 24.14,
+              "flour": false,
+              "water": 0.87
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "pct": 0.69,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "pct": 0.69,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "pct": 68.1,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "pct": 31.9,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Probiotic capsule contents",
+              "orig": "Probiotic capsule contents",
+              "pct": 1.72,
+              "flour": false,
+              "water": 0,
+              "note": "break the capsule open and add the powder with the flours; crush pills finely if that's all you have"
+            },
+            {
+              "en": "Fresh pineapple juice (dough relaxer)",
+              "orig": "Fresh pineapple juice (dough relaxer)",
+              "pct": 0.05,
+              "flour": false,
+              "water": 0.87,
+              "note": "add with the water, just before mixing. Book alternatives: kiwi juice 0.08 %, papaya juice 0.01 %, papain 0.01 %, meat tenderizer 0.01 %, bromelain powder 0.0005 %"
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "pct": 1.72,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "time": "",
+          "temp": "",
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "pct": 9.4828,
+              "flour": false,
+              "water": 0,
+              "extra": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Same method as the master recipe. The probiotic replaces the yogurt and gives a stronger tangy flavor; the dough relaxer makes the dough easier to roll and stops it shrinking back.",
+        "By machine: put ① in the mixer bowl and add the pineapple juice and stir until the yeast dissolves. Add ② (with the probiotic powder), mix on low to a shaggy mass, then autolyse 20–30 min. Add ③ and mix on medium to full gluten development.",
+        "Move to a lightly oiled tub, cover well. Bulk 1 h with one book fold after 30 min.",
+        "Divide into 100 g pieces and roll each into a tight ball. Rest 45 min, well covered.",
+        "Roll each ball into a 15 cm disc. For the teardrop shape, stretch one end out.",
+        "Dock the dough all over with a fork right before baking so it doesn't puff too much.",
+        "Bake straight away, very hot: each naan takes 2–5 min (book's baking table, p. 21). Brush with ghee as soon as it comes out.",
+        "By hand instead: stir ① until the yeast dissolves, mix in ② to a shaggy mass, autolyse 30 min, add ③ and mix to low gluten development. Bulk 4½ h with 4 folds, one every hour after the first hour, and 30 min rest after the last fold."
+      ],
+      "notes": "Yield about 1 kg of dough, 10 flatbreads. Eat the same day, ideally warm, or freeze up to 2 months.\nThe book lets you choose the dough relaxer (p. 23). Pineapple juice is set as default; tell me if you use a different one."
+    }
+  ]
+}

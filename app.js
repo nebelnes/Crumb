@@ -231,7 +231,7 @@ function renderRecipe(id) {
     const r = cur();
     const res = calc(r, c);
     const cond = s => [s.time, s.temp].filter(Boolean).map(esc).join(' · ');
-    const hasExtra = allIngredients(r).some(i => i.extra);
+    const extras = allIngredients(r).filter(i => i.extra).map(i => i.en.split(',')[0].toLowerCase());
     document.getElementById('out').innerHTML = `
       ${!res.flourOk ? `<div class="warn">Flour rows add up to ${pct(res.flourPct)} % instead of 100 %. Check the percentages.</div>` : ''}
       ${res.stages.map(s => `
@@ -252,7 +252,7 @@ function renderRecipe(id) {
           ${s.note ? `<p class="stage-cond">${esc(s.note)}</p>` : ''}
         </div>`).join('')}
       <div class="totals">
-        <div class="tot"><div class="k">Total${hasExtra ? ', with salt and yeast' : ''}</div><div class="v">${grams(res.dough)} g</div></div>
+        <div class="tot"><div class="k">Total${extras.length ? ', with ' + extras.join(' and ') : ''}</div><div class="v">${grams(res.dough)} g</div></div>
         <div class="tot"><div class="k">Formula flour (100 %)</div><div class="v">${grams(res.freshFlour)} g</div></div>
         <div class="tot"><div class="k">Total flour, incl. starters</div><div class="v">${grams(res.allFlour)} g</div></div>
         <div class="tot"><div class="k">Effective hydration</div><div class="v">${num(res.hydration, 1)} %</div></div>
