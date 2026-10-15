@@ -1,6 +1,9 @@
 # Change log
 
-## (pending approval) — Richemont poolish breads
+## 2026-10-15 — Dough weight range
+- The dough-weight slider now goes from 500 g to 3,500 g in every bread recipe (КМКЗ keeps its small starter range).
+
+## 2026-10-15 — Richemont breads
 - Parisette with poolish, Jagged bread and Provence bread from the Richemont Craft School book, scaled to home size, with reference photos (tap to enlarge).
 - Plus 15 sponge-dough breads from the same book (Lucerne, Ciabatta bigia, Mutschli, two baking-powder loaves, El Prestinee, four rye breads, Emmer, Spelt ciabatta, Kamut pyramid, two barley breads). All Richemont recipes are grouped under the category Richemont Breads.
 - Plus 8 straight-dough breads with no fermented dough: Comb bread, Wholemeal bread, Crispy bread with yoghurt, Butter twist, Coconut-date bread, Sun bread, Original spelt-wholemeal bread and Amaranth ring. 26 Richemont recipes in total.
