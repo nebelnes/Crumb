@@ -211,7 +211,7 @@ function renderList() {
       <a class="rcard" href="#/r/${encodeURIComponent(r.id)}">
         <h2>${esc(recName(r))}</h2>
         ${recAlt(r) ? `<div class="orig">${esc(recAlt(r))}</div>` : ''}
-        ${r.variants ? `<div class="orig">${esc(L(r, 'variantLabel') || T('variants'))}: ${r.variants.map(v => esc(L(v, 'label', true))).join(' · ')}</div>` : ''}
+        ${r.groups ? `<div class="orig">${r.groups.map(g => esc(L(g, 'label'))).join(' · ')}</div>` : r.variants ? `<div class="orig">${esc(L(r, 'variantLabel') || T('variants'))}: ${r.variants.map(v => esc(L(v, 'label', true))).join(' · ')}</div>` : ''}
         <div class="meta">${badge(r.status)}${catOf(r) ? `<span class="tag">${esc(catOf(r))}</span>` : ''}${tagsOf(r).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
       </a>`).join('') || `<p class="muted">${esc(T('nothing'))}</p>`;
     document.getElementById('count').textContent = T('count')(items.length, state.recipes.length);
@@ -233,9 +233,12 @@ function renderRecipe(id) {
   window.scrollTo(0, 0);
 
   const variants = r0.variants || null;
+  // groups: optional tabs above the version buttons (e.g. КМКЗ: start / refresh / ripe dough)
+  const groups = r0.groups || null;
+  const groupOf = id => groups ? groups.find(g => g.id === id) : null;
   const saved = store('calc:' + r0.id) || {};
   const firstV = variants ? (variants.find(v => v.id === saved.variant) || variants[0]) : null;
-  const y0 = Object.assign({}, r0.yield, firstV?.yield);
+  const y0 = Object.assign({}, r0.yield, groupOf(firstV?.group)?.yield, firstV?.yield);
   const c = Object.assign({
     variant: firstV?.id,
     mode: y0.mode || 'pieces',
@@ -244,12 +247,15 @@ function renderRecipe(id) {
     total: y0.total || (y0.pieces || 1) * (y0.pieceWeight || 500),
     loss: y0.loss || 0,
   }, saved);
+  c.byGroup = c.byGroup || {};   // per tab: last version and amount
 
   // current recipe = shared fields + selected variant (ratio)
   const cur = () => {
     if (!variants) return r0;
     const v = variants.find(x => x.id === c.variant) || variants[0];
-    return { ...r0, ...v, id: r0.id, name: r0.name, yield: Object.assign({}, r0.yield, v.yield), _variant: v };
+    const g = groupOf(v.group) || {};
+    return { ...r0, ...v, id: r0.id, name: r0.name, status: v.status || g.status || r0.status,
+      yield: Object.assign({}, r0.yield, g.yield, v.yield), _variant: v, _group: g };
   };
   const save = () => store('calc:' + r0.id, c);
 
@@ -261,14 +267,14 @@ function renderRecipe(id) {
         ${recAlt(r0) ? `<div class="orig">${esc(recAlt(r0))}</div>` : ''}
         <div class="summary" id="summary"></div>
       </div>
-      ${variants ? `
-        <div class="variants" id="variants" style="--n:${Math.min(variants.length, 4)}" role="group" aria-label="${esc(L(r0, 'variantLabel') || T('variant'))}">
-          ${variants.map(v => `<button type="button" data-v="${esc(v.id)}" aria-pressed="${v.id === c.variant}">
-            <b>${esc(L(v, 'label', true))}</b>${L(v, 'sub', true) ? `<span>${esc(L(v, 'sub', true))}</span>` : ''}</button>`).join('')}
+      ${groups ? `
+        <div class="tabs" id="tabs" role="tablist" style="--n:${groups.length}">
+          ${groups.map(g => `<button type="button" role="tab" data-g="${esc(g.id)}">${esc(L(g, 'label'))}</button>`).join('')}
         </div>` : ''}
-      <div class="meta">${badge(r0.status)}${L(r0, 'category') ? `<span class="tag">${esc(L(r0, 'category'))}</span>` : ''}${(L(r0, 'tags') || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+      ${variants ? `<div class="variants" id="variants" role="group" aria-label="${esc(L(r0, 'variantLabel') || T('variant'))}"></div>` : ''}
+      <div class="meta"><span id="badge"></span>${L(r0, 'category') ? `<span class="tag">${esc(L(r0, 'category'))}</span>` : ''}${(L(r0, 'tags') || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
       ${r0.source && SHOW_SOURCES ? `<div class="source">${esc(T('source'))}: ${sourceText(r0.source)}</div>` : ''}
-      ${r0.status === 'placeholder' ? `<div class="placeholder-banner">${esc(T('phBanner'))}</div>` : ''}
+      <div id="phbanner"></div>
     </section>
 
     <section class="card amount-card">
@@ -284,13 +290,16 @@ function renderRecipe(id) {
   `;
 
   // slider ranges: yield.slider for the main amount, yield.pieceSlider for weight per piece
-  const ranges = {
-    total: Object.assign({ min: 50, max: 2500, step: 5 }, r0.yield?.slider),
-    pieceWeight: Object.assign({ min: 50, max: 250, step: 5 }, r0.yield?.pieceSlider),
+  const ranges = () => {
+    const y = cur().yield || {};
+    return {
+      total: Object.assign({ min: 50, max: 2500, step: 5 }, y.slider),
+      pieceWeight: Object.assign({ min: 50, max: 250, step: 5 }, y.pieceSlider),
+    };
   };
 
   const slider = (key, label, hint) => {
-    const sl = ranges[key];
+    const sl = ranges()[key];
     const v = c[key];
     const max = Math.max(sl.max, v);
     return `
@@ -362,7 +371,38 @@ function renderRecipe(id) {
 `;
   };
 
-  drawAmount(); drawOut(); drawInfo();
+  // version buttons (only the current tab's) and tab state
+  const drawVariants = () => {
+    if (!variants) return;
+    const r = cur();
+    const list = groups ? variants.filter(v => v.group === r._variant.group) : variants;
+    const box = document.getElementById('variants');
+    box.dataset.count = list.length;
+    box.innerHTML = list.map(v => `<button type="button" data-v="${esc(v.id)}" aria-pressed="${v.id === c.variant}">
+      <b>${esc(L(v, 'label', true))}</b>${L(v, 'sub', true) ? `<span>${esc(L(v, 'sub', true))}</span>` : ''}</button>`).join('');
+    document.querySelectorAll('#tabs button').forEach(t => t.setAttribute('aria-selected', t.dataset.g === r._variant.group));
+  };
+  const drawStatus = () => {
+    const r = cur();
+    document.getElementById('badge').outerHTML = `<span id="badge">${badge(r.status)}</span>`;
+    document.getElementById('phbanner').innerHTML = r.status === 'placeholder' ? `<div class="placeholder-banner">${esc(T('phBanner'))}</div>` : '';
+  };
+
+  drawVariants(); drawStatus(); drawAmount(); drawOut(); drawInfo();
+
+  document.getElementById('tabs')?.addEventListener('click', e => {
+    const t = e.target.closest('button[data-g]'); if (!t) return;
+    const from = cur()._variant.group, to = t.dataset.g;
+    if (from === to) return;
+    c.byGroup[from] = { variant: c.variant, total: c.total };   // remember this tab
+    const back = c.byGroup[to] || {};
+    const first = variants.find(v => v.group === to);
+    c.variant = (back.variant && variants.some(v => v.id === back.variant)) ? back.variant : first.id;
+    const y = cur().yield || {};
+    c.total = back.total ?? y.total ?? c.total;
+    if (y.mode) c.mode = y.mode;
+    save(); drawVariants(); drawStatus(); drawAmount(); drawOut(); drawInfo();
+  });
 
   document.getElementById('variants')?.addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
@@ -371,7 +411,7 @@ function renderRecipe(id) {
     const vy = (variants.find(x => x.id === c.variant) || {}).yield || {};
     if (vy.pieceWeight) { c.pieceWeight = vy.pieceWeight; if (vy.pieces) c.pieces = vy.pieces; drawAmount(); }
     document.querySelectorAll('#variants button').forEach(x => x.setAttribute('aria-pressed', x === b));
-    save(); drawOut(); drawInfo();
+    save(); drawStatus(); drawOut(); drawInfo();
   });
   document.getElementById('mode')?.addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;

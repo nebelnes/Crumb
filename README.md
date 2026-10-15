@@ -60,6 +60,8 @@ A recipe can have `"variants": [...]` plus `"variantLabel"`. Each variant has `i
 
 `yield.label`, `yield.hint` and `yield.slider` (`min`, `max`, `step`) set up the dough-weight slider; `yield.pieceSlider` sets the weight-per-piece slider (default 50–250 g).
 
+Tabs: a recipe can also have `"groups": [{"id", "label", "label_ru", "status", "yield"}]`; each variant then names its tab with `"group"`. The app shows the tabs above the version buttons (used by КМКЗ: start / refresh / ripe dough).
+
 A stage with `"topping": true` (sauce, cheese, ghee…) scales with the dough but isn't counted in the dough weight, flour or hydration.
 
 Russian text: any text field can have a `_ru` twin (`name.ru`, `category_ru`, `tags_ru`, `variantLabel_ru`, variant `label_ru`/`sub_ru`/`method_ru`/`notes_ru`, stage `name_ru`/`note_ru`, ingredient `ru`/`note_ru`, yield `label_ru`/`hint_ru`). Without one, the English text is shown.

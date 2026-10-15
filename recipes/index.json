@@ -1,8 +1,6 @@
 {
   "recipes": [
-    "kmkz-start.json",
-    "kmkz-refresh.json",
-    "ripe-dough-kmkz.json",
+    "kmkz.json",
     "naan-modernist-bread.json",
     "focaccia-modernist-bread.json",
     "pizza-modernist-bread.json"

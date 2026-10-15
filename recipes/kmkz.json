@@ -1,0 +1,865 @@
+{
+  "id": "kmkz",
+  "name": {
+    "en": "КМКЗ",
+    "ru": "КМКЗ",
+    "orig": "КМКЗ"
+  },
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "tags": [
+    "rye",
+    "starter",
+    "КМКЗ",
+    "ripe dough"
+  ],
+  "tags_ru": [
+    "ржаной",
+    "закваска",
+    "КМКЗ",
+    "спелое тесто"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "sheet",
+    "title": "«Калькулятор КМКЗ» sheet",
+    "detail": "tab «Освежение»",
+    "url": "https://docs.google.com/spreadsheets/d/1Ne3ZHto0I0OdSSCHWVtowaeGHbMPAaM3RuUnCGzqNVQ/edit",
+    "detail_ru": "лист «Освежение»",
+    "title_ru": "Таблица «Калькулятор КМКЗ»"
+  },
+  "yield": {
+    "mode": "total",
+    "total": 290,
+    "pieces": 1,
+    "pieceWeight": 290,
+    "loss": 0
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "groups": [
+    {
+      "id": "start",
+      "label": "Start",
+      "label_ru": "Разведение",
+      "status": "verified",
+      "source": {
+        "type": "text",
+        "title": "Text you sent",
+        "title_ru": "Ваш текст"
+      },
+      "yield": {
+        "total": 290,
+        "label": "How much КМКЗ to make",
+        "label_ru": "Сколько КМКЗ развести",
+        "slider": {
+          "min": 50,
+          "max": 1000,
+          "step": 5
+        }
+      }
+    },
+    {
+      "id": "refresh",
+      "label": "Refresh",
+      "label_ru": "Освежение",
+      "status": "draft",
+      "source": {
+        "type": "sheet",
+        "title": "«Калькулятор КМКЗ» sheet",
+        "detail": "tab «Освежение»",
+        "url": "https://docs.google.com/spreadsheets/d/1Ne3ZHto0I0OdSSCHWVtowaeGHbMPAaM3RuUnCGzqNVQ/edit",
+        "detail_ru": "лист «Освежение»",
+        "title_ru": "Таблица «Калькулятор КМКЗ»"
+      },
+      "yield": {
+        "total": 290,
+        "label": "How much КМКЗ you need",
+        "slider": {
+          "min": 20,
+          "max": 1000,
+          "step": 5
+        },
+        "label_ru": "Сколько нужно КМКЗ"
+      }
+    },
+    {
+      "id": "ripe",
+      "label": "Ripe dough",
+      "label_ru": "Спелое тесто",
+      "status": "draft",
+      "source": {
+        "type": "sheet",
+        "title": "«Калькулятор КМКЗ» sheet",
+        "detail": "tab «Спелое тесто на КМКЗ»",
+        "url": "https://docs.google.com/spreadsheets/d/1Ne3ZHto0I0OdSSCHWVtowaeGHbMPAaM3RuUnCGzqNVQ/edit",
+        "detail_ru": "лист «Спелое тесто на КМКЗ»",
+        "title_ru": "Таблица «Калькулятор КМКЗ»"
+      },
+      "yield": {
+        "total": 170,
+        "label": "How much ripe dough you need",
+        "hint": "As in the sheet: КМКЗ + flour + water. Salt and yeast go on top.",
+        "slider": {
+          "min": 50,
+          "max": 2500,
+          "step": 5
+        },
+        "label_ru": "Сколько нужно спелого теста",
+        "hint_ru": "Как в таблице: КМКЗ + мука + вода. Соль и дрожжи добавляются сверху."
+      }
+    }
+  ],
+  "variants": [
+    {
+      "id": "start-grain",
+      "label": "Malt + grain",
+      "label_ru": "Солод + зерно",
+      "sub": "№ 1 · 18–24 h",
+      "sub_ru": "№ 1 · 18–24 ч",
+      "stages": [
+        {
+          "name": "Starter",
+          "name_ru": "Закваска",
+          "time": "18–24 h",
+          "temp": "40 °C",
+          "ingredients": [
+            {
+              "en": "White rye malt, crushed",
+              "ru": "Ржаной белый солод, дробина",
+              "orig": "Ржаной белый солод, дробина",
+              "pct": 25.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Rye grain, crushed",
+              "ru": "Ржаное зерно, дробина",
+              "orig": "Ржаное зерно, дробина",
+              "pct": 75.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 45 °C",
+              "ru": "Вода 45 °C",
+              "orig": "Вода 45 °C",
+              "pct": 180.0,
+              "flour": false,
+              "water": 1,
+              "note": "ml → g (1 ml = 1 g)",
+              "note_ru": "мл → г (1 мл = 1 г)",
+              "converted": true
+            },
+            {
+              "en": "Vinegar 5 %",
+              "ru": "Уксус 5 %",
+              "orig": "Уксус 5 %",
+              "pct": 10.0,
+              "flour": false,
+              "water": 1,
+              "note": "counted as water in the 190 %; ml → g (1 ml = 1 g). For a different strength, adjust the amount",
+              "note_ru": "в 190 % считается водой; мл → г (1 мл = 1 г). При уксусе другой крепости скорректировать количество",
+              "converted": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix the crushed malt, crushed rye grain, 45 °C water and vinegar.",
+        "Ferment at 40 °C.",
+        "Stir after 12 h to speed up souring.",
+        "It's ready when fully soured: in the author's test that took 18 h."
+      ],
+      "method_ru": [
+        "Смешать дробину солода, дробину ржи, воду 45 °C и уксус.",
+        "Бродить при 40 °C.",
+        "Через 12 ч перемешать, чтобы ускорить закисание.",
+        "Готова, когда полностью закисла: у автора — за 18 ч."
+      ],
+      "notes": "Combines the 24-hour flour КМКЗ with the two-stage malt КМКЗ. Success rate close to 100 %.\nCrushed whole rye grain and malt soured unusually fast. The 25 % malt keeps saccharification going slowly even at 40 °C, and both malt and grain carry plenty of microflora and minerals for fermentation.\nHydration (влажность) 190 %.",
+      "notes_ru": "Комбинированный метод: мучная КМКЗ за 24 часа + солодовая КМКЗ в 2 этапа. Вероятность закисания близка к 100 %.\nЦельнозерновая дробина ржи и солода закисает очень быстро. 25 % солода поддерживают осахаривание, хоть и медленное, даже при 40 °C; солод и зерно богаты микрофлорой и минералами для брожения.\nВлажность 190 %.",
+      "group": "start"
+    },
+    {
+      "id": "start-flour",
+      "label": "Malt + flour",
+      "label_ru": "Солод + мука",
+      "sub": "№ 2 · 24 h",
+      "sub_ru": "№ 2 · 24 ч",
+      "stages": [
+        {
+          "name": "Starter",
+          "name_ru": "Закваска",
+          "time": "24 h",
+          "temp": "40 °C",
+          "ingredients": [
+            {
+              "en": "White rye malt, crushed",
+              "ru": "Ржаной белый солод, дробина",
+              "orig": "Ржаной белый солод, дробина",
+              "pct": 25.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Whole-grain rye flour",
+              "ru": "Ржаная цельнозерновая мука",
+              "orig": "Ржаная цельнозерновая мука",
+              "pct": 75.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 45 °C",
+              "ru": "Вода 45 °C",
+              "orig": "Вода 45 °C",
+              "pct": 180.0,
+              "flour": false,
+              "water": 1,
+              "note": "ml → g (1 ml = 1 g)",
+              "note_ru": "мл → г (1 мл = 1 г)",
+              "converted": true
+            },
+            {
+              "en": "Vinegar 5 %",
+              "ru": "Уксус 5 %",
+              "orig": "Уксус 5 %",
+              "pct": 10.0,
+              "flour": false,
+              "water": 1,
+              "note": "counted as water in the 190 %; ml → g (1 ml = 1 g). For a different strength, adjust the amount",
+              "note_ru": "в 190 % считается водой; мл → г (1 мл = 1 г). При уксусе другой крепости скорректировать количество",
+              "converted": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix the crushed malt, whole-grain rye flour, 45 °C water and vinegar.",
+        "Ferment at 40 °C for 24 h.",
+        "Stir after 12 h to speed up souring."
+      ],
+      "method_ru": [
+        "Смешать дробину солода, цельнозерновую ржаную муку, воду 45 °C и уксус.",
+        "Бродить при 40 °C 24 ч.",
+        "Через 12 ч перемешать, чтобы ускорить закисание."
+      ],
+      "notes": "Also a combined method (24-hour flour КМКЗ + two-stage malt КМКЗ). Success rate close to 100 %.\nThe crushed malt keeps saccharification going slowly at 40 °C and brings microflora and minerals. A little vinegar sets the starting acidity and holds back unwanted microflora; if your vinegar isn't 5–6 %, adjust the amount.\nHydration (влажность) 190 %.",
+      "notes_ru": "Тоже комбинированный метод (мучная КМКЗ за 24 часа + солодовая в 2 этапа). Вероятность закисания близка к 100 %.\nДробина солода поддерживает медленное осахаривание при 40 °C и даёт микрофлору и минералы. Немного уксуса задаёт начальную кислотность и подавляет вредную микрофлору; если уксус не 5–6 %, скорректировать количество.\nВлажность 190 %.",
+      "group": "start"
+    },
+    {
+      "id": "start-fermented",
+      "label": "Fermented malt",
+      "label_ru": "Ферм. солод",
+      "sub": "№ 3 · no vinegar",
+      "sub_ru": "№ 3 · без уксуса",
+      "stages": [
+        {
+          "name": "Starter",
+          "name_ru": "Закваска",
+          "time": "24–28 h",
+          "note": "The text gives only the water temperature (45 °C), not the fermentation temperature.",
+          "note_ru": "В тексте указана только температура воды (45 °C), температура брожения не указана.",
+          "ingredients": [
+            {
+              "en": "Fermented malt",
+              "ru": "Ферментированный солод",
+              "orig": "Ферментированный солод",
+              "pct": 30.0,
+              "flour": true,
+              "water": 0,
+              "note": "acidifier; carries no lactic bacteria (fermented at high temperature)",
+              "note_ru": "подкислитель; не несёт МКБ (ферментируется при высокой температуре)"
+            },
+            {
+              "en": "Unfermented rye malt",
+              "ru": "Ржаной неферментированный солод",
+              "orig": "Ржаной неферментированный солод",
+              "pct": 10.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Whole-grain rye flour",
+              "ru": "Ржаная цельнозерновая мука",
+              "orig": "Ржаная цельнозерновая мука",
+              "pct": 60.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 45 °C",
+              "ru": "Вода 45 °C",
+              "orig": "Вода 45 °C",
+              "pct": 190.0,
+              "flour": false,
+              "water": 1,
+              "note": "ml → g (1 ml = 1 g)",
+              "note_ru": "мл → г (1 мл = 1 г)",
+              "converted": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix everything with the 45 °C water. No vinegar: the fermented (acid) malt sets the starting acidity and prevents mould.",
+        "Ferment 24–28 h, stirring after 15 h and again after 24 h.",
+        "Refresh at least once before baking a rye bread with little wheat flour. Refreshing also helps for wheat bakes, since this КМКЗ is dark from the rye malt (standard refresh: see КМКЗ refresh)."
+      ],
+      "method_ru": [
+        "Смешать всё с водой 45 °C. Без уксуса: ферментированный (кислый) солод задаёт начальную кислотность и не даёт заплесневеть.",
+        "Бродить 24–28 ч, перемешать через 15 ч и через 24 ч.",
+        "Перед выпечкой ржаного хлеба с малым количеством пшеничной муки освежить хотя бы раз. Для пшеничного тоже лучше освежить: КМКЗ получается тёмной из-за ржаного солода (освежение стандартное — см. «Освежение КМКЗ»)."
+      ],
+      "notes": "Fermented malt as an acidifier is widely used; a yeast-free or thermophilic starter can be started the same way.\nUnfermented rye malt adds lactic bacteria; without it, see the next button.\nHydration 190 %.",
+      "notes_ru": "Ферментированный солод как подкислитель применяется широко; так же можно развести бездрожжевую и термофильную закваску.\nНеферментированный ржаной солод добавляет МКБ; без него — следующая кнопка.\nВлажность 190 %.",
+      "group": "start"
+    },
+    {
+      "id": "start-fermented-only",
+      "label": "Fermented malt only",
+      "label_ru": "Только ферм. солод",
+      "sub": "№ 3 · no white malt",
+      "sub_ru": "№ 3 · без белого солода",
+      "stages": [
+        {
+          "name": "Starter",
+          "name_ru": "Закваска",
+          "time": "24–28 h",
+          "note": "The text gives only the water temperature (45 °C), not the fermentation temperature.",
+          "note_ru": "В тексте указана только температура воды (45 °C), температура брожения не указана.",
+          "ingredients": [
+            {
+              "en": "Fermented malt",
+              "ru": "Ферментированный солод",
+              "orig": "Ферментированный солод",
+              "pct": 30.0,
+              "flour": true,
+              "water": 0,
+              "note": "acidifier; carries no lactic bacteria (fermented at high temperature)",
+              "note_ru": "подкислитель; не несёт МКБ (ферментируется при высокой температуре)"
+            },
+            {
+              "en": "Whole-grain rye flour",
+              "ru": "Ржаная цельнозерновая мука",
+              "orig": "Ржаная цельнозерновая мука",
+              "pct": 70.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 45 °C",
+              "ru": "Вода 45 °C",
+              "orig": "Вода 45 °C",
+              "pct": 190.0,
+              "flour": false,
+              "water": 1,
+              "note": "ml → g (1 ml = 1 g)",
+              "note_ru": "мл → г (1 мл = 1 г)",
+              "converted": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix everything with the 45 °C water. No vinegar: the fermented (acid) malt sets the starting acidity and prevents mould.",
+        "Ferment 24–28 h, stirring after 15 h and again after 24 h.",
+        "Refresh at least once before baking a rye bread with little wheat flour. Refreshing also helps for wheat bakes, since this КМКЗ is dark from the rye malt (standard refresh: see КМКЗ refresh)."
+      ],
+      "method_ru": [
+        "Смешать всё с водой 45 °C. Без уксуса: ферментированный (кислый) солод задаёт начальную кислотность и не даёт заплесневеть.",
+        "Бродить 24–28 ч, перемешать через 15 ч и через 24 ч.",
+        "Перед выпечкой ржаного хлеба с малым количеством пшеничной муки освежить хотя бы раз. Для пшеничного тоже лучше освежить: КМКЗ получается тёмной из-за ржаного солода (освежение стандартное — см. «Освежение КМКЗ»)."
+      ],
+      "notes": "Fermented malt as an acidifier is widely used; a yeast-free or thermophilic starter can be started the same way.\nUse when you have no unfermented rye malt. Less effective, because the flour is the only source of lactic bacteria, but it still works.\nHydration 190 %.",
+      "notes_ru": "Ферментированный солод как подкислитель применяется широко; так же можно развести бездрожжевую и термофильную закваску.\nЕсли нет неферментированного ржаного солода. Менее эффективно: источник МКБ — только мука, но вполне рабочий способ.\nВлажность 190 %.",
+      "group": "start"
+    },
+    {
+      "id": "start-malt",
+      "label": "Malt, 2 phases",
+      "label_ru": "Солодовая, 2 фазы",
+      "sub": "№ 4 · 36–48 h",
+      "sub_ru": "№ 4 · 36–48 ч",
+      "stages": [
+        {
+          "name": "Phase 1 · malt mash",
+          "name_ru": "Фаза 1 · солодовый затор",
+          "time": "24–36 h",
+          "temp": "40 °C",
+          "topping": true,
+          "note": "Not part of the КМКЗ weight. This makes more mash than you need: only the strained mash below goes into phase 2.",
+          "note_ru": "Не входит в вес КМКЗ. Затора получается больше, чем нужно: в фазу 2 идёт только процеженный затор ниже.",
+          "ingredients": [
+            {
+              "en": "White rye malt, crushed",
+              "ru": "Белый солод, дробина",
+              "orig": "Белый солод, дробина",
+              "pct": 50.0,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Water, 45 °C",
+              "ru": "Вода 45 °C",
+              "orig": "Вода 45 °C",
+              "pct": 200.0,
+              "flour": false,
+              "water": 0,
+              "note": "ml → g (1 ml = 1 g)",
+              "note_ru": "мл → г (1 мл = 1 г)",
+              "converted": true
+            }
+          ]
+        },
+        {
+          "name": "Phase 2 · КМКЗ",
+          "name_ru": "Фаза 2 · КМКЗ",
+          "time": "12 h",
+          "temp": "37–41 °C",
+          "ingredients": [
+            {
+              "en": "Strained mash from phase 1",
+              "ru": "Процеженный затор из фазы 1",
+              "orig": "Процеженный затор из фазы 1",
+              "pct": 60.0,
+              "flour": false,
+              "water": 1,
+              "note": "counted as water in the 190 %; ml → g (1 ml = 1 g)",
+              "note_ru": "в 190 % считается водой; мл → г (1 мл = 1 г)",
+              "converted": true
+            },
+            {
+              "en": "Water, 40 °C",
+              "ru": "Вода 40 °C",
+              "orig": "Вода 40 °C",
+              "pct": 130.0,
+              "flour": false,
+              "water": 1,
+              "note": "ml → g (1 ml = 1 g)",
+              "note_ru": "мл → г (1 мл = 1 г)",
+              "converted": true
+            },
+            {
+              "en": "Whole-grain rye flour (обойная)",
+              "ru": "Мука ржаная обойная",
+              "orig": "Мука ржаная обойная",
+              "pct": 100.0,
+              "flour": true,
+              "water": 0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Phase 1: mix the crushed white malt with 45 °C water and keep at 40 °C for 24–36 h.",
+        "Strain the mash.",
+        "Phase 2: mix the strained mash with 40 °C water and whole-grain rye flour.",
+        "Ferment at 37–41 °C for 12 h."
+      ],
+      "method_ru": [
+        "Фаза 1: смешать дробину белого солода с водой 45 °C и держать при 40 °C 24–36 ч.",
+        "Процедить затор.",
+        "Фаза 2: смешать процеженный затор с водой 40 °C и обойной ржаной мукой.",
+        "Бродить при 37–41 °C 12 ч."
+      ],
+      "notes": "Works every time (100 %); the drawback is two stages.\nHydration (влажность) 190 %.",
+      "notes_ru": "Результативность 100 %, недостаток — 2 этапа.\nВлажность 190 %.",
+      "group": "start"
+    },
+    {
+      "id": "refresh-1-9",
+      "label": "1 : 9",
+      "sub": "12 h",
+      "stages": [
+        {
+          "name": "Refresh",
+          "time": "12 h",
+          "temp": "",
+          "note": "Starter from the fridge: set the starting temperature with 50 °C water.",
+          "ingredients": [
+            {
+              "en": "КМКЗ (starter)",
+              "orig": "КМКЗ",
+              "pct": 32.2222,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "concentrated lactic-acid rye starter, 190 % hydration",
+              "ru": "КМКЗ (стартер)",
+              "note_ru": "концентрированная молочнокислая закваска, 190 % гидратации"
+            },
+            {
+              "en": "Rye flour",
+              "orig": "Мука ржаная",
+              "pct": 100,
+              "flour": true,
+              "water": 0,
+              "ru": "Мука ржаная"
+            },
+            {
+              "en": "Water",
+              "orig": "Вода",
+              "pct": 190,
+              "flour": false,
+              "water": 1,
+              "ru": "Вода"
+            }
+          ],
+          "name_ru": "Освежение",
+          "note_ru": "Стартер из холодильника: начальную температуру задать водой 50 °C."
+        }
+      ],
+      "method": [
+        "If the starter is from the fridge, use water at about 50 °C to reach the right starting temperature.",
+        "Mix starter, rye flour and water until smooth.",
+        "Cover and ferment for 12 hours."
+      ],
+      "notes": "The sheet doesn't give a fermentation temperature for this refresh.",
+      "method_ru": [
+        "Если стартер из холодильника, взять воду около 50 °C, чтобы выйти на нужную начальную температуру.",
+        "Смешать стартер, ржаную муку и воду до однородности.",
+        "Накрыть и оставить бродить 12 часов."
+      ],
+      "notes_ru": "В таблице температура брожения для этого освежения не указана.",
+      "group": "refresh"
+    },
+    {
+      "id": "refresh-1-5",
+      "label": "1 : 5",
+      "sub": "8 h",
+      "stages": [
+        {
+          "name": "Refresh",
+          "time": "8 h",
+          "temp": "",
+          "note": "Starter from the fridge: warm it up first, otherwise you can't reach the right starting temperature.",
+          "ingredients": [
+            {
+              "en": "КМКЗ (starter)",
+              "orig": "КМКЗ",
+              "pct": 58.0,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "concentrated lactic-acid rye starter, 190 % hydration",
+              "ru": "КМКЗ (стартер)",
+              "note_ru": "концентрированная молочнокислая закваска, 190 % гидратации"
+            },
+            {
+              "en": "Rye flour",
+              "orig": "Мука ржаная",
+              "pct": 100,
+              "flour": true,
+              "water": 0,
+              "ru": "Мука ржаная"
+            },
+            {
+              "en": "Water",
+              "orig": "Вода",
+              "pct": 190,
+              "flour": false,
+              "water": 1,
+              "ru": "Вода"
+            }
+          ],
+          "name_ru": "Освежение",
+          "note_ru": "Стартер из холодильника сначала подогреть, иначе начальную температуру не задать."
+        }
+      ],
+      "method": [
+        "If the starter is from the fridge, warm it up first.",
+        "Mix starter, rye flour and water until smooth.",
+        "Cover and ferment for 8 hours."
+      ],
+      "notes": "The sheet doesn't give a fermentation temperature for this refresh.",
+      "method_ru": [
+        "Если стартер из холодильника, сначала подогреть его.",
+        "Смешать стартер, ржаную муку и воду до однородности.",
+        "Накрыть и оставить бродить 8 часов."
+      ],
+      "notes_ru": "В таблице температура брожения для этого освежения не указана.",
+      "group": "refresh"
+    },
+    {
+      "id": "refresh-1-2",
+      "label": "1 : 2",
+      "sub": "5 h",
+      "stages": [
+        {
+          "name": "Refresh",
+          "time": "5 h",
+          "temp": "",
+          "note": "Starter from the fridge: warm it up first, otherwise you can't reach the right starting temperature.",
+          "ingredients": [
+            {
+              "en": "КМКЗ (starter)",
+              "orig": "КМКЗ",
+              "pct": 145.0,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "concentrated lactic-acid rye starter, 190 % hydration",
+              "ru": "КМКЗ (стартер)",
+              "note_ru": "концентрированная молочнокислая закваска, 190 % гидратации"
+            },
+            {
+              "en": "Rye flour",
+              "orig": "Мука ржаная",
+              "pct": 100,
+              "flour": true,
+              "water": 0,
+              "ru": "Мука ржаная"
+            },
+            {
+              "en": "Water",
+              "orig": "Вода",
+              "pct": 190,
+              "flour": false,
+              "water": 1,
+              "ru": "Вода"
+            }
+          ],
+          "name_ru": "Освежение",
+          "note_ru": "Стартер из холодильника сначала подогреть, иначе начальную температуру не задать."
+        }
+      ],
+      "method": [
+        "If the starter is from the fridge, warm it up first.",
+        "Mix starter, rye flour and water until smooth.",
+        "Cover and ferment for 5 hours."
+      ],
+      "notes": "The sheet doesn't give a fermentation temperature for this refresh.",
+      "method_ru": [
+        "Если стартер из холодильника, сначала подогреть его.",
+        "Смешать стартер, ржаную муку и воду до однородности.",
+        "Накрыть и оставить бродить 5 часов."
+      ],
+      "notes_ru": "В таблице температура брожения для этого освежения не указана.",
+      "group": "refresh"
+    },
+    {
+      "id": "refresh-malt",
+      "label": "Malt",
+      "sub": "1 : 19 · best",
+      "stages": [
+        {
+          "name": "Refresh",
+          "time": "12 h + 8–12 h",
+          "temp": "38–42 °C, then room temp",
+          "note": "Starter from the fridge: set the starting temperature with 45–48 °C water.",
+          "ingredients": [
+            {
+              "en": "КМКЗ (starter)",
+              "orig": "КМКЗ",
+              "pct": 15.2632,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "concentrated lactic-acid rye starter, 190 % hydration",
+              "ru": "КМКЗ (стартер)",
+              "note_ru": "концентрированная молочнокислая закваска, 190 % гидратации"
+            },
+            {
+              "en": "Rye flour",
+              "orig": "Мука ржаная",
+              "pct": 90,
+              "flour": true,
+              "water": 0,
+              "ru": "Мука ржаная"
+            },
+            {
+              "en": "White malt",
+              "orig": "Солод белый",
+              "pct": 10,
+              "flour": true,
+              "water": 0,
+              "note": "unfermented rye malt",
+              "ru": "Солод белый",
+              "note_ru": "неферментированный ржаной солод"
+            },
+            {
+              "en": "Water",
+              "orig": "Вода",
+              "pct": 190,
+              "flour": false,
+              "water": 1,
+              "ru": "Вода"
+            }
+          ],
+          "name_ru": "Освежение",
+          "note_ru": "Стартер из холодильника: начальную температуру задать водой 45–48 °C."
+        }
+      ],
+      "method": [
+        "If the starter is from the fridge, use water at 45–48 °C.",
+        "Mix starter, flour, white malt and water until smooth.",
+        "Ferment for 12 hours at 38–42 °C.",
+        "Stir and leave for another 8–12 hours at room temperature."
+      ],
+      "notes": "The sheet calls this the preferred refresh: it improves the КМКЗ and extends its working life.\nWhite malt counts as flour here, because the sheet calculates the water on flour + malt.",
+      "label_ru": "Солод",
+      "sub_ru": "1 : 19 · лучший",
+      "method_ru": [
+        "Если стартер из холодильника, взять воду 45–48 °C.",
+        "Смешать стартер, муку, белый солод и воду до однородности.",
+        "Бродить 12 часов при 38–42 °C.",
+        "Перемешать и оставить ещё на 8–12 часов при комнатной температуре."
+      ],
+      "notes_ru": "По таблице это предпочтительный способ освежения: улучшает качество КМКЗ и продлевает её срок службы.\nБелый солод здесь считается мукой: вода в таблице рассчитана на муку + солод.",
+      "group": "refresh"
+    },
+    {
+      "id": "ripe-70",
+      "label": "70 %",
+      "sub": "whole-grain (обойная/обдирная)",
+      "yield": {
+        "total": 170
+      },
+      "stages": [
+        {
+          "name": "Ripe dough",
+          "time": "18–20 h",
+          "temp": "28 °C",
+          "ingredients": [
+            {
+              "en": "КМКЗ",
+              "orig": "КМКЗ",
+              "pct": 32.2222,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "concentrated lactic-acid rye starter, 190 % hydration",
+              "ru": "КМКЗ",
+              "note_ru": "концентрированная молочнокислая закваска, 190 % гидратации"
+            },
+            {
+              "en": "Rye flour, whole-grain (обойная/обдирная)",
+              "orig": "Мука ржаная (обойная или обдирная)",
+              "pct": 100,
+              "flour": true,
+              "water": 0,
+              "ru": "Мука ржаная обойная или обдирная"
+            },
+            {
+              "en": "Water",
+              "orig": "Вода",
+              "pct": 56.6667,
+              "flour": false,
+              "water": 1,
+              "ru": "Вода"
+            },
+            {
+              "en": "Salt",
+              "orig": "Соль",
+              "pct": 2.2222,
+              "flour": false,
+              "water": 0,
+              "extra": true,
+              "ru": "Соль"
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Дрожжи",
+              "pct": 0.6667,
+              "flour": false,
+              "water": 0,
+              "extra": true,
+              "ru": "Дрожжи сухие быстродействующие"
+            }
+          ],
+          "name_ru": "Спелое тесто"
+        }
+      ],
+      "method": [
+        "Mix КМКЗ, rye flour (whole-grain (обойная/обдирная)), water, salt and instant dry yeast.",
+        "Ferment for 18–20 hours at 28 °C."
+      ],
+      "notes": "The sheet's 70 % (влажность) = water ÷ flour, counting the water and flour inside the КМКЗ. In the calculator that's \"Effective hydration\".",
+      "sub_ru": "обойная/обдирная мука",
+      "method_ru": [
+        "Смешать КМКЗ, ржаную обойную или обдирную муку, воду, соль и сухие быстродействующие дрожжи.",
+        "Бродить 18–20 часов при 28 °C."
+      ],
+      "notes_ru": "Влажность 70 % в таблице = вода / мука с учётом воды и муки внутри КМКЗ (в калькуляторе это «гидратация эффективная»).",
+      "group": "ripe"
+    },
+    {
+      "id": "ripe-65",
+      "label": "65 %",
+      "sub": "white rye flour",
+      "yield": {
+        "total": 165
+      },
+      "stages": [
+        {
+          "name": "Ripe dough",
+          "time": "18 h",
+          "temp": "28 °C",
+          "ingredients": [
+            {
+              "en": "КМКЗ",
+              "orig": "КМКЗ",
+              "pct": 32.2222,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "concentrated lactic-acid rye starter, 190 % hydration",
+              "ru": "КМКЗ",
+              "note_ru": "концентрированная молочнокислая закваска, 190 % гидратации"
+            },
+            {
+              "en": "White rye flour",
+              "orig": "Мука ржаная (сеяная)",
+              "pct": 100,
+              "flour": true,
+              "water": 0,
+              "ru": "Мука ржаная сеяная"
+            },
+            {
+              "en": "Water",
+              "orig": "Вода",
+              "pct": 51.1111,
+              "flour": false,
+              "water": 1,
+              "ru": "Вода"
+            },
+            {
+              "en": "Salt",
+              "orig": "Соль",
+              "pct": 2.2222,
+              "flour": false,
+              "water": 0,
+              "extra": true,
+              "ru": "Соль"
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Дрожжи",
+              "pct": 0.6667,
+              "flour": false,
+              "water": 0,
+              "extra": true,
+              "ru": "Дрожжи сухие быстродействующие"
+            }
+          ],
+          "name_ru": "Спелое тесто"
+        }
+      ],
+      "method": [
+        "Mix КМКЗ, white rye flour, water, salt and instant dry yeast.",
+        "Ferment for 18 hours at 28 °C."
+      ],
+      "notes": "The sheet's 65 % (влажность) = water ÷ flour, counting the water and flour inside the КМКЗ. In the calculator that's \"Effective hydration\".",
+      "sub_ru": "сеяная мука",
+      "method_ru": [
+        "Смешать КМКЗ, ржаную сеяную муку, воду, соль и сухие быстродействующие дрожжи.",
+        "Бродить 18 часов при 28 °C."
+      ],
+      "notes_ru": "Влажность 65 % в таблице = вода / мука с учётом воды и муки внутри КМКЗ (в калькуляторе это «гидратация эффективная»).",
+      "group": "ripe"
+    }
+  ]
+}

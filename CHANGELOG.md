@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-15 — One КМКЗ recipe with tabs
+- "Starting КМКЗ", "КМКЗ refresh" and "Ripe dough on КМКЗ" are now one recipe, **КМКЗ**, with tabs Start · Refresh · Ripe dough. Each tab remembers its own version and amount; the Verified/Draft badge follows the tab.
+- Version buttons: two per row on a phone when there are four or more (an odd last one spans the row).
+
 ## 2026-10-15 — Starting КМКЗ verified
 - Formulas confirmed; status changed from Draft to Verified.
 
