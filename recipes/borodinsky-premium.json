@@ -1,0 +1,436 @@
+{
+  "id": "borodinsky-premium",
+  "name": {
+    "en": "Borodinsky Premium",
+    "ru": "Бородинский премиум",
+    "orig": "Бородинский ПРЕМИУМ, на заварной КМКЗ"
+  },
+  "category": "Rye breads",
+  "category_ru": "Ржаной хлеб",
+  "tags": [
+    "rye",
+    "scald",
+    "КМКЗ",
+    "Borodinsky"
+  ],
+  "tags_ru": [
+    "ржаной",
+    "заварной",
+    "КМКЗ",
+    "бородинский"
+  ],
+  "source": {
+    "type": "text",
+    "title": "Text you sent",
+    "title_ru": "Ваш текст"
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "total": 1786.5,
+    "pieces": 1,
+    "pieceWeight": 1786.5,
+    "loss": 0,
+    "label": "Dough weight",
+    "label_ru": "Вес теста",
+    "slider": {
+      "min": 500,
+      "max": 2500,
+      "step": 10
+    }
+  },
+  "variantLabel": "Wheat flour",
+  "variantLabel_ru": "Пшеничная мука",
+  "variants": [
+    {
+      "id": "2nd",
+      "label": "2nd grade",
+      "label_ru": "2 сорт",
+      "sub": "150 g",
+      "sub_ru": "150 г",
+      "stages": [
+        {
+          "name": "① Scald",
+          "name_ru": "① Заварка",
+          "time": "5 h",
+          "time_ru": "5 ч",
+          "temp": "65 °C",
+          "ingredients": [
+            {
+              "en": "Rye flour, whole-grain (обойная)",
+              "ru": "Мука ржаная обойная",
+              "orig": "Мука ржаная обойная",
+              "pct": 15.3061,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Fermented malt",
+              "ru": "Солод ферментированный",
+              "orig": "Солод ферментированный",
+              "pct": 5.102,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Coriander",
+              "ru": "Кориандр",
+              "orig": "Кориандр",
+              "pct": 0.3061,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Вода",
+              "pct": 51.0204,
+              "flour": false,
+              "water": 1
+            }
+          ]
+        },
+        {
+          "name": "② Scalded КМКЗ",
+          "name_ru": "② Заварная КМКЗ",
+          "time": "24 h",
+          "time_ru": "24 ч",
+          "temp": "28 °C",
+          "note": "Add all of the scald. At the end, warm to 33 °C: about 45 min at 40 °C, or in a water bath.",
+          "note_ru": "Вся заварка. В конце нагреть до 33 °C: около 45 мин при 40 °C или на водяной бане.",
+          "ingredients": [
+            {
+              "en": "КМКЗ, from the fridge",
+              "ru": "КМКЗ из холодильника",
+              "orig": "КМКЗ из холодильника",
+              "pct": 5.9184,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "190 % hydration",
+              "note_ru": "влажность 190 %"
+            }
+          ]
+        },
+        {
+          "name": "③ Sponge",
+          "name_ru": "③ Опара",
+          "time": "75–90 min",
+          "time_ru": "75–90 мин",
+          "temp": "28–30 °C",
+          "note": "Add all of the scalded КМКЗ. 75 min; 90 min if you like it more sour.",
+          "note_ru": "Вся заварная КМКЗ. 75 мин, для любителей покислей — 90 мин.",
+          "ingredients": [
+            {
+              "en": "Rye flour, whole-grain (обойная)",
+              "ru": "Мука ржаная обойная",
+              "orig": "Мука ржаная обойная",
+              "pct": 25.5102,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Wheat flour, 2nd grade",
+              "ru": "Мука пшеничная 2 сорта",
+              "orig": "Мука пшеничная 2 сорта",
+              "pct": 15.3061,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Вода",
+              "pct": 3.0612,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Yeast",
+              "ru": "Дрожжи",
+              "orig": "Дрожжи",
+              "pct": 0.3061,
+              "flour": false,
+              "water": 0,
+              "note": "type not given in the text",
+              "note_ru": "вид дрожжей в тексте не указан"
+            }
+          ]
+        },
+        {
+          "name": "④ Dough",
+          "name_ru": "④ Тесто",
+          "time": "rest 15 min · proof 50 min",
+          "time_ru": "отлёжка 15 мин · расстойка 50 мин",
+          "temp": "over 30 °C",
+          "temp_ru": "выше 30 °C",
+          "note": "Add all of the sponge. Water at 70 °C; add more if needed, the dough should be soft.",
+          "note_ru": "Вся опара. Вода 70 °C, при необходимости больше — тесто мягкое.",
+          "ingredients": [
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Соль",
+              "pct": 1.2755,
+              "flour": false,
+              "water": 0,
+              "note": "text gives 10–15 g; middle value used",
+              "note_ru": "в тексте 10–15 г; взято среднее"
+            },
+            {
+              "en": "Sugar",
+              "ru": "Сахар",
+              "orig": "Сахар",
+              "pct": 6.1224,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Molasses (патока)",
+              "ru": "Патока",
+              "orig": "Патока",
+              "pct": 4.0816,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Rye flour, whole-grain (обойная)",
+              "ru": "Мука ржаная обойная",
+              "orig": "Мука ржаная обойная",
+              "pct": 38.7755,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 70 °C",
+              "ru": "Вода 70 °C",
+              "orig": "Вода 70 °C",
+              "pct": 10.2041,
+              "flour": false,
+              "water": 1,
+              "note": "plus more as needed",
+              "note_ru": "+ по необходимости"
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Scald: mix the whole-grain rye flour, fermented malt and coriander with the water and hold at 65 °C for 5 h.",
+        "Scalded КМКЗ: cool the scald, stir in the КМКЗ from the fridge and ferment 24 h at 28 °C. At the end warm it to 33 °C: about 45 min at 40 °C, or in a water bath.",
+        "Sponge: mix all the scalded КМКЗ with the rye and wheat flour, water and yeast. Ferment 75 min at 28–30 °C (90 min for a more sour bread).",
+        "Dough: add the salt, sugar, molasses, remaining rye flour and 70 °C water, adding more water if needed for a soft dough.",
+        "Rest 15 min, shape, then proof 50 min above 30 °C.",
+        "Bake: 5 min at 300 °C, then 45 min at 190 °C. Or: 10 min at 260 °C, then 45–50 min at 190 °C."
+      ],
+      "method_ru": [
+        "Заварка: смешать обойную ржаную муку, ферментированный солод и кориандр с водой и держать при 65 °C 5 ч.",
+        "Заварная КМКЗ: остудить заварку, вмешать КМКЗ из холодильника и бродить 24 ч при 28 °C. В конце нагреть до 33 °C: около 45 мин при 40 °C или на водяной бане.",
+        "Опара: смешать всю заварную КМКЗ с ржаной и пшеничной мукой, водой и дрожжами. 75 мин при 28–30 °C (90 мин, если любите покислей).",
+        "Тесто: добавить соль, сахар, патоку, остальную ржаную муку и воду 70 °C, при необходимости ещё воды — тесто мягкое.",
+        "Отлёжка 15 мин, формовка, расстойка 50 мин при температуре выше 30 °C.",
+        "Выпечка: 5 мин при 300 °C, затем 45 мин при 190 °C. Или: 10 мин при 260 °C, затем 45–50 мин при 190 °C."
+      ],
+      "notes": "Recipe for 1,000 g of flour: 980 g in the formula (fermented malt counted as flour) + about 20 g inside the КМКЗ. Water 668 g in total.\nThe text gives the total dough as 1,795 g, but its ingredients add up to 1,774 g plus salt (1,784–1,789 g), before any extra water. The calculator starts at 1,786.5 g, the sum with 12.5 g salt.",
+      "notes_ru": "Рецепт на 1000 г муки: 980 г в формуле (ферментированный солод считается мукой) + около 20 г внутри КМКЗ. Вода всего 668 г.\nВ тексте всего 1795 г, но ингредиенты в сумме дают 1774 г + соль (1784–1789 г), без воды «по необходимости». Калькулятор начинает с 1786,5 г — суммы с 12,5 г соли."
+    },
+    {
+      "id": "mix",
+      "label": "Whole + premium",
+      "label_ru": "Обойная + в/с",
+      "sub": "50 + 100 g",
+      "sub_ru": "50 + 100 г",
+      "stages": [
+        {
+          "name": "① Scald",
+          "name_ru": "① Заварка",
+          "time": "5 h",
+          "time_ru": "5 ч",
+          "temp": "65 °C",
+          "ingredients": [
+            {
+              "en": "Rye flour, whole-grain (обойная)",
+              "ru": "Мука ржаная обойная",
+              "orig": "Мука ржаная обойная",
+              "pct": 15.3061,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Fermented malt",
+              "ru": "Солод ферментированный",
+              "orig": "Солод ферментированный",
+              "pct": 5.102,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Coriander",
+              "ru": "Кориандр",
+              "orig": "Кориандр",
+              "pct": 0.3061,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Вода",
+              "pct": 51.0204,
+              "flour": false,
+              "water": 1
+            }
+          ]
+        },
+        {
+          "name": "② Scalded КМКЗ",
+          "name_ru": "② Заварная КМКЗ",
+          "time": "24 h",
+          "time_ru": "24 ч",
+          "temp": "28 °C",
+          "note": "Add all of the scald. At the end, warm to 33 °C: about 45 min at 40 °C, or in a water bath.",
+          "note_ru": "Вся заварка. В конце нагреть до 33 °C: около 45 мин при 40 °C или на водяной бане.",
+          "ingredients": [
+            {
+              "en": "КМКЗ, from the fridge",
+              "ru": "КМКЗ из холодильника",
+              "orig": "КМКЗ из холодильника",
+              "pct": 5.9184,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "note": "190 % hydration",
+              "note_ru": "влажность 190 %"
+            }
+          ]
+        },
+        {
+          "name": "③ Sponge",
+          "name_ru": "③ Опара",
+          "time": "75–90 min",
+          "time_ru": "75–90 мин",
+          "temp": "28–30 °C",
+          "note": "Add all of the scalded КМКЗ. 75 min; 90 min if you like it more sour.",
+          "note_ru": "Вся заварная КМКЗ. 75 мин, для любителей покислей — 90 мин.",
+          "ingredients": [
+            {
+              "en": "Rye flour, whole-grain (обойная)",
+              "ru": "Мука ржаная обойная",
+              "orig": "Мука ржаная обойная",
+              "pct": 25.5102,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Wheat flour, whole-grain",
+              "ru": "Мука пшеничная обойная",
+              "orig": "Мука пшеничная обойная",
+              "pct": 5.102,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Wheat flour, premium (высший сорт)",
+              "ru": "Мука пшеничная в/с",
+              "orig": "Мука пшеничная в/с",
+              "pct": 10.2041,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Вода",
+              "pct": 3.0612,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Yeast",
+              "ru": "Дрожжи",
+              "orig": "Дрожжи",
+              "pct": 0.3061,
+              "flour": false,
+              "water": 0,
+              "note": "type not given in the text",
+              "note_ru": "вид дрожжей в тексте не указан"
+            }
+          ]
+        },
+        {
+          "name": "④ Dough",
+          "name_ru": "④ Тесто",
+          "time": "rest 15 min · proof 50 min",
+          "time_ru": "отлёжка 15 мин · расстойка 50 мин",
+          "temp": "over 30 °C",
+          "temp_ru": "выше 30 °C",
+          "note": "Add all of the sponge. Water at 70 °C; add more if needed, the dough should be soft.",
+          "note_ru": "Вся опара. Вода 70 °C, при необходимости больше — тесто мягкое.",
+          "ingredients": [
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Соль",
+              "pct": 1.2755,
+              "flour": false,
+              "water": 0,
+              "note": "text gives 10–15 g; middle value used",
+              "note_ru": "в тексте 10–15 г; взято среднее"
+            },
+            {
+              "en": "Sugar",
+              "ru": "Сахар",
+              "orig": "Сахар",
+              "pct": 6.1224,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Molasses (патока)",
+              "ru": "Патока",
+              "orig": "Патока",
+              "pct": 4.0816,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Rye flour, whole-grain (обойная)",
+              "ru": "Мука ржаная обойная",
+              "orig": "Мука ржаная обойная",
+              "pct": 38.7755,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 70 °C",
+              "ru": "Вода 70 °C",
+              "orig": "Вода 70 °C",
+              "pct": 10.2041,
+              "flour": false,
+              "water": 1,
+              "note": "plus more as needed",
+              "note_ru": "+ по необходимости"
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Scald: mix the whole-grain rye flour, fermented malt and coriander with the water and hold at 65 °C for 5 h.",
+        "Scalded КМКЗ: cool the scald, stir in the КМКЗ from the fridge and ferment 24 h at 28 °C. At the end warm it to 33 °C: about 45 min at 40 °C, or in a water bath.",
+        "Sponge: mix all the scalded КМКЗ with the rye and wheat flour, water and yeast. Ferment 75 min at 28–30 °C (90 min for a more sour bread).",
+        "Dough: add the salt, sugar, molasses, remaining rye flour and 70 °C water, adding more water if needed for a soft dough.",
+        "Rest 15 min, shape, then proof 50 min above 30 °C.",
+        "Bake: 5 min at 300 °C, then 45 min at 190 °C. Or: 10 min at 260 °C, then 45–50 min at 190 °C."
+      ],
+      "method_ru": [
+        "Заварка: смешать обойную ржаную муку, ферментированный солод и кориандр с водой и держать при 65 °C 5 ч.",
+        "Заварная КМКЗ: остудить заварку, вмешать КМКЗ из холодильника и бродить 24 ч при 28 °C. В конце нагреть до 33 °C: около 45 мин при 40 °C или на водяной бане.",
+        "Опара: смешать всю заварную КМКЗ с ржаной и пшеничной мукой, водой и дрожжами. 75 мин при 28–30 °C (90 мин, если любите покислей).",
+        "Тесто: добавить соль, сахар, патоку, остальную ржаную муку и воду 70 °C, при необходимости ещё воды — тесто мягкое.",
+        "Отлёжка 15 мин, формовка, расстойка 50 мин при температуре выше 30 °C.",
+        "Выпечка: 5 мин при 300 °C, затем 45 мин при 190 °C. Или: 10 мин при 260 °C, затем 45–50 мин при 190 °C."
+      ],
+      "notes": "Recipe for 1,000 g of flour: 980 g in the formula (fermented malt counted as flour) + about 20 g inside the КМКЗ. Water 668 g in total.\nThe text gives the total dough as 1,795 g, but its ingredients add up to 1,774 g plus salt (1,784–1,789 g), before any extra water. The calculator starts at 1,786.5 g, the sum with 12.5 g salt.",
+      "notes_ru": "Рецепт на 1000 г муки: 980 г в формуле (ферментированный солод считается мукой) + около 20 г внутри КМКЗ. Вода всего 668 г.\nВ тексте всего 1795 г, но ингредиенты в сумме дают 1774 г + соль (1784–1789 г), без воды «по необходимости». Калькулятор начинает с 1786,5 г — суммы с 12,5 г соли."
+    }
+  ]
+}

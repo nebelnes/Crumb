@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Borodinsky Premium
+- New rye bread on scalded КМКЗ (from your text): scald → scalded КМКЗ → sponge → dough, with two wheat-flour options (2nd grade, or whole + premium). Formula flour 980 g + 20 g in the КМКЗ = 1,000 g; water 668 g. Salt set to 12.5 g (text: 10–15 g).
+
 ## 2026-10-15 — Status label hidden
 - The Draft / Verified label is hidden on the list and recipe pages (`SHOW_STATUS = false` in app.js). Statuses are kept in the recipe files.
 
