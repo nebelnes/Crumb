@@ -1,0 +1,196 @@
+{
+  "id": "richemont-coconut-date",
+  "name": {
+    "en": "Coconut-date bread",
+    "ru": "Кокосовый хлеб с финиками",
+    "orig": "Coconut-date bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 128
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Soaker",
+      "name_ru": "Замачивание",
+      "time": "60 min",
+      "time_ru": "60 мин",
+      "note": "Stir together and let swell 60 minutes.",
+      "note_ru": "Перемешайте и оставьте на 60 минут.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 23.7624,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole rye flour, fine",
+          "ru": "Мука ржаная цельнозерновая мелкого помола",
+          "orig": "Whole rye flour, fine",
+          "pct": 23.7624,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 85.1485,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Coconut, grated",
+          "ru": "Тёртый кокос",
+          "orig": "Coconut, grated",
+          "pct": 10.297,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Honey",
+          "ru": "Мёд",
+          "orig": "Honey",
+          "pct": 5.9406,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix with the soaker; butter after 3–4 minutes; salt at the end; knead to a flexible dough; then the dates.",
+      "note_ru": "Смешайте с замоченной массой; масло через 3–4 минуты; соль в конце; вымесите до эластичного состояния; затем финики.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 39.3564,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 13.1188,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.9505,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 3.4653,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 6.9307,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 3–4 minutes",
+          "note_ru": "добавьте через 3–4 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.9703,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания; вымесите до эластичного состояния"
+        },
+        {
+          "en": "Dates, coarsely chopped",
+          "ru": "Крупно нарезанные финики",
+          "orig": "Dates, coarsely chopped",
+          "pct": 48.0198,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Soaker: stir the whole wheat, whole rye, water, coconut and honey together and let swell 60 minutes.",
+    "Dough: add the flour, yeast and sugar to the soaker and mix. Add the butter after 3–4 minutes and the salt at the end; knead to a flexible dough. Gently mix in the dates. Let ferment 75–90 min.",
+    "Pre-knead pieces of 450 g lightly, then work firmly round. Place on the loading devices and let ferment.",
+    "Put a palm stencil on top and dust with a mix of 75 % all-purpose and 25 % whole-wheat flour.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15 minutes and finish baking until light."
+  ],
+  "method_ru": [
+    "Замачивание: перемешайте цельнозерновую пшеничную и ржаную муку, воду, кокос и мёд и оставьте на 60 минут.",
+    "Тесто: добавьте к замоченной массе муку, дрожжи и сахар и смешайте. Масло добавьте через 3–4 минуты, соль — в конце смешивания; вымесите до эластичного состояния. Мягко смешайте с финиками. Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на куски по 450 г и придайте им круглую форму. Положите на противни и дайте подняться.",
+    "Положите сверху трафарет с пальмой и присыпьте смесью муки: 75 % универсальной и 25 % цельнозерновой.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до получения светлой корочки."
+  ],
+  "notes": "Scaled from the book's 27 kg batch (60 pieces of 450 g). Dates and coconut count in the dough weight, as in the book.",
+  "notes_ru": "Пересчитано с книжного замеса 27 кг (60 кусков по 450 г). Финики и кокос входят в вес теста, как в книге.",
+  "images": [
+    {
+      "src": "img/richemont-coconut-date.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-coconut-date-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

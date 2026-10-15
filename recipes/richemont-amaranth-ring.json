@@ -1,0 +1,174 @@
+{
+  "id": "richemont-amaranth-ring",
+  "name": {
+    "en": "Amaranth ring",
+    "ru": "Амарантовое кольцо",
+    "orig": "Amaranth ring"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont",
+    "amaranth",
+    "spelt"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont",
+    "амарант",
+    "полба"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 192
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 300,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 150,
+      "max": 600,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Cooked amaranth",
+      "name_ru": "Вареные семена амаранта",
+      "time": "20 min + overnight",
+      "time_ru": "20 мин + ночь",
+      "note": "Boil together and keep simmering on low heat about 20 minutes. Cover with foil and cool in the refrigerator overnight.",
+      "note_ru": "Вскипятите всё вместе и дайте покипеть на тихом огне примерно 20 минут. Накройте фольгой и поставьте на ночь в холодильник.",
+      "ingredients": [
+        {
+          "en": "Amaranth seeds",
+          "ru": "Семена амаранта",
+          "orig": "Amaranth seeds",
+          "pct": 17.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 58.5,
+          "flour": false,
+          "water": 1
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "45–60 min, fold 1–2×",
+      "time_ru": "45–60 мин, обмять 1–2 раза",
+      "note": "Mix together; oil after 2–3 minutes; salt at the end; knead gently.",
+      "note_ru": "Смешайте; масло через 2–3 минуты; соль в конце; мягко вымесите.",
+      "ingredients": [
+        {
+          "en": "Whole spelt flour (original spelt)",
+          "ru": "Оригинальная цельнозерновая полбовая мука",
+          "orig": "Whole spelt flour (original spelt)",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Amaranth flour",
+          "ru": "Амарантовая мука",
+          "orig": "Amaranth flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 50.0,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "Honey",
+          "ru": "Мёд",
+          "orig": "Honey",
+          "pct": 3.5,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the milk",
+          "note_ru": "растворите в молоке"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Sunflower oil",
+          "ru": "Подсолнечное масло",
+          "orig": "Sunflower oil",
+          "pct": 0.9,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes",
+          "note_ru": "добавьте через 2–3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.7,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead gently",
+          "note_ru": "добавьте в конце смешивания и мягко вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Cooked amaranth: bring the seeds and water to the boil and simmer on low heat about 20 minutes. Cover with foil and cool in the fridge overnight.",
+    "Dough: mix the flours, milk with the honey dissolved in it, yeast and cooked amaranth. Add the oil after 2–3 minutes and the salt at the end; knead gently. Let ferment 45–60 min, folding 1–2 times.",
+    "Knead pieces of 300 g firmly round. Roll slightly flat and make a hole in the middle with a rolling pin. Place on greased sheets; mark with a jagged pastry wheel and make dents with modelling sticks. Spray with water and let ferment briefly.",
+    "Bake in a mild oven with steam. Open the vent halfway through baking and finish baking."
+  ],
+  "method_ru": [
+    "Вареные семена амаранта: вскипятите семена с водой и дайте покипеть на тихом огне примерно 20 минут. Накройте фольгой и поставьте на ночь в холодильник.",
+    "Тесто: смешайте муку, молоко с растворённым мёдом, дрожжи и вареные семена. Масло добавьте через 2–3 минуты, соль — в конце смешивания и мягко вымесите. Оставьте для брожения на 45–60 минут (обомните 1–2 раза).",
+    "Разделите тесто на куски по 300 г, придайте им круглую форму. Слегка раскатайте и сделайте в середине отверстие с помощью скалки. Положите на смазанные жиром листы; сделайте узоры зубчатым колесиком для теста и вмятины моделирующими палочками. Смочите водой и дайте немного подняться.",
+    "Выпекайте в умеренно нагретой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's batch: 23.6 kg of dough, including 7.55 kg of cooked amaranth (78 pieces of 300 g). Whole amaranth seeds aren't counted as flour; some water evaporates while simmering, so the real hydration is a little lower than shown.",
+  "notes_ru": "Пересчитано с книжного замеса: 23,6 кг теста, включая 7,55 кг вареного амаранта (78 кусков по 300 г). Цельные семена амаранта не считаются мукой; часть воды выкипает, поэтому реальная гидратация немного ниже показанной.",
+  "images": [
+    {
+      "src": "img/richemont-amaranth-ring.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-amaranth-ring-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

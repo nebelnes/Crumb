@@ -1,0 +1,128 @@
+{
+  "id": "richemont-comb",
+  "name": {
+    "en": "Comb bread",
+    "ru": "Хлеб «Гребень»",
+    "orig": "Comb bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 30
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix together; add the salt at the end of mixing and knead well.",
+      "note_ru": "Смешайте; соль добавьте в конце смешивания и хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 64.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.7,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.25,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Dough: mix the flour, water, dissolved malt and yeast. Add the salt at the end of mixing and knead well. Let ferment 75–90 min.",
+    "For each bread, take a 320 g piece and an 80 g piece. Work the 320 g piece first round, then longish, and let it start to ferment. Press a rolling pin down its centre and place on the loading devices.",
+    "Roll the 80 g piece longish for the comb. Press in 8 times with the edge of your hand to form small balls. Lay the comb in the dent and let ferment.",
+    "After the proof, dust with a mix of 75 % all-purpose and 25 % whole-wheat flour and place on the loading devices.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15 minutes and finish baking until crisp."
+  ],
+  "method_ru": [
+    "Тесто: смешайте муку, воду, растворённый солод и дрожжи. Соль добавьте в конце смешивания и хорошо вымесите. Оставьте тесто для брожения на 75–90 минут.",
+    "На каждый хлеб возьмите кусок 320 г и кусочек 80 г. Кусок 320 г слегка округлите, вытяните в длину и оставьте подниматься. Прижмите скалку по центру заготовки и выложите её на противень.",
+    "Кусочек 80 г вытяните в длину для гребня. Сделайте восемь делений ребром ладони, сформировав небольшие шарики. Вложите гребень в выемку на заготовке и дайте подняться.",
+    "Присыпьте поднявшиеся заготовки смесью муки: 75 % универсальной и 25 % цельнозерновой и выложите их на противень.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 16.9 kg batch (42 loaves of 320 g + 42 combs of 80 g). One “piece” here is one bread: 320 g + 80 g = 400 g.",
+  "notes_ru": "Пересчитано с книжного замеса 16,9 кг (42 куска по 320 г + 42 гребня по 80 г). Одна «штука» здесь — один хлеб: 320 г + 80 г = 400 г.",
+  "images": [
+    {
+      "src": "img/richemont-comb.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-comb-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

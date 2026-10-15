@@ -1,0 +1,116 @@
+{
+  "id": "richemont-wholemeal",
+  "name": {
+    "en": "Wholemeal bread",
+    "ru": "Цельнозерновой хлеб",
+    "orig": "Wholemeal bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont",
+    "tin loaf"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont",
+    "формовой"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 48
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 440,
+    "total": 880,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 220,
+      "max": 880,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "120–150 min",
+      "time_ru": "120–150 мин",
+      "note": "Mix together; add the salt at the end of mixing and knead well.",
+      "note_ru": "Смешайте; соль добавьте в конце смешивания и хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 75.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.25,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Dough: mix the flour, water and yeast. Add the salt at the end of mixing and knead well. Let ferment 120–150 min.",
+    "Knead pieces of 440 g round, then work longish. Place in greased tins (18 × 9 × 6 cm) and let ferment well.",
+    "Bake in a medium-warm oven with much steam. Open the vent after 20 minutes. Take out of the tins after ¾ of the baking time and finish baking on sheets."
+  ],
+  "method_ru": [
+    "Тесто: смешайте муку, воду и дрожжи. Соль добавьте в конце смешивания и хорошо вымесите. Оставьте тесто для брожения на 120–150 минут.",
+    "Разделите тесто на куски по 440 г, придайте им округлую форму и вытяните в длину. Поместите их в смазанные жиром формы (18 × 9 × 6 см) и дайте как следует подняться.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 20 минут. Когда пройдёт ¾ времени выпекания, выньте хлеб из форм и выпекайте до готовности на листах."
+  ],
+  "notes": "Scaled from the book's 17.9 kg batch (40 loaves of 440 g).",
+  "notes_ru": "Пересчитано с книжного замеса 17,9 кг (40 кусков по 440 г).",
+  "images": [
+    {
+      "src": "img/richemont-wholemeal.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-wholemeal-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "richemont-sun",
+  "name": {
+    "en": "Sun bread",
+    "ru": "Хлеб-солнце",
+    "orig": "Sun bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont",
+    "seeds"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont",
+    "семена"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 146
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Blanched grains",
+      "name_ru": "Бланшированные зёрна",
+      "time": "overnight",
+      "time_ru": "ночь",
+      "note": "Mix in a stand mixer, cover with foil and keep in the refrigerator.",
+      "note_ru": "Перемешайте в планетарном миксере, накройте фольгой и уберите в холодильник.",
+      "ingredients": [
+        {
+          "en": "Water, boiling",
+          "ru": "Кипящая вода",
+          "orig": "Water, boiling",
+          "pct": 15.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Whole spelt flour (original spelt)",
+          "ru": "Оригинальная цельнозерновая полбовая мука",
+          "orig": "Whole spelt flour (original spelt)",
+          "pct": 10.0,
+          "flour": true,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix together; oil after 2–3 minutes; salt at the end; knead to a flexible dough; then the sunflower seeds.",
+      "note_ru": "Смешайте; масло через 2–3 минуты; соль в конце; вымесите до эластичного состояния; затем семечки.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 45.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 45.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 64.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Sunflower oil",
+          "ru": "Подсолнечное масло",
+          "orig": "Sunflower oil",
+          "pct": 6.4,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes",
+          "note_ru": "добавьте через 2–3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.7,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания; вымесите до эластичного состояния"
+        },
+        {
+          "en": "Sunflower seeds, roasted",
+          "ru": "Обжаренные семена подсолнечника",
+          "orig": "Sunflower seeds, roasted",
+          "pct": 10.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Blanched grains: pour the boiling water over the whole spelt flour, mix in a stand mixer, cover with foil and refrigerate (the day before).",
+    "Dough: mix the flour, water, yeast and blanched grains. Add the oil after 2–3 minutes and the salt at the end; knead to a flexible dough. Gently mix in the roasted sunflower seeds. Let ferment 75–90 min.",
+    "Knead pieces of 500 g first lightly round, then longish. Let relax briefly, press slightly flat, and press with a cake divider or a rustic bread stamp. Brush with egg and dip in sunflower seeds. Place on the loading devices and let ferment well.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15 minutes and finish baking until crisp."
+  ],
+  "method_ru": [
+    "Бланшированные зёрна: залейте цельнозерновую полбовую муку кипятком, перемешайте в планетарном миксере, накройте фольгой и уберите в холодильник (накануне).",
+    "Тесто: смешайте муку, воду, дрожжи и бланшированные зёрна. Масло добавьте через 2–3 минуты, соль — в конце смешивания; вымесите до эластичного состояния. Мягко смешайте с обжаренными семечками. Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на куски по 500 г, придайте им сначала немного округлую форму, а потом вытяните в длину. Дайте заготовкам немного постоять, слегка прижмите их и сделайте нажимы ножом для торта или штампом для деревенского хлеба; смажьте яйцом и обмакните в семена подсолнечника. Положите на противни и дайте им хорошо подняться.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's batch: 20.1 kg of dough, including 2.5 kg of blanched grains (40 pieces of 500 g). The boiling water and flour in the blanched grains count in the formula. Egg and sunflower seeds for the coating have no amounts.",
+  "notes_ru": "Пересчитано с книжного замеса: 20,1 кг теста, включая 2,5 кг бланшированных зёрен (40 кусков по 500 г). Кипящая вода и мука бланшированных зёрен учтены в формуле. Количество яйца и семечек для обсыпки не указано.",
+  "images": [
+    {
+      "src": "img/richemont-sun.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-sun-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

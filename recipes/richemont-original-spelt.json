@@ -1,0 +1,146 @@
+{
+  "id": "richemont-original-spelt",
+  "name": {
+    "en": "Original spelt-wholemeal bread",
+    "ru": "Оригинальный полбовый цельнозерновой хлеб",
+    "orig": "Original spelt-wholemeal bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont",
+    "spelt",
+    "tin loaf"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont",
+    "полба",
+    "формовой"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 168
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 300,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 150,
+      "max": 600,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Pre-mix",
+      "name_ru": "Премикс",
+      "time": "overnight",
+      "time_ru": "ночь",
+      "note": "Mix in a stand mixer, cover the surface with foil and keep in the refrigerator.",
+      "note_ru": "Перемешайте в планетарном миксере, накройте фольгой и храните в холодильнике.",
+      "ingredients": [
+        {
+          "en": "Water, boiling",
+          "ru": "Кипящая вода",
+          "orig": "Water, boiling",
+          "pct": 60.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Whole spelt flour (original spelt)",
+          "ru": "Оригинальная цельнозерновая полбовая мука",
+          "orig": "Whole spelt flour (original spelt)",
+          "pct": 40.0,
+          "flour": true,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–70 min, fold 1–2×",
+      "time_ru": "60–70 мин, обмять 1–2 раза",
+      "note": "Mix together; add the salt at the end of mixing and knead well.",
+      "note_ru": "Смешайте; соль добавьте в конце смешивания и хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "Whole spelt flour (original spelt)",
+          "ru": "Оригинальная цельнозерновая полбовая мука",
+          "orig": "Whole spelt flour (original spelt)",
+          "pct": 60.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 28.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.8,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Pre-mix: pour the boiling water over the whole spelt flour, mix in a stand mixer, cover the surface with foil and refrigerate (the day before).",
+    "Dough: mix the flour, water, yeast and pre-mix. Add the salt at the end of mixing and knead well. Let ferment 60–70 min, folding 1–2 times.",
+    "Knead pieces of 300 g lightly round. After a short rest, work again in light spelt flour. Place 2 pieces, seam up, in each greased tin, dust with light spelt flour and let ferment briefly.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15 minutes. Take out of the tins after ¾ of the baking time and finish baking on sheets."
+  ],
+  "method_ru": [
+    "Премикс: залейте цельнозерновую полбовую муку кипятком, перемешайте в планетарном миксере, накройте фольгой и храните в холодильнике (накануне).",
+    "Тесто: смешайте муку, воду, дрожжи и премикс. Соль добавьте в конце смешивания и хорошо вымесите. Оставьте для брожения на 60–70 минут (обомните 1–2 раза).",
+    "Разделите тесто на куски по 300 г, придайте им округлую форму, дайте немного постоять и обваляйте в полбовой муке. Положите по две заготовки швом вверх в смазанные жиром формы, присыпанные светлой полбовой мукой, и дайте немного подняться.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут. Выньте хлеб из форм по прошествии ¾ времени выпекания и выпекайте до готовности на листах."
+  ],
+  "notes": "Scaled from the book's batch: 19.5 kg of dough, including 10 kg of pre-mix (65 pieces of 300 g). Two pieces go in each tin, so the default 4 pieces fill 2 tins.",
+  "notes_ru": "Пересчитано с книжного замеса: 19,5 кг теста, включая 10 кг премикса (65 кусков по 300 г). В каждую форму по две заготовки, так что 4 куска по умолчанию — это 2 формы.",
+  "images": [
+    {
+      "src": "img/richemont-original-spelt.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-original-spelt-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "richemont-butter-twist",
+  "name": {
+    "en": "Butter twist",
+    "ru": "Плетёнка со сливочным маслом",
+    "orig": "Butter twist"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont",
+    "enriched",
+    "braid"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont",
+    "сдобный",
+    "плетёнка"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 64
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Mix together; add the butter after 4–5 minutes and the salt at the end; knead to a flexible dough.",
+      "note_ru": "Смешайте; масло добавьте через 4–5 минут, соль — в конце смешивания; вымесите до эластичного состояния.",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 58.0,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 1.2,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the milk",
+          "note_ru": "растворите в молоке"
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 1.2,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the milk",
+          "note_ru": "растворите в молоке"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.7,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Eggs",
+          "ru": "Яйца",
+          "orig": "Eggs",
+          "pct": 5.5,
+          "flour": false,
+          "water": 0.75
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 18.0,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 4–5 minutes",
+          "note_ru": "добавьте через 4–5 минут"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.35,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания; вымесите до эластичного состояния"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Dough: mix the flour, milk with the malt and sugar dissolved in it, yeast and eggs. Add the butter after 4–5 minutes and the salt at the end; knead to a flexible dough. Let ferment 60–75 min.",
+    "Knead pieces lightly round and let rest. Roll them into long strands (by machine, then by hand to the length you want). Dust the strands lightly with a mix of 75 % all-purpose and 25 % whole-wheat flour and braid loosely. Place on a sheet with a cloth, brush with egg and let ferment. You can keep them in the fridge after ¾ of the proof.",
+    "Brush once more with egg, place on the loading device and bake right away.",
+    "Load into a medium-warm oven with the vent open. Close the vent after 5 minutes and steam. Open the vent halfway through baking and finish until golden."
+  ],
+  "method_ru": [
+    "Тесто: смешайте муку, молоко с растворёнными солодом и сахаром, дрожжи и яйца. Масло добавьте через 4–5 минут, соль — в конце смешивания; вымесите до эластичного состояния. Оставьте для брожения на 60–75 минут.",
+    "Придайте кускам теста слегка округлую форму и дайте постоять. Раскатайте их в длинные колбаски (раскаточной машиной, затем вручную до нужной длины). Слегка посыпьте полоски смесью муки: 75 % универсальной и 25 % цельнозерновой и заплетите в свободную косу. Поместите на листы, покрытые тканью, смажьте яйцом и дайте подняться. Можно поставить в холодильник через ¾ времени расстойки.",
+    "Ещё раз смажьте заготовки яйцом, поместите на противни и сразу загружайте в печь.",
+    "Выпекайте в умеренно нагретой печи с открытой заслонкой. Закройте заслонку через 5 минут и дайте изделиям пропариться. Выпустите пар в середине выпекания и выпекайте, пока изделия не станут золотистыми."
+  ],
+  "notes": "Scaled from the book's 19.1 kg batch. The book doesn't give a piece weight, so the calculator starts at 1 kg of dough. Egg for brushing has no amount.",
+  "notes_ru": "Пересчитано с книжного замеса 19,1 кг. Вес куска в книге не указан, поэтому калькулятор начинает с 1 кг теста. Количество яйца для смазывания не указано.",
+  "images": [
+    {
+      "src": "img/richemont-butter-twist.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-butter-twist-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

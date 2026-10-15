@@ -1,0 +1,158 @@
+{
+  "id": "richemont-crispy-yoghurt",
+  "name": {
+    "en": "Crispy bread with yoghurt",
+    "ru": "Хрустящий хлеб с йогуртом",
+    "orig": "Crispy bread with yoghurt"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "direct",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "прямой",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 58
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix together; add the butter after 4–5 minutes and the salt at the end; knead to a flexible dough.",
+      "note_ru": "Смешайте; масло добавьте через 4–5 минут, соль — в конце смешивания; вымесите до эластичного состояния.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 54.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 18.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 28.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 24.0,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 24.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Plain yoghurt",
+          "ru": "Простой йогурт",
+          "orig": "Plain yoghurt",
+          "pct": 27.0,
+          "flour": false,
+          "water": 0.85
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.9,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 5.0,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 4–5 minutes",
+          "note_ru": "добавьте через 4–5 минут"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.4,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания; вымесите до эластичного состояния"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Dough: mix the flours, milk, water, yoghurt and yeast. Add the butter after 4–5 minutes and the salt at the end of mixing; knead to a flexible dough. Let ferment 75–90 min.",
+    "Knead pieces of 500 g first round, then firmly longish. Place on the loading devices and let ferment.",
+    "Dust the surface with a mix of 75 % all-purpose and 25 % whole-wheat flour and cut with a flatly held blade.",
+    "Bake in a medium-warm oven with steam. Open the vent halfway through baking and finish until crisp."
+  ],
+  "method_ru": [
+    "Тесто: смешайте муку, молоко, воду, йогурт и дрожжи. Масло добавьте через 4–5 минут, соль — в конце смешивания; вымесите до эластичного состояния. Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на куски по 500 г, придайте им сначала округлую форму, а затем продолговатую. Поместите на противни и дайте как следует подняться.",
+    "Посыпьте поверхность смесью муки: 75 % универсальной и 25 % цельнозерновой и надрежьте заготовки, держа нож плоско.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар, когда изделия достигнут полуготовности, и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 18.5 kg batch (37 pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 18,5 кг (37 кусков по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-crispy-yoghurt.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-crispy-yoghurt-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}
