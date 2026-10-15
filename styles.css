@@ -106,7 +106,7 @@ main {
   background: var(--card); border: 1px solid transparent; border-radius: 99px;
 }
 .search::placeholder { color: var(--muted); }
-.chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: -2px 0; padding: 2px 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: -2px 0; padding: 2px 0; }
 .chips::-webkit-scrollbar { display: none; }
 .chip {
   flex: none; height: 40px; padding: 0 16px; border-radius: 99px; font-weight: 700; font-size: 14px;

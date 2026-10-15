@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Category buttons wrap
+- Category buttons on the recipe list now wrap onto two or more lines instead of scrolling sideways.
+
 ## 2026-10-15 — ГОСТ rye breads
 - 10 rye breads from the ГОСТ tables you sent, in Rye breads: Borodinsky, Orlovsky, Slavyansky, Moscow scalded, Podmoskovny, Darnitsky, New Ukrainian, Stolovy, Stolichny, Rossiysky. Each has its two methods (2/3 or 3/4 stages) as versions; the source's 500/600/700 g columns are left out because the weight is adjustable. КМКЗ links to its recipe.
 
