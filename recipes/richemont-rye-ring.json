@@ -1,0 +1,175 @@
+{
+  "id": "richemont-rye-ring",
+  "name": {
+    "en": "Rye ring",
+    "ru": "Ржаное кольцо",
+    "orig": "Rye ring"
+  },
+  "category": "Rye breads",
+  "category_ru": "Ржаной хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 154
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "12–15 h",
+      "time_ru": "12–15 ч",
+      "note": "Mix all ingredients together. Let ferment 12–15 hours at room temperature.",
+      "note_ru": "Смешайте все ингредиенты. Оставьте опару для брожения на 12–15 часов при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 37.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 23.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Basic sour",
+          "ru": "Базовая закваска",
+          "orig": "Basic sour",
+          "pct": 0.9,
+          "flour": false,
+          "water": 0.3333,
+          "flourIn": 0.6667,
+          "note": "wheat sourdough refreshed at 50 % hydration (book p. 236)",
+          "note_ru": "пшеничная закваска, освежается при влажности 50 % (книга, с. 236)"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Knead gently together.",
+      "note_ru": "Мягко вымесите.",
+      "ingredients": [
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 31.5,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 15.75,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 15.75,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 46.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.1,
+          "flour": false,
+          "water": 0,
+          "note": "knead gently",
+          "note_ru": "мягко вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: mix everything and let ferment 12–15 hours at room temperature.",
+    "Dough: mix all ingredients and knead gently. Let ferment 60–75 min.",
+    "Knead pieces of 500 g lightly round, then firmly to a length of 40 cm. Roll one end flat with a rolling pin and join both ends. Place seam down on the loading devices, dust with light rye flour and let ferment briefly.",
+    "Cut 3 times with a flatly held blade.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15–20 minutes and finish baking well."
+  ],
+  "method_ru": [
+    "Опара: смешайте все ингредиенты и оставьте для брожения на 12–15 часов при комнатной температуре.",
+    "Тесто: мягко вымесите все ингредиенты. Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на куски по 500 г, придайте им округлую форму, затем вытяните до 40 см. Раскатайте один конец скалкой и соедините оба конца. Поместите заготовки на противни швом вниз, присыпьте светлой ржаной мукой и дайте немного подняться.",
+    "Сделайте три надреза, держа нож плоско.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15–20 минут и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 17.6 kg batch (35 pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 17,6 кг (35 кусков по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-rye-ring.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-rye-ring-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

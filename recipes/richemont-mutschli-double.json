@@ -1,0 +1,175 @@
+{
+  "id": "richemont-mutschli-double",
+  "name": {
+    "en": "Sour dough double “Mutschli”",
+    "ru": "Двойной хлеб Mutschli на закваске",
+    "orig": "Sour dough double “Mutschli”"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 46
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "12–15 h",
+      "time_ru": "12–15 ч",
+      "note": "Knead all ingredients well together. Let ferment 12–15 hours at room temperature.",
+      "note_ru": "Хорошо вымесите все ингредиенты. Оставьте опару для брожения на 12–15 часов при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 12.8977,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 4.9606,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 12.8977,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Basic sour",
+          "ru": "Базовая закваска",
+          "orig": "Basic sour",
+          "pct": 0.2976,
+          "flour": false,
+          "water": 0.3333,
+          "flourIn": 0.6667,
+          "note": "wheat sourdough refreshed at 50 % hydration (book p. 236)",
+          "note_ru": "пшеничная закваска, освежается при влажности 50 % (книга, с. 236)"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Mix the flour, water, malt and yeast; add the sponge after 3–4 minutes and the salt halfway through mixing; knead well.",
+      "note_ru": "Смешайте муку, воду, солод и дрожжи; опару добавьте через 3–4 минуты, соль — в середине смешивания; хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 82.1417,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 53.0916,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.3005,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.6028,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.304,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing",
+          "note_ru": "добавьте в середине смешивания"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead well and let ferment 12–15 hours at room temperature.",
+    "Dough: mix the flour, water, dissolved malt and yeast. Add the sponge after 3–4 minutes and the salt halfway through mixing; knead well. Let ferment 60–75 min.",
+    "Knead pieces of 400 g lightly round, then firmly and slightly longish. Make a dent in the centre with the edge of your hand and shape pointed ends. Place on the loading devices and let ferment well.",
+    "Before placing on the loading devices, dust the pieces with a mix of 75 % all-purpose and 25 % whole-wheat flour and cut in with a flatly held blade.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15 minutes and finish baking until crisp."
+  ],
+  "method_ru": [
+    "Опара: хорошо вымесите и оставьте для брожения на 12–15 часов при комнатной температуре.",
+    "Тесто: смешайте муку, воду, растворённый солод и дрожжи. Опару добавьте через 3–4 минуты, соль — в середине смешивания; хорошо вымесите. Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на куски по 400 г, придайте им слегка округлую форму, затем немного вытяните в длину. Сделайте в середине каждой заготовки вмятину ребром ладони и сформируйте заострённые кончики. Выложите на противни и дайте как следует подняться.",
+    "Перед тем как выкладывать заготовки на противни, посыпьте их смесью муки: 75 % универсальной и 25 % цельнозерновой и сделайте надрезы, держа лезвие плоско.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 17 kg batch (42 pieces of 400 g). The book makes 3,130 g of sponge and uses 3,100 g; the formula uses only what goes into the dough.",
+  "notes_ru": "Пересчитано с книжного замеса 17 кг (42 куска по 400 г). Опары в книге 3130 г, в тесто идёт 3100 г; в формуле только то, что идёт в тесто.",
+  "images": [
+    {
+      "src": "img/richemont-mutschli-double.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-mutschli-double-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

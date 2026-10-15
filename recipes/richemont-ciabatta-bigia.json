@@ -1,0 +1,182 @@
+{
+  "id": "richemont-ciabatta-bigia",
+  "name": {
+    "en": "Ciabatta bigia",
+    "ru": "Тёмная чиабатта",
+    "orig": "Ciabatta bigia"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont",
+    "ciabatta"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont",
+    "чиабатта"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 34
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "60–90 min + 18–20 h",
+      "time_ru": "60–90 мин + 18–20 ч",
+      "note": "Knead all ingredients well together. Let ferment 60–90 minutes at room temperature, then keep in the refrigerator 18–20 hours.",
+      "note_ru": "Хорошо вымесите все ингредиенты. Оставьте опару для брожения на 60–90 минут при комнатной температуре, затем поставьте её в холодильник на 18–20 часов.",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 16.8317,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 16.8317,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 27.7228,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.6931,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min, fold 1–2×",
+      "time_ru": "90–120 мин, обмять 1–2 раза",
+      "note": "Mix together; add the salt at the end of mixing and knead well.",
+      "note_ru": "Смешайте; соль добавьте в конце смешивания и хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 66.3366,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 41.1881,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 13.8614,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 2.1782,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the milk",
+          "note_ru": "растворите в молоке"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.9505,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.7723,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing",
+          "note_ru": "добавьте в конце смешивания"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead well, 60–90 min at room temperature, then 18–20 hours in the fridge.",
+    "Dough: mix the flour, water, milk with the sugar dissolved in it, yeast and sponge. Add the salt at the end of mixing and knead well. Let ferment 90–120 min, folding 1–2 times.",
+    "Work pieces of 500 g lightly longish. With seam up place on sheets dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour and let ferment well.",
+    "Turn the pieces after a good proof, pull them evenly longish and place on the loading devices.",
+    "Bake in a warm oven with steam. Open the vent after 15 minutes and finish baking until crisp."
+  ],
+  "method_ru": [
+    "Опара: хорошо вымесите, 60–90 минут при комнатной температуре, затем в холодильник на 18–20 часов.",
+    "Тесто: смешайте муку, воду, молоко с растворённым сахаром, дрожжи и опару. Соль добавьте в конце смешивания и хорошо вымесите тесто. Оставьте для брожения на 90–120 минут (обомните 1–2 раза).",
+    "Разделите тесто на куски по 500 г, слегка вытяните их в длину. Выложите на листы, присыпанные смесью муки: 75 % универсальной и 25 % цельнозерновой, швом вверх и дайте им как следует подняться.",
+    "Переверните хорошо поднявшиеся заготовки, равномерно вытяните их в длину и выложите на противни.",
+    "Выпекайте в тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 19.5 kg batch (39 pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 19,5 кг (39 кусков по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-ciabatta-bigia.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-ciabatta-bigia-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

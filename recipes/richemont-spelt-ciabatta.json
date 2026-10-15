@@ -1,0 +1,206 @@
+{
+  "id": "richemont-spelt-ciabatta",
+  "name": {
+    "en": "Spelt Ciabatta",
+    "ru": "Полбовая чиабатта",
+    "orig": "Spelt Ciabatta"
+  },
+  "category": "Ancient grains",
+  "category_ru": "Древние злаки",
+  "tags": [
+    "sponge dough",
+    "Richemont",
+    "ciabatta"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont",
+    "чиабатта"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 166
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "60 min + 12–20 h",
+      "time_ru": "60 мин + 12–20 ч",
+      "note": "Knead together. Let ferment 60 minutes at room temperature, then keep in the refrigerator (12–18 h in the English text, 18–20 h in the Russian).",
+      "note_ru": "Вымесите. Оставьте опару для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на 18–20 часов (в английском тексте 12–18 ч).",
+      "ingredients": [
+        {
+          "en": "White spelt flour",
+          "ru": "Мука полбяная белая",
+          "orig": "White spelt flour",
+          "pct": 11.981,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole spelt flour",
+          "ru": "Мука полбяная цельнозерновая",
+          "orig": "Whole spelt flour",
+          "pct": 3.9937,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.1997,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 9.9842,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 0.3494,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min, fold 2–3×",
+      "time_ru": "90–120 мин, обмять 2–3 раза",
+      "note": "Mix with the sponge; add the salt after 2–3 minutes and knead well.",
+      "note_ru": "Смешайте с опарой; соль добавьте через 2–3 минуты и хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "White spelt flour",
+          "ru": "Мука полбяная белая",
+          "orig": "White spelt flour",
+          "pct": 63.019,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole spelt flour",
+          "ru": "Мука полбяная цельнозерновая",
+          "orig": "Whole spelt flour",
+          "pct": 21.0063,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 45.0136,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 28.0084,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.8002,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 3.5011,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.301,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.8008,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes; knead well",
+          "note_ru": "добавьте через 2–3 минуты; хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead, 60 min at room temperature, then into the fridge (12–18 h, or 18–20 h in the Russian text).",
+    "Dough: mix the flour, water, milk, dissolved malt, sugar, yeast and sponge. Add the salt after 2–3 minutes and knead well. Let ferment 90–120 min, folding 2–3 times.",
+    "Knead pieces of 450 g lightly longish. Seam up, place on trays dusted with spelt flour and let ferment well.",
+    "Turn the pieces and place on the loading devices.",
+    "Bake in a medium-warm oven with steam. Open the vent halfway through baking and finish until crisp."
+  ],
+  "method_ru": [
+    "Опара: вымесите, 60 минут при комнатной температуре, затем в холодильник на 18–20 часов.",
+    "Тесто: смешайте муку, воду, молоко, растворённый солод, сахар, дрожжи и опару. Соль добавьте через 2–3 минуты и хорошо вымесите. Оставьте для брожения на 90–120 минут (обомните 2–3 раза).",
+    "Разделите тесто на куски по 450 г, слегка вытяните их в длину. Положите швом вверх на подносы, присыпанные полбяной мукой, и дайте хорошо подняться.",
+    "Переверните тестовые заготовки и положите их на противни.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 19.4 kg batch (43 pieces of 450 g). Spelt flour type 720 is converted like wheat 720: 75 % white spelt + 25 % whole spelt.",
+  "notes_ru": "Пересчитано с книжного замеса 19,4 кг (43 куска по 450 г). Полбяная мука типа 720 пересчитана как пшеничная 720: 75 % белой полбяной + 25 % цельнозерновой полбяной.",
+  "images": [
+    {
+      "src": "img/richemont-spelt-ciabatta.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-spelt-ciabatta-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "richemont-kamut-pyramid",
+  "name": {
+    "en": "Kamut pyramid",
+    "ru": "Камутовая пирамида",
+    "orig": "Kamut pyramid"
+  },
+  "category": "Ancient grains",
+  "category_ru": "Древние злаки",
+  "tags": [
+    "sponge dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 170
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "60 min + 18–20 h",
+      "time_ru": "60 мин + 18–20 ч",
+      "note": "Knead all ingredients together. Let ferment 60 minutes at room temperature, fold once, then keep in the refrigerator 18–20 hours.",
+      "note_ru": "Вымесите все ингредиенты. Оставьте опару для брожения на 60 минут при комнатной температуре. Обомните один раз и поставьте в холодильник на 18–20 часов.",
+      "ingredients": [
+        {
+          "en": "Kamut (khorasan) flour",
+          "ru": "Камутовая мука",
+          "orig": "Kamut (khorasan) flour",
+          "pct": 29.8432,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 24.4714,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.5969,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 0.1194,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix together; add the salt halfway through mixing and knead gently.",
+      "note_ru": "Смешайте; соль добавьте в середине смешивания и мягко вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "Kamut (khorasan) flour",
+          "ru": "Камутовая мука",
+          "orig": "Kamut (khorasan) flour",
+          "pct": 37.815,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "White spelt flour",
+          "ru": "Мука полбяная белая",
+          "orig": "White spelt flour",
+          "pct": 24.2563,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole spelt flour",
+          "ru": "Мука полбяная цельнозерновая",
+          "orig": "Whole spelt flour",
+          "pct": 8.0854,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 49.7566,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.4878,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.0898,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead gently",
+          "note_ru": "добавьте в середине смешивания и мягко вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead, 60 min at room temperature, fold once, then 18–20 hours in the fridge.",
+    "Dough: mix the flours, water, yeast and sponge. Add the salt halfway through mixing and knead gently. Let ferment 75–90 min.",
+    "After 30 minutes of proof, roll out about one eighth of the dough to 3.5 mm and freeze about 45 minutes. Cut out 12 × 12 cm triangles and freeze again.",
+    "Knead the rest into pieces of 500 g, round them and let relax briefly. Shape into triangles, place seam down on the loading devices and let ferment briefly.",
+    "Put on a 12 × 12 cm triangle stencil, dust the surface with a mix of 75 % all-purpose and 25 % whole-wheat flour and remove the stencil. Dust a Pharaoh-head stencil on the dough triangles with cocoa and lay them on the pyramids.",
+    "Bake in a medium-warm oven with steam. Open the vent halfway through baking and finish until light."
+  ],
+  "method_ru": [
+    "Опара: вымесите, 60 минут при комнатной температуре, обомните один раз и поставьте в холодильник на 18–20 часов.",
+    "Тесто: смешайте муку, воду, дрожжи и опару. Соль добавьте в середине смешивания и мягко вымесите. Оставьте для брожения на 75–90 минут.",
+    "Дайте тесту 30 минут постоять, раскатайте примерно восьмую часть теста до толщины 3,5 мм и положите в морозильную камеру примерно на 45 минут. Нарежьте треугольники 12 × 12 см и снова заморозьте.",
+    "Оставшееся тесто разделите на куски по 500 г, придайте им округлую форму и дайте немного постоять. Придайте заготовкам форму треугольника, положите швом вниз на противни и дайте немного подняться.",
+    "Положите сверху треугольный трафарет 12 × 12 см, посыпьте поверхность смесью муки: 75 % универсальной и 25 % цельнозерновой и уберите трафарет. Трафарет в форме головы фараона положите на тонкие треугольники из теста и посыпьте какао-порошком. Положите их сверху на заготовки в форме пирамиды.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до получения светлой корочки."
+  ],
+  "notes": "Scaled from the book's 18 kg batch: 2 kg rolled thin for the decorations, then 32 pieces of 500 g. At home, make about 12 % extra dough for the decorations (raise Loss to 12 %). Cocoa for dusting has no amount in the book.",
+  "notes_ru": "Пересчитано с книжного замеса 18 кг: 2 кг раскатываются для украшений, затем 32 куска по 500 г. Дома сделайте примерно на 12 % больше теста для украшений (поставьте «Потери» 12 %). Количество какао для посыпки в книге не указано.",
+  "images": [
+    {
+      "src": "img/richemont-kamut-pyramid.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-kamut-pyramid-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "richemont-caraway-cheese",
+  "name": {
+    "en": "Caraway cheese bread",
+    "ru": "Сырный хлеб с тмином",
+    "orig": "Caraway cheese bread"
+  },
+  "category": "Rye breads",
+  "category_ru": "Ржаной хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 162
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "12–15 h",
+      "time_ru": "12–15 ч",
+      "note": "Mix all ingredients together. Let ferment 12–15 hours at room temperature.",
+      "note_ru": "Смешайте все ингредиенты. Оставьте опару для брожения на 12–15 часов при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 36.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 24.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Basic sour",
+          "ru": "Базовая закваска",
+          "orig": "Basic sour",
+          "pct": 0.5,
+          "flour": false,
+          "water": 0.3333,
+          "flourIn": 0.6667,
+          "note": "wheat sourdough refreshed at 50 % hydration (book p. 236)",
+          "note_ru": "пшеничная закваска, освежается при влажности 50 % (книга, с. 236)"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Knead gently, then mix in the caraway and cheese.",
+      "note_ru": "Мягко вымесите, затем вмешайте тмин и сыр.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 22.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 22.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 19.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 46.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.8,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0,
+          "note": "knead gently",
+          "note_ru": "мягко вымесите"
+        },
+        {
+          "en": "Caraway",
+          "ru": "Тмин",
+          "orig": "Caraway",
+          "pct": 4.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Semi-hard cheese, coarsely chopped",
+          "ru": "Крупно порезанный полутвёрдый сыр",
+          "orig": "Semi-hard cheese, coarsely chopped",
+          "pct": 10.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: mix everything and let ferment 12–15 hours at room temperature.",
+    "Dough: knead the flours, water, yeast, sponge and salt gently together, then gently mix in the caraway and cheese. Let ferment 60–75 min.",
+    "Pre-knead pieces of 400 g lightly, then work firmly round. Seam up, place in dough baskets dusted with light rye flour and let ferment.",
+    "Turn onto the loading devices, remove the baskets and cut a diamond pattern with a vertical blade.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15–20 minutes and finish baking well."
+  ],
+  "method_ru": [
+    "Опара: смешайте все ингредиенты и оставьте для брожения на 12–15 часов при комнатной температуре.",
+    "Тесто: мягко вымесите муку, воду, дрожжи, опару и соль, затем мягко смешайте с тмином и сыром. Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на куски по 400 г и придайте им круглую форму. Положите швом вверх в корзинки для теста, присыпанные светлой ржаной мукой, и дайте подняться.",
+    "Переверните заготовки на противни, снимите формы и сделайте ромбовидные надрезы, держа нож вертикально.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15–20 минут и продолжайте выпекать до полной готовности."
+  ],
+  "notes": "Scaled from the book's 19.2 kg batch (48 pieces of 400 g). Caraway and cheese count in the dough weight, as in the book.",
+  "notes_ru": "Пересчитано с книжного замеса 19,2 кг (48 кусков по 400 г). Тмин и сыр входят в вес теста, как в книге.",
+  "images": [
+    {
+      "src": "img/richemont-caraway-cheese.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-caraway-cheese-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "richemont-ruch-baking-powder",
+  "name": {
+    "en": "“Ruch” bread with baking powder",
+    "ru": "«Серый» хлеб с разрыхлителем",
+    "orig": "“Ruch” bread with baking powder"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont",
+    "tin loaf"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont",
+    "формовой"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 56
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "12–15 h",
+      "time_ru": "12–15 ч",
+      "note": "Knead all ingredients together. Let ferment 12–15 hours at room temperature.",
+      "note_ru": "Вымесите все ингредиенты. Оставьте опару для брожения на 12–15 часов при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 61.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 1.0,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 1.6,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "no proof",
+      "time_ru": "без брожения",
+      "note": "Mix the baking powder well into the sponge and work the dough immediately.",
+      "note_ru": "Хорошо перемешайте разрыхлитель с опарой и сразу приступайте к приготовлению.",
+      "ingredients": [
+        {
+          "en": "Baking powder",
+          "ru": "Разрыхлитель",
+          "orig": "Baking powder",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in well and shape right away",
+          "note_ru": "хорошо перемешайте и сразу приступайте к формовке"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead everything together and let ferment 12–15 hours at room temperature.",
+    "Dough: mix the baking powder well into the sponge and work the dough immediately; no proof.",
+    "Pre-knead pieces of 450 g round, then work longish and place in greased moulds (18 × 9 × 6 cm).",
+    "Dust with a mix of 75 % all-purpose and 25 % whole-wheat flour and bake immediately.",
+    "Bake in a medium-warm oven with much steam. Open the vent after 20 minutes. Take the loaves out of the moulds after ¾ of the baking time and finish baking on sheets."
+  ],
+  "method_ru": [
+    "Опара: вымесите все ингредиенты и оставьте для брожения на 12–15 часов при комнатной температуре.",
+    "Тесто: хорошо перемешайте разрыхлитель с опарой и сразу приступайте к приготовлению; оставлять тесто для брожения не нужно.",
+    "Разделите тесто на куски по 450 г, придайте им округлую форму, затем вытяните в длину и поместите в смазанные жиром формы (18 × 9 × 6 см).",
+    "Посыпьте заготовки смесью муки: 75 % универсальной и 25 % цельнозерновой и сразу же выпекайте.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 20 минут. Когда пройдёт ¾ времени выпекания, выньте хлеб из форм и выпекайте до готовности на листах."
+  ],
+  "notes": "Scaled from the book's 16.7 kg batch (37 pieces of 450 g).",
+  "notes_ru": "Пересчитано с книжного замеса 16,7 кг (37 кусков по 450 г).",
+  "images": [
+    {
+      "src": "img/richemont-ruch-baking-powder.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-ruch-baking-powder-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

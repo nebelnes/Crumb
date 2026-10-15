@@ -1,0 +1,171 @@
+{
+  "id": "richemont-lucerne",
+  "name": {
+    "en": "Lucerne bread",
+    "ru": "Люцернский хлеб",
+    "orig": "Lucerne bread"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 18
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "10–12 h",
+      "time_ru": "10–12 ч",
+      "note": "Knead all ingredients well together. Let ferment 10–12 hours at room temperature.",
+      "note_ru": "Хорошо вымесите все ингредиенты. Оставьте опару для брожения на 10–12 часов при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 12.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 12.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 18.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Basic sour",
+          "ru": "Базовая закваска",
+          "orig": "Basic sour",
+          "pct": 0.3,
+          "flour": false,
+          "water": 0.3333,
+          "flourIn": 0.6667,
+          "note": "wheat sourdough refreshed at 50 % hydration (book p. 236)",
+          "note_ru": "пшеничная закваска, освежается при влажности 50 % (книга, с. 236)"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Mix together; add the salt halfway through mixing and knead the dough well.",
+      "note_ru": "Смешайте; соль добавьте в середине смешивания и хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 37.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 37.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 52.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.6,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.1,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing time",
+          "note_ru": "добавьте в середине смешивания"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead all ingredients well together and let ferment 10–12 hours at room temperature.",
+    "Dough: mix the flour, water, yeast and sponge. Add the salt halfway through mixing and knead well. Let ferment 60–75 min.",
+    "Knead pieces of dough lightly round, then oval shaped. Wrap up with seam up and let start to ferment. Press a rolling pin down in the centre of each piece, place on the loading devices and let relax briefly.",
+    "Turn the pieces before loading.",
+    "Bake with steam in a very hot oven. Open the vent after 15–20 minutes and finish baking until dark."
+  ],
+  "method_ru": [
+    "Опара: хорошо вымесите все ингредиенты и оставьте для брожения на 10–12 часов при комнатной температуре.",
+    "Тесто: смешайте муку, воду, дрожжи и опару. Соль добавьте в середине смешивания и хорошо вымесите тесто. Оставьте для брожения на 60–75 минут.",
+    "Слегка округлите куски теста, затем придайте им овальную форму. Выложите швом вверх и оставьте подниматься. Прижмите скалку по центру каждой заготовки, поместите их на противень и оставьте подниматься ещё на некоторое время.",
+    "Переверните заготовки перед загрузкой в печь.",
+    "Выпекайте в очень горячей печи с пароувлажнением. Выпустите пар через 15–20 минут и продолжайте выпекать до потемнения."
+  ],
+  "notes": "Scaled from the book's 17.5 kg batch. The book doesn't give a piece weight for this bread, so the calculator starts at 1 kg of dough.",
+  "notes_ru": "Пересчитано с книжного замеса 17,5 кг. Вес куска для этого хлеба в книге не указан, поэтому калькулятор начинает с 1 кг теста.",
+  "images": [
+    {
+      "src": "img/richemont-lucerne.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-lucerne-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

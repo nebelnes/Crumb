@@ -1,0 +1,180 @@
+{
+  "id": "richemont-leek-bacon",
+  "name": {
+    "en": "Leek-bacon bread",
+    "ru": "Хлеб с беконом и луком-пореем",
+    "orig": "Leek-bacon bread"
+  },
+  "category": "Ancient grains",
+  "category_ru": "Древние злаки",
+  "tags": [
+    "sponge dough",
+    "Richemont",
+    "barley"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont",
+    "ячмень"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 178
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "60–90 min + 18–20 h",
+      "time_ru": "60–90 мин + 18–20 ч",
+      "note": "Knead all ingredients together. Let ferment 60–90 minutes at room temperature, then keep in the refrigerator 18–20 hours.",
+      "note_ru": "Вымесите все ингредиенты. Оставьте опару для брожения на 60–90 минут при комнатной температуре, затем поставьте в холодильник на 18–20 часов.",
+      "ingredients": [
+        {
+          "en": "Light barley flour",
+          "ru": "Мука ячменная светлая",
+          "orig": "Light barley flour",
+          "pct": 26.7966,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 24.3969,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.4499,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix together; add the salt halfway through and knead well; then fold in the cooled leek and bacon.",
+      "note_ru": "Смешайте; соль добавьте в середине смешивания и хорошо вымесите; затем вмешайте остывший лук-порей и бекон.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 54.9025,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 18.3008,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 49.1365,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.9081,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.6072,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead well",
+          "note_ru": "добавьте в середине смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Leek, cut, slightly stewed",
+          "ru": "Припущенный нарезанный лук-порей",
+          "orig": "Leek, cut, slightly stewed",
+          "pct": 33.0919,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Bacon cubes, slightly stewed",
+          "ru": "Припущенные кубики бекона",
+          "orig": "Bacon cubes, slightly stewed",
+          "pct": 33.0919,
+          "flour": false,
+          "water": 0,
+          "note": "cooled; mix in gently",
+          "note_ru": "остудите и мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead, 60–90 min at room temperature, then 18–20 hours in the fridge.",
+    "Dough: mix the flour, water, yeast and sponge. Add the salt halfway through mixing and knead well. Gently mix in the cooled leek and bacon. Let ferment 75–90 min.",
+    "Knead pieces of 500 g first round, then longish. Brush with water and roll in rye meal. Place on the loading devices and let ferment well.",
+    "Make sure the pieces don't stick to the loading devices.",
+    "Bake in a warm oven with steam. Open the vent after 20 minutes and finish baking until crisp."
+  ],
+  "method_ru": [
+    "Опара: вымесите, 60–90 минут при комнатной температуре, затем в холодильник на 18–20 часов.",
+    "Тесто: смешайте муку, воду, дрожжи и опару. Соль добавьте в середине смешивания и хорошо вымесите. Мягко вмешайте остывшие лук-порей и бекон. Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на куски по 500 г, придайте им округлую форму, затем вытяните в длину. Смочите водой и обваляйте в ржаной муке. Положите на противни и дайте как следует подняться.",
+    "Убедитесь, что тестовые заготовки не прилипают к противням.",
+    "Выпекайте в тёплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 24.5 kg batch (49 pieces of 500 g). Leek and bacon count in the dough weight, as in the book. Rye meal for rolling has no amount.",
+  "notes_ru": "Пересчитано с книжного замеса 24,5 кг (49 кусков по 500 г). Лук-порей и бекон входят в вес теста, как в книге. Количество ржаной муки для обваливания не указано.",
+  "images": [
+    {
+      "src": "img/richemont-leek-bacon.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-leek-bacon-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

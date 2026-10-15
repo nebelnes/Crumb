@@ -1,0 +1,192 @@
+{
+  "id": "richemont-el-prestinee",
+  "name": {
+    "en": "El Prestinee",
+    "ru": "El Prestinee",
+    "orig": "El Prestinee"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont",
+    "enriched"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont",
+    "сдобный"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 60
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 360,
+    "total": 1080,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 180,
+      "max": 720,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "45–60 min",
+      "time_ru": "45–60 мин",
+      "note": "Mix all ingredients together. Let ferment 45–60 minutes.",
+      "note_ru": "Смешайте все ингредиенты. Оставьте опару для брожения на 45–60 минут.",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 30.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 25.0,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 5.0,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Mix the flour, milk with sugar, sponge, eggs and zest; butter after 4–5 min; salt at the end; then the candied peel.",
+      "note_ru": "Смешайте муку, молоко с сахаром, опару, яйца и цедру; масло через 4–5 минут; соль в конце; затем цукаты.",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 70.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 25.0,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the milk",
+          "note_ru": "растворите в молоке"
+        },
+        {
+          "en": "Eggs",
+          "ru": "Яйца",
+          "orig": "Eggs",
+          "pct": 7.5,
+          "flour": false,
+          "water": 0.75
+        },
+        {
+          "en": "Lemon zest, fresh",
+          "ru": "Свежая лимонная цедра",
+          "orig": "Lemon zest, fresh",
+          "pct": 0.25,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 15.0,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 4–5 minutes",
+          "note_ru": "добавьте через 4–5 минут"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end; knead to a flexible dough",
+          "note_ru": "добавьте в конце; вымесите до эластичного состояния"
+        },
+        {
+          "en": "Candied orange peel, finely chopped",
+          "ru": "Тонко нарезанные апельсиновые цукаты",
+          "orig": "Candied orange peel, finely chopped",
+          "pct": 7.5,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: mix everything and let ferment 45–60 min.",
+    "Dough: mix the flour, milk with the sugar dissolved in it, sponge, eggs and lemon zest. Add the butter after 4–5 minutes and the salt at the end; knead to a flexible dough. Gently mix in the candied orange peel. Let ferment 60–75 min.",
+    "Work pieces of 360 g fully round, place on greased sheets and brush with egg. After ¾ of the proof, put the pieces in the refrigerator.",
+    "Brush once more with egg, cut a triangle with a blade and decorate with almond paste 1:1.",
+    "Place in a very mild oven with the vent open. Close the vent after 5 minutes and steam well. Open the vent halfway through baking and finish until golden."
+  ],
+  "method_ru": [
+    "Опара: смешайте все ингредиенты и оставьте для брожения на 45–60 минут.",
+    "Тесто: смешайте муку, молоко с растворённым сахаром, опару, яйца и лимонную цедру. Масло добавьте через 4–5 минут, соль — в конце смешивания; вымесите до эластичного состояния. Мягко смешайте с цукатами. Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на куски по 360 г, придайте им форму шара, положите на смазанные жиром листы и смажьте яйцом. Спустя ¾ времени расстойки поместите заготовки в холодильник.",
+    "Ещё раз смажьте заготовки яйцом, вырежьте на поверхности треугольник острым ножом и украсьте миндальной пастой 1:1.",
+    "Поместите заготовки в очень умеренно нагретую печь с открытой заслонкой. Закройте заслонку через 5 минут и дайте хорошо пропариться. Выпустите пар в середине выпекания и выпекайте, пока изделия не станут золотистыми."
+  ],
+  "notes": "Scaled from the book's 19.1 kg batch (53 pieces of 360 g). Egg for brushing and the almond paste have no amounts in the book.",
+  "notes_ru": "Пересчитано с книжного замеса 19,1 кг (53 куска по 360 г). Количества яйца для смазывания и миндальной пасты в книге не указаны.",
+  "images": [
+    {
+      "src": "img/richemont-el-prestinee.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-el-prestinee-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "richemont-emmer",
+  "name": {
+    "en": "Emmer bread",
+    "ru": "Хлеб из пшеницы двузернянки",
+    "orig": "Emmer bread"
+  },
+  "category": "Ancient grains",
+  "category_ru": "Древние злаки",
+  "tags": [
+    "sponge dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 164
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "60 min + 18–20 h",
+      "time_ru": "60 мин + 18–20 ч",
+      "note": "Knead all ingredients together. Let ferment 60 minutes at room temperature, fold once, then keep in the refrigerator 18–20 hours.",
+      "note_ru": "Вымесите все ингредиенты. Оставьте опару для брожения на 60 минут при комнатной температуре. Обомните 1 раз и поставьте в холодильник на 18–20 часов.",
+      "ingredients": [
+        {
+          "en": "Dark emmer flour",
+          "ru": "Тёмная мука из пшеницы двузернянки",
+          "orig": "Dark emmer flour",
+          "pct": 34.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 25.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 0.8,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min, fold 1–2×",
+      "time_ru": "60–75 мин, обмять 1–2 раза",
+      "note": "Knead gently together.",
+      "note_ru": "Мягко вымесите.",
+      "ingredients": [
+        {
+          "en": "Dark emmer flour",
+          "ru": "Тёмная мука из пшеницы двузернянки",
+          "orig": "Dark emmer flour",
+          "pct": 33.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole emmer flour",
+          "ru": "Цельнозерновая мука из пшеницы двузернянки",
+          "orig": "Whole emmer flour",
+          "pct": 18.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 11.25,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 3.75,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 51.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.5,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 1.5,
+          "flour": false,
+          "water": 0,
+          "note": "knead gently",
+          "note_ru": "мягко вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: knead, 60 min at room temperature, fold once, then 18–20 hours in the fridge.",
+    "Dough: mix all ingredients and knead gently. Let ferment 60–75 min, folding 1–2 times.",
+    "Knead pieces of 500 g first round, then longish. Widen slightly with a rolling pin, place on the loading devices and let ferment.",
+    "Put an ear-of-wheat stencil on top and dust with light emmer flour.",
+    "Bake in a medium-warm oven with steam. Open the vent halfway through baking and finish until crisp."
+  ],
+  "method_ru": [
+    "Опара: вымесите, 60 минут при комнатной температуре, обомните 1 раз и поставьте в холодильник на 18–20 часов.",
+    "Тесто: мягко вымесите все ингредиенты. Оставьте для брожения на 60–75 минут (обомните 1–2 раза).",
+    "Разделите тесто на куски по 500 г, придайте им сначала округлую форму, а затем вытяните в длину. Слегка раскатайте скалкой, положите на противни и дайте подняться.",
+    "Положите сверху трафарет в виде колоса и присыпьте светлой мукой из пшеницы двузернянки.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 18 kg batch (36 pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 18 кг (36 кусков по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-emmer.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-emmer-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

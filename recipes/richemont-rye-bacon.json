@@ -1,0 +1,169 @@
+{
+  "id": "richemont-rye-bacon",
+  "name": {
+    "en": "Rye bacon bread",
+    "ru": "Ржаной хлеб с беконом",
+    "orig": "Rye bacon bread"
+  },
+  "category": "Rye breads",
+  "category_ru": "Ржаной хлеб",
+  "tags": [
+    "sponge dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 158
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "12–15 h",
+      "time_ru": "12–15 ч",
+      "note": "Mix all ingredients together. Let ferment 12–15 hours at room temperature.",
+      "note_ru": "Смешайте все ингредиенты. Оставьте опару для брожения на 12–15 часов при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 35.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 22.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Basic sour",
+          "ru": "Базовая закваска",
+          "orig": "Basic sour",
+          "pct": 0.6,
+          "flour": false,
+          "water": 0.3333,
+          "flourIn": 0.6667,
+          "note": "wheat sourdough refreshed at 50 % hydration (book p. 236)",
+          "note_ru": "пшеничная закваска, освежается при влажности 50 % (книга, с. 236)"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Knead gently, then mix in the cooled bacon.",
+      "note_ru": "Мягко вымесите, затем вмешайте остывший бекон.",
+      "ingredients": [
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 65.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100: medium rye",
+          "note_ru": "ржаная мука типа 1100: средняя"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 50.5,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.1,
+          "flour": false,
+          "water": 0,
+          "note": "knead all gently together",
+          "note_ru": "мягко вымесите все ингредиенты"
+        },
+        {
+          "en": "Bacon cubes, coarse, slightly stewed",
+          "ru": "Припущенные крупные кубики бекона",
+          "orig": "Bacon cubes, coarse, slightly stewed",
+          "pct": 55.5,
+          "flour": false,
+          "water": 0,
+          "note": "cooled; mix in gently",
+          "note_ru": "остудите и мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: mix everything and let ferment 12–15 hours at room temperature.",
+    "Dough: knead the rye, water, yeast, sponge and salt gently together. Gently mix in the cooled, slightly stewed bacon. Let ferment 60–75 min.",
+    "Knead pieces of 400 g lightly round, then firmly longish. Seam up, place in dough baskets dusted with light rye flour and let ferment.",
+    "Turn the pieces onto the loading devices and remove the baskets.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15–20 minutes and finish baking well."
+  ],
+  "method_ru": [
+    "Опара: смешайте все ингредиенты и оставьте для брожения на 12–15 часов при комнатной температуре.",
+    "Тесто: мягко вымесите рожь, воду, дрожжи, опару и соль. Мягко вмешайте остывший припущенный бекон. Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на куски по 400 г, придайте им округлую форму, а затем вытяните в длину. Положите швом вверх в корзинки для теста, присыпанные светлой ржаной мукой, и дайте подняться.",
+    "Переверните заготовки на противни и снимите формы.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15–20 минут и продолжайте выпекать до полной готовности."
+  ],
+  "notes": "Scaled from the book's 23.4 kg batch (58 pieces of 400 g). The bacon counts in the dough weight, as in the book.",
+  "notes_ru": "Пересчитано с книжного замеса 23,4 кг (58 кусков по 400 г). Бекон входит в вес теста, как в книге.",
+  "images": [
+    {
+      "src": "img/richemont-rye-bacon.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-rye-bacon-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

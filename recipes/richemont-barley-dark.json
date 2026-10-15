@@ -1,0 +1,173 @@
+{
+  "id": "richemont-barley-dark",
+  "name": {
+    "en": "Barley bread dark",
+    "ru": "Тёмный ячменный хлеб",
+    "orig": "Barley bread dark"
+  },
+  "category": "Ancient grains",
+  "category_ru": "Древние злаки",
+  "tags": [
+    "sponge dough",
+    "Richemont",
+    "barley"
+  ],
+  "tags_ru": [
+    "опара",
+    "Richemont",
+    "ячмень"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 180
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Sponge dough",
+      "name_ru": "Опара",
+      "time": "60 min + 18–20 h",
+      "time_ru": "60 мин + 18–20 ч",
+      "note": "Mix all ingredients well together. Let ferment 60 minutes at room temperature, then keep in the refrigerator 18–20 hours.",
+      "note_ru": "Хорошо смешайте все ингредиенты. Оставьте опару для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на 18–20 часов.",
+      "ingredients": [
+        {
+          "en": "Barley flour",
+          "ru": "Мука ячменная",
+          "orig": "Barley flour",
+          "pct": 47.4737,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.6923,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 4.9452,
+          "flour": false,
+          "water": 0.3899,
+          "flourIn": 0.5776,
+          "note": "lean dough: flour 100, water 65–70, yeast 3–4, salt 2–2.25 % (book p. 233)",
+          "note_ru": "постное тесто: мука 100, вода 65–70, дрожжи 3–4, соль 2–2,25 % (книга, с. 233)"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 43.5175,
+          "flour": false,
+          "water": 1
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min",
+      "time_ru": "90–120 мин",
+      "note": "Mix together; add the salt after a third of the mixing time and knead gently.",
+      "note_ru": "Смешайте; соль добавьте по прошествии трети времени смешивания и мягко вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 26.2632,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 26.2632,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 34.6872,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.7839,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.775,
+          "flour": false,
+          "water": 0,
+          "note": "add after a third of the mixing time; knead gently",
+          "note_ru": "добавьте по прошествии трети времени смешивания и мягко вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Sponge: mix well, 60 min at room temperature, then 18–20 hours in the fridge.",
+    "Dough: mix the flour, water, yeast and sponge. Add the salt after a third of the mixing time and knead gently. Let ferment 90–120 min.",
+    "Knead pieces of 450 g lightly round. Roll slightly flat and make a hole in the middle with a rolling pin. Place on the loading devices and let ferment.",
+    "Place a stencil on top and dust with a mix of 75 % all-purpose and 25 % whole-wheat flour.",
+    "Bake in a warm oven with steam. Open the vent halfway through baking and finish baking well."
+  ],
+  "method_ru": [
+    "Опара: хорошо смешайте, 60 минут при комнатной температуре, затем в холодильник на 18–20 часов.",
+    "Тесто: смешайте муку, воду, дрожжи и опару. Соль добавьте по прошествии трети времени смешивания и мягко вымесите. Оставьте для брожения на 90–120 минут.",
+    "Разделите тесто на куски по 450 г и придайте им округлую форму. Слегка раскатайте и сделайте в середине отверстие с помощью скалки. Положите на противни и дайте подняться.",
+    "Положите сверху трафарет и посыпьте смесью муки: 75 % универсальной и 25 % цельнозерновой.",
+    "Выпекайте в тёплой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 19 kg batch (42 pieces of 450 g). Fermented dough is a day-old lean dough (book p. 233); its flour and water are counted in the hydration.",
+  "notes_ru": "Пересчитано с книжного замеса 19 кг (42 куска по 450 г). Выброженное тесто — постное тесто, выдержанное в холодильнике (книга, с. 233); его мука и вода учтены в гидратации.",
+  "images": [
+    {
+      "src": "img/richemont-barley-dark.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-barley-dark-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}
