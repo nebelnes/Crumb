@@ -1,0 +1,232 @@
+{
+  "id": "richemont-pears",
+  "name": {
+    "en": "Bread with sliced pears",
+    "ru": "Хлеб с кусочками груши",
+    "orig": "Bread with sliced pears"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 82
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 550,
+    "total": 1100,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 275,
+      "max": 1100,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Zurich bread dough",
+      "name_ru": "Тесто для Цюрихского хлеба",
+      "link": "richemont-zurich",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "flour": true,
+          "water": 0,
+          "pct": 75.0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "flour": true,
+          "water": 0,
+          "pct": 25.0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "pct": 68.0
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "flour": false,
+          "water": 0,
+          "pct": 3.0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)",
+          "pct": 25.0,
+          "link": "richemont-fermented-dough"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите",
+          "pct": 2.5
+        }
+      ]
+    },
+    {
+      "name": "Fruit",
+      "name_ru": "Фрукты",
+      "note": "Mix everything well into the dough. Let ferment 60–75 min.",
+      "note_ru": "Хорошо смешайте все ингредиенты с тестом. Оставьте для брожения на 60–75 минут.",
+      "ingredients": [
+        {
+          "en": "Figs, dried, cut in slices",
+          "ru": "Нарезанный ломтиками сушёный инжир",
+          "orig": "Figs, dried, cut in slices",
+          "flour": false,
+          "water": 0,
+          "pct": 208.425
+        },
+        {
+          "en": "Pears, dried, cut in slices",
+          "ru": "Нарезанные ломтиками сушёные груши",
+          "orig": "Pears, dried, cut in slices",
+          "flour": false,
+          "water": 0,
+          "pct": 104.2125
+        },
+        {
+          "en": "Apple rings, dried",
+          "ru": "Сушёные яблочные кольца",
+          "orig": "Apple rings, dried",
+          "flour": false,
+          "water": 0,
+          "pct": 47.1438
+        },
+        {
+          "en": "Walnuts, broken",
+          "ru": "Дроблёные грецкие орехи",
+          "orig": "Walnuts, broken",
+          "flour": false,
+          "water": 0,
+          "pct": 44.6625
+        },
+        {
+          "en": "Sultanas",
+          "ru": "Кишмиш",
+          "orig": "Sultanas",
+          "flour": false,
+          "water": 0,
+          "pct": 82.8738
+        },
+        {
+          "en": "Spice mix for pear bread",
+          "ru": "Смесь специй для грушевого хлеба",
+          "orig": "Spice mix for pear bread",
+          "flour": false,
+          "water": 0,
+          "pct": 14.6394
+        },
+        {
+          "en": "Lemon juice",
+          "ru": "Лимонный сок",
+          "orig": "Lemon juice",
+          "flour": false,
+          "water": 1,
+          "pct": 7.4438
+        },
+        {
+          "en": "Lemon peel",
+          "ru": "Лимонная цедра",
+          "orig": "Lemon peel",
+          "flour": false,
+          "water": 0,
+          "pct": 1.7369
+        }
+      ]
+    },
+    {
+      "name": "Syrup",
+      "name_ru": "Сироп",
+      "topping": true,
+      "note": "Boil up together and let cool. Brush on the loaves while they are still hot.",
+      "note_ru": "Вскипятите вместе и дайте остыть. Намажьте изделия, пока они ещё горячие.",
+      "ingredients": [
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "pct": 74.4375
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "pct": 49.625
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make Zurich bread dough (tap the link) and let it ferment 60 minutes.",
+    "Mix the fruit, nuts, spices, lemon juice and peel well into the dough. Let ferment 60–75 min.",
+    "Work 52 pieces of dough of 550 g first roundly, then dropshaped. Place on greased sheets and let ferment.",
+    "Bake in very mild oven with steam.",
+    "Brush syrup on bread loaves when they are still hot and decorate them."
+  ],
+  "method_ru": [
+    "Приготовьте тесто для Цюрихского хлеба (нажмите на ссылку) и оставьте для брожения на 60 минут.",
+    "Хорошо смешайте с тестом фрукты, орехи, специи, лимонный сок и цедру. Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на 52 куска по 550 г каждый, придайте им сначала округлую форму, а затем форму капли. Положите на смазанные жиром листы и дайте подняться.",
+    "Выпекайте в очень умеренно нагретой печи с пароувлажнением.",
+    "Намажьте изделия сиропом, пока они еще горячие, и украсьте их."
+  ],
+  "notes": "Scaled from the book's 28.6 kg batch (pieces of 550 g). The dough part is Zurich bread dough, broken down into its ingredients. The book doesn't list what goes into the pear-bread spice mix.",
+  "notes_ru": "Пересчитано с книжного замеса 28,6 кг (куски по 550 г). Основа — тесто для Цюрихского хлеба, разложенное на ингредиенты. Состав смеси специй для грушевого хлеба в книге не указан.",
+  "images": [
+    {
+      "src": "img/richemont-pears.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-pears-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

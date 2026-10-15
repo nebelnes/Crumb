@@ -1,0 +1,266 @@
+{
+  "id": "richemont-duo-chnurzel",
+  "name": {
+    "en": "Duo “Chnurzel” bread",
+    "ru": "Двойной витой хлеб",
+    "orig": "Duo “Chnurzel” bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 124
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 600,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1200,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "“Chnurzel” bread dough",
+      "name_ru": "Тесто для витого хлеба",
+      "link": "richemont-chnurzel",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "flour": true,
+          "water": 0,
+          "pct": 33.5311
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "flour": true,
+          "water": 0,
+          "pct": 11.177
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "flour": true,
+          "water": 0,
+          "pct": 2.2108
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "flour": true,
+          "water": 0,
+          "pct": 2.2108
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "pct": 42.7429
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "flour": false,
+          "water": 0,
+          "pct": 0.6387
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)",
+          "pct": 13.265,
+          "link": "richemont-fermented-dough"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите",
+          "pct": 1.2037
+        }
+      ]
+    },
+    {
+      "name": "Rustic “Chnurzel” bread dough",
+      "name_ru": "Тесто для витого деревенского хлеба",
+      "link": "richemont-rustic-chnurzel",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "flour": true,
+          "water": 0,
+          "pct": 27.4699
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "flour": true,
+          "water": 0,
+          "pct": 9.1566
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "flour": true,
+          "water": 0,
+          "pct": 14.2437
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "pct": 40.6962
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "flour": false,
+          "water": 0,
+          "pct": 0.6104
+        },
+        {
+          "en": "Barley malt, inactive",
+          "ru": "Неактивный ячменный солод",
+          "orig": "Barley malt, inactive",
+          "flour": false,
+          "water": 0,
+          "pct": 1.0174
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)",
+          "pct": 7.6305,
+          "link": "richemont-fermented-dough"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите",
+          "pct": 1.3226
+        },
+        {
+          "en": "Sesame seeds, roasted",
+          "ru": "Обжаренный кунжут",
+          "orig": "Sesame seeds, roasted",
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом",
+          "pct": 2.0348
+        },
+        {
+          "en": "Sunflower seeds, roasted",
+          "ru": "Обжаренные семена подсолнечника",
+          "orig": "Sunflower seeds, roasted",
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом",
+          "pct": 1.2209
+        },
+        {
+          "en": "Linseeds, roasted",
+          "ru": "Обжаренные льняные семена",
+          "orig": "Linseeds, roasted",
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом",
+          "pct": 0.2544
+        },
+        {
+          "en": "Sprouted wheat, crushed",
+          "ru": "Дроблёное пророщенное зерно пшеницы",
+          "orig": "Sprouted wheat, crushed",
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом",
+          "pct": 1.3226
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make both doughs (tap the links): “Chnurzel” and Rustic “Chnurzel”, each with its 18–20 h cold proof.",
+    "Let both pieces of dough rest at room temperature for at least 4 hours. Break of 30 longish pieces of dough of 300 g each. Place “Chnurzel” shaped pieces on trays sprinkled with grain mix and dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour, and let ferment.",
+    "Place one piece of rustic \"Chnurzel” shaped piece each and one piece of “Chnurzel” shaped piece on top of each other, twist together, place on the loading peel and let relax briefly.",
+    "Bake in hot oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Приготовьте оба теста (нажмите на ссылки): витой хлеб и витой деревенский хлеб, каждое с выдержкой в холоде 18–20 часов.",
+    "Дайте обоим видам теста постоять при комнатной температуре по меньшей мере 4 часа. Разделите тесто на 30 продолговатых кусков по 300 г каждый. Поместите заготовки на подносы, присыпанные зерновой смесью и смесью муки: 75 % универсальной и 25 % цельнозерновой, и дайте им подняться.",
+    "Положите заготовки из разных видов теста попарно одну на другую, перекрутите их, поместите на противни и дайте немного постоять.",
+    "Выпекайте в горячей печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки,"
+  ],
+  "notes": "Scaled from the book's 18 kg batch (9 kg of each dough). One bread = one 300 g piece of each dough twisted together = 600 g. Grain mix for the trays: equal parts sunflower seeds, linseeds and sesame (no amount given).",
+  "notes_ru": "Пересчитано с книжного замеса 18 кг (по 9 кг каждого теста). Один хлеб — по одному куску 300 г каждого теста, перекрученные вместе = 600 г. Зерновая смесь для подносов: поровну семян подсолнечника, льна и кунжута (количество не указано).",
+  "images": [
+    {
+      "src": "img/richemont-duo-chnurzel.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-duo-chnurzel-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

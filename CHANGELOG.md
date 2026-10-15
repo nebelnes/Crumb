@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Last two Richemont breads
+- **Bread with sliced pears** (Zurich bread dough + figs, pears, apples, walnuts, sultanas; syrup glaze) and **Duo “Chnurzel” bread** (half Chnurzel, half Rustic Chnurzel dough). Their base doughs link to those recipes. All 90 bread recipes from the book are now in the app.
+
 ## 2026-10-15 — Richemont fermented-dough breads + preferment links
 - 62 more Richemont breads that use fermented dough (Burli, Zurich, Flower, Cap, … Buckwheat ear, Millet). All Richemont Breads are now sorted by book page.
 - In every Richemont recipe, Poolish, Sponge, Rye sponge, Basic sour and Fermented dough link to their recipes in Starters (tap the underlined name).
