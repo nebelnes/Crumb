@@ -425,6 +425,7 @@ function renderRecipe(id) {
     // a style with its own piece size (e.g. pizza) sets pieces and weight
     const vy = (variants.find(x => x.id === c.variant) || {}).yield || {};
     if (vy.pieceWeight) { c.pieceWeight = vy.pieceWeight; if (vy.pieces) c.pieces = vy.pieces; drawAmount(); }
+    else if (vy.total && vy.applyTotal && c.mode === 'total') { c.total = vy.total; drawAmount(); }
     document.querySelectorAll('#variants button').forEach(x => x.setAttribute('aria-pressed', x === b));
     save(); drawStatus(); drawOut(); drawInfo();
   });

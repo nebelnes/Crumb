@@ -1,6 +1,8 @@
 {
   "recipes": [
     "kmkz.json",
+    "richemont-basic-ferment.json",
+    "richemont-basic-sour.json",
     "naan-modernist-bread.json",
     "focaccia-modernist-bread.json",
     "pizza-modernist-bread.json",

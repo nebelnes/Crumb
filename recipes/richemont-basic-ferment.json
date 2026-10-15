@@ -1,0 +1,99 @@
+{
+  "id": "richemont-basic-ferment",
+  "name": {
+    "en": "Basic ferment",
+    "ru": "Базовый фермент",
+    "orig": "Basic ferment"
+  },
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "tags": [
+    "starter",
+    "sour",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "закваска",
+    "Richemont"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 236
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 650,
+    "pieces": 1,
+    "pieceWeight": 650,
+    "loss": 0,
+    "label": "How much ferment to make",
+    "label_ru": "Сколько фермента сделать",
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Basic ferment",
+      "name_ru": "Базовый фермент",
+      "time": "30–40 h",
+      "time_ru": "30–40 ч",
+      "temp": "26–28 °C",
+      "note": "Knead to a smooth dough; let it rise about 300 %.",
+      "note_ru": "Замесите до однородности; дайте подняться примерно на 300 %.",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Цельнозерновая пшеничная мука",
+          "orig": "Whole wheat flour",
+          "pct": 50,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Универсальная мука",
+          "orig": "All-purpose flour",
+          "pct": 50,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Apple juice, freshly squeezed",
+          "ru": "Свежевыжатый яблочный сок",
+          "orig": "Apple juice, freshly squeezed",
+          "pct": 25,
+          "flour": false,
+          "water": 1,
+          "note": "counted as water; adds enzyme activity",
+          "note_ru": "считается водой; для активности ферментов"
+        },
+        {
+          "en": "Water, about 28 °C",
+          "ru": "Вода, около 28 °C",
+          "orig": "Water, about 28 °C",
+          "pct": 37.5,
+          "flour": false,
+          "water": 1
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Knead the flours, apple juice and water (about 28 °C) into a smooth, even ferment.",
+    "Leave at room temperature (26–28 °C) for 30–40 hours, until it has risen by about 300 %.",
+    "Use all of it to build the basic sour."
+  ],
+  "method_ru": [
+    "Замесите муку, яблочный сок и воду (около 28 °C) до однородного фермента.",
+    "Оставьте при комнатной температуре (26–28 °C) на 30–40 часов, пока он не увеличится в объёме примерно на 300 %.",
+    "Используйте его целиком для базовой закваски."
+  ],
+  "notes": "First step of the book's own basic sour (Leavening methods). Flour type 1100 converted to 50 % whole wheat + 50 % all-purpose.",
+  "notes_ru": "Первый шаг собственной базовой закваски из книги (раздел «Способы заквашивания»). Мука типа 1100 заменена на 50 % цельнозерновой + 50 % универсальной."
+}

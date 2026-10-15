@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-15 — Basic ferment and basic sour
+- Two new starters from the Richemont book (Leavening methods), in Starters: **Basic ferment** (flour, apple juice, water; 30–40 h) and **Basic sour** with versions From the ferment (1,400 g) and Refresh (1 : 1 : 0.5, 250 g). Flour type 1100 → 50 % whole wheat + 50 % all-purpose; apple juice counts as water.
+- A recipe version can now set its own default amount when you switch to it (used by Basic sour).
+
 ## 2026-10-15 — Dough weight range
 - The dough-weight slider now goes from 500 g to 3,500 g in every bread recipe (КМКЗ keeps its small starter range).
 

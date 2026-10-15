@@ -1,0 +1,222 @@
+{
+  "id": "richemont-basic-sour",
+  "name": {
+    "en": "Basic sour",
+    "ru": "Базовая закваска",
+    "orig": "Basic sour"
+  },
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "tags": [
+    "starter",
+    "sour",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "закваска",
+    "Richemont"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 236
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 1400,
+    "pieces": 1,
+    "pieceWeight": 1400,
+    "loss": 0,
+    "label": "How much basic sour to make",
+    "label_ru": "Сколько закваски сделать",
+    "slider": {
+      "min": 50,
+      "max": 2000,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "first",
+      "label": "From the ferment",
+      "label_ru": "Из фермента",
+      "sub": "first build",
+      "sub_ru": "первый замес",
+      "yield": {
+        "total": 1400,
+        "applyTotal": true
+      },
+      "stages": [
+        {
+          "name": "Basic ferment",
+          "name_ru": "Базовый фермент",
+          "time": "30–40 h",
+          "time_ru": "30–40 ч",
+          "temp": "26–28 °C",
+          "note": "The whole ripe ferment (see the Basic ferment recipe).",
+          "note_ru": "Весь созревший фермент (см. рецепт «Базовый фермент»).",
+          "ingredients": [
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "pct": 22.2222,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "pct": 22.2222,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Apple juice, freshly squeezed",
+              "ru": "Свежевыжатый яблочный сок",
+              "orig": "Apple juice, freshly squeezed",
+              "pct": 11.1111,
+              "flour": false,
+              "water": 1,
+              "note": "counted as water; adds enzyme activity",
+              "note_ru": "считается водой; для активности ферментов"
+            },
+            {
+              "en": "Water, about 28 °C",
+              "ru": "Вода, около 28 °C",
+              "orig": "Water, about 28 °C",
+              "pct": 16.6667,
+              "flour": false,
+              "water": 1
+            }
+          ]
+        },
+        {
+          "name": "Basic sour",
+          "name_ru": "Базовая закваска",
+          "time": "until +300 %",
+          "time_ru": "до +300 %",
+          "temp": "room temp.",
+          "temp_ru": "комн. темп.",
+          "note": "Knead into the ripe ferment and let rise again by about 300 %.",
+          "note_ru": "Замесите с созревшим ферментом и снова дайте подняться примерно на 300 %.",
+          "ingredients": [
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "pct": 27.7778,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "pct": 27.7778,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "pct": 27.7778,
+              "flour": false,
+              "water": 1
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the basic ferment and let it ripen (30–40 h, about +300 %).",
+        "Knead the ripe ferment with the flours and water.",
+        "Leave at room temperature until it has risen by about 300 %.",
+        "Then refresh it (see “Refresh”) until it rises 300 % within 4–5 hours. The whole process can take up to 6 days."
+      ],
+      "method_ru": [
+        "Приготовьте базовый фермент и дайте ему созреть (30–40 ч, примерно +300 %).",
+        "Замесите созревший фермент с мукой и водой.",
+        "Оставьте при комнатной температуре, пока закваска не увеличится в объёме примерно на 300 %.",
+        "Затем освежайте её (см. «Освежение»), пока она не будет подниматься на 300 % за 4–5 часов. Весь процесс может занять до 6 дней."
+      ]
+    },
+    {
+      "id": "refresh",
+      "label": "Refresh",
+      "label_ru": "Освежение",
+      "sub": "1 : 1 : 0.5",
+      "sub_ru": "1 : 1 : 0,5",
+      "yield": {
+        "total": 250,
+        "applyTotal": true
+      },
+      "stages": [
+        {
+          "name": "Refresh",
+          "name_ru": "Освежение",
+          "time": "until +300 %",
+          "time_ru": "до +300 %",
+          "temp": "room temp.",
+          "temp_ru": "комн. темп.",
+          "note": "Same weight of flour as basic sour, half that weight of water.",
+          "note_ru": "Муки столько же, сколько закваски, воды — половина этого веса.",
+          "ingredients": [
+            {
+              "en": "Basic sour",
+              "ru": "Базовая закваска",
+              "orig": "Basic sour",
+              "pct": 100,
+              "flour": false,
+              "water": 0.3333333333333333,
+              "flourIn": 0.6666666666666666,
+              "note": "50 % hydration",
+              "note_ru": "гидратация 50 %"
+            },
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "pct": 50,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "pct": 50,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "pct": 50,
+              "flour": false,
+              "water": 1
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Knead the basic sour with the same weight of flour and half that weight of water.",
+        "Let it develop at room temperature until it has risen by about 300 %.",
+        "Repeat until it reaches +300 % within 4–5 hours; then it is fully developed."
+      ],
+      "method_ru": [
+        "Замесите базовую закваску с таким же количеством муки и половиной этого количества воды.",
+        "Дайте созреть при комнатной температуре до увеличения объёма примерно на 300 %.",
+        "Повторяйте, пока закваска не будет подниматься на 300 % за 4–5 часов — тогда она полностью созрела."
+      ]
+    }
+  ],
+  "notes": "From the book's Leavening methods pages. Flour type 1100 converted to 50 % whole wheat + 50 % all-purpose. The book doesn't name a flour for refreshing; it notes that higher-extraction flour develops faster.",
+  "notes_ru": "Из раздела книги «Способы заквашивания». Мука типа 1100 заменена на 50 % цельнозерновой + 50 % универсальной. Муку для освежения книга не указывает; отмечает, что мука с высоким выходом созревает быстрее."
+}
