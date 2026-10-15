@@ -2,7 +2,7 @@
 
 ## (pending approval) — Richemont poolish breads
 - Parisette with poolish, Jagged bread and Provence bread from the Richemont Craft School book, scaled to home size, with reference photos (tap to enlarge).
-- Plus 15 sponge-dough breads from the same book (Lucerne, Ciabatta bigia, Mutschli, two baking-powder loaves, El Prestinee, four rye breads, Emmer, Spelt ciabatta, Kamut pyramid, two barley breads). New category: Ancient grains.
+- Plus 15 sponge-dough breads from the same book (Lucerne, Ciabatta bigia, Mutschli, two baking-powder loaves, El Prestinee, four rye breads, Emmer, Spelt ciabatta, Kamut pyramid, two barley breads). All 18 Richemont recipes are grouped under the category Richemont Breads.
 - Flours use converted names only: all-purpose, 00 flour, and a 75/25 all-purpose / whole-wheat mix for dusting.
 
 ## 2026-10-15 — Borodinsky Premium
