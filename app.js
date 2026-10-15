@@ -338,8 +338,8 @@ function renderRecipe(id) {
     document.getElementById('info').innerHTML = `
       ${method.length ? `<section class="card"><h2>${esc(T('method'))}</h2><ol class="steps">${method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></section>` : ''}
       ${notes ? `<section class="card"><h2>${esc(T('notes'))}</h2><div class="notes">${esc(notes)}</div></section>` : ''}
-      ${(r0.images || []).length ? `<section class="card"><h2>${esc(T('refPhotos'))}</h2>
-        <div class="ref-photos">${r0.images.map(im => `
+      ${(r.images || []).length ? `<section class="card"><h2>${esc(T('refPhotos'))}</h2>
+        <div class="ref-photos">${r.images.map(im => `
           <button type="button" class="ref ${esc(im.kind || '')}" data-img="recipes/${esc(im.src)}">
             <img src="recipes/${esc(im.src)}" alt="${esc(L(im, 'caption') || '')}" loading="lazy">
             ${L(im, 'caption') ? `<span>${esc(L(im, 'caption'))}</span>` : ''}

@@ -1,19 +1,23 @@
 {
   "id": "richemont-fermented-dough",
   "name": {
-    "en": "Fermented dough",
-    "ru": "Выброженное тесто",
+    "en": "Fermented dough / Pâte fermentée",
+    "ru": "Выброженное тесто / Пат ферманте",
     "orig": "Fermented dough"
   },
   "category": "Starters",
   "category_ru": "Закваски",
   "tags": [
     "preferment",
-    "Richemont"
+    "Richemont",
+    "Modernist Bread",
+    "pâte fermentée"
   ],
   "tags_ru": [
     "предфермент",
-    "Richemont"
+    "Richemont",
+    "старое тесто",
+    "Modernist Bread"
   ],
   "status": "draft",
   "source": {
@@ -38,7 +42,7 @@
   "variantLabel_ru": "Вариант",
   "variants": [
     {
-      "id": "pre",
+      "id": "rich-pre",
       "label": "Fermented dough",
       "label_ru": "Выброженное тесто",
       "sub": "preferment",
@@ -123,10 +127,11 @@
         "Осторожно замесите все ингредиенты, чтобы получить эластичное тесто.",
         "Дайте тесту подойти 60–120 минут при комнатной температуре.",
         "Затем храните в холодильнике при 3–5 °C до 48 часов."
-      ]
+      ],
+      "group": "richemont"
     },
     {
-      "id": "dough",
+      "id": "rich-dough",
       "label": "Dough with it",
       "label_ru": "Тесто на нём",
       "sub": "final dough",
@@ -261,6 +266,104 @@
         "Приготовьте выброженное тесто (см. вариант «Выброженное тесто»).",
         "Если оно было в холодильнике, сначала дайте ему постоять при комнатной температуре, чтобы запустить брожение.",
         "Добавьте его в тесто вместе с мукой, водой, дрожжами и солью."
+      ],
+      "group": "richemont"
+    },
+    {
+      "id": "mb-pf",
+      "group": "mb",
+      "label": "Pâte fermentée",
+      "label_ru": "Пат ферманте",
+      "sub": "with salt · 12 h",
+      "sub_ru": "с солью · 12 ч",
+      "yield": {
+        "total": 500,
+        "applyTotal": true,
+        "slider": {
+          "min": 50,
+          "max": 1000,
+          "step": 5
+        },
+        "label": "How much to make",
+        "label_ru": "Сколько сделать"
+      },
+      "stages": [
+        {
+          "name": "Pâte fermentée",
+          "name_ru": "Пат ферманте",
+          "time": "1¼ h + 12 h",
+          "time_ru": "1¼ ч + 12 ч",
+          "temp": "room temp.",
+          "temp_ru": "комн. темп.",
+          "ingredients": [
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.07,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "pct": 68,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Flour",
+              "ru": "Мука",
+              "orig": "Flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Fine salt",
+              "ru": "Соль мелкая",
+              "orig": "Fine salt",
+              "pct": 2,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Bloom the yeast in the water. Add the flour and mix to a shaggy mass. Autolyse 30 minutes.",
+        "Add the salt and mix to medium gluten development.",
+        "Bulk ferment 1¼ hours with two four-edge folds: one right after mixing, one after 45 minutes.",
+        "Ferment at room temperature for 12 hours.",
+        "By hand: same through step 2, then bulk 3½ hours with three four-edge folds, and ferment 12 hours.",
+        "Ready when gassy and bubbly like a proofed dough, smooth and springy, passes the fingertip test and hasn’t deflated.",
+        "Add it to a dough once that dough reaches medium gluten development (15–18 % of the dough’s flour), at room temperature; mix on low speed until fully incorporated."
+      ],
+      "method_ru": [
+        "Дайте дрожжам набухнуть в воде. Добавьте муку и перемешайте до лохматой массы. Автолиз 30 минут.",
+        "Добавьте соль и замесите до средней степени развития клейковины.",
+        "Брожение 1¼ часа с двумя складываниями с четырёх сторон: сразу после замеса и через 45 минут.",
+        "Оставьте при комнатной температуре на 12 часов.",
+        "Вручную: так же до шага 2, затем брожение 3½ часа с тремя складываниями, и 12 часов при комнатной температуре.",
+        "Готово, когда газовое и пузыристое, как расстоявшееся тесто, гладкое и упругое, проходит пальцевую пробу и не осело.",
+        "Добавляйте в тесто, когда оно достигнет средней степени развития клейковины (15–18 % от муки теста), комнатной температуры; вмешивайте на низкой скорости до полного соединения."
+      ],
+      "notes": "The only preferment with salt. Use only a lean dough; refrigerate it if fermenting more than a few hours, and make a fresh batch every week. You can also hold back a piece of a just-mixed lean dough instead.",
+      "notes_ru": "Единственный предфермент с солью. Используйте только постное тесто; если брожение дольше нескольких часов — в холодильник, и делайте свежую партию каждую неделю. Можно также отложить кусок только что замешанного постного теста.",
+      "images": [
+        {
+          "src": "img/mb-pate-fermentee.jpg",
+          "kind": "photo",
+          "caption": "Preferment",
+          "caption_ru": "Предферментированное тесто"
+        },
+        {
+          "src": "img/mb-pate-fermentee-ready.jpg",
+          "kind": "steps",
+          "caption": "Ripeness check",
+          "caption_ru": "Как понять, что готово"
+        }
       ]
     }
   ],
@@ -272,6 +375,30 @@
       "kind": "photo",
       "caption": "Fermented dough",
       "caption_ru": "Выброженное тесто"
+    }
+  ],
+  "groups": [
+    {
+      "id": "richemont",
+      "label": "Richemont",
+      "label_ru": "Richemont",
+      "source": {
+        "type": "book",
+        "title": "Richemont Craft School — Хлеб / Bread",
+        "page": 233
+      }
+    },
+    {
+      "id": "mb",
+      "label": "Modernist Bread",
+      "label_ru": "Modernist Bread",
+      "source": {
+        "type": "book",
+        "title": "Modernist Bread",
+        "volume": 3,
+        "detail": "Techniques and Equipment, Fermentation p. 26–27",
+        "detail_ru": "Techniques and Equipment, «Брожение», с. 26–27"
+      }
     }
   ]
 }
