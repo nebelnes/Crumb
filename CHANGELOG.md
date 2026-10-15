@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Dough weight up to 2,500 g
+- "By dough weight" sliders now go up to 2,500 g (naan, focaccia, pizza, ripe dough).
+
 ## 2026-10-14 — Russian version, sources hidden
 - EN / RU switch in the top corner; every recipe has Russian names, ingredients, stages, method and notes (remembered per device).
 - Sources and page references are hidden for now (`SHOW_SOURCES = false` in app.js). They are still in the recipe files.

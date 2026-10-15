@@ -28,7 +28,7 @@
     "loss": 0,
     "slider": {
       "min": 500,
-      "max": 2000,
+      "max": 2500,
       "step": 10
     },
     "pieceSlider": {

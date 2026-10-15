@@ -281,7 +281,7 @@ function renderRecipe(id) {
 
   // slider ranges: yield.slider for the main amount, yield.pieceSlider for weight per piece
   const ranges = {
-    total: Object.assign({ min: 50, max: 2000, step: 5 }, r0.yield?.slider),
+    total: Object.assign({ min: 50, max: 2500, step: 5 }, r0.yield?.slider),
     pieceWeight: Object.assign({ min: 50, max: 250, step: 5 }, r0.yield?.pieceSlider),
   };
 
