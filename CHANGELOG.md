@@ -1,6 +1,6 @@
 # Change log
 
-## (pending approval) — Richemont fermented-dough breads + preferment links
+## 2026-10-15 — Richemont fermented-dough breads + preferment links
 - 62 more Richemont breads that use fermented dough (Burli, Zurich, Flower, Cap, … Buckwheat ear, Millet). All Richemont Breads are now sorted by book page.
 - In every Richemont recipe, Poolish, Sponge, Rye sponge, Basic sour and Fermented dough link to their recipes in Starters (tap the underlined name).
 - Side preparations (soaked chickpeas/lentils, blanched wheat, mushroom prep) and coatings (spreading masses, surface mixes) are shown as dashed cards that scale with the dough but don't count in the dough weight.
