@@ -24,7 +24,7 @@
     "title": "Text you sent",
     "title_ru": "Ваш текст"
   },
-  "status": "draft",
+  "status": "verified",
   "yield": {
     "mode": "total",
     "total": 290,

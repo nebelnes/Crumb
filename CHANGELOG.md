@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Starting КМКЗ verified
+- Formulas confirmed; status changed from Draft to Verified.
+
 ## 2026-10-15 — Starting КМКЗ
 - New recipe "Starting КМКЗ" (Разведение КМКЗ) with five methods from your text: malt + grain, malt + flour, fermented malt (with and without white malt), and two-phase malt КМКЗ. All 190 % hydration; ml converted to g (1 ml = 1 g). Draft until checked.
 
