@@ -53,14 +53,12 @@
       "note_ru": "Размешайте все ингредиенты до полного отсутствия комочков и перелейте в высокую банку. Оставьте закваску для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на 18–20 часов.",
       "ingredients": [
         {
-          "en": "00 flour (type 400)",
-          "ru": "Мука 00 (пшеничная мука типа 400)",
-          "orig": "Wheat flour 400",
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
           "pct": 19.8807,
           "flour": true,
-          "water": 0,
-          "note": "type 400 = 00 flour",
-          "note_ru": "тип 400 = мука 00"
+          "water": 0
         },
         {
           "en": "Water",
@@ -91,14 +89,12 @@
       "note_ru": "Смешайте; масло добавьте через 2–3 минуты, соль — в конце смешивания; вымесите тесто до эластичного состояния.",
       "ingredients": [
         {
-          "en": "00 flour (type 400)",
-          "ru": "Мука 00 (пшеничная мука типа 400)",
-          "orig": "Wheat flour 400",
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
           "pct": 80.1193,
           "flour": true,
-          "water": 0,
-          "note": "type 400 = 00 flour",
-          "note_ru": "тип 400 = мука 00"
+          "water": 0
         },
         {
           "en": "Water",
@@ -152,19 +148,19 @@
   "method": [
     "Make the poolish ahead: stir without lumps, 60 min at room temperature, then 18–20 hours in the fridge.",
     "Dough: mix the flour, water, dissolved liquid malt, yeast and poolish. Add the sunflower oil after 2–3 minutes and the salt at the end of mixing; knead to a flexible dough. Let ferment 60–75 min.",
-    "Knead pieces of 80 g into drop shapes. Dust ⅗ of them with wheat flour type 720; brush ⅖ with egg and roll the brushed ones in decoration maize.",
+    "Knead pieces of 80 g into drop shapes. Dust ⅗ of them with a mix of 75 % all-purpose and 25 % whole-wheat flour; brush ⅖ with egg and roll the brushed ones in decoration maize.",
     "Put the pieces together into a jagged bread, place on the loading devices and let ferment well.",
     "Bake in a medium-warm oven with steam. Open the vent halfway through baking and finish until light."
   ],
   "method_ru": [
     "Закваску приготовьте заранее: размешайте без комочков, 60 минут при комнатной температуре, затем в холодильник на 18–20 часов.",
     "Тесто: смешайте муку, воду, растворённый жидкий солод, дрожжи и закваску. Подсолнечное масло добавьте через 2–3 минуты, соль — в конце смешивания; вымесите тесто до эластичного состояния. Оставьте для брожения на 60–75 минут.",
-    "Разделите тесто на кусочки по 80 г, придайте им форму капель. Присыпьте ⅗ заготовок пшеничной мукой типа 720, смажьте ⅖ заготовок яйцом. Обваляйте смазанные заготовки в декоративной кукурузе.",
+    "Разделите тесто на кусочки по 80 г, придайте им форму капель. Присыпьте ⅗ заготовок смесью муки: 75 % универсальной и 25 % цельнозерновой, смажьте ⅖ заготовок яйцом. Обваляйте смазанные заготовки в декоративной кукурузе.",
     "Сложите вместе разные заготовки, чтобы получился зубчатый хлеб, выложите их на противни и дайте им как следует подняться.",
     "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар, когда изделия достигнут полуготовности, и продолжайте выпекать до получения светлой корочки."
   ],
-  "notes": "Scaled from the book's 16.6 kg batch. Egg, decoration maize and the type 720 dusting flour have no amounts in the book.\nWheat flour type 720 = 75 % all-purpose + 25 % whole wheat.",
-  "notes_ru": "Пересчитано с книжного замеса 16,6 кг. Для яйца, декоративной кукурузы и муки типа 720 для присыпки количества в книге не указаны.\nПшеничная мука типа 720 = 75 % универсальной + 25 % цельнозерновой.",
+  "notes": "Scaled from the book's 16.6 kg batch. Egg, decoration maize and the dusting flour have no amounts in the book.",
+  "notes_ru": "Пересчитано с книжного замеса 16,6 кг. Для яйца, декоративной кукурузы и муки для присыпки количества в книге не указаны.",
   "images": [
     {
       "src": "img/richemont-jagged.jpg",

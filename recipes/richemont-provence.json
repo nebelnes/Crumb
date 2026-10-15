@@ -53,14 +53,12 @@
       "note_ru": "Размешайте все ингредиенты до полного отсутствия комочков и перелейте в высокую банку. Оставьте закваску для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на ночь.",
       "ingredients": [
         {
-          "en": "All-purpose flour (type 550)",
-          "ru": "Пшеничная мука типа 550",
-          "orig": "All-purpose flour (type 550)",
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
           "pct": 33.8348,
           "flour": true,
-          "water": 0,
-          "note": "= 100 % all-purpose",
-          "note_ru": "= 100 % универсальная мука"
+          "water": 0
         },
         {
           "en": "Water",
@@ -91,14 +89,12 @@
       "note_ru": "Смешайте; соль добавьте в конце и хорошо вымесите тесто; травы мягко смешайте с тестом.",
       "ingredients": [
         {
-          "en": "00 flour (type 400)",
-          "ru": "Мука 00 (пшеничная мука типа 400)",
-          "orig": "Wheat flour 400",
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
           "pct": 66.1652,
           "flour": true,
-          "water": 0,
-          "note": "type 400 = 00 flour",
-          "note_ru": "тип 400 = мука 00"
+          "water": 0
         },
         {
           "en": "Water",
@@ -161,7 +157,7 @@
     "Make the poolish the day before: stir without lumps, 60 min at room temperature, then into the fridge overnight.",
     "Dough: mix the flour, water, dissolved liquid malt, yeast and poolish. Add the salt at the end and knead well, then mix the rosemary and herbs in gently. Let ferment 75–90 min.",
     "Knead pieces of 360 g, first round, then firmly long to 40 cm. Press slightly flat and place on the loading devices.",
-    "With a dough scraper make three diagonal cuts lengthwise. Pull apart slightly on both sides, dust with wheat flour type 720 and let ferment.",
+    "With a dough scraper make three diagonal cuts lengthwise. Pull apart slightly on both sides, dust with a mix of 75 % all-purpose and 25 % whole-wheat flour and let ferment.",
     "Make sure the pieces don't stick to the loading devices.",
     "Bake in a medium-warm oven with steam. Open the vent after 15 minutes and finish baking until crisp."
   ],
@@ -169,12 +165,12 @@
     "Закваску приготовьте накануне: размешайте без комочков, 60 минут при комнатной температуре, затем в холодильник на ночь.",
     "Тесто: смешайте муку, воду, растворённый жидкий солод, дрожжи и закваску. Соль добавьте в конце смешивания и хорошо вымесите тесто, затем мягко вмешайте розмарин и травы. Оставьте для брожения на 75–90 минут.",
     "Разделите тесто на куски по 360 г, придайте им округлую форму, а затем вытяните до длины 40 см. Слегка прижмите заготовки и поместите на противни.",
-    "Сделайте скребком для теста три продольных диагональных надреза. Слегка растяните оба края надрезов, присыпьте пшеничной мукой типа 720 и дайте подняться.",
+    "Сделайте скребком для теста три продольных диагональных надреза. Слегка растяните оба края надрезов, присыпьте смесью муки: 75 % универсальной и 25 % цельнозерновой и дайте подняться.",
     "Убедитесь, что тестовые заготовки не прилипают к противням.",
     "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
   ],
-  "notes": "Scaled from the book's 17.4 kg batch (48 pieces of 360 g). The poolish uses type 550 flour and the dough type 400.\nWheat flour type 720 = 75 % all-purpose + 25 % whole wheat.",
-  "notes_ru": "Пересчитано с книжного замеса 17,4 кг (48 кусков по 360 г). В закваске мука типа 550, в тесте — типа 400.\nПшеничная мука типа 720 = 75 % универсальной + 25 % цельнозерновой.",
+  "notes": "Scaled from the book's 17.4 kg batch (48 pieces of 360 g). The poolish uses all-purpose flour and the dough 00 flour.",
+  "notes_ru": "Пересчитано с книжного замеса 17,4 кг (48 кусков по 360 г). В закваске универсальная мука, в тесте — мука 00.",
   "images": [
     {
       "src": "img/richemont-provence.jpg",

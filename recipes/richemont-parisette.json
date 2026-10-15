@@ -53,14 +53,12 @@
       "note_ru": "Размешайте все ингредиенты до полного отсутствия комочков и перелейте в высокую банку. Оставьте закваску для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на ночь.",
       "ingredients": [
         {
-          "en": "All-purpose flour (type 550)",
-          "ru": "Пшеничная мука типа 550",
-          "orig": "All-purpose flour (type 550)",
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
           "pct": 32.8333,
           "flour": true,
-          "water": 0,
-          "note": "= 100 % all-purpose",
-          "note_ru": "= 100 % универсальная мука"
+          "water": 0
         },
         {
           "en": "Water",
@@ -91,14 +89,12 @@
       "note_ru": "Смешайте; соль добавьте в конце смешивания и хорошо вымесите тесто.",
       "ingredients": [
         {
-          "en": "All-purpose flour (type 550)",
-          "ru": "Пшеничная мука типа 550",
-          "orig": "All-purpose flour (type 550)",
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
           "pct": 67.1667,
           "flour": true,
-          "water": 0,
-          "note": "= 100 % all-purpose",
-          "note_ru": "= 100 % универсальная мука"
+          "water": 0
         },
         {
           "en": "Water",

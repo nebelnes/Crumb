@@ -2,7 +2,7 @@
 
 ## (pending approval) — Richemont poolish breads
 - Parisette with poolish, Jagged bread and Provence bread from the Richemont Craft School book, scaled to home size, with reference photos (tap to enlarge).
-- Flour types: 550 = all-purpose, 400 = 00 flour, 720 = 75 % all-purpose + 25 % whole wheat.
+- Flours use converted names only: all-purpose, 00 flour, and a 75/25 all-purpose / whole-wheat mix for dusting.
 
 ## 2026-10-15 — Borodinsky Premium
 - New rye bread on scalded КМКЗ (from your text): scald → scalded КМКЗ → sponge → dough, with two wheat-flour options (2nd grade, or whole + premium). Formula flour 980 g + 20 g in the КМКЗ = 1,000 g; water 668 g. Salt set to 12.5 g (text: 10–15 g).
