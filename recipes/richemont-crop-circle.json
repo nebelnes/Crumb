@@ -1,0 +1,152 @@
+{
+  "id": "richemont-crop-circle",
+  "name": {
+    "en": "Crop circle bread",
+    "ru": "Хлеб «Круги на полях»",
+    "orig": "Crop circle bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 130
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 7,
+    "pieceWeight": 150,
+    "total": 1050,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 75,
+      "max": 300,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 39.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 39.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 21.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 69.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 10.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Sprouted wheat, crushed",
+          "ru": "Дроблёное пророщенное зерно пшеницы",
+          "orig": "Sprouted wheat, crushed",
+          "pct": 14.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Knead 132 pieces of dough of 150 g first roundly, then firmly longish. Per bread put together 3 pieces of shaped piece to a crop circle sign on greased sheets and let ferment.",
+    "Dust surface with a mix of 75 % all-purpose and 25 % whole-wheat flour,",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time and finish baking until light."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 132 куска по 150 г каждый, придайте им сначала округлую форму, а затем вытяните в длину. Сложите вместе по 3 куска теста на смазанных жиром листах, образовав знак «Круги на полях», и дайте им подняться,",
+    "Присыпьте поверхность смесью муки: 75 % универсальной и 25 % цельнозерновой.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до появления светлой корочки."
+  ],
+  "notes": "Scaled from the book's 19.9 kg batch (pieces of 150 g).",
+  "notes_ru": "Пересчитано с книжного замеса 19,9 кг (куски по 150 г).",
+  "images": [
+    {
+      "src": "img/richemont-crop-circle.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-crop-circle-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

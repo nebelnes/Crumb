@@ -1,0 +1,160 @@
+{
+  "id": "richemont-vegetable",
+  "name": {
+    "en": "Vegetable bread",
+    "ru": "Овощной хлеб",
+    "orig": "Vegetable bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 90
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 60.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 20.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Wheat bran, fine",
+          "ru": "Пшеничные отруби мелкого помола",
+          "orig": "Wheat bran, fine",
+          "pct": 20.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 85.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.3,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 28.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Olive oil",
+          "ru": "Оливковое масло",
+          "orig": "Olive oil",
+          "pct": 8.5,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes",
+          "note_ru": "добавьте через 2–3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.85,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead to a flexible dough",
+          "note_ru": "добавьте в середине смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Dried vegetable mix (carrot, celery, leek, zucchini)",
+          "ru": "Сухая овощная смесь (морковь, сельдерей, лук-порей, цуккини)",
+          "orig": "Dried vegetable mix (carrot, celery, leek, zucchini)",
+          "pct": 11.5,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Knead 53 pieces of dough of 450 g lightly round and shape shaped pieces rectangular after a short relaxation phase. Place on sheets dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour with seam up and let ferment.",
+    "Turn shaped pieces and place on the loading peel.",
+    "Bake in medium-warm oven with steam. Open vent after 15 minutes and finish off baking."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 53 куска по 450 г, слегка округлите их, дайте тесту постоять и придайте заготовкам прямоугольную форму. Положите заготовки на листы, присыпанные смесью муки: 75 % универсальной и 25 % цельнозерновой, швом наверх и дайте им подняться.",
+    "Переверните тестовые заготовки и выложите их на противни.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 23.9 kg batch (pieces of 450 g).",
+  "notes_ru": "Пересчитано с книжного замеса 23,9 кг (куски по 450 г).",
+  "images": [
+    {
+      "src": "img/richemont-vegetable.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-vegetable-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

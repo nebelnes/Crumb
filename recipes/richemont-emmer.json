@@ -80,7 +80,8 @@
           "flour": false,
           "water": 0
         }
-      ]
+      ],
+      "link": "richemont-sponge-method"
     },
     {
       "name": "Dough",

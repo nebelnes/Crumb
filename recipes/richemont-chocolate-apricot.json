@@ -1,0 +1,164 @@
+{
+  "id": "richemont-chocolate-apricot",
+  "name": {
+    "en": "Chocolate-apricot bread",
+    "ru": "Шоколадно-абрикосовый хлеб",
+    "orig": "Chocolate-apricot bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 78
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 72.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.7,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 14.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead well",
+          "note_ru": "добавьте в середине смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Dried apricots, chopped",
+          "ru": "Нарезанные сушёные абрикосы",
+          "orig": "Dried apricots, chopped",
+          "pct": 52.5,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Chocolate coating with vanilla, drops or coarsely chopped",
+          "ru": "Шоколадная глазурь с ванилью, капли или крупная крошка",
+          "orig": "Chocolate coating with vanilla, drops or coarsely chopped",
+          "pct": 52.5,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60–75 min.",
+    "Knead 74 pieces of dough of 400 g slightly round and then work longish. Put in little bread baskets, brush with egg and let ferment.",
+    "Brush surface once again with egg.",
+    "Load in mild oven with open vent. Close vent after 5 minutes and steam well. After another 15 minutes open vent and finish off baking until golden."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на 74 куска по 400 г каждый, придайте им слегка округлую форму, а затем вытяните в длину. Положите заготовки в маленькие хлебные корзинки, смажьте яйцом и дайте подняться.",
+    "Еще раз смажьте поверхность ЯЙЦОМ,",
+    "Загрузите в умеренно нагретую печь с открытой заслонкой. Закройте заслонку через 5 минут, дайте заготовкам хорошо пропариться. Еще через 15 минут выпустите пар и продолжайте выпекать до получения золотистого цвета."
+  ],
+  "notes": "Scaled from the book's 29.6 kg batch (pieces of 400 g).",
+  "notes_ru": "Пересчитано с книжного замеса 29,6 кг (куски по 400 г).",
+  "images": [
+    {
+      "src": "img/richemont-chocolate-apricot.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-chocolate-apricot-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

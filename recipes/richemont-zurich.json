@@ -1,0 +1,134 @@
+{
+  "id": "richemont-zurich",
+  "name": {
+    "en": "Zurich bread",
+    "ru": "Цюрихский хлеб",
+    "orig": "Zurich bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 20
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 68.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 25.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Pre-knead pieces of dough lightly round, then work them firmly long. Place on the loading peel and let ferment well.",
+    "Cut in 2-4 with flatly held blade.",
+    "Bake in medium-warm oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Придайте кускам теста округлую форму, затем вытяните их в длину. Положите на противень и дайте им как следует подняться.",
+    "Сделайте 2—4 надреза, держа лезвие плоско.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 19.9 kg batch; the book gives no piece weight, so the calculator starts at 1 kg of dough.",
+  "notes_ru": "Пересчитано с книжного замеса 19,9 кг; вес куска в книге не указан, поэтому калькулятор начинает с 1 кг теста.",
+  "images": [
+    {
+      "src": "img/richemont-zurich.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-zurich-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

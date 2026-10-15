@@ -1,0 +1,170 @@
+{
+  "id": "richemont-seed-malt",
+  "name": {
+    "en": "Seed bread with malt",
+    "ru": "Солодовый хлеб с семенами",
+    "orig": "Seed bread with malt"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont",
+    "tin loaf"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont",
+    "формовой"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 132
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 600,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1200,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 37.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 12.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole rye flour, fine",
+          "ru": "Мука ржаная цельнозерновая мелкого помола",
+          "orig": "Whole rye flour, fine",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 74.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Barley malt, inactive",
+          "ru": "Неактивный ячменный солод",
+          "orig": "Barley malt, inactive",
+          "pct": 3.8,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 18.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead well",
+          "note_ru": "добавьте в середине смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Sprouted wheat, crushed",
+          "ru": "Дроблёное пророщенное зерно пшеницы",
+          "orig": "Sprouted wheat, crushed",
+          "pct": 16.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Sunflower seeds, roasted",
+          "ru": "Обжаренные семена подсолнечника",
+          "orig": "Sunflower seeds, roasted",
+          "pct": 16.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60–75 min.",
+    "Pre-knead 39 pieces of dough of 600 g roundly, then firmly rectangular. Brush surface with egg, turn in oat flakes and place in greased triangle moulds (13x21 11). Press on well and let ferment. :",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time. Mould after ¾ of baking time and finish off baking on sheets."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на 39 кусков по 600 г каждый, придайте им сначала круглую форму, а потом форму прямоугольников. Смажьте поверхность яйцом, обваляйте заготовки в овсяных хлопьях и поместите в смазанные жиром треугольные формы (13х21х11 см). Хорошо прижмите тестовые заготовки и дайте им подНЯТЬСЯ.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар на середине выпекания. Выньте изделия из форм через 34 времени выпекания и закончите выпекание на листах."
+  ],
+  "notes": "Scaled from the book's 23.5 kg batch (pieces of 600 g).",
+  "notes_ru": "Пересчитано с книжного замеса 23,5 кг (куски по 600 г).",
+  "images": [
+    {
+      "src": "img/richemont-seed-malt.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-seed-malt-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

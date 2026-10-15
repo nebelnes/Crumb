@@ -1,0 +1,170 @@
+{
+  "id": "richemont-rustico-schlumbi",
+  "name": {
+    "en": "“Rustico Schlumbi”",
+    "ru": "Базельский деревенский хлеб",
+    "orig": "“Rustico Schlumbi”"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 66
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min",
+      "time_ru": "90–120 мин",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 44.0,
+          "flour": true,
+          "water": 0,
+          "note": "type 400",
+          "note_ru": "тип 400"
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 28.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole rye flour, fine",
+          "ru": "Мука ржаная цельнозерновая мелкого помола",
+          "orig": "Whole rye flour, fine",
+          "pct": 28.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 70.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 1.0,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 23.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.35,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Caraway",
+          "ru": "Тмин",
+          "orig": "Caraway",
+          "pct": 1.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Coriander, ground",
+          "ru": "Молотый кориандр",
+          "orig": "Coriander, ground",
+          "pct": 0.5,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min.",
+    "Pre-knead 50 pieces of dough of 400 g lightly and place on worktable with seam up. Brush opening with little sun flower oil and knead lightly round once again. Place on trays dusted with rye flour 720 with seam down and let ferment.",
+    "Place shaped pieces with seam up on the loading peel.",
+    "Bake in medium-warm oven with steam. Open vent after 15-20 minutes and finish off baking."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 минут.",
+    "Разделите тесто на 50 кусков по 400 г каждый, слегка сформируйте и поместите на рабочий стол швом наверх. Смажьте отверстие небольшим количеством подсолнечного масла и снова придайте слегка округлую форму. Поместите на подносы, присыпанные ржаной мукой типа 720, швом вниз и дайте подняться.",
+    "Поместите заготовки на противни швом вверх.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 15-20 минут и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 20 kg batch (pieces of 400 g).",
+  "notes_ru": "Пересчитано с книжного замеса 20 кг (куски по 400 г).",
+  "images": [
+    {
+      "src": "img/richemont-rustico-schlumbi.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-rustico-schlumbi-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "richemont-chestnut",
+  "name": {
+    "en": "Chestnut bread",
+    "ru": "Каштановый хлеб",
+    "orig": "Chestnut bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 120
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 280,
+    "total": 1120,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 140,
+      "max": 560,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min, fold 1×",
+      "time_ru": "75–90 мин, обмять 1 раз",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 29.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 29.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 42.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 79.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 12.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Chestnut purée",
+          "ru": "Каштановое пюре",
+          "orig": "Chestnut purée",
+          "pct": 21.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.2,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Chestnuts, roasted, coarsely chopped",
+          "ru": "Обжаренные крупно рубленные каштаны",
+          "orig": "Chestnuts, roasted, coarsely chopped",
+          "pct": 40.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min, fold 1×.",
+    "Pre-knead 92 pieces of dough of 280 g slightly round, then work firmly round. Place 2 pieces of shaped piece each with seam up in dough baskets dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour and let ferment briefly.",
+    "Turn shaped pieces on the loading peel, remove moulds and cut in lengthwise with flatly held blade.",
+    "Bake in medium-warm oven with steam. Open vent after 15 minutes and finish off baking lightly."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 мин, обмять 1 раз.",
+    "Разделите тесто на 92 куска no 280 г каждый, придайте им сначала немного округлую форму, затем скатайте плотные шары. Поместите по две заготовки швом вверх в корзинки, присыпанные смесью муки: 75 % универсальной и 25 % цельнозерновой, и дайте немного постоять.",
+    "Переверните заготовки на противни, снимите формы и надрежьте заготовки в длину, держа нож плоско.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать еще некоторое время."
+  ],
+  "notes": "Scaled from the book's 25.8 kg batch (pieces of 280 g).",
+  "notes_ru": "Пересчитано с книжного замеса 25,8 кг (куски по 280 г).",
+  "images": [
+    {
+      "src": "img/richemont-chestnut.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-chestnut-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

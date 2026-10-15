@@ -1,0 +1,186 @@
+{
+  "id": "richemont-sweet-corn",
+  "name": {
+    "en": "Sweet corn bread",
+    "ru": "Сладкий кукурузный хлеб",
+    "orig": "Sweet corn bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont",
+    "corn",
+    "enriched"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont",
+    "кукуруза",
+    "сдобный"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 174
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 490,
+    "total": 980,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 245,
+      "max": 980,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Pre-mix",
+      "name_ru": "Премикс",
+      "ingredients": [
+        {
+          "en": "Water, boiling",
+          "ru": "Кипящая вода",
+          "orig": "Water, boiling",
+          "pct": 71.2871,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Coarse cornmeal (corn middlings)",
+          "ru": "Кукурузная мука с отрубями",
+          "orig": "Coarse cornmeal (corn middlings)",
+          "pct": 46.5347,
+          "flour": true,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min",
+      "time_ru": "90–120 мин",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 53.4653,
+          "flour": true,
+          "water": 0,
+          "note": "type 400",
+          "note_ru": "тип 400"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 10.8911,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 6.9307,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.4653,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 69.3069,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 3.4653,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 4–5 minutes",
+          "note_ru": "добавьте через 4–5 минут"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.6733,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Sultanas",
+          "ru": "Кишмиш",
+          "orig": "Sultanas",
+          "pct": 28.2178,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the pre-mix ahead: pour the boiling water over the grain, mix, cover with foil and refrigerate.",
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min.",
+    "Work 61 pieces of dough of 490 g first lightly round, then firmly longish. Place on greased sheets. Brush surface with egg and after short light stewing allow to stand in refrigerator.",
+    "Brush surface with egg once again and lightly cut in lengthwise with vertical blade.",
+    "Load in mild oven with open vent, Close vent after S minutes and steam. Open vent after 20 minutes baking time and finish off baking until golden."
+  ],
+  "method_ru": [
+    "Заранее приготовьте премикс: залейте крупку кипящей водой, перемешайте, накройте фольгой и поставьте в холодильник.",
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 минут.",
+    "Разделите тесто на 61 кусок по 490 г каждый, придайте им округлую форму и затем вытяните в длину. Положите заготовки на смазанные жиром листы. Смажьте поверхность яйцом и дайте заготовкам немного подняться, затем поставьте в холодильник.",
+    "Еще раз смажьте поверхность яйцом и сделайте посередине легкий продольный надрез, держа нож вертикально.",
+    "Загрузите в умеренно прогретую печь с открытой заслонкой. Закройте заслонку через 5 минут и дайте заготовкам пропариться. Выпустите пар через 20 минут с начала выпекания и продолжайте выпекать до появления золотистого цвета."
+  ],
+  "notes": "Scaled from the book's 29.9 kg batch (pieces of 490 g).",
+  "notes_ru": "Пересчитано с книжного замеса 29,9 кг (куски по 490 г).",
+  "images": [
+    {
+      "src": "img/richemont-sweet-corn.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-sweet-corn-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

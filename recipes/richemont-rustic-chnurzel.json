@@ -1,0 +1,190 @@
+{
+  "id": "richemont-rustic-chnurzel",
+  "name": {
+    "en": "Rustic “Chnurzel” bread",
+    "ru": "Витой деревенский хлеб",
+    "orig": "Rustic “Chnurzel” bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 114
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 600,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1200,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60 min, fold, 18–20 h cold, ≥4 h room",
+      "time_ru": "60 мин, обмять, 18–20 ч в холоде, ≥4 ч при комн. темп.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 54.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 18.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 28.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 80.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.2,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Barley malt, inactive",
+          "ru": "Неактивный ячменный солод",
+          "orig": "Barley malt, inactive",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 15.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.6,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Sesame seeds, roasted",
+          "ru": "Обжаренный кунжут",
+          "orig": "Sesame seeds, roasted",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Sunflower seeds, roasted",
+          "ru": "Обжаренные семена подсолнечника",
+          "orig": "Sunflower seeds, roasted",
+          "pct": 2.4,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Linseeds, roasted",
+          "ru": "Обжаренные льняные семена",
+          "orig": "Linseeds, roasted",
+          "pct": 0.5,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Sprouted wheat, crushed",
+          "ru": "Дроблёное пророщенное зерно пшеницы",
+          "orig": "Sprouted wheat, crushed",
+          "pct": 2.6,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60 min, fold, 18–20 h cold, ≥4 h room.",
+    "Let dough rest at room temperature for at least 4 hours. Break off 35 longish pieces of dough of 600 g, place on trays sprinkled with grain mix and dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour, and let ferment.",
+    "Twist shaped piece, place on the loading peel and let relax briefly.",
+    "Bake in hot oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60 мин, обмять, 18–20 ч в холоде, ≥4 ч при комн. темп..",
+    "Дайте тесту постоять при комнатной температуре как минимум 4 часа. Разделите тесто на 35 продолговатых кусков по 600 г каждый, поместите на подносы, присыпанные зерновой смесью и посыпанные смесью муки: 75 % универсальной и 25 % цельнозерновой, и дайте им подняться.",
+    "Скрутите заготовки, поместите на противни и дайте немного постоять,",
+    "Выпекайте в горячей печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 21 kg batch (pieces of 600 g). Grain mix for the trays: equal parts sunflower seeds, linseeds and sesame (no amount given).",
+  "notes_ru": "Пересчитано с книжного замеса 21 кг (куски по 600 г). Смесь семян для подносов: поровну семян подсолнечника, льна и кунжута (количество не указано).",
+  "images": [
+    {
+      "src": "img/richemont-rustic-chnurzel.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-rustic-chnurzel-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

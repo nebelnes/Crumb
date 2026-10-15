@@ -1,0 +1,164 @@
+{
+  "id": "richemont-sesame",
+  "name": {
+    "en": "Sesame bread",
+    "ru": "Хлеб с кунжутом",
+    "orig": "Sesame bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 148
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 68.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 2.3,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 23.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Sunflower oil",
+          "ru": "Подсолнечное масло",
+          "orig": "Sunflower oil",
+          "pct": 7.0,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes",
+          "note_ru": "добавьте через 2–3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.3,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Sesame seeds, roasted",
+          "ru": "Обжаренный кунжут",
+          "orig": "Sesame seeds, roasted",
+          "pct": 17.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Pre-knead 56 pieces of dough of 400 g roundly, then firmly longish. Brush surface with egg, turn in sesame seeds, let ferment briefly and then cool.",
+    "Place shaped pieces on the loading peel and cut in with flatly held scissors.",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time and finish off baking until light."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 56 кусков по 400 г каждый, придайте им округлую форму, а затем вытяните в длину. Смажьте поверхность яйцом, обваляйте в семенах кунжута, дайте немного подняться и затем охладите.",
+    "Положите заготовки на противни и сделайте надрезы, держа ножницы плоско.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар на середине выпекания и продолжайте выпекать до получения светлой корочки."
+  ],
+  "notes": "Scaled from the book's 22.4 kg batch (pieces of 400 g).",
+  "notes_ru": "Пересчитано с книжного замеса 22,4 кг (куски по 400 г).",
+  "images": [
+    {
+      "src": "img/richemont-sesame.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-sesame-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

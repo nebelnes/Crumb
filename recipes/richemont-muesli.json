@@ -1,0 +1,213 @@
+{
+  "id": "richemont-muesli",
+  "name": {
+    "en": "Muesli bread",
+    "ru": "Хлеб с мюсли",
+    "orig": "Muesli bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 74
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min",
+      "time_ru": "90–120 мин",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 60.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Whole milk",
+          "ru": "Молоко",
+          "orig": "Whole milk",
+          "pct": 60.0,
+          "flour": false,
+          "water": 0.87
+        },
+        {
+          "en": "7-grain cereal flakes",
+          "ru": "Смесь из 7 злаков",
+          "orig": "7-grain cereal flakes",
+          "pct": 36.0,
+          "flour": false,
+          "water": 0,
+          "note": "soak with the liquids and honey 30 min before adding flour",
+          "note_ru": "замочите с жидкостью и мёдом на 30 минут, затем добавьте муку"
+        },
+        {
+          "en": "Honey",
+          "ru": "Мёд",
+          "orig": "Honey",
+          "pct": 6.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 30.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.6,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Apple rings, dried",
+          "ru": "Сушёные яблочные кольца",
+          "orig": "Apple rings, dried",
+          "pct": 20.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Hazelnuts, roasted, coarsely chopped",
+          "ru": "Обжаренный крупно рубленный фундук",
+          "orig": "Hazelnuts, roasted, coarsely chopped",
+          "pct": 20.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Sultanas",
+          "ru": "Кишмиш",
+          "orig": "Sultanas",
+          "pct": 20.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    },
+    {
+      "name": "Surface mix",
+      "name_ru": "Смесь для покрытия",
+      "topping": true,
+      "note": "About 4 kg in the book: 1 part oat flakes, 2 parts hazelnuts.",
+      "note_ru": "В книге около 4 кг: 1 часть овсяных хлопьев, 2 части фундука.",
+      "ingredients": [
+        {
+          "en": "Oat flakes",
+          "ru": "Овсяные хлопья",
+          "orig": "Oat flakes",
+          "pct": 13.33,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Hazelnuts, coarsely ground",
+          "ru": "Дроблёный фундук",
+          "orig": "Hazelnuts, coarsely ground",
+          "pct": 26.67,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min.",
+    "Knead 72 pieces of dough of 500 g lightly round and then firmly longish. Brush surface with egg and turn in surface mix. Place on the loading peel with seam down and let ferment.",
+    "Bake in medium-warm oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 минут.",
+    "Разделите тесто на 72 куска по 500 г каждый, придайте им сначала округлую, а затем продолговатую форму. Смажьте поверхность яйцом и обмакните в обсыпку. Поместите заготовки на противни швом вниз и дайте им подняться.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 36 kg batch (pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 36 кг (куски по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-muesli.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-muesli-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

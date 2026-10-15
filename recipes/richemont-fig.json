@@ -1,0 +1,168 @@
+{
+  "id": "richemont-fig",
+  "name": {
+    "en": "Fig bread",
+    "ru": "Хлеб с инжиром",
+    "orig": "Fig bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 80
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 650,
+    "total": 1300,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 325,
+      "max": 1300,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Basic dough",
+      "name_ru": "Основное тесто",
+      "time": "60 min",
+      "time_ru": "60 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 67.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 1.4,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 33.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.35,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead well",
+          "note_ru": "добавьте в середине смешивания и хорошо вымесите"
+        }
+      ]
+    },
+    {
+      "name": "Fruit dough",
+      "name_ru": "Фруктовое тесто",
+      "ingredients": [
+        {
+          "en": "Figs, coarsely cut",
+          "ru": "Крупно нарезанный инжир",
+          "orig": "Figs, coarsely cut",
+          "pct": 47.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Sultanas",
+          "ru": "Кишмиш",
+          "orig": "Sultanas",
+          "pct": 40.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Walnuts, broken",
+          "ru": "Дроблёные грецкие орехи",
+          "orig": "Walnuts, broken",
+          "pct": 33.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60 min.",
+    "Fruit dough Knead 50 pieces of dough of 490 g longish. Fold-up dough Fold 50 pieces of dough of 110 g to a rectangular shape and roll out to 2-2.2 mm (15x20 cm). Slightly brush rectangles with water, put preknead fruit shaped pieces on it and wrap. Knead shaped pieces slightly longish, place on sheet with cloth and let ferment well. Decoration strip Knead 50x50 g fold-up dough to a length of 20 cm and allow to stand in refrigerator.",
+    "Slightly brush wrapped bread loaves with water in the middle. Place prepared decoration strip on bread loaves and dust them with a mix of 75 % all-purpose and 25 % whole-wheat flour. Cut in with a knife on both sides and cut the decoration strip with scissors to the shape of an ear.",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60 минут.",
+    "Фруктовое тесто Разделите тесто на 50 кусков по 490 г каждый и вытяните их в длину. Тесто для оборачивания Разделите тесто на 50 прямоугольных кусков по 110 г каждый, раскатайте их до толщины в 2-2,2 мм (15х20 см). Слегка смажьте прямоугольники водой, положите заготовки из фруктового теста на прямоугольники и заверните их. Придайте им вытянутую форму, положите на листы, покрытые тканью, и дайте как следует подняться. Декоративная полоска Приготовьте 50 кусочков теста для оборачивания по 50 г каждый, растяните их до длины 20 см и поставьте в холодильник.",
+    "Слегка смочите завернутые изделия водой посередине, Положите приготовленные декоративные полоски на буханки и присыпьте их смесью муки: 75 % универсальной и 25 % цельнозерновой. Сделайте ножом надрезы по обе стороны от полоски и придайте полоске форму колоса с помощью ножниц.",
+    "Выпекайте в умеренно теплой печи спароувлажнением. Выпустите пар, когда изделия достигнут полуготовности, и продолжайте выпекать до"
+  ],
+  "notes": "Scaled from the book's 32.6 kg batch (pieces of 650 g). Split the basic dough: 39 % (8,000 of 20,575 g) stays plain for wrapping and the decoration strip; mix the fruit into the rest. One loaf = 490 g fruit dough + 110 g wrap + 50 g strip = 650 g.",
+  "notes_ru": "Пересчитано с книжного замеса 32,6 кг (куски по 650 г). Разделите основное тесто: 39 % (8000 из 20 575 г) — для оборачивания и декоративной полоски, в остальное вмешайте фрукты. Один хлеб = 490 г фруктового теста + 110 г теста для оборачивания + 50 г полоска = 650 г.",
+  "images": [
+    {
+      "src": "img/richemont-fig.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-fig-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

@@ -75,7 +75,8 @@
           "water": 0.3899,
           "flourIn": 0.5776,
           "note": "lean dough: flour 100, water 65–70, yeast 3–4, salt 2–2.25 % (book p. 233)",
-          "note_ru": "постное тесто: мука 100, вода 65–70, дрожжи 3–4, соль 2–2,25 % (книга, с. 233)"
+          "note_ru": "постное тесто: мука 100, вода 65–70, дрожжи 3–4, соль 2–2,25 % (книга, с. 233)",
+          "link": "richemont-fermented-dough"
         },
         {
           "en": "Water",
@@ -85,7 +86,8 @@
           "flour": false,
           "water": 1
         }
-      ]
+      ],
+      "link": "richemont-sponge-method"
     },
     {
       "name": "Dough",

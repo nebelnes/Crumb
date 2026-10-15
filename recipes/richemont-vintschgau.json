@@ -1,0 +1,152 @@
+{
+  "id": "richemont-vintschgau",
+  "name": {
+    "en": "Flat bread “Vintschgau”",
+    "ru": "Фокачча «Долина Финшгау»",
+    "orig": "Flat bread “Vintschgau”"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont",
+    "rye"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont",
+    "ржаной"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 156
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min, fold 2×",
+      "time_ru": "90–120 мин, обмять 2 раза",
+      "ingredients": [
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 81.5,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100",
+          "note_ru": "ржаная мука типа 1100"
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 13.875,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 4.625,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 111.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 22.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.3,
+          "flour": false,
+          "water": 0,
+          "note": "mix everything in a stand mixer to a very soft dough",
+          "note_ru": "смешайте всё в планетарном миксере до очень мягкого теста"
+        },
+        {
+          "en": "Caraway",
+          "ru": "Тмин",
+          "orig": "Caraway",
+          "pct": 1.5,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min, fold 2×.",
+    "Pre-knead 60 pieces of dough of 400 g lightly and then work firmly round. Press slightly flat, dust surface with rye flour 720, place on the loading peel and let ferment briefly.",
+    "Bake in medium-warm oven with steam. Open vent after 15 minutes and finish off baking. The high dough yield prolongs the baking time. Otherwise, the bread will turn soft very quickly."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 мин, обмять 2 раза.",
+    "Разделите тесто на 60 кусков по 400 г каждый, придайте им круглую форму. Слегка прижмите заготовки, посыпьте поверхность ржаной мукой типа 720, положите заготовки на противни и дайте немного подняться.",
+    "Выпекайте в умеренно теплой печи спароувлажнением. Выпустите пар через15 минут и продолжайте выпекать до готовности. Чем больше выход теста, тем дольше должно длиться выпекание. В противном случае хлеб очень быстро станет мягким."
+  ],
+  "notes": "Scaled from the book's 24.2 kg batch (pieces of 400 g).",
+  "notes_ru": "Пересчитано с книжного замеса 24,2 кг (куски по 400 г).",
+  "images": [
+    {
+      "src": "img/richemont-vintschgau.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-vintschgau-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

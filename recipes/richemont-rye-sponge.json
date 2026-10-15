@@ -93,7 +93,8 @@
               "note": "50 % hydration; book range 1–2 %",
               "note_ru": "гидратация 50 %; в книге 1–2 %",
               "flourIn": 0.6666666666666666,
-              "pct": 1.5
+              "pct": 1.5,
+              "link": "richemont-basic-sour"
             }
           ]
         }
@@ -161,7 +162,8 @@
               "note": "50 % hydration; book range 1–2 %",
               "note_ru": "гидратация 50 %; в книге 1–2 %",
               "flourIn": 0.6666666666666666,
-              "pct": 0.5613
+              "pct": 0.5613,
+              "link": "richemont-basic-sour"
             }
           ]
         },

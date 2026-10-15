@@ -1,0 +1,170 @@
+{
+  "id": "richemont-polenta",
+  "name": {
+    "en": "Polenta bread unsweetened",
+    "ru": "Несладкий хлеб из поленты",
+    "orig": "Polenta bread unsweetened"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont",
+    "corn"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont",
+    "кукуруза"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 172
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 300,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 150,
+      "max": 600,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Pre-mix",
+      "name_ru": "Премикс",
+      "ingredients": [
+        {
+          "en": "Water, boiling",
+          "ru": "Кипящая вода",
+          "orig": "Water, boiling",
+          "pct": 37.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Coarse cornmeal (corn middlings)",
+          "ru": "Кукурузная мука с отрубями",
+          "orig": "Coarse cornmeal (corn middlings)",
+          "pct": 18.5,
+          "flour": true,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 61.125,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 20.375,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 37.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 5.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 47.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 11.0,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 4–5 minutes",
+          "note_ru": "добавьте через 4–5 минут"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.7,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the pre-mix ahead: pour the boiling water over the grain, mix, cover with foil and refrigerate.",
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Knead 80 pieces of dough of 300 g lightly round first, then to a length of 70 cm at several ntervals. Roll in towards the middle on both sides, place on oading devices and let ferment Nell.",
+    "Make sure that shaped pieces do Not stick to the loading peel and just with a mix of 75 % all-purpose and 25 % whole-wheat flour.",
+    "3ake in medium-warm oven vith steam. Open vent after 15 minutes and finish off baking intil golden."
+  ],
+  "method_ru": [
+    "Заранее приготовьте премикс: залейте крупку кипящей водой, перемешайте, накройте фольгой и поставьте в холодильник.",
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 80 кусков по 300 г каждый, придайте им округлую форму, затем сформируйте колбаски длиной 70 см в несколько приемов. Заверните их к середине с обеих сторон, поместите на противни и дайте хорошо подняться.",
+    "Убедитесь, что тестовые заготовки не прилипают к противням, и присыпьте их смесью муки: 75 % универсальной и 25 % цельнозерновой.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через15 минут и продолжайте выпекать до появления золотистого цвета."
+  ],
+  "notes": "Scaled from the book's 24.1 kg batch (pieces of 300 g).",
+  "notes_ru": "Пересчитано с книжного замеса 24,1 кг (куски по 300 г).",
+  "images": [
+    {
+      "src": "img/richemont-polenta.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-polenta-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

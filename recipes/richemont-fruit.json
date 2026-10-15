@@ -1,0 +1,184 @@
+{
+  "id": "richemont-fruit",
+  "name": {
+    "en": "Fruit bread",
+    "ru": "Фруктовый хлеб",
+    "orig": "Fruit bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont",
+    "tin loaf"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont",
+    "формовой"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 72
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 27.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 27.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 46.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 83.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 13.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 7.0,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 3–4 minutes",
+          "note_ru": "добавьте через 3–4 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.9,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Hazelnuts, roasted",
+          "ru": "Обжаренный фундук",
+          "orig": "Hazelnuts, roasted",
+          "pct": 11.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Dried fruit mix (apricots, bananas, dates, plums, sultanas, pineapple)",
+          "ru": "Фруктовая смесь (курага, бананы, финики, сливы, кишмиш, ананас)",
+          "orig": "Dried fruit mix (apricots, bananas, dates, plums, sultanas, pineapple)",
+          "pct": 76.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Pre-knead 60 pieces of dough of 500 g lightly round and then work longish. Place in greased moulds (18x 9x6 cm), brush with egg and let ferment briefly.",
+    "Brush surface once again with egg.",
+    "Load in mild oven with open vent. Close vent after 5 minutes, steam and open vent after 20 minutes. Mould at 34 baking time and finish off baking on sheets."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 60 кусков по 500 г, придайте им слегка округлую форму, затем вытяните в длину. Поместите заготовки в смазанные жиром формы (18х9хб см), смажьте яйцом и дайте немного подняться.",
+    "Еще раз смажьте поверхность заготовок яйцом.",
+    "Выпекайте в умеренно нагретой печи с открытой заслонкой. Закройте заслонку через 5 минут. Когда пройдет ¾ времени выпекания, выньте хлеб из форм и выпекайте до готовности на листах."
+  ],
+  "notes": "Scaled from the book's 30.1 kg batch (pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 30,1 кг (куски по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-fruit.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-fruit-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

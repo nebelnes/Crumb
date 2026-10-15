@@ -1,5 +1,10 @@
 # Change log
 
+## (pending approval) — Richemont fermented-dough breads + preferment links
+- 62 more Richemont breads that use fermented dough (Burli, Zurich, Flower, Cap, … Buckwheat ear, Millet). All Richemont Breads are now sorted by book page.
+- In every Richemont recipe, Poolish, Sponge, Rye sponge, Basic sour and Fermented dough link to their recipes in Starters (tap the underlined name).
+- Side preparations (soaked chickpeas/lentils, blanched wheat, mushroom prep) and coatings (spreading masses, surface mixes) are shown as dashed cards that scale with the dough but don't count in the dough weight.
+
 ## 2026-10-15 — Leavening methods
 - Four preferments from the Richemont book's Leavening methods, in Starters: **Sponge dough**, **Fermented dough**, **Poolish** and **Rye sponge dough**. Each has a preferment version and a "Dough with it" version. Book ranges → midpoints (range kept in each ingredient note); wheat 720 → 75/25 all-purpose/whole wheat, 550 → all-purpose, rye 700/1100 → medium rye.
 

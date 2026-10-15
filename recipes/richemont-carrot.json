@@ -1,0 +1,205 @@
+{
+  "id": "richemont-carrot",
+  "name": {
+    "en": "Carrot bread",
+    "ru": "Морковный хлеб",
+    "orig": "Carrot bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 96
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 53.6036,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 17.8679,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 28.5285,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 63.5636,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 1.2012,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.3524,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 23.023,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.2523,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Sesame seeds, roasted",
+          "ru": "Обжаренный кунжут",
+          "orig": "Sesame seeds, roasted",
+          "pct": 2.4024,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Carrots, finely grated (juice pressed out)",
+          "ru": "Мелко натёртая морковь (сок отжат)",
+          "orig": "Carrots, finely grated (juice pressed out)",
+          "pct": 20.7207,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Carrot spreading mass",
+      "name_ru": "Морковная масса для покрытия",
+      "topping": true,
+      "note": "Stir smooth 60 minutes before shaping and leave at room temperature.",
+      "note_ru": "За 60 минут до формовки перемешайте до однородности и оставьте при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Carrot juice",
+          "ru": "Морковный сок",
+          "orig": "Carrot juice",
+          "pct": 8.2583,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.2503,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the carrot juice",
+          "note_ru": "растворите в морковном соке"
+        },
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 4.9049,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100",
+          "note_ru": "ржаная мука типа 1100"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60–75 min.",
+    "Knead 43 pieces of dough of 500 g slightly round and then firmly longish. Press off a ball with edge of hand, shape pointed ends, and cut in 2x with a dough scraper or a knife. Place on the loading peel and brush with carrot spreading mass. Dust with a mix of 75 % all-purpose and 25 % whole-wheat flour and let ferment well.",
+    "As soon as rough cracks start forming, make sure that shaped pieces do not stick to the loading peel.",
+    "Bake in medium-warm oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на 43 куска по 500 г каждый, придайте им слегка округлую форму и затем немного вытяните в длину. Ребром ладони отделите один край заготовки, придайте ему круглую форму, затем сформируйте два заостренных листика и сделайте на них два маленьких надреза скребком для теста или ножом. Положите на противни и смажьте морковной массой. Посыпьте смесью муки: 75 % универсальной и 25 % цельнозерновой и дайте как следует подняться.",
+    "Как только начнут появляться неровные трещинки, убедитесь, что заготовки не прилипают к противням.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 21.5 kg batch (pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 21,5 кг (куски по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-carrot.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-carrot-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

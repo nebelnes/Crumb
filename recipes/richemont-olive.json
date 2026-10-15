@@ -1,0 +1,166 @@
+{
+  "id": "richemont-olive",
+  "name": {
+    "en": "Olive bread",
+    "ru": "Оливковый хлеб",
+    "orig": "Olive bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 110
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 460,
+    "total": 920,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 230,
+      "max": 920,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min, fold 1×",
+      "time_ru": "90–120 мин, обмять 1 раз",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 75.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.8,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 14.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Olive oil",
+          "ru": "Оливковое масло",
+          "orig": "Olive oil",
+          "pct": 5.0,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes",
+          "note_ru": "добавьте через 2–3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.6,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Green olives, cut",
+          "ru": "Нарезанные зелёные оливки",
+          "orig": "Green olives, cut",
+          "pct": 30.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Oregano",
+          "ru": "Орегано",
+          "orig": "Oregano",
+          "pct": 0.35,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min, fold 1×.",
+    "Pre-knead 50 pieces of dough of 460 g and allow to stand briefly. Then press slightly flat, dust surface slightly with a mix of 75 % all-purpose and 25 % whole-wheat flour and press in 3x horizontal and vertical with metal stick or cut with caramel roll. Place on the loading peel and let ferment.",
+    "Dust surface with a mix of 75 % all-purpose and 25 % whole-wheat flour.",
+    "Load in medium-warm oven with steam. Open vent after 15 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 мин, обмять 1 раз.",
+    "Разделите тесто на 50 кусков по 460 г каждый и дайте немного постоять. Затем слегка прижмите, присыпьте поверхность смесью муки: 75 % универсальной и 25 % цельнозерновой и сделайте три горизонтальных и три вертикальных нажима металлической палочкой или роликом для карамели. Поместите заготовки на противни и дайте им подняться.",
+    "Посыпьте поверхность смесью муки: 75 % универсальной и 25 % цельнозерновой.",
+    "Загрузите в умеренно теплую печь спароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 23.1 kg batch (pieces of 460 g).",
+  "notes_ru": "Пересчитано с книжного замеса 23,1 кг (куски по 460 г).",
+  "images": [
+    {
+      "src": "img/richemont-olive.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-olive-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

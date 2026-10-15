@@ -1,0 +1,167 @@
+{
+  "id": "richemont-tuscany",
+  "name": {
+    "en": "Tuscany bread",
+    "ru": "Тосканский хлеб",
+    "orig": "Tuscany bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 52
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Pre-mix",
+      "name_ru": "Премикс",
+      "ingredients": [
+        {
+          "en": "Water, boiling",
+          "ru": "Кипящая вода",
+          "orig": "Water, boiling",
+          "pct": 63.5,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Durum semolina",
+          "ru": "Крупчатка (семолина из твёрдой пшеницы)",
+          "orig": "Durum semolina",
+          "pct": 23.8,
+          "flour": true,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min",
+      "time_ru": "90–120 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 57.15,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 19.05,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 35.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 33.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Sunflower oil",
+          "ru": "Подсолнечное масло",
+          "orig": "Sunflower oil",
+          "pct": 4.7,
+          "flour": false,
+          "water": 0,
+          "note": "add after 4–5 minutes",
+          "note_ru": "добавьте через 4–5 минут"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.2,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the pre-mix ahead: pour the boiling water over the grain, mix, cover with foil and refrigerate.",
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min.",
+    "Knead 54 pieces of dough of 450 g lightly roundly and press slightly flat after brief relaxation phase. Place on the loading peel and let ferment well. exe paration tion Bam inis Dust shaped pieces with a mix of 75 % all-purpose and 25 % whole-wheat flour and cut in rhombical with vertical blade.",
+    "Bake in medium-warm oven with steam. Open vent after 15 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Заранее приготовьте премикс: залейте крупку кипящей водой, перемешайте, накройте фольгой и поставьте в холодильник.",
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 минут.",
+    "Разделите тесто на 54 куска по 450 г каждый, придайте им слегка округлую форму и немного прижмите после короткой расстойки. Поместите заготовки на противни и дайте им как следует подНЯТЬСЯ.",
+    "Посыпьте тестовые заготовки смесью муки: 75 % универсальной и 25 % цельнозерновой и сделайте надрезы в виде ромбов, держа нож вертикально.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 24.3 kg batch (pieces of 450 g). The book makes 8,730 g of pre-mix and uses 8,700 g; here all of it goes in.",
+  "notes_ru": "Пересчитано с книжного замеса 24,3 кг (куски по 450 г). В книге делают 8730 г премикса и используют 8700 г; здесь он идёт в тесто целиком.",
+  "images": [
+    {
+      "src": "img/richemont-tuscany.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-tuscany-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

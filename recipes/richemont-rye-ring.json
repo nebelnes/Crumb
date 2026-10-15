@@ -75,9 +75,11 @@
           "water": 0.3333,
           "flourIn": 0.6667,
           "note": "wheat sourdough refreshed at 50 % hydration (book p. 236)",
-          "note_ru": "пшеничная закваска, освежается при влажности 50 % (книга, с. 236)"
+          "note_ru": "пшеничная закваска, освежается при влажности 50 % (книга, с. 236)",
+          "link": "richemont-basic-sour"
         }
-      ]
+      ],
+      "link": "richemont-rye-sponge"
     },
     {
       "name": "Dough",

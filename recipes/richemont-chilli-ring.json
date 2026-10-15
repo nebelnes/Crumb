@@ -1,0 +1,200 @@
+{
+  "id": "richemont-chilli-ring",
+  "name": {
+    "en": "Chilli ring",
+    "ru": "Кольцо с перцем чили",
+    "orig": "Chilli ring"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 102
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 600,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1200,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60 min, fold, 18–20 h cold, ≥4 h room",
+      "time_ru": "60 мин, обмять, 18–20 ч в холоде, ≥4 ч при комн. темп.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 66.375,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 22.125,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 5.75,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 5.75,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 88.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.4,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 34.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Maize kernels, boiled",
+          "ru": "Варёные кукурузные зёрна",
+          "orig": "Maize kernels, boiled",
+          "pct": 30.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Tomatoes, dried",
+          "ru": "Сушёные томаты",
+          "orig": "Tomatoes, dried",
+          "pct": 6.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Sambal oelek (chilli paste)",
+          "ru": "Самбал олек (паста чили)",
+          "orig": "Sambal oelek (chilli paste)",
+          "pct": 3.5,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Tabasco",
+          "ru": "Соус табаско",
+          "orig": "Tabasco",
+          "pct": 0.23,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Chilli powder",
+          "ru": "Порошок перца чили",
+          "orig": "Chilli powder",
+          "pct": 0.15,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60 min, fold, 18–20 h cold, ≥4 h room.",
+    "Let dough rest at room temperature for at least 4 hours. Break off 44 long pieces of dough of 600 g, place on trays finely sprinkled with rye meal and let ferment well.",
+    "Twist shaped pieces, make ring shapes, place on the loading peel and let relax briefly.",
+    "Bake in hot oven with steam, Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60 мин, обмять, 18–20 ч в холоде, ≥4 ч при комн. темп..",
+    "Дайте тесту постоять при комнатной температуре как минимум 4 часа, Разделите тесто на 44 длинных куска по 600 г каждый, положите их на подносы, слегка присыпанные ржаной мукой, и дайте им как следует подняться.",
+    "Перекрутите между собой заготовки, сформируйте из них кольца, положите заготовки на противни и дайте тесту немного постоять,",
+    "Выпекайте в горячей печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 26.6 kg batch (pieces of 600 g). The book prints 26,575 g; its ingredients add up to 26,578 g.",
+  "notes_ru": "Пересчитано с книжного замеса 26,6 кг (куски по 600 г). В книге указано 26 575 г; сумма ингредиентов — 26 578 г.",
+  "images": [
+    {
+      "src": "img/richemont-chilli-ring.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-chilli-ring-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

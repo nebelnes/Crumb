@@ -1,0 +1,180 @@
+{
+  "id": "richemont-pumpkin",
+  "name": {
+    "en": "Pumpkin bread",
+    "ru": "Тыквенный хлеб",
+    "orig": "Pumpkin bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 116
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 480,
+    "total": 960,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 240,
+      "max": 960,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 54.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 18.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole rye flour, fine",
+          "ru": "Мука ржаная цельнозерновая мелкого помола",
+          "orig": "Whole rye flour, fine",
+          "pct": 28.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 48.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.4,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 19.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Pumpkin, grated",
+          "ru": "Тёртая тыква",
+          "orig": "Pumpkin, grated",
+          "pct": 20.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 7.5,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 3–4 minutes",
+          "note_ru": "добавьте через 3–4 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 1.9,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Pumpkin seeds, roasted",
+          "ru": "Обжаренные тыквенные семечки",
+          "orig": "Pumpkin seeds, roasted",
+          "pct": 7.5,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Sesame seeds, roasted",
+          "ru": "Обжаренный кунжут",
+          "orig": "Sesame seeds, roasted",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Pre-knead 40 pieces of dough of 480 g slightly round and then work firmly round. Weigh stem (40 g) and knead dropshaped. Put dent in the middle of shaped piece, insert stem and let ferment.",
+    "After short proof dust with a mix of 75 % all-purpose and 25 % whole-wheat flour and cut with vertical blade.",
+    "Bake in medium-warm oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 40 кусков по 480 г каждый, придайте им слегка округлую форму. Взвесьте «черенки» (40 г) и придайте им форму капли. Сделайте выемки по центру каждой заготовки, поместите Туда «черенки» и дайте немного подняться.",
+    "После того, как тесто немного поднимется, посыпьте заготовки пшеничной мукой Tuna 720 и сделайте надрезы, держа нож вертикально.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 20.9 kg batch (pieces of 480 g).",
+  "notes_ru": "Пересчитано с книжного замеса 20,9 кг (куски по 480 г).",
+  "images": [
+    {
+      "src": "img/richemont-pumpkin.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-pumpkin-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

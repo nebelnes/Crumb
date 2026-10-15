@@ -1,0 +1,199 @@
+{
+  "id": "richemont-mushroom",
+  "name": {
+    "en": "Mushroom bread",
+    "ru": "Грибной хлеб",
+    "orig": "Mushroom bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 94
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Mushroom preparation",
+      "name_ru": "Подготовка грибов",
+      "topping": true,
+      "note": "Sauté the mushrooms in butter, add the wine and simmer briefly; cover and keep cool. Drain the liquid and count it as part of the dough water.",
+      "note_ru": "Обжарьте грибы на сливочном масле, добавьте вино и немного потушите; накройте и уберите в прохладное место. Жидкость слейте и учтите в воде для теста.",
+      "ingredients": [
+        {
+          "en": "Mushrooms, sliced",
+          "ru": "Нарезанные грибы",
+          "orig": "Mushrooms, sliced",
+          "pct": 18.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Butter, for sautéing",
+          "ru": "Сливочное масло (для тушения)",
+          "orig": "Butter, for sautéing",
+          "pct": 1.0,
+          "flour": false,
+          "water": 0.16
+        },
+        {
+          "en": "White wine",
+          "ru": "Белое вино",
+          "orig": "White wine",
+          "pct": 5.0,
+          "flour": false,
+          "water": 1
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 61.0,
+          "flour": false,
+          "water": 1,
+          "note": "including the mushroom liquid",
+          "note_ru": "включая жидкость от грибов"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 13.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Butter",
+          "ru": "Сливочное масло",
+          "orig": "Butter",
+          "pct": 6.0,
+          "flour": false,
+          "water": 0.16,
+          "note": "add after 4–5 minutes",
+          "note_ru": "добавьте через 4–5 минут"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.1,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Mushrooms, prepared",
+          "ru": "Подготовленные грибы",
+          "orig": "Mushrooms, prepared",
+          "pct": 20.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Mushroom spices",
+          "ru": "Специи для грибов",
+          "orig": "Mushroom spices",
+          "pct": 0.6,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Knead 41 pieces of dough of 500 g first roundly, then longish. Place on the loading peel and let ferment.",
+    "Dust surface with a mix of 75 % all-purpose and 25 % whole-wheat flour and cut in with flatly held blade.",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time and finish off baking until light."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 41 кусок по 500 г каждый, придайте им сначала округлую форму, затем вытяните в длину. Поместите на противни и дайте им подняться.",
+    "Присыпьте поверхность смесью муки: 75 % универсальной и 25 % цельнозерновой и сделайте надрез, держа нож плоско.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар, когда изделия достигнут полуготовности, и продолжайте выпекать до получения светлой корочки."
+  ],
+  "notes": "Scaled from the book's 20.5 kg batch (pieces of 500 g).",
+  "notes_ru": "Пересчитано с книжного замеса 20,5 кг (куски по 500 г).",
+  "images": [
+    {
+      "src": "img/richemont-mushroom.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-mushroom-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

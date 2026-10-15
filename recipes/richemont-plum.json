@@ -1,0 +1,147 @@
+{
+  "id": "richemont-plum",
+  "name": {
+    "en": "Plum bread",
+    "ru": "Сливовый хлеб",
+    "orig": "Plum bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont",
+    "tin loaf"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont",
+    "формовой"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 76
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min",
+      "time_ru": "90–120 мин",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 77.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Sugar",
+          "ru": "Сахар",
+          "orig": "Sugar",
+          "pct": 3.8,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.8,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 24.5,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.3,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Dried plums, whole",
+          "ru": "Целые сушёные сливы",
+          "orig": "Dried plums, whole",
+          "pct": 77.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min.",
+    "Divide dough according to shapes, pre-knead slightly round and then work longish. Place in greased moulds, brush with egg and let ferment briefly. Then allow to stand in refrigerator.",
+    "3rush surface with egg once again and cut in rhombical with vertical blade. Raking .oad in mild oven with open Dull. Close vent after 5 minutes, steam and open vent after 20 minutes. Mould at 34 baking ime and finish off baking on sheets."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 минут.",
+    "Разделите тесто на куски, исходя из необходимой формы изделий, придайте им слегка округлую форму, затем вытяните в длину. Поместите заготовки в смазанные жиром формы, смажьте яйцом и дайте немного подняться. Затем оставьте постоять в холодильнике.",
+    "Еще раз смажьте поверхность яйцом и сделайте надрезы в виде ромбов, держа нож вертикально.",
+    "Выпекайте в умеренно нагретой печи с открытой заслонкой. Закройте заслонку через 5 минут, дайте заготовкам пропариться и выпустите пар через 20 минут. По истечении /4 времени выпекания выньте хлеб из форм и переложите на листы, продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 28.8 kg batch; the book gives no piece weight, so the calculator starts at 1 kg of dough.",
+  "notes_ru": "Пересчитано с книжного замеса 28,8 кг; вес куска в книге не указан, поэтому калькулятор начинает с 1 кг теста.",
+  "images": [
+    {
+      "src": "img/richemont-plum.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-plum-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

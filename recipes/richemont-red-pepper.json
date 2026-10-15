@@ -1,0 +1,174 @@
+{
+  "id": "richemont-red-pepper",
+  "name": {
+    "en": "Red pepper bread",
+    "ru": "Хлеб с красным перцем",
+    "orig": "Red pepper bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 100
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min, fold 1–2×",
+      "time_ru": "90–120 мин, обмять 1–2 раза",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 63.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.7,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 20.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Olive oil",
+          "ru": "Оливковое масло",
+          "orig": "Olive oil",
+          "pct": 7.0,
+          "flour": false,
+          "water": 0,
+          "note": "add after 3–4 minutes",
+          "note_ru": "добавьте через 3–4 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.4,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        },
+        {
+          "en": "Red pepper, finely cut",
+          "ru": "Мелко нарезанный красный перец",
+          "orig": "Red pepper, finely cut",
+          "pct": 64.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Parsley, dried",
+          "ru": "Сушёная петрушка",
+          "orig": "Parsley, dried",
+          "pct": 1.1,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min, fold 1–2×.",
+    "Break off pieces of dough by hand, place on trays dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour with seam up and let ferment well.",
+    "Turn shaped pieces and place on the loading peel with seam down.",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time and finish off baking."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 мин, обмять 1–2 раза.",
+    "Разделите тесто на куски вручную, положите их на подносы, присыпанные смесью муки: 75 % универсальной и 25 % цельнозерновой, швом наверх и дайте как следует подняться.",
+    "Переверните заготовки и положите их на противни швом вниз.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар, когда изделия достигнут полуготовности, и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 26.1 kg batch; the book gives no piece weight, so the calculator starts at 1 kg of dough.",
+  "notes_ru": "Пересчитано с книжного замеса 26,1 кг; вес куска в книге не указан, поэтому калькулятор начинает с 1 кг теста.",
+  "images": [
+    {
+      "src": "img/richemont-red-pepper.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-red-pepper-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

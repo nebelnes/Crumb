@@ -1,0 +1,142 @@
+{
+  "id": "richemont-buckwheat-ear",
+  "name": {
+    "en": "Buckwheat ear",
+    "ru": "Гречневый колосок",
+    "orig": "Buckwheat ear"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 190
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 350,
+    "total": 1050,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 175,
+      "max": 700,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–90 min",
+      "time_ru": "60–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 57.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 19.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Light buckwheat flour",
+          "ru": "Светлая гречневая мука",
+          "orig": "Light buckwheat flour",
+          "pct": 24.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 71.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 23.5,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.4,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead gently",
+          "note_ru": "добавьте в середине смешивания и мягко вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60–90 min.",
+    "Pre-knead 57 pieces of dough of 350 g slightly round, then work firmly long. Place on the loading peel and let ferment.",
+    "Dust with buckwheat flour, light and cut in ear-shaped with flatly held blade.",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time and finish off baking."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60–90 минут.",
+    "Разделите тесто на 57 кусков по 350 г каждый, придайте им округлую форму, затем сильно вытяните в длину. Положите заготовки на противни и дайте им подняться.",
+    "Присыпьте заготовки светлой гречневой мукой и сделайте надрезы в форме колоса, держа ножницы плоско.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 20 kg batch (pieces of 350 g).",
+  "notes_ru": "Пересчитано с книжного замеса 20 кг (куски по 350 г).",
+  "images": [
+    {
+      "src": "img/richemont-buckwheat-ear.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-buckwheat-ear-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

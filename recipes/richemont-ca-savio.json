@@ -1,0 +1,154 @@
+{
+  "id": "richemont-ca-savio",
+  "name": {
+    "en": "“Ca savio” bread",
+    "ru": "Хлеб «Ca savio»",
+    "orig": "“Ca savio” bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 50
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 420,
+    "total": 840,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 210,
+      "max": 840,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 91.2409,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 62.5,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.6387,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.4635,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 19.1606,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Durum semolina",
+          "ru": "Крупчатка (семолина из твёрдой пшеницы)",
+          "orig": "Durum semolina",
+          "pct": 8.7591,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Sunflower oil",
+          "ru": "Подсолнечное масло",
+          "orig": "Sunflower oil",
+          "pct": 4.3796,
+          "flour": false,
+          "water": 0,
+          "note": "add after 3 minutes",
+          "note_ru": "добавьте через 3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.4635,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead to a flexible dough",
+          "note_ru": "добавьте в конце смешивания и вымесите до эластичного состояния"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Pre-knead 50 pieces of dough of 420 g lightly round, then work lightly longish. With seam down place on trays dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour and let ferment well.",
+    "Turn shaped pieces and place on the loading peel.",
+    "Bake in medium-warm oven with steam. Open vent after 15 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 50 кусков по 420 г каждый, придайте им слегка округлую форму, затем немного вытяните в длину. Положите их швом вниз на подносы, присыпанные смесью муки: 75 % универсальной и 25 % цельнозерновой, и дайте как следует подняться.",
+    "Переверните заготовки и выложите их на противни.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 21 kg batch (pieces of 420 g).",
+  "notes_ru": "Пересчитано с книжного замеса 21 кг (куски по 420 г).",
+  "images": [
+    {
+      "src": "img/richemont-ca-savio.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-ca-savio-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

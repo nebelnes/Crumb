@@ -1,0 +1,152 @@
+{
+  "id": "richemont-burli",
+  "name": {
+    "en": "“Burli” bread",
+    "ru": "Хлеб «Бюрли»",
+    "orig": "“Burli” bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 16
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 600,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1200,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min, fold 1–2×",
+      "time_ru": "90–120 мин, обмять 1–2 раза",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 26.25,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 8.75,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 18.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100",
+          "note_ru": "ржаная мука типа 1100"
+        },
+        {
+          "en": "White spelt flour",
+          "ru": "Мука полбяная белая",
+          "orig": "White spelt flour",
+          "pct": 47.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 93.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 5.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 57.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.4,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min, fold 1–2×.",
+    "Break off 43 pieces of dough of 600 g each by hand, place on sheets dusted with a mix of 75 % all-purpose and 25 % whole-wheat flour with seam up, and let ferment well.",
+    "Turn shaped pieces and place on the loading peel with seam down.",
+    "Bake with steam in hot oven. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 мин, обмять 1–2 раза.",
+    "Вручную разделите тесто на 43 куска по 600 г каждый, выложите швом вверх на листы, посыпанные смесью муки: 75 % универсальной и 25 % цельнозерновой, и дайте им как следует подняться.",
+    "Переверните заготовки и выложите их на противень швом вниз.",
+    "Выпекайте в горячей печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 25.8 kg batch (pieces of 600 g).",
+  "notes_ru": "Пересчитано с книжного замеса 25,8 кг (куски по 600 г).",
+  "images": [
+    {
+      "src": "img/richemont-burli.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-burli-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

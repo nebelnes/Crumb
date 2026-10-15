@@ -1,0 +1,134 @@
+{
+  "id": "richemont-flower",
+  "name": {
+    "en": "Flower bread",
+    "ru": "Хлеб «Цветок»",
+    "orig": "Flower bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 22
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 67.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.6,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 20.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.4,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "After 30 minutes proof roll out 5000 g dough to 2 mm and deep-freeze approx. 45 minutes. Sprinkle durum semolina on worktable and press rolled out, deep-frozen dough sheets on it. Cut out dough discs of 18 cm Ø and place on the loading peel. Pre-knead pieces of dough of 100 g lightly round, then work them firmly round. Place 5 dough balls with seam up per dough disc. Cut dough discs 5x in the centre, place emerging notches over dough balls and let ferment.",
+    "Turn shaped pieces, apply stencil and dust with a mix of 75 % all-purpose and 25 % whole-wheat flour.",
+    "Bake in medium-warm oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "После того, как тесто расстоится в течение 30 минут, раскатайте 5000 гтеста до листа толщиной 2 мм и положите его в морозильную камеру примерно на 45 минут. Присыпьте рабочую поверхность крупчаткой и вдавите в нее листы раскатанного замороженного теста. Вырежьте из теста круги диаметром 18 см и положите их на противни. Кускам теста по 100 г каждый придайте сначала слегка округлую форму, затем — форму плотных шаров. Расположите на каждом круге из теста по пять шаров из теста швом вверх, Сделайте по пять надрезов в центре каждого круга, выложите получившиеся лепестки на шары изтеста и дайте им подняться.",
+    "Переверните заготовки, положите сверху трафарет и присыпьте их смесью муки: 75 % универсальной и 25 % цельнозерновой.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 19.2 kg batch; the book gives no piece weight, so the calculator starts at 1 kg of dough. The book rolls about a quarter of the dough (5 kg of 19.2 kg) into 2 mm sheets for the 18 cm discs and shapes the rest into 100 g balls, 5 balls per disc.",
+  "notes_ru": "Пересчитано с книжного замеса 19,2 кг; вес куска в книге не указан, поэтому калькулятор начинает с 1 кг теста. В книге примерно четверть теста (5 кг из 19,2 кг) раскатывают в пласт 2 мм для кругов 18 см, остальное делят на шары по 100 г, по 5 шаров на круг.",
+  "images": [
+    {
+      "src": "img/richemont-flower.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-flower-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

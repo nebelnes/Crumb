@@ -1,0 +1,146 @@
+{
+  "id": "richemont-oat-bran",
+  "name": {
+    "en": "Oat bran bread",
+    "ru": "Хлеб с овсяными отрубями",
+    "orig": "Oat bran bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 184
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 57.0,
+          "flour": true,
+          "water": 0,
+          "note": "type 400",
+          "note_ru": "тип 400"
+        },
+        {
+          "en": "Oat bran",
+          "ru": "Овсяные отруби",
+          "orig": "Oat bran",
+          "pct": 43.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 81.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.8,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 4.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 18.5,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.7,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead well",
+          "note_ru": "добавьте в середине смешивания и хорошо вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Work 138 pieces of dough of 150 g first slightly round, then lightly round and place 3 pieces of shaped piece each together with seam up. Brush with water and dip in oat bran. Place on the loading peel with seam down and let ferment briefly.",
+    "Turn shaped pieces before loading.",
+    "Bake in medium-warm oven with steam. Open vent after 15 minutes and finish off baking until light."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 138 кусков по 150 г каждый, придайте им слегка округлую форму. Положите по три кусочка в ряд швом вверх. Смочите их водой и обмакните в овсяные отруби. Положите на противни швом вниз и дайте немного подняться.",
+    "Переверните заготовки перед тем, как ставить их в печь.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 15 минут выпекания и продолжайте выпекать до получения светлой корочки."
+  ],
+  "notes": "Scaled from the book's 20.7 kg batch (pieces of 450 g). One bread = 3 pieces of 150 g side by side.",
+  "notes_ru": "Пересчитано с книжного замеса 20,7 кг (куски по 450 г). Один хлеб — 3 куска по 150 г рядом.",
+  "images": [
+    {
+      "src": "img/richemont-oat-bran.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-oat-bran-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

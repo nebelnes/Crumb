@@ -368,12 +368,12 @@ function renderRecipe(id) {
       </section>
       ${res.stages.map(s => `
         <section class="card stage${s.topping ? ' topping' : ''}">
-          <div class="stage-head"><h3>${esc(L(s, 'name'))}</h3><span class="stage-cond">${cond(s)}</span></div>
+          <div class="stage-head"><h3>${s.link ? `<a class="rlink" href="#/r/${esc(s.link)}">${esc(L(s, 'name'))}&nbsp;<span aria-hidden="true">→</span></a>` : esc(L(s, 'name'))}</h3><span class="stage-cond">${cond(s)}</span></div>
           <div class="ings-head" aria-hidden="true"><span>${esc(T('ingredient'))}</span><span>%</span><span>${T('g')}</span></div>
           <ul class="ings">
             ${s.rows.map(i => `<li>
               <div class="ing-top">
-                <span class="ing-name">${esc(ingName(i))}${i.flour ? `<span class="flag flour">${T('flour')}</span>` : ''}${i.extra ? `<span class="flag">${T('onTop')}</span>` : ''}${i.converted ? `<span class="flag">${T('converted')}</span>` : ''}</span>
+                <span class="ing-name">${i.link ? `<a class="rlink" href="#/r/${esc(i.link)}">${esc(ingName(i))}&nbsp;<span aria-hidden="true">→</span></a>` : esc(ingName(i))}${i.flour ? `<span class="flag flour">${T('flour')}</span>` : ''}${i.extra ? `<span class="flag">${T('onTop')}</span>` : ''}${i.converted ? `<span class="flag">${T('converted')}</span>` : ''}</span>
                 <span class="ing-pct">${pct(i.pct)} %</span>
                 <b class="ing-g">${grams(i.g)} ${T('g')}</b>
               </div>

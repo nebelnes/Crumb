@@ -1,0 +1,187 @@
+{
+  "id": "richemont-beer",
+  "name": {
+    "en": "Beer bread",
+    "ru": "Пивной хлеб",
+    "orig": "Beer bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 84
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Beer",
+          "ru": "Пиво",
+          "orig": "Beer",
+          "pct": 33.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 33.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 17.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Mashed potatoes",
+          "ru": "Картофельное пюре",
+          "orig": "Mashed potatoes",
+          "pct": 44.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.9,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        }
+      ]
+    },
+    {
+      "name": "Spreading mass",
+      "name_ru": "Масса для покрытия",
+      "topping": true,
+      "note": "Stir smooth 60 minutes before shaping and leave at room temperature.",
+      "note_ru": "За 60 минут до формовки перемешайте до однородности и оставьте при комнатной температуре.",
+      "ingredients": [
+        {
+          "en": "Beer",
+          "ru": "Пиво",
+          "orig": "Beer",
+          "pct": 8.3,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.2,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the beer",
+          "note_ru": "растворите в пиве"
+        },
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 5.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100",
+          "note_ru": "ржаная мука типа 1100"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60–75 min.",
+    "Knead 58 pieces of dough of 400 g lightly round and press slightly flat. Place 3 lateral sides to the inside and place on the loading peel with seam down. Brush surface with spreading mass, dust with a mix of 75 % all-purpose and 25 % whole-wheat flour, and let ferment well.",
+    "As soon as rough cracks start forming, make sure that shaped pieces do not stick to the loading peel.",
+    "Bake in warm oven with steam. Open vent after 20 minutes and finish off baking until crisp."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на 58 кусков по 400 г каждый, придайте им слегка округлую форму и немного прижмите. Заверните внутрь края заготовок с трех сторон и положите заготовки на противни швом вниз. Смажьте поверхность массой для покрытия, посыпьте смесью муки: 75 % универсальной и 25 % цельнозерновой и дайте как следует подняться.",
+    "Как только начнут появляться неровные трещинки, убедитесь, что заготовки не прилипают к противням.",
+    "Выпекайте в теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 23.2 kg batch (pieces of 400 g).",
+  "notes_ru": "Пересчитано с книжного замеса 23,2 кг (куски по 400 г).",
+  "images": [
+    {
+      "src": "img/richemont-beer.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-beer-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

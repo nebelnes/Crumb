@@ -1,0 +1,166 @@
+{
+  "id": "richemont-millet",
+  "name": {
+    "en": "Millet bread",
+    "ru": "Пшенный хлеб",
+    "orig": "Millet bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 194
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Cooked millet",
+      "name_ru": "Вареное пшено",
+      "ingredients": [
+        {
+          "en": "Water, boiling",
+          "ru": "Кипящая вода",
+          "orig": "Water, boiling",
+          "pct": 14.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Millet",
+          "ru": "Пшено",
+          "orig": "Millet",
+          "pct": 28.0,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 50.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 69.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.7,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.8,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 12.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.1,
+          "flour": false,
+          "water": 0,
+          "note": "knead gently together",
+          "note_ru": "мягко вымесите"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Cooked millet: pour the boiling water over the millet, mix and refrigerate until use.",
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Work 57 pieces of dough of 350 g lightly round and allow to stand briefly. Press down in the middle with rolling pin and dust with a mix of 75 % all-purpose and 25 % whole-wheat flour. Roll 57 pieces of dough of 50 g longish, brush with egg and turn in millet flakes. Put shaped pieces in dent of the pressed off shaped pieces, place on the loading peel and let ferment.",
+    "Bake in medium-warm oven with steam. Open vent halfway through baking time and finish off baking."
+  ],
+  "method_ru": [
+    "Вареное пшено: залейте пшено кипящей водой, перемешайте и храните в холодильнике до использования.",
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 57 кусков по 350 г каждый, придайте им округлую форму и дайте немного постоять. Сделайте по центру углубление с помощью скалки и посыпьте смесью муки: 75 % универсальной и 25 % цельнозерновой. Сформируйте 57 продолговатых кусков ,теста по 50 г каждый, смажьте яйцом и обваляйте в пшене. Положите продолговатые куски теста в углубления, сделанные в заготовках, переложите их на противни и дайте подняться.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар в середине выпекания и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 22.9 kg batch (pieces of 400 g). One bread = a 350 g base + a 50 g millet-coated strip.",
+  "notes_ru": "Пересчитано с книжного замеса 22,9 кг (куски по 400 г). Один хлеб — основа 350 г + полоска 50 г в пшене.",
+  "images": [
+    {
+      "src": "img/richemont-millet.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-millet-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

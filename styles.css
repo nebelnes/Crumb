@@ -270,3 +270,7 @@ main { gap: 16px; }
   position: fixed; top: calc(12px + env(safe-area-inset-top)); right: max(12px, env(safe-area-inset-right));
   width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255,255,255,.9); color: #2E2418; font-size: 18px;
 }
+
+/* link from a preferment to its own recipe */
+.rlink { color: var(--link); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.rlink span { text-decoration: none; display: inline-block; }

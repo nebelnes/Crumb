@@ -1,0 +1,146 @@
+{
+  "id": "richemont-poppy-seed",
+  "name": {
+    "en": "Poppy seed bread",
+    "ru": "Хлеб с маком",
+    "orig": "Poppy seed bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 136
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "00 flour",
+          "ru": "Мука 00",
+          "orig": "00 flour",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0,
+          "note": "type 400",
+          "note_ru": "тип 400"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 57.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 2.3,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in the water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.4,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 17.5,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Sunflower oil",
+          "ru": "Подсолнечное масло",
+          "orig": "Sunflower oil",
+          "pct": 5.7,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes",
+          "note_ru": "добавьте через 2–3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.3,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead to a flexible dough",
+          "note_ru": "добавьте в середине смешивания и вымесите до эластичного состояния"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Knead 94 pieces of dough of 200 g lightly round and roll out to 50 cm after a short relaxation phase. Twist 2 strands each together and make an “S\" shape. Brush shaped pieces with egg and turn in poppy seeds. Place on the loading peel and let ferment.",
+    "Bake in medium-warm oven with steam. Open vent after 20 minutes and finish off baking."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 94 куска по 200 г каждый, придайте им округлую форму, дайте немного постоять и затем скатайте колбаски длиной 50 см. Переплетите две колбаски друг с другом и придайте заготовке форму буквы 5. Смажьте заготовки яйцом и обваляйте в маковых семенах. Положите на противни и дайте подняться.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до готовности,"
+  ],
+  "notes": "Scaled from the book's 18.8 kg batch (pieces of 400 g). One bread = 2 strands of 200 g twisted into an S.",
+  "notes_ru": "Пересчитано с книжного замеса 18,8 кг (куски по 400 г). Один хлеб — 2 колбаски по 200 г, сплетённые в форме S.",
+  "images": [
+    {
+      "src": "img/richemont-poppy-seed.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-poppy-seed-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

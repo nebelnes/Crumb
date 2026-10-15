@@ -1,0 +1,177 @@
+{
+  "id": "richemont-spindle",
+  "name": {
+    "en": "Spindle bread",
+    "ru": "Крученый хлеб",
+    "orig": "Spindle bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 144
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 600,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1200,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Blanched wheat",
+      "name_ru": "Бланшированная пшеница",
+      "topping": true,
+      "note": "Pour boiling water over the grains, mix and refrigerate overnight. Drain, then crush the grains.",
+      "note_ru": "Залейте зёрна кипящей водой, перемешайте и поставьте на ночь в холодильник. Слейте лишнюю воду и смелите зёрна.",
+      "ingredients": [
+        {
+          "en": "Water, boiling",
+          "ru": "Кипящая вода",
+          "orig": "Water, boiling",
+          "pct": 57.5,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Wheat grains",
+          "ru": "Зёрна пшеницы",
+          "orig": "Wheat grains",
+          "pct": 57.5,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "90–120 min",
+      "time_ru": "90–120 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 64.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 21.5,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Medium rye flour",
+          "ru": "Мука ржаная средняя",
+          "orig": "Medium rye flour",
+          "pct": 14.0,
+          "flour": true,
+          "water": 0,
+          "note": "rye type 1100",
+          "note_ru": "ржаная мука типа 1100"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 81.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.3,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 29.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.0,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Blanched wheat, crushed",
+          "ru": "Молотая бланшированная пшеница",
+          "orig": "Blanched wheat, crushed",
+          "pct": 86.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 90–120 min.",
+    "Knead 100 pieces of dough of 300 g lightly round and roll out shaped pieces to a length of 45 cm after a short relaxation phase. Always twist 2 dough strands together, brush with egg and turn in wheat bran. Place shaped pieces on the loading peel and let ferment.",
+    "Bake in medium-warm oven with steam. Open vent after 15 minutes and finish off baking until crisp. 5"
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 90–120 минут.",
+    "Разделите тесто на 100 кусков по 300 г каждый, дайте немного постоять и скатайте колбаски длиной 45 см. Переплетите две колбаски друг с другом, смажьте яйцом и обваляйте в пшеничных отрубях. Положите заготовки на противни и дайте им подняться.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 30.1 kg batch (pieces of 600 g). One bread = 2 strands of 300 g twisted together.",
+  "notes_ru": "Пересчитано с книжного замеса 30,1 кг (куски по 600 г). Один хлеб — 2 колбаски по 300 г, перевитые вместе.",
+  "images": [
+    {
+      "src": "img/richemont-spindle.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-spindle-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

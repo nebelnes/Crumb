@@ -1,0 +1,136 @@
+{
+  "id": "richemont-spelt-hemp",
+  "name": {
+    "en": "Spelt-hemp bread",
+    "ru": "Полбовый хлеб с коноплей",
+    "orig": "Spelt-hemp bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont",
+    "spelt"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont",
+    "полба"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 122
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 450,
+    "total": 900,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 225,
+      "max": 900,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min, fold 1–2×",
+      "time_ru": "75–90 мин, обмять 1–2 раза",
+      "ingredients": [
+        {
+          "en": "Whole spelt flour",
+          "ru": "Мука полбяная цельнозерновая",
+          "orig": "Whole spelt flour",
+          "pct": 100.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 95.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.5,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 19.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 3.4,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes; knead gently",
+          "note_ru": "добавьте через 2–3 минуты и мягко вымесите"
+        },
+        {
+          "en": "Hemp seeds, roasted",
+          "ru": "Обжаренные семена конопли",
+          "orig": "Hemp seeds, roasted",
+          "pct": 24.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min, fold 1–2×.",
+    "Knead 54 pieces of dough of 450 g first roundly, then firmly longish. Brush with egg and turn in Hemp seeds. Place in greased moulds (18x 9x 6 cm) and let ferment briefly.",
+    "Bake in mild oven with steam. Open vent after 15 minutes. Mould after ¾ of baking time and finish off baking on sheets."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 мин, обмять 1–2 раза.",
+    "Разделите тесто на 54 куска по 450 г, придайте им сначала округлую форму, а затем вытяните в длину. Смажьте яйцом и обваляйте в семенах конопли. Поместите в смазанные жиром формы (18x9x6 см) и дайте слегка подняться.",
+    "Выпекайте в умеренно нагретой печи с пароувлажнением. Выпустите пар через 15 минут. Выньте изделия из форм через 44 времени выпекания и закончите выпекание на листах."
+  ],
+  "notes": "Scaled from the book's 24.5 kg batch (pieces of 450 g).",
+  "notes_ru": "Пересчитано с книжного замеса 24,5 кг (куски по 450 г).",
+  "images": [
+    {
+      "src": "img/richemont-spelt-hemp.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-spelt-hemp-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

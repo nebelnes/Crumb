@@ -1,0 +1,175 @@
+{
+  "id": "richemont-grain",
+  "name": {
+    "en": "Grain bread",
+    "ru": "Хлеб с пророщенным зерном",
+    "orig": "Grain bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 142
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 75.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 25.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 69.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.7,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 12.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.75,
+          "flour": false,
+          "water": 0,
+          "note": "add halfway through mixing; knead well",
+          "note_ru": "добавьте в середине смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Sprouted wheat, crushed",
+          "ru": "Дроблёное пророщенное зерно пшеницы",
+          "orig": "Sprouted wheat, crushed",
+          "pct": 14.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    },
+    {
+      "name": "Surface mix",
+      "name_ru": "Обсыпка",
+      "topping": true,
+      "note": "About 1 kg in the book: equal parts sunflower seeds, linseeds and sesame.",
+      "note_ru": "В книге около 1 кг: поровну семян подсолнечника, льна и кунжута.",
+      "ingredients": [
+        {
+          "en": "Sunflower seeds",
+          "ru": "Семена подсолнечника",
+          "orig": "Sunflower seeds",
+          "pct": 3.33,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Linseeds",
+          "ru": "Семена льна",
+          "orig": "Linseeds",
+          "pct": 3.33,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Sesame seeds",
+          "ru": "Семена кунжута",
+          "orig": "Sesame seeds",
+          "pct": 3.34,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 75–90 min.",
+    "Knead 50 pieces of dough of 400 g slightly round and then work longish. Brush surface with egg and turn in surface mix. Place in little bread baskets and let ferment well.",
+    "Bake in medium-warm oven with steam. Open vent after 20 minutes and finish off baking."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на 50 кусков по 400 г каждый, придайте им округлую форму, а затем вытяните в длину. Смажьте поверхность яйцом и обваляйте в обсыпке. Положите в маленькие хлебные корзинки и дайте хорошо подняться.",
+    "Выпекайте в умеренно теплой печи с пароувлажнением. Выпустите пар через 20 минут и продолжайте выпекать до готовности."
+  ],
+  "notes": "Scaled from the book's 20 kg batch (pieces of 400 g).",
+  "notes_ru": "Пересчитано с книжного замеса 20 кг (куски по 400 г).",
+  "images": [
+    {
+      "src": "img/richemont-grain.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-grain-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

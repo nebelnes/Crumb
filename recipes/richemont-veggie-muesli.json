@@ -1,0 +1,195 @@
+{
+  "id": "richemont-veggie-muesli",
+  "name": {
+    "en": "Veggie-muesli bread",
+    "ru": "Вегетарианский хлеб с мюсли",
+    "orig": "Veggie-muesli bread"
+  },
+  "category": "Richemont Breads",
+  "category_ru": "Хлеб Richemont",
+  "tags": [
+    "fermented dough",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "выброженное тесто",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 108
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1000,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "ingredients": [
+        {
+          "en": "All-purpose flour",
+          "ru": "Мука пшеничная универсальная",
+          "orig": "All-purpose flour",
+          "pct": 60.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour",
+          "ru": "Мука пшеничная цельнозерновая",
+          "orig": "Whole wheat flour",
+          "pct": 20.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Whole wheat flour, fine",
+          "ru": "Мука пшеничная цельнозерновая мелкого помола",
+          "orig": "Whole wheat flour, fine",
+          "pct": 20.0,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 80.0,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 2.2,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Fermented dough",
+          "ru": "Выброженное тесто",
+          "orig": "Fermented dough",
+          "pct": 12.0,
+          "flour": false,
+          "flourIn": 0.577617,
+          "water": 0.389892,
+          "link": "richemont-fermented-dough",
+          "note": "lean fermented dough (see the Fermented dough recipe)",
+          "note_ru": "постное выброженное тесто (см. рецепт «Выброженное тесто»)"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.8,
+          "flour": false,
+          "water": 0,
+          "note": "add at the end of mixing; knead well",
+          "note_ru": "добавьте в конце смешивания и хорошо вымесите"
+        },
+        {
+          "en": "Bircher muesli mix (oats, sugar, wheat, millet, sultanas, hazelnuts, rye, barley, wheat germ, apple)",
+          "ru": "Смесь мюсли (овёс, сахар, пшеница, пшено, кишмиш, фундук, рожь, ячмень, ростки пшеницы, яблоко)",
+          "orig": "Bircher muesli mix (oats, sugar, wheat, millet, sultanas, hazelnuts, rye, barley, wheat germ, apple)",
+          "pct": 14.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Carrots, grated",
+          "ru": "Тёртая морковь",
+          "orig": "Carrots, grated",
+          "pct": 12.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        },
+        {
+          "en": "Apples, freshly chopped",
+          "ru": "Свеженарезанные яблоки",
+          "orig": "Apples, freshly chopped",
+          "pct": 12.0,
+          "flour": false,
+          "water": 0,
+          "note": "mix in gently",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    },
+    {
+      "name": "Surface mix",
+      "name_ru": "Смесь для покрытия",
+      "topping": true,
+      "note": "About 2.5 kg in the book: 1 part oatmeal, 2 parts hazelnuts.",
+      "note_ru": "В книге около 2,5 кг: 1 часть овсяной муки, 2 части фундука.",
+      "ingredients": [
+        {
+          "en": "Oatmeal",
+          "ru": "Овсяная мука",
+          "orig": "Oatmeal",
+          "pct": 8.33,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Hazelnuts, coarsely ground",
+          "ru": "Дроблёный фундук",
+          "orig": "Hazelnuts, coarsely ground",
+          "pct": 16.67,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix the dough as listed, following each ingredient's note (late additions, salt timing). Let it ferment 60–75 min.",
+    "Knead 94 pieces of dough of 250 g first roundly, then dropshaped. Put 2 shaped pieces each together to a heart and brush with egg. Turn in surface mix, place on the loading peel and let ferment.",
+    "Bake in mild oven with steam. Open vent halfway through baking time and finish off baking until light."
+  ],
+  "method_ru": [
+    "Замесите тесто, следуя примечаниям к ингредиентам (что добавить позже, когда добавить соль). Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на 94 куска по 250 г каждый, придайте им сначала округлую форму, а потом форму капли. Сложите вместе 2 заготовки в форме сердца и смажьте яйцом. Обваляйте в смеси для покрытия, поместите на противни и дайте подняться.",
+    "Выпекайте в умеренно нагретой печи с пароувлажнением. Выпустите пар на середине выпекания и продолжайте выпекать до появления светлой корочки."
+  ],
+  "notes": "Scaled from the book's 23.5 kg batch (pieces of 500 g). One heart = 2 pieces of 250 g.",
+  "notes_ru": "Пересчитано с книжного замеса 23,5 кг (куски по 500 г). Одно сердце — 2 куска по 250 г.",
+  "images": [
+    {
+      "src": "img/richemont-veggie-muesli.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-veggie-muesli-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}
