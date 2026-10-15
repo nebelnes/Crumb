@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Spacing
+- Rounded cards on the recipe page are now separated (they were touching).
+
 ## 2026-10-15 — New look: "Rye field"
 - Sage background, light wheat recipe header, rounded white cards, Bricolage Grotesque + Atkinson Hyperlegible fonts, matching dark mode.
 - EN | RU toggle in the header; By pieces / By dough weight switch inside the amount card; versions as pills in the recipe header.

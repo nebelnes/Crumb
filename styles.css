@@ -233,3 +233,8 @@ main {
 @media (prefers-reduced-motion: no-preference) {
   .variants button, .seg button, .lang button, .chip { transition: background-color .15s, color .15s; }
 }
+
+/* keep every card separate: results and method sit in wrappers inside main */
+#out, #info { display: flex; flex-direction: column; gap: 16px; }
+#out:empty, #info:empty { display: none; }
+main { gap: 16px; }
