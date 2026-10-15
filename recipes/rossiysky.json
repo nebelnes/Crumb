@@ -1,0 +1,320 @@
+{
+  "id": "rossiysky",
+  "name": {
+    "en": "Russian bread (Rossiysky)",
+    "ru": "Российский хлеб",
+    "orig": "Хлеб Российский"
+  },
+  "category": "Rye breads",
+  "category_ru": "Ржаной хлеб",
+  "tags": [
+    "rye",
+    "КМКЗ",
+    "GOST"
+  ],
+  "tags_ru": [
+    "ржаной",
+    "КМКЗ",
+    "ГОСТ"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "pdf",
+    "title": "Rye breads per ГОСТ (PDF you sent)",
+    "detail": "ГОСТ 26985-86",
+    "url": "http://registrr.livejournal.com"
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "total": 930,
+    "pieces": 1,
+    "pieceWeight": 930,
+    "loss": 0,
+    "label": "Dough weight",
+    "label_ru": "Вес теста",
+    "slider": {
+      "min": 500,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1500,
+      "step": 10
+    }
+  },
+  "variantLabel": "Method",
+  "variantLabel_ru": "Способ",
+  "variants": [
+    {
+      "id": "s2",
+      "label": "2 stages",
+      "label_ru": "В две стадии",
+      "sub": "starter → dough",
+      "sub_ru": "закваска → тесто",
+      "stages": [
+        {
+          "name": "① Starter",
+          "name_ru": "① Закваска",
+          "time": "8–12 h",
+          "time_ru": "8–12 ч",
+          "temp": "38–41 °C",
+          "ingredients": [
+            {
+              "en": "КМКЗ (starter)",
+              "ru": "КМКЗ",
+              "orig": "КМКЗ",
+              "pct": 3.0303,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "link": "kmkz",
+              "note": "190 % hydration",
+              "note_ru": "гидратация 190 %"
+            },
+            {
+              "en": "Rye flour, medium (обдирная)",
+              "ru": "Мука ржаная обдирная",
+              "orig": "мука обдирная",
+              "pct": 9.0909,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "вода",
+              "pct": 17.1717,
+              "flour": false,
+              "water": 1
+            }
+          ],
+          "note": "Acidity 18–22°.",
+          "note_ru": "Кислотность 18–22 град."
+        },
+        {
+          "name": "② Dough",
+          "name_ru": "② Тесто",
+          "time": "2–3 h",
+          "time_ru": "2–3 ч",
+          "temp": "30–32 °C",
+          "ingredients": [
+            {
+              "en": "Rye flour, medium (обдирная)",
+              "ru": "Мука ржаная обдирная",
+              "orig": "мука обдирная",
+              "pct": 60.6061,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Wheat flour, 1st grade",
+              "ru": "Мука пшеничная 1 сорта",
+              "orig": "мука пшеничная 1с",
+              "pct": 30.303,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Molasses (патока)",
+              "ru": "Патока",
+              "orig": "патока",
+              "pct": 6.0606,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "дрожжи прессованные",
+              "pct": 0.5051,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "соль",
+              "pct": 1.5152,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "вода по расчету",
+              "pct": 58.9899,
+              "flour": false,
+              "water": 1,
+              "note": "amount as calculated in the source; adjust to the dough’s feel",
+              "note_ru": "вода по расчету; при необходимости скорректируйте по консистенции"
+            }
+          ],
+          "note": "Add all of the starter. Acidity 8–11°.",
+          "note_ru": "Добавьте всю закваску. Кислотность 8–11 град."
+        }
+      ],
+      "method": [
+        "Starter: mix КМКЗ, rye flour and water. Keep 8–12 h at 38–41 °C (acidity 18–22°).",
+        "Dough: mix the dough with all of the starter. Keep 2–3 h at 30–32 °C (acidity 8–11°).",
+        "Shape, proof and bake as you usually bake rye bread; the source gives only the dough formula."
+      ],
+      "method_ru": [
+        "Закваска: смешайте КМКЗ, ржаную муку и воду. Выдержите 8–12 ч при 38–41 °C (кислотность 18–22 град).",
+        "Тесто: замесите тесто, добавив всю закваску. Выдержите 2–3 ч при 30–32 °C (кислотность 8–11 град).",
+        "Формуйте, расстаивайте и выпекайте как обычный ржаной хлеб; в источнике дана только рецептура теста."
+      ]
+    },
+    {
+      "id": "s3",
+      "label": "3 stages",
+      "label_ru": "В три стадии",
+      "sub": "starter → sponge → dough",
+      "sub_ru": "закваска → опара → тесто",
+      "stages": [
+        {
+          "name": "① Starter",
+          "name_ru": "① Закваска",
+          "time": "8–12 h",
+          "time_ru": "8–12 ч",
+          "temp": "38–41 °C",
+          "ingredients": [
+            {
+              "en": "КМКЗ (starter)",
+              "ru": "КМКЗ",
+              "orig": "КМКЗ",
+              "pct": 1.5075,
+              "flour": false,
+              "water": 0.6552,
+              "flourIn": 0.3448,
+              "link": "kmkz",
+              "note": "190 % hydration",
+              "note_ru": "гидратация 190 %"
+            },
+            {
+              "en": "Rye flour, medium (обдирная)",
+              "ru": "Мука ржаная обдирная",
+              "orig": "мука обдирная",
+              "pct": 4.5226,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "вода",
+              "pct": 8.5427,
+              "flour": false,
+              "water": 1
+            }
+          ],
+          "note": "Acidity 18–22°.",
+          "note_ru": "Кислотность 18–22 град."
+        },
+        {
+          "name": "② Sponge",
+          "name_ru": "② Опара",
+          "time": "2.5–3 h",
+          "time_ru": "2,5–3 ч",
+          "temp": "28–30 °C",
+          "ingredients": [
+            {
+              "en": "Rye flour, medium (обдирная)",
+              "ru": "Мука ржаная обдирная",
+              "orig": "мука обдирная",
+              "pct": 55.2764,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "дрожжи прессованные",
+              "pct": 0.5025,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "вода",
+              "pct": 52.2613,
+              "flour": false,
+              "water": 1
+            }
+          ],
+          "note": "Add all of the starter. Acidity 8–10°.",
+          "note_ru": "Добавьте всю закваску. Кислотность 8–10 град."
+        },
+        {
+          "name": "③ Dough",
+          "name_ru": "③ Тесто",
+          "time": "1–1.5 h",
+          "time_ru": "1–1,5 ч",
+          "temp": "29–31 °C",
+          "ingredients": [
+            {
+              "en": "Wheat flour, 1st grade",
+              "ru": "Мука пшеничная 1 сорта",
+              "orig": "мука пшеничная 1с",
+              "pct": 30.1508,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Rye flour, medium (обдирная)",
+              "ru": "Мука ржаная обдирная",
+              "orig": "мука обдирная",
+              "pct": 10.0503,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Molasses (патока)",
+              "ru": "Патока",
+              "orig": "патока",
+              "pct": 6.0302,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "соль",
+              "pct": 1.5075,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "вода по расчету",
+              "pct": 15.9799,
+              "flour": false,
+              "water": 1,
+              "note": "amount as calculated in the source; adjust to the dough’s feel",
+              "note_ru": "вода по расчету; при необходимости скорректируйте по консистенции"
+            }
+          ],
+          "note": "Add all of the sponge. Acidity 8–11°.",
+          "note_ru": "Добавьте всю опару. Кислотность 8–11 град."
+        }
+      ],
+      "method": [
+        "Starter: mix КМКЗ, rye flour and water. Keep 8–12 h at 38–41 °C (acidity 18–22°).",
+        "Sponge: mix the sponge with all of the starter. Keep 2.5–3 h at 28–30 °C (acidity 8–10°).",
+        "Dough: mix the dough with all of the sponge. Keep 1–1.5 h at 29–31 °C (acidity 8–11°).",
+        "Shape, proof and bake as you usually bake rye bread; the source gives only the dough formula."
+      ],
+      "method_ru": [
+        "Закваска: смешайте КМКЗ, ржаную муку и воду. Выдержите 8–12 ч при 38–41 °C (кислотность 18–22 град).",
+        "Опара: замесите опару, добавив всю закваску. Выдержите 2,5–3 ч при 28–30 °C (кислотность 8–10 град).",
+        "Тесто: замесите тесто, добавив всю опару. Выдержите 1–1,5 ч при 29–31 °C (кислотность 8–11 град).",
+        "Формуйте, расстаивайте и выпекайте как обычный ржаной хлеб; в источнике дана только рецептура теста."
+      ]
+    }
+  ],
+  "notes": "ГОСТ 26985-86. Starts at the dough from 500 g of flour; the source table is for 1,000 g. Flour totals 1,000 g together with the flour inside the КМКЗ. Red rye malt is counted as flour, as in the source.",
+  "notes_ru": "ГОСТ 26985-86. Калькулятор начинает с теста на 500 г муки; таблица в источнике — на 1000 г. Вместе с мукой в КМКЗ мука составляет 1000 г. Красный ржаной солод считается мукой, как в источнике."
+}
