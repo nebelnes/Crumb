@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Crumb</title>
   <meta name="description" content="Bread recipe library and dough calculator">
-  <meta name="theme-color" content="#2b211a">
+  <meta name="theme-color" content="#E8EBDF">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon-192.png">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="top">
-    <a href="#/" class="brand"><span class="mark" aria-hidden="true"></span>Crumb</a>
+    <a href="#/" class="brand"><svg class="mark" width="20" height="22" viewBox="0 0 20 22" aria-hidden="true"><path d="M10 21V4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="ear" d="M10 7c-3 0-5-2-5-5 3 0 5 2 5 5zM10 7c3 0 5-2 5-5-3 0-5 2-5 5zM10 12c-3 0-5-2-5-5 3 0 5 2 5 5zM10 12c3 0 5-2 5-5-3 0-5 2-5 5z"/></svg>Crumb</a>
     <div class="top-right">
       <span id="net" class="net" hidden>offline</span>
-      <button id="lang" class="lang" type="button" aria-label="Русский">RU</button>
+      <div id="lang" class="lang" role="group" aria-label="Language / Язык">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
     </div>
   </header>
   <main id="view" aria-live="polite"><p class="muted pad">Loading…</p></main>

@@ -27,6 +27,7 @@ const UI = {
     total: 'Total', with: ', with ', and: ' and ', formulaFlour: 'Formula flour (100 %)',
     allFlour: 'Total flour, incl. starters', hydration: 'Effective hydration',
     hydNote: 'Effective hydration counts the water and flour inside starters, dairy and eggs.',
+    hydShort: 'hydration',
     loadErr: 'Couldn’t load recipes. Open the app with an internet connection at least once.',
     offline: 'offline', switchTo: 'Русский',
   },
@@ -44,6 +45,7 @@ const UI = {
     total: 'Всего', with: ', с ', and: ' и ', formulaFlour: 'Мука в формуле (100 %)',
     allFlour: 'Мука всего, с заквасками', hydration: 'Гидратация эффективная',
     hydNote: 'Эффективная гидратация учитывает воду и муку внутри заквасок, молочных продуктов и яиц.',
+    hydShort: 'гидратация',
     loadErr: 'Не удалось загрузить рецепты. Откройте приложение с интернетом хотя бы один раз.',
     offline: 'офлайн', switchTo: 'English',
   },
@@ -252,30 +254,32 @@ function renderRecipe(id) {
   const save = () => store('calc:' + r0.id, c);
 
   view.innerHTML = `
-    <a class="back" href="#/">${esc(T('back'))}</a>
-    <div class="rhead">
-      <h1>${esc(recName(r0))}</h1>
-      ${recAlt(r0) ? `<div class="orig">${esc(recAlt(r0))}</div>` : ''}
+    <section class="card hero">
+      <a class="back" href="#/">${esc(T('back'))}</a>
+      <div>
+        <h1>${esc(recName(r0))}</h1>
+        ${recAlt(r0) ? `<div class="orig">${esc(recAlt(r0))}</div>` : ''}
+        <div class="summary" id="summary"></div>
+      </div>
+      ${variants ? `
+        <div class="variants" id="variants" role="group" aria-label="${esc(L(r0, 'variantLabel') || T('variant'))}">
+          ${variants.map(v => `<button type="button" data-v="${esc(v.id)}" aria-pressed="${v.id === c.variant}">
+            <b>${esc(L(v, 'label', true))}</b>${L(v, 'sub', true) ? `<span>${esc(L(v, 'sub', true))}</span>` : ''}</button>`).join('')}
+        </div>` : ''}
       <div class="meta">${badge(r0.status)}${L(r0, 'category') ? `<span class="tag">${esc(L(r0, 'category'))}</span>` : ''}${(L(r0, 'tags') || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
       ${r0.source && SHOW_SOURCES ? `<div class="source">${esc(T('source'))}: ${sourceText(r0.source)}</div>` : ''}
       ${r0.status === 'placeholder' ? `<div class="placeholder-banner">${esc(T('phBanner'))}</div>` : ''}
-    </div>
+    </section>
 
-    <div class="panel">
-      ${variants ? `
-        <div class="plabel">${esc(L(r0, 'variantLabel') || T('variant'))}</div>
-        <div class="variants" id="variants" style="--n:${Math.min(variants.length, 4)}">
-          ${variants.map(v => `<button data-v="${esc(v.id)}" aria-pressed="${v.id === c.variant}">
-            <b>${esc(L(v, 'label', true))}</b>${L(v, 'sub', true) ? `<span>${esc(L(v, 'sub', true))}</span>` : ''}</button>`).join('')}
-        </div>` : ''}
+    <section class="card amount-card">
       ${r0.yield?.mode === 'total' && !r0.yield?.allowPieces ? '' : `
-        <div class="seg" id="mode">
-          <button data-mode="pieces" aria-pressed="${c.mode === 'pieces'}">${esc(T('byPieces'))}</button>
-          <button data-mode="total" aria-pressed="${c.mode === 'total'}">${esc(T('byWeight'))}</button>
+        <div class="seg" id="mode" role="group">
+          <button type="button" data-mode="pieces" aria-pressed="${c.mode === 'pieces'}">${esc(T('byPieces'))}</button>
+          <button type="button" data-mode="total" aria-pressed="${c.mode === 'total'}">${esc(T('byWeight'))}</button>
         </div>`}
       <div id="amount"></div>
-      <div id="out"></div>
-    </div>
+    </section>
+    <div id="out"></div>
     <div id="info"></div>
   `;
 
@@ -315,8 +319,8 @@ function renderRecipe(id) {
     const method = L(r, 'method') || [];
     const notes = L(r, 'notes');
     document.getElementById('info').innerHTML = `
-      ${method.length ? `<div class="section"><h2>${esc(T('method'))}</h2><ol class="steps">${method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></div>` : ''}
-      ${notes ? `<div class="section"><h2>${esc(T('notes'))}</h2><div class="notes">${esc(notes)}</div></div>` : ''}`;
+      ${method.length ? `<section class="card"><h2>${esc(T('method'))}</h2><ol class="steps">${method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></section>` : ''}
+      ${notes ? `<section class="card"><h2>${esc(T('notes'))}</h2><div class="notes">${esc(notes)}</div></section>` : ''}`;
   };
 
   const drawOut = () => {
@@ -324,32 +328,38 @@ function renderRecipe(id) {
     const res = calc(r, c);
     const cond = s => [L(s, 'time', true), L(s, 'temp', true)].filter(Boolean).map(esc).join(' · ');
     const extras = allIngredients(r).filter(i => i.extra).map(i => ingName(i).split(',')[0].toLowerCase());
+    const summary = (c.mode === 'pieces' ? `${num(c.pieces)} × ${num(c.pieceWeight)} ${T('g')}` : `${grams(res.dough)} ${T('g')}`)
+      + ` · ${num(res.hydration, 1)} % ${T('hydShort')}`;
+    document.getElementById('summary').textContent = summary;
     document.getElementById('out').innerHTML = `
       ${!res.flourOk ? `<div class="warn">${esc(T('flourWarn')(pct(res.flourPct)))}</div>` : ''}
+      <section class="card totals-card">
+        <div class="totals">
+          <div class="tot"><div class="k">${esc(T('total'))}${extras.length ? esc(T('with') + extras.join(T('and'))) : ''}</div><div class="v">${grams(res.dough)} ${T('g')}</div></div>
+          <div class="tot"><div class="k">${esc(T('hydration'))}</div><div class="v">${num(res.hydration, 1)} %</div></div>
+          <div class="tot"><div class="k">${esc(T('formulaFlour'))}</div><div class="v">${grams(res.freshFlour)} ${T('g')}</div></div>
+          <div class="tot"><div class="k">${esc(T('allFlour'))}</div><div class="v">${grams(res.allFlour)} ${T('g')}</div></div>
+        </div>
+        <p class="fine">${esc(T('hydNote'))}</p>
+      </section>
       ${res.stages.map(s => `
-        <div class="stage">
+        <section class="card stage${s.topping ? ' topping' : ''}">
           <div class="stage-head"><h3>${esc(L(s, 'name'))}</h3><span class="stage-cond">${cond(s)}</span></div>
-          <table class="f">
-            <thead><tr><th>${esc(T('ingredient'))}</th><th class="n">%</th><th class="n">${T('g')}</th></tr></thead>
-            <tbody>
-              ${s.rows.map(i => `<tr>
-                <td class="ing">${esc(ingName(i))}${i.flour ? `<span class="flag">${T('flour')}</span>` : ''}${i.extra ? `<span class="flag">${T('onTop')}</span>` : ''}${i.converted ? `<span class="flag">${T('converted')}</span>` : ''}
-                  ${ingAlt(i) ? `<small>${esc(ingAlt(i))}</small>` : ''}${L(i, 'note') ? `<small>${esc(L(i, 'note'))}</small>` : ''}</td>
-                <td class="n">${pct(i.pct)}</td>
-                <td class="n g">${grams(i.g)}</td>
-              </tr>`).join('')}
-              ${res.stages.length > 1 ? `<tr class="sub"><td>${esc(T('stageTotal'))}</td><td></td><td class="n">${grams(s.total)}</td></tr>` : ''}
-            </tbody>
-          </table>
-          ${L(s, 'note') ? `<p class="stage-cond">${esc(L(s, 'note'))}</p>` : ''}
-        </div>`).join('')}
-      <div class="totals">
-        <div class="tot"><div class="k">${esc(T('total'))}${extras.length ? esc(T('with') + extras.join(T('and'))) : ''}</div><div class="v">${grams(res.dough)} ${T('g')}</div></div>
-        <div class="tot"><div class="k">${esc(T('formulaFlour'))}</div><div class="v">${grams(res.freshFlour)} ${T('g')}</div></div>
-        <div class="tot"><div class="k">${esc(T('allFlour'))}</div><div class="v">${grams(res.allFlour)} ${T('g')}</div></div>
-        <div class="tot"><div class="k">${esc(T('hydration'))}</div><div class="v">${num(res.hydration, 1)} %</div></div>
-      </div>
-      <p class="muted" style="font-size:13px;margin:8px 0 0">${esc(T('hydNote'))}</p>`;
+          <div class="ings-head" aria-hidden="true"><span>${esc(T('ingredient'))}</span><span>%</span><span>${T('g')}</span></div>
+          <ul class="ings">
+            ${s.rows.map(i => `<li>
+              <div class="ing-top">
+                <span class="ing-name">${esc(ingName(i))}${i.flour ? `<span class="flag flour">${T('flour')}</span>` : ''}${i.extra ? `<span class="flag">${T('onTop')}</span>` : ''}${i.converted ? `<span class="flag">${T('converted')}</span>` : ''}</span>
+                <span class="ing-pct">${pct(i.pct)} %</span>
+                <b class="ing-g">${grams(i.g)} ${T('g')}</b>
+              </div>
+              ${ingAlt(i) ? `<small>${esc(ingAlt(i))}</small>` : ''}${L(i, 'note') ? `<small>${esc(L(i, 'note'))}</small>` : ''}
+            </li>`).join('')}
+          </ul>
+          ${res.stages.length > 1 ? `<div class="stage-total"><span>${esc(T('stageTotal'))}</span><b>${grams(s.total)} ${T('g')}</b></div>` : ''}
+          ${L(s, 'note') ? `<p class="fine">${esc(L(s, 'note'))}</p>` : ''}
+        </section>`).join('')}
+`;
   };
 
   drawAmount(); drawOut(); drawInfo();
@@ -399,13 +409,12 @@ function netStatus() { document.getElementById('net').hidden = navigator.onLine;
 function applyLang() {
   document.documentElement.lang = LANG;
   document.getElementById('net').textContent = T('offline');
-  const b = document.getElementById('lang');
-  b.textContent = LANG === 'ru' ? 'EN' : 'RU';
-  b.setAttribute('aria-label', T('switchTo'));
-  b.title = T('switchTo');
+  document.querySelectorAll('#lang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === LANG));
 }
-document.getElementById('lang').addEventListener('click', () => {
-  LANG = LANG === 'ru' ? 'en' : 'ru';
+document.getElementById('lang').addEventListener('click', e => {
+  const b = e.target.closest('button[data-lang]');
+  if (!b || b.dataset.lang === LANG) return;
+  LANG = b.dataset.lang;
   try { localStorage.setItem('crumb:lang', LANG); } catch (e) {}
   applyLang();
   if (state.recipes.length) {

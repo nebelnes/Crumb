@@ -1,6 +1,6 @@
 /* Crumb service worker.
    Network first (so changes show up as soon as the app opens), cache when offline. */
-const CACHE = 'crumb-v11';
+const CACHE = 'crumb-v12';
 const SHELL = [
   './', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'recipes/index.json',
@@ -27,7 +27,20 @@ function withTimeout(promise, ms) {
 
 self.addEventListener('fetch', e => {
   const req = e.request;
-  if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  // Google Fonts: cache first, so the app keeps its fonts offline
+  if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
+    e.respondWith(caches.open(CACHE).then(async cache => {
+      const hit = await cache.match(req);
+      if (hit) return hit;
+      const res = await fetch(req);
+      if (res.ok || res.type === 'opaque') cache.put(req, res.clone());
+      return res;
+    }));
+    return;
+  }
+  if (url.origin !== location.origin) return;
 
   e.respondWith((async () => {
     const cache = await caches.open(CACHE);
