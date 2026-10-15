@@ -29,7 +29,7 @@ const UI = {
     hydNote: 'Effective hydration counts the water and flour inside starters, dairy and eggs.',
     hydShort: 'hydration',
     loadErr: 'Couldn’t load recipes. Open the app with an internet connection at least once.',
-    offline: 'offline', switchTo: 'Русский',
+    offline: 'offline', switchTo: 'Русский', refPhotos: 'Reference photos', tapToEnlarge: 'Tap a photo to enlarge', close: 'Close',
   },
   ru: {
     verified: 'Проверено', draft: 'Черновик', placeholder: 'Заглушка: формулы ещё нет',
@@ -47,7 +47,7 @@ const UI = {
     hydNote: 'Эффективная гидратация учитывает воду и муку внутри заквасок, молочных продуктов и яиц.',
     hydShort: 'гидратация',
     loadErr: 'Не удалось загрузить рецепты. Откройте приложение с интернетом хотя бы один раз.',
-    offline: 'офлайн', switchTo: 'English',
+    offline: 'офлайн', switchTo: 'English', refPhotos: 'Фото для справки', tapToEnlarge: 'Нажмите на фото, чтобы увеличить', close: 'Закрыть',
   },
 };
 const T = k => UI[LANG][k];
@@ -266,6 +266,10 @@ function renderRecipe(id) {
   view.innerHTML = `
     <section class="card hero">
       <a class="back" href="#/">${esc(T('back'))}</a>
+      ${(r0.images || []).filter(im => im.kind === 'photo').slice(0, 1).map(im => `
+        <button type="button" class="hero-photo" data-img="recipes/${esc(im.src)}" aria-label="${esc(L(im, 'caption') || recName(r0))}">
+          <img src="recipes/${esc(im.src)}" alt="${esc(L(im, 'caption') || recName(r0))}" loading="lazy">
+        </button>`).join('')}
       <div>
         <h1>${esc(recName(r0))}</h1>
         ${recAlt(r0) ? `<div class="orig">${esc(recAlt(r0))}</div>` : ''}
@@ -333,7 +337,14 @@ function renderRecipe(id) {
     const notes = L(r, 'notes');
     document.getElementById('info').innerHTML = `
       ${method.length ? `<section class="card"><h2>${esc(T('method'))}</h2><ol class="steps">${method.map(s => `<li>${esc(s)}</li>`).join('')}</ol></section>` : ''}
-      ${notes ? `<section class="card"><h2>${esc(T('notes'))}</h2><div class="notes">${esc(notes)}</div></section>` : ''}`;
+      ${notes ? `<section class="card"><h2>${esc(T('notes'))}</h2><div class="notes">${esc(notes)}</div></section>` : ''}
+      ${(r0.images || []).length ? `<section class="card"><h2>${esc(T('refPhotos'))}</h2>
+        <div class="ref-photos">${r0.images.map(im => `
+          <button type="button" class="ref ${esc(im.kind || '')}" data-img="recipes/${esc(im.src)}">
+            <img src="recipes/${esc(im.src)}" alt="${esc(L(im, 'caption') || '')}" loading="lazy">
+            ${L(im, 'caption') ? `<span>${esc(L(im, 'caption'))}</span>` : ''}
+          </button>`).join('')}</div>
+        <p class="fine">${esc(T('tapToEnlarge'))}</p></section>` : ''}`;
   };
 
   const drawOut = () => {
@@ -440,6 +451,24 @@ function renderRecipe(id) {
     save(); drawOut();
   });
 }
+
+// full-screen photo viewer
+function openPhoto(src, alt) {
+  let d = document.getElementById('lightbox');
+  if (!d) {
+    d = document.createElement('dialog'); d.id = 'lightbox'; d.className = 'lightbox';
+    d.innerHTML = '<img alt=""><button type="button" class="lb-close"></button>';
+    d.addEventListener('click', () => d.close());
+    document.body.appendChild(d);
+  }
+  d.querySelector('img').src = src; d.querySelector('img').alt = alt || '';
+  d.querySelector('.lb-close').textContent = '✕'; d.querySelector('.lb-close').setAttribute('aria-label', T('close'));
+  if (d.showModal) d.showModal(); else d.setAttribute('open', '');
+}
+view.addEventListener('click', e => {
+  const b = e.target.closest('[data-img]'); if (!b) return;
+  openPhoto(b.dataset.img, b.querySelector('img')?.alt);
+});
 
 function route() {
   const m = location.hash.match(/^#\/r\/(.+)$/);

@@ -1,0 +1,192 @@
+{
+  "id": "richemont-provence",
+  "name": {
+    "en": "Provence bread",
+    "ru": "Прованский хлеб",
+    "orig": "Provence bread"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "wheat",
+    "poolish",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "пшеничный",
+    "пулиш",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 68
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 360,
+    "total": 1080,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Poolish",
+      "name_ru": "Закваска (пулиш)",
+      "time": "60 min + overnight",
+      "time_ru": "60 мин + ночь",
+      "temp": "room temp → fridge",
+      "temp_ru": "комнатная → холодильник",
+      "note": "Stir all ingredients without lumps and fill into a tall jar. Let ferment 60 min at room temperature, then keep in the refrigerator overnight.",
+      "note_ru": "Размешайте все ингредиенты до полного отсутствия комочков и перелейте в высокую банку. Оставьте закваску для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на ночь.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour (type 550)",
+          "ru": "Пшеничная мука типа 550",
+          "orig": "All-purpose flour (type 550)",
+          "pct": 33.8348,
+          "flour": true,
+          "water": 0,
+          "note": "= 100 % all-purpose",
+          "note_ru": "= 100 % универсальная мука"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 33.8348,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.5005,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix together; add the salt at the end and knead well; mix the herbs in gently.",
+      "note_ru": "Смешайте; соль добавьте в конце и хорошо вымесите тесто; травы мягко смешайте с тестом.",
+      "ingredients": [
+        {
+          "en": "00 flour (type 400)",
+          "ru": "Мука 00 (пшеничная мука типа 400)",
+          "orig": "Wheat flour 400",
+          "pct": 66.1652,
+          "flour": true,
+          "water": 0,
+          "note": "type 400 = 00 flour",
+          "note_ru": "тип 400 = мука 00"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 34.0851,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.7018,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.203,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.406,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Rosemary leaves, dried",
+          "ru": "Сушёные листья розмарина",
+          "orig": "Rosemary leaves, dried",
+          "pct": 0.6015,
+          "flour": false,
+          "water": 0
+        },
+        {
+          "en": "Herbs de Provence, dried",
+          "ru": "Сушёные прованские травы",
+          "orig": "Herbs de Provence, dried",
+          "pct": 0.7018,
+          "flour": false,
+          "water": 0,
+          "note": "mix gently into the dough",
+          "note_ru": "мягко смешайте с тестом"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the poolish the day before: stir without lumps, 60 min at room temperature, then into the fridge overnight.",
+    "Dough: mix the flour, water, dissolved liquid malt, yeast and poolish. Add the salt at the end and knead well, then mix the rosemary and herbs in gently. Let ferment 75–90 min.",
+    "Knead pieces of 360 g, first round, then firmly long to 40 cm. Press slightly flat and place on the loading devices.",
+    "With a dough scraper make three diagonal cuts lengthwise. Pull apart slightly on both sides, dust with wheat flour type 720 and let ferment.",
+    "Make sure the pieces don't stick to the loading devices.",
+    "Bake in a medium-warm oven with steam. Open the vent after 15 minutes and finish baking until crisp."
+  ],
+  "method_ru": [
+    "Закваску приготовьте накануне: размешайте без комочков, 60 минут при комнатной температуре, затем в холодильник на ночь.",
+    "Тесто: смешайте муку, воду, растворённый жидкий солод, дрожжи и закваску. Соль добавьте в конце смешивания и хорошо вымесите тесто, затем мягко вмешайте розмарин и травы. Оставьте для брожения на 75–90 минут.",
+    "Разделите тесто на куски по 360 г, придайте им округлую форму, а затем вытяните до длины 40 см. Слегка прижмите заготовки и поместите на противни.",
+    "Сделайте скребком для теста три продольных диагональных надреза. Слегка растяните оба края надрезов, присыпьте пшеничной мукой типа 720 и дайте подняться.",
+    "Убедитесь, что тестовые заготовки не прилипают к противням.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования корочки."
+  ],
+  "notes": "Scaled from the book's 17.4 kg batch (48 pieces of 360 g). The poolish uses type 550 flour and the dough type 400.\nWheat flour type 720 = 75 % all-purpose + 25 % whole wheat.",
+  "notes_ru": "Пересчитано с книжного замеса 17,4 кг (48 кусков по 360 г). В закваске мука типа 550, в тесте — типа 400.\nПшеничная мука типа 720 = 75 % универсальной + 25 % цельнозерновой.",
+  "images": [
+    {
+      "src": "img/richemont-provence.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-provence-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

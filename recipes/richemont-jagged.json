@@ -1,0 +1,182 @@
+{
+  "id": "richemont-jagged",
+  "name": {
+    "en": "Jagged bread",
+    "ru": "Зубчатый хлеб",
+    "orig": "Jagged bread"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "wheat",
+    "poolish",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "пшеничный",
+    "пулиш",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 42
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 12,
+    "pieceWeight": 80,
+    "total": 960,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 40,
+      "max": 200,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Poolish",
+      "name_ru": "Закваска (пулиш)",
+      "time": "60 min + 18–20 h",
+      "time_ru": "60 мин + 18–20 ч",
+      "temp": "room temp → fridge",
+      "temp_ru": "комнатная → холодильник",
+      "note": "Stir all ingredients without lumps and fill into a tall jar. Let ferment 60 min at room temperature, then keep in the refrigerator 18–20 hours.",
+      "note_ru": "Размешайте все ингредиенты до полного отсутствия комочков и перелейте в высокую банку. Оставьте закваску для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на 18–20 часов.",
+      "ingredients": [
+        {
+          "en": "00 flour (type 400)",
+          "ru": "Мука 00 (пшеничная мука типа 400)",
+          "orig": "Wheat flour 400",
+          "pct": 19.8807,
+          "flour": true,
+          "water": 0,
+          "note": "type 400 = 00 flour",
+          "note_ru": "тип 400 = мука 00"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 19.8807,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.2982,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "60–75 min",
+      "time_ru": "60–75 мин",
+      "note": "Mix together; add the oil after 2–3 minutes and the salt at the end; knead to a flexible dough.",
+      "note_ru": "Смешайте; масло добавьте через 2–3 минуты, соль — в конце смешивания; вымесите тесто до эластичного состояния.",
+      "ingredients": [
+        {
+          "en": "00 flour (type 400)",
+          "ru": "Мука 00 (пшеничная мука типа 400)",
+          "orig": "Wheat flour 400",
+          "pct": 80.1193,
+          "flour": true,
+          "water": 0,
+          "note": "type 400 = 00 flour",
+          "note_ru": "тип 400 = мука 00"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 36.0537,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.8012,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 3.0045,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Sunflower oil",
+          "ru": "Подсолнечное масло",
+          "orig": "Sunflower oil",
+          "pct": 4.006,
+          "flour": false,
+          "water": 0,
+          "note": "add after 2–3 minutes",
+          "note_ru": "добавьте через 2–3 минуты"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.5037,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the poolish ahead: stir without lumps, 60 min at room temperature, then 18–20 hours in the fridge.",
+    "Dough: mix the flour, water, dissolved liquid malt, yeast and poolish. Add the sunflower oil after 2–3 minutes and the salt at the end of mixing; knead to a flexible dough. Let ferment 60–75 min.",
+    "Knead pieces of 80 g into drop shapes. Dust ⅗ of them with wheat flour type 720; brush ⅖ with egg and roll the brushed ones in decoration maize.",
+    "Put the pieces together into a jagged bread, place on the loading devices and let ferment well.",
+    "Bake in a medium-warm oven with steam. Open the vent halfway through baking and finish until light."
+  ],
+  "method_ru": [
+    "Закваску приготовьте заранее: размешайте без комочков, 60 минут при комнатной температуре, затем в холодильник на 18–20 часов.",
+    "Тесто: смешайте муку, воду, растворённый жидкий солод, дрожжи и закваску. Подсолнечное масло добавьте через 2–3 минуты, соль — в конце смешивания; вымесите тесто до эластичного состояния. Оставьте для брожения на 60–75 минут.",
+    "Разделите тесто на кусочки по 80 г, придайте им форму капель. Присыпьте ⅗ заготовок пшеничной мукой типа 720, смажьте ⅖ заготовок яйцом. Обваляйте смазанные заготовки в декоративной кукурузе.",
+    "Сложите вместе разные заготовки, чтобы получился зубчатый хлеб, выложите их на противни и дайте им как следует подняться.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар, когда изделия достигнут полуготовности, и продолжайте выпекать до получения светлой корочки."
+  ],
+  "notes": "Scaled from the book's 16.6 kg batch. Egg, decoration maize and the type 720 dusting flour have no amounts in the book.\nWheat flour type 720 = 75 % all-purpose + 25 % whole wheat.",
+  "notes_ru": "Пересчитано с книжного замеса 16,6 кг. Для яйца, декоративной кукурузы и муки типа 720 для присыпки количества в книге не указаны.\nПшеничная мука типа 720 = 75 % универсальной + 25 % цельнозерновой.",
+  "images": [
+    {
+      "src": "img/richemont-jagged.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-jagged-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}

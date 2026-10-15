@@ -1,0 +1,172 @@
+{
+  "id": "richemont-parisette",
+  "name": {
+    "en": "Parisette with poolish",
+    "ru": "Парижский батон на закваске",
+    "orig": "Parisette with poolish"
+  },
+  "category": "Wheat breads",
+  "category_ru": "Пшеничный хлеб",
+  "tags": [
+    "wheat",
+    "poolish",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "пшеничный",
+    "пулиш",
+    "Richemont"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 28
+  },
+  "status": "draft",
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 400,
+    "total": 800,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 2500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 800,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "Poolish",
+      "name_ru": "Закваска (пулиш)",
+      "time": "60 min + overnight",
+      "time_ru": "60 мин + ночь",
+      "temp": "room temp → fridge",
+      "temp_ru": "комнатная → холодильник",
+      "note": "Stir all ingredients without lumps and fill into a tall jar. Let ferment 60 min at room temperature, then keep in the refrigerator overnight.",
+      "note_ru": "Размешайте все ингредиенты до полного отсутствия комочков и перелейте в высокую банку. Оставьте закваску для брожения на 60 минут при комнатной температуре, затем поставьте в холодильник на ночь.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour (type 550)",
+          "ru": "Пшеничная мука типа 550",
+          "orig": "All-purpose flour (type 550)",
+          "pct": 32.8333,
+          "flour": true,
+          "water": 0,
+          "note": "= 100 % all-purpose",
+          "note_ru": "= 100 % универсальная мука"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 32.8333,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 0.4975,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        }
+      ]
+    },
+    {
+      "name": "Dough",
+      "name_ru": "Тесто",
+      "time": "75–90 min",
+      "time_ru": "75–90 мин",
+      "note": "Mix together; add the salt at the end of mixing and knead the dough well.",
+      "note_ru": "Смешайте; соль добавьте в конце смешивания и хорошо вымесите тесто.",
+      "ingredients": [
+        {
+          "en": "All-purpose flour (type 550)",
+          "ru": "Пшеничная мука типа 550",
+          "orig": "All-purpose flour (type 550)",
+          "pct": 67.1667,
+          "flour": true,
+          "water": 0,
+          "note": "= 100 % all-purpose",
+          "note_ru": "= 100 % универсальная мука"
+        },
+        {
+          "en": "Water",
+          "ru": "Вода",
+          "orig": "Water",
+          "pct": 33.0821,
+          "flour": false,
+          "water": 1
+        },
+        {
+          "en": "Liquid malt",
+          "ru": "Жидкий солод",
+          "orig": "Liquid malt",
+          "pct": 0.7017,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Baker's yeast (fresh)",
+          "ru": "Прессованные дрожжи",
+          "orig": "Baker's yeast (fresh)",
+          "pct": 1.0025,
+          "flour": false,
+          "water": 0,
+          "note": "dissolve in water",
+          "note_ru": "растворите в воде"
+        },
+        {
+          "en": "Salt",
+          "ru": "Соль",
+          "orig": "Salt",
+          "pct": 2.3057,
+          "flour": false,
+          "water": 0
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the poolish the day before: stir without lumps, 60 min at room temperature, then into the fridge overnight.",
+    "Dough: mix the flour, water, dissolved liquid malt, yeast and poolish. Add the salt at the end of mixing and knead well. Let ferment 75–90 min.",
+    "Shape pieces of 400 g lightly round. Lengthen them to the desired length in several stages, place on the loading devices and let ferment.",
+    "After a good proof, cut 3–5 times with a flatly held blade.",
+    "Load into a medium-warm oven with steam. Open the vent after 15 minutes and finish baking until light and crisp."
+  ],
+  "method_ru": [
+    "Закваску приготовьте накануне: размешайте без комочков, 60 минут при комнатной температуре, затем в холодильник на ночь.",
+    "Тесто: смешайте муку, воду, растворённый жидкий солод, дрожжи и закваску. Соль добавьте в конце смешивания и хорошо вымесите. Оставьте тесто для брожения на 75–90 минут.",
+    "Разделите тесто на куски по 400 г, придайте им слегка округлую форму. Вытяните до желаемой длины в несколько приёмов, выложите заготовки на противни и дайте им как следует подняться.",
+    "После того как заготовки хорошо поднялись, сделайте 3–5 надрезов, держа лезвие плоско.",
+    "Выпекайте в умеренно тёплой печи с пароувлажнением. Выпустите пар через 15 минут и продолжайте выпекать до образования светлой корочки."
+  ],
+  "notes": "Scaled from the book's 17 kg batch (42 pieces of 400 g). The book makes 6,650 g of poolish and uses 6,600 g; the formula here uses only the poolish that goes into the dough.",
+  "notes_ru": "Пересчитано с книжного замеса 17 кг (42 куска по 400 г). В книге закваски 6650 г, в тесто идёт 6600 г; здесь в формуле только та закваска, что идёт в тесто.",
+  "images": [
+    {
+      "src": "img/richemont-parisette.jpg",
+      "kind": "photo",
+      "caption": "Finished bread",
+      "caption_ru": "Готовый хлеб"
+    },
+    {
+      "src": "img/richemont-parisette-steps.jpg",
+      "kind": "steps",
+      "caption": "Steps",
+      "caption_ru": "Этапы"
+    }
+  ]
+}
