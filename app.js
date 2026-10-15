@@ -262,7 +262,7 @@ function renderRecipe(id) {
         <div class="summary" id="summary"></div>
       </div>
       ${variants ? `
-        <div class="variants" id="variants" role="group" aria-label="${esc(L(r0, 'variantLabel') || T('variant'))}">
+        <div class="variants" id="variants" style="--n:${Math.min(variants.length, 4)}" role="group" aria-label="${esc(L(r0, 'variantLabel') || T('variant'))}">
           ${variants.map(v => `<button type="button" data-v="${esc(v.id)}" aria-pressed="${v.id === c.variant}">
             <b>${esc(L(v, 'label', true))}</b>${L(v, 'sub', true) ? `<span>${esc(L(v, 'sub', true))}</span>` : ''}</button>`).join('')}
         </div>` : ''}

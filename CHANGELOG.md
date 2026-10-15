@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Version buttons
+- Recipe version buttons are now less rounded tiles that fill the width (2, 3 or 2×2 per row), like design option B.
+
 ## 2026-10-15 — Spacing
 - Rounded cards on the recipe page are now separated (they were touching).
 
