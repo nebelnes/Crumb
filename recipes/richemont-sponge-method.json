@@ -1,0 +1,275 @@
+{
+  "id": "richemont-sponge-method",
+  "name": {
+    "en": "Sponge dough",
+    "ru": "Опара",
+    "orig": "Sponge dough"
+  },
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "tags": [
+    "preferment",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "предфермент",
+    "Richemont"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 232
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "pre",
+      "label": "Sponge dough",
+      "label_ru": "Опара",
+      "sub": "preferment",
+      "sub_ru": "предфермент",
+      "yield": {
+        "total": 500,
+        "applyTotal": true,
+        "slider": {
+          "min": 50,
+          "max": 1000,
+          "step": 5
+        },
+        "label": "How much to make",
+        "label_ru": "Сколько сделать"
+      },
+      "stages": [
+        {
+          "name": "Sponge",
+          "name_ru": "Опара",
+          "time": "1 h + up to 48 h",
+          "time_ru": "1 ч + до 48 ч",
+          "temp": "room → 3–5 °C",
+          "temp_ru": "комн. → 3–5 °C",
+          "note": "1 hour at room temperature, then cold.",
+          "note_ru": "1 час при комнатной температуре, затем в холод.",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 75.0
+            },
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "pct": 25.0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 65–70 %",
+              "note_ru": "в книге 65–70 %",
+              "pct": 67.5
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 1–3 %",
+              "note_ru": "в книге 1–3 %",
+              "pct": 2.0
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.5–1 %",
+              "note_ru": "в книге 0,5–1 %",
+              "pct": 0.75
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix the flour, water, yeast and a little salt.",
+        "Keep at room temperature for 1 hour, then in the cold at 3–5 °C until use (up to 48 hours)."
+      ],
+      "method_ru": [
+        "Смешайте муку, воду, дрожжи и немного соли.",
+        "Подержите опару 1 час при комнатной температуре, затем в холоде при 3–5 °C до использования (до 48 часов)."
+      ]
+    },
+    {
+      "id": "dough",
+      "label": "Dough with it",
+      "label_ru": "Тесто на нём",
+      "sub": "final dough",
+      "sub_ru": "основное тесто",
+      "yield": {
+        "total": 1000,
+        "applyTotal": true,
+        "slider": {
+          "min": 500,
+          "max": 3500,
+          "step": 10
+        },
+        "label": "Dough weight",
+        "label_ru": "Вес теста"
+      },
+      "stages": [
+        {
+          "name": "Sponge",
+          "name_ru": "Опара",
+          "time": "1 h + cold",
+          "time_ru": "1 ч + холод",
+          "note": "30 % of the total dough (book: 25–33 %).",
+          "note_ru": "30 % от общего веса теста (в книге 25–33 %).",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 22.7513
+            },
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "pct": 7.5838
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 65–70 %",
+              "note_ru": "в книге 65–70 %",
+              "pct": 20.4762
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 1–3 %",
+              "note_ru": "в книге 1–3 %",
+              "pct": 0.6067
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.5–1 %",
+              "note_ru": "в книге 0,5–1 %",
+              "pct": 0.2275
+            }
+          ]
+        },
+        {
+          "name": "Main dough",
+          "name_ru": "Основное тесто",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 52.2487
+            },
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "pct": 17.4162
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 65–70 %",
+              "note_ru": "в книге 65–70 %",
+              "pct": 47.0238
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 2–2.5 %",
+              "note_ru": "в книге 2–2.5 %",
+              "pct": 1.5675
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "2.25 % of all flour incl. the sponge (book 2–2.5 %)",
+              "note_ru": "2,25 % от всей муки с опарой (в книге 2–2,5 %)",
+              "pct": 2.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the sponge and keep it cold (see the Sponge dough version).",
+        "Add the cold sponge straight into the main dough with the flour, water, yeast and salt.",
+        "Sponge should be about 25–33 % of the total dough, depending on the taste you want."
+      ],
+      "method_ru": [
+        "Приготовьте опару и храните её в холоде (см. вариант «Опара»).",
+        "Охлаждённую опару сразу добавьте в основное тесто вместе с мукой, водой, дрожжами и солью.",
+        "Опара составляет 25–33 % от общего количества теста в зависимости от желаемого вкуса."
+      ]
+    }
+  ],
+  "notes": "Book ranges turned into midpoints; each ingredient note shows the book's range. Wheat flour type 720 → 75 % all-purpose + 25 % whole wheat. Indirect leavening: a more distinct, intense taste and a juicier crumb.",
+  "notes_ru": "Диапазоны из книги заменены средними значениями; в примечании к каждому ингредиенту — диапазон из книги. Пшеничная мука тип 720 → 75 % универсальной + 25 % цельнозерновой. Непрямое заквашивание: вкус отчётливее и насыщеннее, мякиш сочнее.",
+  "images": [
+    {
+      "src": "img/richemont-sponge-method.jpg",
+      "kind": "photo",
+      "caption": "Sponge dough",
+      "caption_ru": "Опара"
+    }
+  ]
+}

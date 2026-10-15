@@ -1,0 +1,277 @@
+{
+  "id": "richemont-fermented-dough",
+  "name": {
+    "en": "Fermented dough",
+    "ru": "Выброженное тесто",
+    "orig": "Fermented dough"
+  },
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "tags": [
+    "preferment",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "предфермент",
+    "Richemont"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 233
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "pre",
+      "label": "Fermented dough",
+      "label_ru": "Выброженное тесто",
+      "sub": "preferment",
+      "sub_ru": "предфермент",
+      "yield": {
+        "total": 500,
+        "applyTotal": true,
+        "slider": {
+          "min": 50,
+          "max": 1000,
+          "step": 5
+        },
+        "label": "How much to make",
+        "label_ru": "Сколько сделать"
+      },
+      "stages": [
+        {
+          "name": "Fermented dough",
+          "name_ru": "Выброженное тесто",
+          "time": "60–120 min + up to 48 h",
+          "time_ru": "60–120 мин + до 48 ч",
+          "temp": "room → 3–5 °C",
+          "temp_ru": "комн. → 3–5 °C",
+          "note": "Knead gently to an extensible dough; the salt regulates acid and yeast.",
+          "note_ru": "Осторожно замесите до эластичного теста; соль стабилизирует дрожжи и кислотность.",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 75.0
+            },
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "pct": 25.0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 65–70 %",
+              "note_ru": "в книге 65–70 %",
+              "pct": 67.5
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 3–4 %",
+              "note_ru": "в книге 3–4 %",
+              "pct": 3.5
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "book range 2–2.25 %",
+              "note_ru": "в книге 2–2,25 %",
+              "pct": 2.125
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Gently knead all ingredients to an extensible dough.",
+        "Let it develop 60–120 minutes at room temperature.",
+        "Keep in the refrigerator at 3–5 °C for up to 48 hours."
+      ],
+      "method_ru": [
+        "Осторожно замесите все ингредиенты, чтобы получить эластичное тесто.",
+        "Дайте тесту подойти 60–120 минут при комнатной температуре.",
+        "Затем храните в холодильнике при 3–5 °C до 48 часов."
+      ]
+    },
+    {
+      "id": "dough",
+      "label": "Dough with it",
+      "label_ru": "Тесто на нём",
+      "sub": "final dough",
+      "sub_ru": "основное тесто",
+      "yield": {
+        "total": 1000,
+        "applyTotal": true,
+        "slider": {
+          "min": 500,
+          "max": 3500,
+          "step": 10
+        },
+        "label": "Dough weight",
+        "label_ru": "Вес теста"
+      },
+      "stages": [
+        {
+          "name": "Fermented dough",
+          "name_ru": "Выброженное тесто",
+          "time": "60–120 min",
+          "time_ru": "60–120 мин",
+          "note": "17.5 % of the dough flour (book: 10–25 %).",
+          "note_ru": "17,5 % от муки теста (в книге 10–25 %).",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 6.8852
+            },
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "pct": 2.2951
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 65–70 %",
+              "note_ru": "в книге 65–70 %",
+              "pct": 6.1967
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 3–4 %",
+              "note_ru": "в книге 3–4 %",
+              "pct": 0.3213
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "book range 2–2.25 %",
+              "note_ru": "в книге 2–2,25 %",
+              "pct": 0.1951
+            }
+          ]
+        },
+        {
+          "name": "Dough",
+          "name_ru": "Тесто",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 68.1148
+            },
+            {
+              "en": "Whole wheat flour",
+              "ru": "Цельнозерновая пшеничная мука",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "pct": 22.7049
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 65–90 %",
+              "note_ru": "в книге 65–90 %",
+              "pct": 70.3852
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 2.5–3.5 %",
+              "note_ru": "в книге 2,5–3,5 %",
+              "pct": 2.7246
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "book range 2–2.5 %",
+              "note_ru": "в книге 2–2,5 %",
+              "pct": 2.0434
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the fermented dough (see the Fermented dough version).",
+        "If it was in the refrigerator, let it stand at room temperature first to restart fermentation.",
+        "Mix it into the dough with the flour, water, yeast and salt."
+      ],
+      "method_ru": [
+        "Приготовьте выброженное тесто (см. вариант «Выброженное тесто»).",
+        "Если оно было в холодильнике, сначала дайте ему постоять при комнатной температуре, чтобы запустить брожение.",
+        "Добавьте его в тесто вместе с мукой, водой, дрожжами и солью."
+      ]
+    }
+  ],
+  "notes": "Book ranges turned into midpoints; each ingredient note shows the book's range. Wheat flour type 720 → 75 % all-purpose + 25 % whole wheat. Lets you tailor the quality of the bread, especially for special breads.",
+  "notes_ru": "Диапазоны из книги заменены средними значениями; в примечании к каждому ингредиенту — диапазон из книги. Пшеничная мука тип 720 → 75 % универсальной + 25 % цельнозерновой. Позволяет добиться нужного качества изделия, особенно для специального хлеба.",
+  "images": [
+    {
+      "src": "img/richemont-fermented-dough.jpg",
+      "kind": "photo",
+      "caption": "Fermented dough",
+      "caption_ru": "Выброженное тесто"
+    }
+  ]
+}

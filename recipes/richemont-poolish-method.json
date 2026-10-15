@@ -1,0 +1,233 @@
+{
+  "id": "richemont-poolish-method",
+  "name": {
+    "en": "Poolish",
+    "ru": "Закваска (пулиш)",
+    "orig": "Poolish"
+  },
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "tags": [
+    "preferment",
+    "Richemont"
+  ],
+  "tags_ru": [
+    "предфермент",
+    "Richemont"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 234
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "pre",
+      "label": "Poolish",
+      "label_ru": "Закваска (пулиш)",
+      "sub": "preferment",
+      "sub_ru": "предфермент",
+      "yield": {
+        "total": 500,
+        "applyTotal": true,
+        "slider": {
+          "min": 50,
+          "max": 1000,
+          "step": 5
+        },
+        "label": "How much to make",
+        "label_ru": "Сколько сделать"
+      },
+      "stages": [
+        {
+          "name": "Poolish",
+          "name_ru": "Закваска",
+          "time": "1–2 h + up to 24 h",
+          "time_ru": "1–2 ч + до 24 ч",
+          "temp": "room → fridge",
+          "temp_ru": "комн. → холодильник",
+          "note": "Mix only briefly; use a container tall enough for it to rise.",
+          "note_ru": "Смешивайте недолго; ёмкость должна позволять закваске подняться.",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 100.0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "pct": 100.0
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 1–2 %",
+              "note_ru": "в книге 1–2 %",
+              "pct": 1.5
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix the flour, water and yeast only briefly; the dough forms as it matures.",
+        "Leave 1–2 hours at room temperature to start fermenting.",
+        "Then keep in the refrigerator for up to 24 hours.",
+        "Ideally matured: fine bubbles on the surface. Too far: collapsed, runny, not usable."
+      ],
+      "method_ru": [
+        "Смешайте муку, воду и дрожжи совсем недолго — тесто формируется при созревании.",
+        "Оставьте на 1–2 часа при комнатной температуре, чтобы начался процесс брожения.",
+        "Затем храните в холодильнике до 24 часов.",
+        "Идеально созревшая: мелкие пузырьки на поверхности. Перебродившая: осела, жидкая, для теста не подходит."
+      ]
+    },
+    {
+      "id": "dough",
+      "label": "Dough with it",
+      "label_ru": "Тесто на нём",
+      "sub": "final dough",
+      "sub_ru": "основное тесто",
+      "yield": {
+        "total": 1000,
+        "applyTotal": true,
+        "slider": {
+          "min": 500,
+          "max": 3500,
+          "step": 10
+        },
+        "label": "Dough weight",
+        "label_ru": "Вес теста"
+      },
+      "stages": [
+        {
+          "name": "Poolish",
+          "name_ru": "Закваска",
+          "time": "1–2 h + cold",
+          "time_ru": "1–2 ч + холод",
+          "note": "40 % of the total dough.",
+          "note_ru": "40 % от общего веса теста.",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 36.7089
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "pct": 36.7089
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 1–2 %",
+              "note_ru": "в книге 1–2 %",
+              "pct": 0.5506
+            }
+          ]
+        },
+        {
+          "name": "Dough",
+          "name_ru": "Тесто",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Универсальная мука",
+              "orig": "All-purpose flour",
+              "flour": true,
+              "water": 0,
+              "pct": 63.2911
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "pct": 44.3038
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 1.5–2 %",
+              "note_ru": "в книге 1,5–2 %",
+              "pct": 1.1076
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "2.25 % of all flour incl. the poolish (book 2–2.5 %)",
+              "note_ru": "2,25 % от всей муки с закваской (в книге 2–2,5 %)",
+              "pct": 2.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the poolish (see the Poolish version) and use it when ideally matured.",
+        "Mix it with the flour, water, yeast and salt."
+      ],
+      "method_ru": [
+        "Приготовьте закваску (см. вариант «Закваска (пулиш)») и используйте её идеально созревшей.",
+        "Смешайте её с мукой, водой, дрожжами и солью."
+      ]
+    }
+  ],
+  "notes": "Book ranges turned into midpoints; each ingredient note shows the book's range. Wheat flour type 550 → all-purpose. The chart's poolish 40 has no reference mark; read as 40 % of the total dough, which comes closest to the book's 'poolish = 50 % of the total liquid'. Best for crisp, tender crusts.",
+  "notes_ru": "Диапазоны из книги заменены средними значениями; в примечании к каждому ингредиенту — диапазон из книги. Пшеничная мука тип 550 → универсальная. У значения 40 на графике нет пометки; принято как 40 % от общего веса теста — это ближе всего к «закваска = 50 % всей жидкости» из книги. Особенно подходит для хрустящей, нежной корочки.",
+  "images": [
+    {
+      "src": "img/richemont-poolish-method.jpg",
+      "kind": "photo",
+      "caption": "Poolish",
+      "caption_ru": "Закваска"
+    },
+    {
+      "src": "img/richemont-poolish-method-steps.jpg",
+      "kind": "steps",
+      "caption": "Fresh · ideally matured · over-fermented",
+      "caption_ru": "Свежая · идеально созревшая · перебродившая"
+    }
+  ]
+}

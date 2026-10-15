@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Leavening methods
+- Four preferments from the Richemont book's Leavening methods, in Starters: **Sponge dough**, **Fermented dough**, **Poolish** and **Rye sponge dough**. Each has a preferment version and a "Dough with it" version. Book ranges → midpoints (range kept in each ingredient note); wheat 720 → 75/25 all-purpose/whole wheat, 550 → all-purpose, rye 700/1100 → medium rye.
+
 ## 2026-10-15 — Basic ferment and basic sour
 - Two new starters from the Richemont book (Leavening methods), in Starters: **Basic ferment** (flour, apple juice, water; 30–40 h) and **Basic sour** with versions From the ferment (1,400 g) and Refresh (1 : 1 : 0.5, 250 g). Flour type 1100 → 50 % whole wheat + 50 % all-purpose; apple juice counts as water.
 - A recipe version can now set its own default amount when you switch to it (used by Basic sour).

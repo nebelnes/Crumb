@@ -1,0 +1,233 @@
+{
+  "id": "richemont-rye-sponge",
+  "name": {
+    "en": "Rye sponge dough",
+    "ru": "Ржаная опара",
+    "orig": "Rye sponge dough"
+  },
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "tags": [
+    "preferment",
+    "Richemont",
+    "rye"
+  ],
+  "tags_ru": [
+    "предфермент",
+    "Richemont",
+    "ржаной"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Richemont Craft School — Хлеб / Bread",
+    "page": 236
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "pre",
+      "label": "Rye sponge dough",
+      "label_ru": "Ржаная опара",
+      "sub": "preferment",
+      "sub_ru": "предфермент",
+      "yield": {
+        "total": 500,
+        "applyTotal": true,
+        "slider": {
+          "min": 50,
+          "max": 1000,
+          "step": 5
+        },
+        "label": "How much to make",
+        "label_ru": "Сколько сделать"
+      },
+      "stages": [
+        {
+          "name": "Rye sponge",
+          "name_ru": "Ржаная опара",
+          "time": "10–12 h",
+          "time_ru": "10–12 ч",
+          "temp": "22–24 °C",
+          "note": "Always started from ripe basic sour.",
+          "note_ru": "Всегда на созревшей базовой закваске.",
+          "ingredients": [
+            {
+              "en": "Medium rye flour",
+              "ru": "Ржаная мука средняя",
+              "orig": "Medium rye flour",
+              "flour": true,
+              "water": 0,
+              "pct": 100.0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 60–65 %",
+              "note_ru": "в книге 60–65 %",
+              "pct": 62.5
+            },
+            {
+              "en": "Basic sour",
+              "ru": "Базовая закваска",
+              "orig": "Basic sour",
+              "flour": false,
+              "water": 0.3333333333333333,
+              "note": "50 % hydration; book range 1–2 %",
+              "note_ru": "гидратация 50 %; в книге 1–2 %",
+              "flourIn": 0.6666666666666666,
+              "pct": 1.5
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix the rye flour, water and a little ripe basic sour.",
+        "Let it develop 10–12 hours, keeping it at 22–24 °C for the best acidity."
+      ],
+      "method_ru": [
+        "Смешайте ржаную муку, воду и немного созревшей базовой закваски.",
+        "Дайте опаре созреть 10–12 часов; для оптимальной кислотности держите её при 22–24 °C."
+      ]
+    },
+    {
+      "id": "dough",
+      "label": "Dough with it",
+      "label_ru": "Тесто на нём",
+      "sub": "final dough",
+      "sub_ru": "основное тесто",
+      "yield": {
+        "total": 1000,
+        "applyTotal": true,
+        "slider": {
+          "min": 500,
+          "max": 3500,
+          "step": 10
+        },
+        "label": "Dough weight",
+        "label_ru": "Вес теста"
+      },
+      "stages": [
+        {
+          "name": "Rye sponge",
+          "name_ru": "Ржаная опара",
+          "time": "10–12 h",
+          "time_ru": "10–12 ч",
+          "temp": "22–24 °C",
+          "note": "35 % of the total dough (book: 30–40 %).",
+          "note_ru": "35 % от общего веса теста (в книге 30–40 %).",
+          "ingredients": [
+            {
+              "en": "Medium rye flour",
+              "ru": "Ржаная мука средняя",
+              "orig": "Medium rye flour",
+              "flour": true,
+              "water": 0,
+              "pct": 37.4168
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 60–65 %",
+              "note_ru": "в книге 60–65 %",
+              "pct": 23.3855
+            },
+            {
+              "en": "Basic sour",
+              "ru": "Базовая закваска",
+              "orig": "Basic sour",
+              "flour": false,
+              "water": 0.3333333333333333,
+              "note": "50 % hydration; book range 1–2 %",
+              "note_ru": "гидратация 50 %; в книге 1–2 %",
+              "flourIn": 0.6666666666666666,
+              "pct": 0.5613
+            }
+          ]
+        },
+        {
+          "name": "Rye dough",
+          "name_ru": "Ржаное тесто",
+          "ingredients": [
+            {
+              "en": "Medium rye flour",
+              "ru": "Ржаная мука средняя",
+              "orig": "Medium rye flour",
+              "flour": true,
+              "water": 0,
+              "pct": 62.5832
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "note": "book range 70–80 %",
+              "note_ru": "в книге 70–80 %",
+              "pct": 46.9374
+            },
+            {
+              "en": "Baker's yeast (fresh)",
+              "ru": "Прессованные дрожжи",
+              "orig": "Baker's yeast (fresh)",
+              "flour": false,
+              "water": 0,
+              "note": "book range 3–4 %",
+              "note_ru": "в книге 3–4 %",
+              "pct": 2.1904
+            },
+            {
+              "en": "Salt",
+              "ru": "Соль",
+              "orig": "Salt",
+              "flour": false,
+              "water": 0,
+              "note": "2.25 % of all flour incl. the sponge (book 2–2.5 %)",
+              "note_ru": "2,25 % от всей муки с опарой (в книге 2–2,5 %)",
+              "pct": 2.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the rye sponge (see the Rye sponge dough version).",
+        "Mix it with the rye flour, water, yeast and salt."
+      ],
+      "method_ru": [
+        "Приготовьте ржаную опару (см. вариант «Ржаная опара»).",
+        "Смешайте её с ржаной мукой, водой, дрожжами и солью."
+      ]
+    }
+  ],
+  "notes": "Book ranges turned into midpoints; each ingredient note shows the book's range. Rye flour type 700/1100 → medium rye. Acidifying gives elastic, juicy crumb, better swelling, longer freshness and a sourish taste. Basic sour: see the Basic sour recipe.",
+  "notes_ru": "Диапазоны из книги заменены средними значениями; в примечании к каждому ингредиенту — диапазон из книги. Ржаная мука тип 700/1100 → ржаная средняя. Подкисление даёт эластичный, сочный мякиш, лучшее набухание, более долгую свежесть и кисловатый вкус. Базовая закваска — см. рецепт «Базовая закваска».",
+  "images": [
+    {
+      "src": "img/richemont-rye-sponge.jpg",
+      "kind": "photo",
+      "caption": "Rye sponge",
+      "caption_ru": "Ржаная опара"
+    }
+  ]
+}
