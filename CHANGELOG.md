@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-10-15 — Status label hidden
+- The Draft / Verified label is hidden on the list and recipe pages (`SHOW_STATUS = false` in app.js). Statuses are kept in the recipe files.
+
 ## 2026-10-15 — One КМКЗ recipe with tabs
 - "Starting КМКЗ", "КМКЗ refresh" and "Ripe dough on КМКЗ" are now one recipe, **КМКЗ**, with tabs Start · Refresh · Ripe dough. Each tab remembers its own version and amount; the Verified/Draft badge follows the tab.
 - Version buttons: two per row on a phone when there are four or more (an odd last one spans the row).

@@ -172,7 +172,11 @@ function calc(r, c) {
 
 /* ---------- views ---------- */
 
+// The Draft / Verified label is hidden for now; statuses stay in the recipe files.
+// Set SHOW_STATUS to true to bring the label back. (A placeholder recipe still shows its red warning banner.)
+const SHOW_STATUS = false;
 function badge(status) {
+  if (!SHOW_STATUS) return '';
   const [label, cls] = STATUS[status] || STATUS.draft;
   return `<span class="badge ${cls}">${esc(T(label))}</span>`;
 }
