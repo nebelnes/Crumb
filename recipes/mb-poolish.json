@@ -1,0 +1,253 @@
+{
+  "id": "mb-poolish",
+  "name": {
+    "en": "Poolish (Modernist Bread)",
+    "ru": "Пулиш (Modernist Bread)",
+    "orig": "Poolish"
+  },
+  "tags": [
+    "preferment",
+    "poolish",
+    "Modernist Bread"
+  ],
+  "tags_ru": [
+    "предфермент",
+    "пулиш",
+    "Modernist Bread"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 3,
+    "detail": "Techniques and Equipment, Fermentation p. 20–21",
+    "detail_ru": "Techniques and Equipment, «Брожение», с. 20–21"
+  },
+  "variants": [
+    {
+      "id": "3h",
+      "label": "3 h",
+      "label_ru": "3 ч",
+      "sub": "yeast 0.45 %",
+      "sub_ru": "дрожжи 0,45 %",
+      "stages": [
+        {
+          "name": "Poolish",
+          "name_ru": "Пулиш",
+          "time": "3 h",
+          "time_ru": "3 ч",
+          "temp": "20–21 °C",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 100,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.45,
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.4–0.5 %; middle value used",
+              "note_ru": "в книге 0.4–0.5 %; взято среднее значение"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8h",
+      "label": "8 h",
+      "label_ru": "8 ч",
+      "sub": "yeast 0.28 %",
+      "sub_ru": "дрожжи 0,28 %",
+      "stages": [
+        {
+          "name": "Poolish",
+          "name_ru": "Пулиш",
+          "time": "8 h",
+          "time_ru": "8 ч",
+          "temp": "20–21 °C",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 100,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.28,
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.23–0.33 %; middle value used",
+              "note_ru": "в книге 0.23–0.33 %; взято среднее значение"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12h",
+      "label": "12 h",
+      "label_ru": "12 ч",
+      "sub": "yeast 0.15 %",
+      "sub_ru": "дрожжи 0,15 %",
+      "stages": [
+        {
+          "name": "Poolish",
+          "name_ru": "Пулиш",
+          "time": "12 h",
+          "time_ru": "12 ч",
+          "temp": "20–21 °C",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 100,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.15,
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.1–0.2 %; middle value used",
+              "note_ru": "в книге 0.1–0.2 %; взято среднее значение"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18h",
+      "label": "12–18 h",
+      "label_ru": "12–18 ч",
+      "sub": "yeast 0.03 %",
+      "sub_ru": "дрожжи 0,03 %",
+      "stages": [
+        {
+          "name": "Poolish",
+          "name_ru": "Пулиш",
+          "time": "12–18 h",
+          "time_ru": "12–18 ч",
+          "temp": "20–21 °C",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 100,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.03,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Dissolve the yeast in the water (by hand, whisk or immersion blender).",
+    "Add the flour and mix until evenly combined.",
+    "Move to a plastic container and cover with an airtight lid.",
+    "Let it ripen for the chosen time at 20–21 °C.",
+    "Ready when it is domed and full of bubbles that pop when you move the container; it smells sweet with a hint of fresh milk, and a spoonful floats in water.",
+    "Add it to the dough with the water and flour; by hand, dissolve it in the water first. An over-ripe poolish can still be used with 0.5 % extra yeast added to the dough."
+  ],
+  "method_ru": [
+    "Растворите дрожжи в воде (руками, венчиком или погружным блендером).",
+    "Добавьте муку и перемешайте до равномерного распределения.",
+    "Переложите в пластиковый контейнер и закройте герметичной крышкой.",
+    "Оставьте созревать на выбранное время при 20–21 °C.",
+    "Готов, когда поднялся куполом и полон пузырьков, которые лопаются, если покачать контейнер; пахнет сладковато, с ноткой свежего молока, а ложка пулиша держится на воде.",
+    "Добавляйте в тесто вместе с водой и мукой; при ручном замесе сначала растворите его в воде. Перебродивший пулиш можно использовать, добавив в тесто 0,5 % дрожжей."
+  ],
+  "notes": "Pick a version by how many hours ahead you start. An older poolish gives better structure and more flavour than a younger one.",
+  "notes_ru": "Выберите вариант по тому, за сколько часов вы начинаете. Более «старый» пулиш даёт лучшую структуру и более выраженный вкус.",
+  "images": [
+    {
+      "src": "img/mb-poolish.jpg",
+      "kind": "photo",
+      "caption": "Preferment",
+      "caption_ru": "Предферментированное тесто"
+    },
+    {
+      "src": "img/mb-poolish-ready.jpg",
+      "kind": "steps",
+      "caption": "Ripeness check",
+      "caption_ru": "Как понять, что готово"
+    }
+  ],
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "status": "draft",
+  "variantLabel": "Ready in",
+  "variantLabel_ru": "Готовность через",
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "label": "How much to make",
+    "label_ru": "Сколько сделать",
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "id": "mb-sponge",
+  "name": {
+    "en": "Enriched sponge (Modernist Bread)",
+    "ru": "Сдобная опара (Modernist Bread)",
+    "orig": "Sponge"
+  },
+  "tags": [
+    "preferment",
+    "sponge",
+    "enriched",
+    "Modernist Bread"
+  ],
+  "tags_ru": [
+    "предфермент",
+    "опара",
+    "сдобная",
+    "Modernist Bread"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 3,
+    "detail": "Techniques and Equipment, Fermentation p. 22–23",
+    "detail_ru": "Techniques and Equipment, «Брожение», с. 22–23"
+  },
+  "variants": [
+    {
+      "id": "3h",
+      "label": "3 h",
+      "label_ru": "3 ч",
+      "sub_ru": "дрожжи 0,45 %",
+      "sub": "yeast 0.45 %",
+      "stages": [
+        {
+          "name": "Sponge",
+          "name_ru": "Опара",
+          "time": "3 h",
+          "time_ru": "3 ч",
+          "temp": "room temp.",
+          "temp_ru": "комн. темп.",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 42.5,
+              "flour": false,
+              "water": 1,
+              "note": "book range 40–45 %; middle value used",
+              "note_ru": "в книге 40–45 %; взято среднее значение"
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.45,
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.4–0.5 %; middle value used",
+              "note_ru": "в книге 0.4–0.5 %; взято среднее значение"
+            },
+            {
+              "en": "Egg yolks",
+              "ru": "Яичные желтки",
+              "orig": "Egg yolks",
+              "pct": 31.11,
+              "flour": false,
+              "water": 0.5,
+              "note": "water share 0.5 assumed for yolks",
+              "note_ru": "для желтков принята доля воды 0,5"
+            },
+            {
+              "en": "Butter, softened",
+              "ru": "Сливочное масло, размягчённое",
+              "orig": "Butter, softened",
+              "pct": 32.22,
+              "flour": false,
+              "water": 0.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8h",
+      "label": "8 h",
+      "label_ru": "8 ч",
+      "sub_ru": "дрожжи 0,28 %",
+      "sub": "yeast 0.28 %",
+      "stages": [
+        {
+          "name": "Sponge",
+          "name_ru": "Опара",
+          "time": "8 h",
+          "time_ru": "8 ч",
+          "temp": "room temp.",
+          "temp_ru": "комн. темп.",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 42.5,
+              "flour": false,
+              "water": 1,
+              "note": "book range 40–45 %; middle value used",
+              "note_ru": "в книге 40–45 %; взято среднее значение"
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.28,
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.23–0.33 %; middle value used",
+              "note_ru": "в книге 0.23–0.33 %; взято среднее значение"
+            },
+            {
+              "en": "Egg yolks",
+              "ru": "Яичные желтки",
+              "orig": "Egg yolks",
+              "pct": 31.11,
+              "flour": false,
+              "water": 0.5,
+              "note": "water share 0.5 assumed for yolks",
+              "note_ru": "для желтков принята доля воды 0,5"
+            },
+            {
+              "en": "Butter, softened",
+              "ru": "Сливочное масло, размягчённое",
+              "orig": "Butter, softened",
+              "pct": 32.22,
+              "flour": false,
+              "water": 0.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12h",
+      "label": "12 h",
+      "label_ru": "12 ч",
+      "sub_ru": "дрожжи 0,15 %",
+      "sub": "yeast 0.15 %",
+      "stages": [
+        {
+          "name": "Sponge",
+          "name_ru": "Опара",
+          "time": "12 h",
+          "time_ru": "12 ч",
+          "temp": "room temp.",
+          "temp_ru": "комн. темп.",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 42.5,
+              "flour": false,
+              "water": 1,
+              "note": "book range 40–45 %; middle value used",
+              "note_ru": "в книге 40–45 %; взято среднее значение"
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.15,
+              "flour": false,
+              "water": 0,
+              "note": "book range 0.1–0.2 %; middle value used",
+              "note_ru": "в книге 0.1–0.2 %; взято среднее значение"
+            },
+            {
+              "en": "Egg yolks",
+              "ru": "Яичные желтки",
+              "orig": "Egg yolks",
+              "pct": 31.11,
+              "flour": false,
+              "water": 0.5,
+              "note": "water share 0.5 assumed for yolks",
+              "note_ru": "для желтков принята доля воды 0,5"
+            },
+            {
+              "en": "Butter, softened",
+              "ru": "Сливочное масло, размягчённое",
+              "orig": "Butter, softened",
+              "pct": 32.22,
+              "flour": false,
+              "water": 0.16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18h",
+      "label": "12–18 h",
+      "label_ru": "12–18 ч",
+      "sub_ru": "дрожжи 0,03 %",
+      "sub": "yeast 0.03 %",
+      "stages": [
+        {
+          "name": "Sponge",
+          "name_ru": "Опара",
+          "time": "12–18 h",
+          "time_ru": "12–18 ч",
+          "temp": "room temp.",
+          "temp_ru": "комн. темп.",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "ru": "Мука хлебопекарная",
+              "orig": "Bread flour",
+              "pct": 100,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 21 °C",
+              "ru": "Вода, 21 °C",
+              "orig": "Water, 21 °C",
+              "pct": 42.5,
+              "flour": false,
+              "water": 1,
+              "note": "book range 40–45 %; middle value used",
+              "note_ru": "в книге 40–45 %; взято среднее значение"
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.03,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Egg yolks",
+              "ru": "Яичные желтки",
+              "orig": "Egg yolks",
+              "pct": 31.11,
+              "flour": false,
+              "water": 0.5,
+              "note": "water share 0.5 assumed for yolks",
+              "note_ru": "для желтков принята доля воды 0,5"
+            },
+            {
+              "en": "Butter, softened",
+              "ru": "Сливочное масло, размягчённое",
+              "orig": "Butter, softened",
+              "pct": 32.22,
+              "flour": false,
+              "water": 0.16
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Combine the flour, water and yeast in a mixer with the dough hook.",
+    "Mix to a homogeneous mass.",
+    "Add the yolks in three additions, working each in before the next.",
+    "Add the butter in three additions the same way, until homogeneous.",
+    "Move to a lightly oiled tub and cover with an airtight lid.",
+    "Proof at room temperature 3–12 hours.",
+    "Ready when bubbly throughout, close to doubled, jiggles like gelatin when tapped, smells sweet and tangy like yogurt, and hasn’t pulled back from the sides.",
+    "Add it to the dough with the water and flour; by hand, dissolve it in the water first."
+  ],
+  "method_ru": [
+    "Соедините муку, воду и дрожжи в миксере с крюком.",
+    "Замесите до однородной массы.",
+    "Добавьте желтки в три приёма, вмешивая каждую порцию перед следующей.",
+    "Так же в три приёма добавьте масло до однородности.",
+    "Переложите в слегка смазанный маслом контейнер и закройте герметичной крышкой.",
+    "Оставьте при комнатной температуре на 3–12 часов.",
+    "Готова, когда вся в пузырьках, почти удвоилась, дрожит как желе при постукивании, пахнет сладковато-кисло, как йогурт, и не отошла от стенок.",
+    "Добавляйте в тесто вместе с водой и мукой; при ручном замесе сначала растворите её в воде."
+  ],
+  "notes": "For enriched doughs (brioche, panettone, sandwich bread). Never keep it going by backslopping: the enrichments can let harmful microbes grow. Ferment at room temperature or a little warmer (21–24 °C) for up to 12 hours.",
+  "notes_ru": "Для сдобного теста (бриошь, панеттоне, тостовый хлеб). Не поддерживайте её подкормкой (backslopping): в сдобной среде могут размножаться вредные микробы. Брожение при комнатной температуре или чуть теплее (21–24 °C), до 12 часов.",
+  "images": [
+    {
+      "src": "img/mb-sponge.jpg",
+      "kind": "photo",
+      "caption": "Preferment",
+      "caption_ru": "Предферментированное тесто"
+    },
+    {
+      "src": "img/mb-sponge-ready.jpg",
+      "kind": "steps",
+      "caption": "Ripeness check",
+      "caption_ru": "Как понять, что готово"
+    }
+  ],
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "status": "draft",
+  "variantLabel": "Ready in",
+  "variantLabel_ru": "Готовность через",
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "label": "How much to make",
+    "label_ru": "Сколько сделать",
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "mb-biga",
+  "name": {
+    "en": "Biga (Modernist Bread)",
+    "ru": "Бига (Modernist Bread)",
+    "orig": "Biga"
+  },
+  "tags": [
+    "preferment",
+    "biga",
+    "Modernist Bread"
+  ],
+  "tags_ru": [
+    "предфермент",
+    "бига",
+    "Modernist Bread"
+  ],
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 3,
+    "detail": "Techniques and Equipment, Fermentation p. 24–25",
+    "detail_ru": "Techniques and Equipment, «Брожение», с. 24–25"
+  },
+  "stages": [
+    {
+      "name": "Biga",
+      "name_ru": "Бига",
+      "time": "12 h",
+      "time_ru": "12 ч",
+      "temp": "21 °C",
+      "ingredients": [
+        {
+          "en": "Flour",
+          "ru": "Мука",
+          "orig": "Flour",
+          "pct": 100,
+          "flour": true,
+          "water": 0
+        },
+        {
+          "en": "Water, 21 °C",
+          "ru": "Вода, 21 °C",
+          "orig": "Water, 21 °C",
+          "pct": 60,
+          "flour": false,
+          "water": 1,
+          "note": "the book uses 60–65 % for biga",
+          "note_ru": "в книге для биги 60–65 %"
+        },
+        {
+          "en": "Instant dry yeast",
+          "ru": "Дрожжи сухие быстродействующие",
+          "orig": "Instant dry yeast",
+          "pct": 0.31,
+          "flour": false,
+          "water": 0,
+          "note": "book range 0.24–0.33 %",
+          "note_ru": "в книге 0,24–0,33 %"
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Dissolve the yeast in the water in the mixer bowl (or let it bloom 1–2 minutes).",
+    "Pour the flour on top.",
+    "Mix on low speed until evenly combined.",
+    "Move to a lightly oiled tub and cover with an airtight lid.",
+    "Ripen at room temperature for 12 hours, then mix into the dough.",
+    "By hand: make a flour well, pour in the water, sprinkle the yeast on top and let it bloom 2 minutes; work the flour in from the inside of the well, then knead (push with the heel of the hand, lift with the fingers) until uniform. Cover with wrap on the surface and a lid.",
+    "Ready when it has grown, looks smooth and supple, springs back slowly and hasn’t deflated. Add it with the water, before medium gluten development."
+  ],
+  "method_ru": [
+    "Растворите дрожжи в воде в чаше миксера (или дайте им набухнуть 1–2 минуты).",
+    "Насыпьте сверху муку.",
+    "Перемешайте на низкой скорости до однородности.",
+    "Переложите в слегка смазанный маслом контейнер и закройте герметичной крышкой.",
+    "Оставьте созревать при комнатной температуре на 12 часов, затем вмешайте в тесто.",
+    "Вручную: сделайте из муки колодец, влейте воду, посыпьте сверху дрожжи и дайте им набухнуть 2 минуты; вмешивайте муку изнутри колодца, затем вымешивайте (толкайте основанием ладони и поднимайте пальцами) до однородности. Накройте плёнкой по поверхности и крышкой.",
+    "Готова, когда увеличилась в объёме, гладкая и эластичная, медленно возвращается при нажатии и не осела. Добавляйте вместе с водой, до средней степени развития клейковины."
+  ],
+  "notes": "A biga is essentially a drier poolish. Best mixed with an electric mixer; by hand it takes patience.",
+  "notes_ru": "Бига — по сути более сухой пулиш. Лучше замешивать миксером; вручную понадобится терпение.",
+  "images": [
+    {
+      "src": "img/mb-biga.jpg",
+      "kind": "photo",
+      "caption": "Preferment",
+      "caption_ru": "Предферментированное тесто"
+    },
+    {
+      "src": "img/mb-biga-ready.jpg",
+      "kind": "steps",
+      "caption": "Ripeness check",
+      "caption_ru": "Как понять, что готово"
+    }
+  ],
+  "category": "Starters",
+  "category_ru": "Закваски",
+  "status": "draft",
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "label": "How much to make",
+    "label_ru": "Сколько сделать",
+    "slider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  }
+}

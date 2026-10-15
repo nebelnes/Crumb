@@ -1,5 +1,8 @@
 # Change log
 
+## (pending approval) — Modernist Bread preferments
+- Four starters from Modernist Bread vol. 3 (pp. 20–27) in Starters: Poolish and Enriched sponge (versions by how far ahead you start: 3 h, 8 h, 12 h, 12–18 h), Biga and Pâte fermentée, with the book's ripeness photos.
+
 ## 2026-10-15 — Category buttons wrap
 - Category buttons on the recipe list now wrap onto two or more lines instead of scrolling sideways.
 
