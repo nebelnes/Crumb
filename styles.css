@@ -147,7 +147,7 @@ main {
 /* version buttons: tiles that share the full width.
    1–3 versions: one row. 4 or more: two per row on a phone (an odd last one spans the row), four per row on wider screens. */
 .variants { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.variants[data-count="1"] { grid-template-columns: minmax(0, 1fr); }
+.variants[data-count="1"] { display: none; }
 .variants[data-count="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .variants:not([data-count="1"]):not([data-count="2"]):not([data-count="3"]) button:last-child:nth-child(odd) { grid-column: 1 / -1; }
 @media (min-width: 521px) {

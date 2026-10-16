@@ -219,7 +219,8 @@
       "method_ru": [
         "Приготовьте ржаную опару (см. вариант «Ржаная опара»).",
         "Смешайте её с ржаной мукой, водой, дрожжами и солью."
-      ]
+      ],
+      "hidden": true
     }
   ],
   "notes": "Book ranges turned into midpoints; each ingredient note shows the book's range. Rye flour type 700/1100 → medium rye. Acidifying gives elastic, juicy crumb, better swelling, longer freshness and a sourish taste. Basic sour: see the Basic sour recipe.",

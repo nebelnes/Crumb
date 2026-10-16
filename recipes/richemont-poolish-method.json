@@ -211,7 +211,8 @@
       "method_ru": [
         "Приготовьте закваску (см. вариант «Закваска (пулиш)») и используйте её идеально созревшей.",
         "Смешайте её с мукой, водой, дрожжами и солью."
-      ]
+      ],
+      "hidden": true
     }
   ],
   "notes": "Book ranges turned into midpoints; each ingredient note shows the book's range. Wheat flour type 550 → all-purpose. The chart's poolish 40 has no reference mark; read as 40 % of the total dough, which comes closest to the book's 'poolish = 50 % of the total liquid'. Best for crisp, tender crusts.",

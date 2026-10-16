@@ -259,7 +259,8 @@
         "Приготовьте опару и храните её в холоде (см. вариант «Опара»).",
         "Охлаждённую опару сразу добавьте в основное тесто вместе с мукой, водой, дрожжами и солью.",
         "Опара составляет 25–33 % от общего количества теста в зависимости от желаемого вкуса."
-      ]
+      ],
+      "hidden": true
     }
   ],
   "notes": "Book ranges turned into midpoints; each ingredient note shows the book's range. Wheat flour type 720 → 75 % all-purpose + 25 % whole wheat. Indirect leavening: a more distinct, intense taste and a juicier crumb.",

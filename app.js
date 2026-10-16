@@ -123,6 +123,8 @@ async function loadRecipes() {
     try {
       const r = await (await fetch('recipes/' + f)).json();
       r._file = f;
+      // Versions marked "hidden" stay in the file but are not shown for now.
+      if (r.variants) r.variants = r.variants.filter(v => !v.hidden);
       return r;
     } catch (e) { console.warn('Could not load', f, e); return null; }
   }));

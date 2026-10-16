@@ -1,5 +1,9 @@
 # Change log
 
+## 2026-10-16 — "Dough with it" hidden
+- Hid the "Dough with it" version in Fermented dough, Sponge dough, Poolish and Rye sponge dough. It was an example dough built from the book's guideline ranges, not a book recipe. It stays in the recipe files (marked hidden) and can be restored.
+- When a recipe or tab has only one version left, the version button is no longer shown.
+
 ## 2026-10-15 — Modernist Bread preferments
 - Starters from Modernist Bread vol. 3 (pp. 20–27): Poolish and Enriched sponge (versions by how far ahead you start: 3 h, 8 h, 12 h, 12–18 h) and Biga, with the book's ripeness photos.
 - Pâte fermentée is a second tab in **Fermented dough / Pâte fermentée** (tabs Richemont · Modernist Bread). Reference photos now follow the selected tab.
