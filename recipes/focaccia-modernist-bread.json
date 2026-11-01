@@ -9,7 +9,8 @@
   "tags": [
     "focaccia",
     "flatbread",
-    "levain"
+    "levain",
+    "poolish"
   ],
   "source": {
     "type": "book",
@@ -408,13 +409,297 @@
         "Сбрызнуть оливковым маслом, начинку добавить прямо перед выпечкой и выпекать 8–45 мин в зависимости от размера (таблица выпечки фокаччи в книге, с. 91). Съесть в тот же день или заморозить до 2 месяцев."
       ],
       "notes_ru": "Общее время в миксере около 15 мин активно, 7 ч 33 мин пассивно; вручную 20 мин активно, 9 ч 15 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nВ книге сухая клейковина считается частью муки (мука 95,86 % + клейковина 4,14 % = 100 %), в калькуляторе так же.\nВыход в книге около 1,10 кг; ингредиенты в сумме дают 1 104 г."
+    },
+    {
+      "id": "pizzana",
+      "label": "Poolish (Pizzana)",
+      "label_ru": "Пулиш (Pizzana)",
+      "sub": "65 % poolish · half-sheet",
+      "sub_ru": "65 % пулиша · противень",
+      "yield": {
+        "total": 1704
+      },
+      "stages": [
+        {
+          "name": "① Poolish",
+          "name_ru": "① Пулиш",
+          "link": "mb-poolish",
+          "time": "1 h + 8–10 h cold",
+          "time_ru": "1 ч + 8–10 ч в холоде",
+          "temp": "room → fridge",
+          "temp_ru": "комн. → холодильник",
+          "note": "Dissolve the yeast in the water and wait 8 minutes, then stir in the flour until creamy.",
+          "note_ru": "Растворите дрожжи в воде, подождите 8 минут, затем вмешайте муку до кремовой консистенции.",
+          "ingredients": [
+            {
+              "en": "Bread or all-purpose flour",
+              "ru": "Мука хлебопекарная или универсальная",
+              "orig": "Bread or all-purpose flour",
+              "pct": 65.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water",
+              "ru": "Вода",
+              "orig": "Water",
+              "pct": 65.0,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Dry yeast",
+              "ru": "Сухие дрожжи",
+              "orig": "Dry yeast",
+              "pct": 0.4,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "② Dough",
+          "name_ru": "② Тесто",
+          "time": "mix 8–10 min",
+          "time_ru": "замес 8–10 мин",
+          "ingredients": [
+            {
+              "en": "Bread or all-purpose flour",
+              "ru": "Мука хлебопекарная или универсальная",
+              "orig": "Bread or all-purpose flour",
+              "pct": 35.0,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Sea salt",
+              "ru": "Морская соль",
+              "orig": "Sea salt",
+              "pct": 3.0,
+              "flour": false,
+              "water": 0
+            },
+            {
+              "en": "Extra-virgin olive oil",
+              "ru": "Оливковое масло extra virgin",
+              "orig": "Extra-virgin olive oil",
+              "pct": 2.0,
+              "flour": false,
+              "water": 0
+            }
+          ]
+        },
+        {
+          "name": "③ Pan and top",
+          "name_ru": "③ Для формы и сверху",
+          "topping": true,
+          "note": "Not part of the dough weight. Finish with coarse sea salt to taste.",
+          "note_ru": "В вес теста не входит. Сверху — крупная морская соль по вкусу.",
+          "ingredients": [
+            {
+              "en": "Olive oil, for pan and top",
+              "ru": "Оливковое масло для формы и сверху",
+              "orig": "Olive oil, for pan and top",
+              "pct": 21.6,
+              "flour": false,
+              "water": 0,
+              "note": "about 1 cup in the source",
+              "note_ru": "в источнике около 1 стакана",
+              "converted": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Poolish: dissolve the yeast in the water, wait 8 minutes, then stir in the flour until creamy. Leave covered 1 hour at room temperature, then 8–10 hours in the fridge.",
+        "Mix the rest of the flour into the poolish, first with a spoon, then by hand. Add the salt and mix well, then the oil and mix well. Keep mixing 8–10 minutes.",
+        "Cover and rest 30 minutes at room temperature.",
+        "Fold: pull pieces of the edge into the middle four times, then rest 15 minutes. Do three rounds of folding in all, then rest 30 minutes more.",
+        "Oil a half-sheet pan generously, put the dough in, coat the top with oil, cover with plastic and proof 3–4 hours until doubled.",
+        "Dimple with your fingers, drizzle more oil and sprinkle coarse sea salt.",
+        "Bake on the middle rack at 500 °F (260 °C) for 10–12 minutes, until golden brown."
+      ],
+      "method_ru": [
+        "Пулиш: растворите дрожжи в воде, подождите 8 минут, затем вмешайте муку до кремовой консистенции. Оставьте под крышкой на 1 час при комнатной температуре, затем на 8–10 часов в холодильник.",
+        "Вмешайте оставшуюся муку в пулиш — сначала ложкой, потом руками. Добавьте соль и хорошо перемешайте, затем масло и снова перемешайте. Месите ещё 8–10 минут.",
+        "Накройте и оставьте на 30 минут при комнатной температуре.",
+        "Складывания: четыре раза подтяните края теста к центру, затем 15 минут отдыха. Всего три раунда, после них ещё 30 минут отдыха.",
+        "Щедро смажьте маслом противень (half-sheet), выложите тесто, смажьте сверху маслом, накройте плёнкой и расстаивайте 3–4 часа, пока не удвоится.",
+        "Сделайте пальцами вмятины, полейте маслом и посыпьте крупной морской солью.",
+        "Выпекайте на среднем уровне при 260 °C (500 °F) 10–12 минут до золотистого цвета."
+      ],
+      "notes": "From Pizzana, Los Angeles (Daniele Uditi), as published by Time Out. Makes one half-sheet pan (about 1.7 kg of dough). The poolish is 100 % hydration, like the Modernist Poolish in Starters (tap its name). Pan oil: about 1 cup, converted to grams.",
+      "notes_ru": "Рецепт Pizzana, Лос-Анджелес (Даниэле Удити), опубликован Time Out. На один противень half-sheet (около 1,7 кг теста). Пулиш — 100 % гидратации, как Пулиш Modernist в разделе «Закваски» (нажмите на название). Масло для формы — около 1 стакана, переведено в граммы."
+    },
+    {
+      "id": "atk",
+      "label": "Poolish (ATK)",
+      "label_ru": "Пулиш (ATK)",
+      "sub": "wet “biga” · 2 rounds",
+      "sub_ru": "жидкая «бига» · 2 круглые",
+      "yield": {
+        "total": 800
+      },
+      "stages": [
+        {
+          "name": "① Poolish (ATK calls it biga)",
+          "name_ru": "① Пулиш (в ATK — «бига»)",
+          "link": "mb-poolish",
+          "time": "8–24 h",
+          "time_ru": "8–24 ч",
+          "temp": "about 21 °C",
+          "temp_ru": "около 21 °C",
+          "note": "Stir 1 minute until no dry flour is left. Can wait in the fridge up to 3 days; give it 30 minutes at room temperature before using.",
+          "note_ru": "Перемешайте 1 минуту, чтобы не осталось сухой муки. Можно держать в холодильнике до 3 дней; перед использованием 30 минут при комнатной температуре.",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Мука пшеничная универсальная",
+              "orig": "All-purpose flour",
+              "pct": 16.6667,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 38–43 °C",
+              "ru": "Вода, 38–43 °C",
+              "orig": "Water, 38–43 °C",
+              "pct": 17.8404,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.1878,
+              "flour": false,
+              "water": 0,
+              "note": "¼ tsp in the source",
+              "note_ru": "в источнике ¼ ч. л.",
+              "converted": true
+            }
+          ]
+        },
+        {
+          "name": "② Dough",
+          "name_ru": "② Тесто",
+          "time": "rests 15 + 30 min, then 3 × 30 min folds",
+          "time_ru": "отдых 15 + 30 мин, затем 3 × 30 мин со складываниями",
+          "ingredients": [
+            {
+              "en": "All-purpose flour",
+              "ru": "Мука пшеничная универсальная",
+              "orig": "All-purpose flour",
+              "pct": 83.3333,
+              "flour": true,
+              "water": 0
+            },
+            {
+              "en": "Water, 38–43 °C",
+              "ru": "Вода, 38–43 °C",
+              "orig": "Water, 38–43 °C",
+              "pct": 66.6667,
+              "flour": false,
+              "water": 1
+            },
+            {
+              "en": "Instant dry yeast",
+              "ru": "Дрожжи сухие быстродействующие",
+              "orig": "Instant dry yeast",
+              "pct": 0.7277,
+              "flour": false,
+              "water": 0,
+              "note": "1 tsp in the source",
+              "note_ru": "в источнике 1 ч. л.",
+              "converted": true
+            },
+            {
+              "en": "Kosher salt",
+              "ru": "Кошерная соль",
+              "orig": "Kosher salt",
+              "pct": 1.3146,
+              "flour": false,
+              "water": 0,
+              "note": "2 tsp Diamond Crystal; with Morton use about half the volume; added after the first rest",
+              "note_ru": "2 ч. л. Diamond Crystal; соли Morton — примерно вдвое меньше по объёму; добавляется после первого отдыха",
+              "converted": true
+            }
+          ]
+        },
+        {
+          "name": "③ Pans and top",
+          "name_ru": "③ Для форм и сверху",
+          "topping": true,
+          "note": "For two 9-inch (23 cm) round cake pans. Not part of the dough weight.",
+          "note_ru": "На две круглые формы 23 см. В вес теста не входит.",
+          "ingredients": [
+            {
+              "en": "Extra-virgin olive oil",
+              "ru": "Оливковое масло extra virgin",
+              "orig": "Extra-virgin olive oil",
+              "pct": 12.6761,
+              "flour": false,
+              "water": 0,
+              "note": "¼ cup in the source: 2 tbsp per pan",
+              "note_ru": "в источнике ¼ стакана: по 2 ст. л. на форму",
+              "converted": true
+            },
+            {
+              "en": "Kosher salt",
+              "ru": "Кошерная соль",
+              "orig": "Kosher salt",
+              "pct": 0.6573,
+              "flour": false,
+              "water": 0,
+              "note": "½ tsp per pan",
+              "note_ru": "по ½ ч. л. на форму",
+              "converted": true
+            },
+            {
+              "en": "Fresh rosemary, chopped",
+              "ru": "Свежий розмарин, рубленый",
+              "orig": "Fresh rosemary, chopped",
+              "pct": 0.7981,
+              "flour": false,
+              "water": 0,
+              "note": "2 tbsp in the source",
+              "note_ru": "в источнике 2 ст. л.",
+              "converted": true
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Poolish: stir the flour, warm water and yeast for 1 minute until no dry flour is left. Cover and leave 8–24 hours at about 21 °C.",
+        "Stir the dough flour, water and yeast into the poolish for 1 minute. Cover and rest 15 minutes.",
+        "Sprinkle in the salt and stir 1 minute. Cover and rest 30 minutes.",
+        "With an oiled scraper, fold the dough over itself 8 times, turning the bowl each time. Cover and rest 30 minutes. Do this three times in all.",
+        "During the last rest, heat a baking stone on the upper-middle rack at 500 °F (260 °C) for at least 30 minutes.",
+        "Divide the dough in two on a floured counter and shape each into a 13 cm round. Put 2 tbsp oil and ½ tsp salt in each pan, roll the dough in it, flip, and rest 5 minutes.",
+        "Press the dough out to the edges with your fingertips (rest 5–10 minutes if it springs back). Prick 25–30 times with a fork, sprinkle rosemary, rest 5–10 minutes.",
+        "Put the pans on the stone, lower the oven to 450 °F (230 °C) and bake 25–28 minutes until golden, swapping the pans halfway. Cool 5 minutes, unmould, brush with the oil left in the pans, and cool 30 minutes."
+      ],
+      "method_ru": [
+        "Пулиш: перемешайте муку, тёплую воду и дрожжи 1 минуту, чтобы не осталось сухой муки. Накройте и оставьте на 8–24 часа при 21 °C.",
+        "Вмешайте в пулиш муку, воду и дрожжи для теста — 1 минута. Накройте и оставьте на 15 минут.",
+        "Посыпьте солью и перемешайте 1 минуту. Накройте и оставьте на 30 минут.",
+        "Смазанной маслом лопаткой 8 раз сложите тесто, поворачивая миску. Накройте на 30 минут. Повторите — всего три раза.",
+        "Во время последнего отдыха разогрейте камень на уровне чуть выше середины при 260 °C (500 °F) не меньше 30 минут.",
+        "Разделите тесто пополам на присыпанном мукой столе и сформируйте два круга по 13 см. В каждую форму налейте 2 ст. л. масла и насыпьте ½ ч. л. соли, обваляйте тесто, переверните и оставьте на 5 минут.",
+        "Растяните тесто пальцами до краёв (если пружинит — дайте отдохнуть 5–10 минут). Наколите вилкой 25–30 раз, посыпьте розмарином, оставьте на 5–10 минут.",
+        "Поставьте формы на камень, уменьшите жар до 230 °C (450 °F) и выпекайте 25–28 минут до золотистого цвета, поменяв формы местами на середине. Остудите 5 минут, выньте, смажьте оставшимся маслом и остудите 30 минут."
+      ],
+      "notes": "From America’s Test Kitchen / Cook’s Country, Rosemary Focaccia. ATK calls the preferment a biga, but at 107 % water it is really a poolish. Makes two 9-inch rounds (about 800 g of dough). Spoon amounts converted to grams (instant yeast 3.1 g per tsp, Diamond Crystal kosher salt 2.8 g per tsp, olive oil 13.5 g per tbsp).",
+      "notes_ru": "Рецепт America’s Test Kitchen / Cook’s Country, «Фокачча с розмарином». В ATK предферментом названа бига, но при 107 % воды это по сути пулиш. Две круглые фокаччи по 23 см (около 800 г теста). Ложки переведены в граммы (сухие дрожжи 3,1 г в ч. л., кошерная соль Diamond Crystal 2,8 г в ч. л., оливковое масло 13,5 г в ст. л.)."
     }
   ],
   "category_ru": "Лепёшки",
   "tags_ru": [
     "фокачча",
     "лепёшка",
-    "закваска"
+    "закваска",
+    "пулиш"
   ],
   "variantLabel_ru": "Версия"
 }

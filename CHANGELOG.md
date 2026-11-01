@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-11-01 — Poolish focaccias
+- Focaccia has two new versions: **Poolish (Pizzana)** (65 % poolish, half-sheet pan) and **Poolish (ATK)** (America’s Test Kitchen’s wet “biga”, two 9-inch rounds). Both link to the Modernist Poolish in Starters. Spoon and cup amounts converted to grams and marked.
+
 ## 2026-10-16 — "Dough with it" hidden
 - Hid the "Dough with it" version in Fermented dough, Sponge dough, Poolish and Rye sponge dough. It was an example dough built from the book's guideline ranges, not a book recipe. It stays in the recipe files (marked hidden) and can be restored.
 - When a recipe or tab has only one version left, the version button is no longer shown.
