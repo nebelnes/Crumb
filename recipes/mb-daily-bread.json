@@ -1,0 +1,146 @@
+{
+  "id": "mb-daily-bread",
+  "name": {
+    "en": "Your daily bread (14-day dough)",
+    "ru": "Хлеб каждый день (тесто на 14 дней)",
+    "orig": "Your Daily Bread"
+  },
+  "category": "Lean breads",
+  "category_ru": "Простой хлеб",
+  "tags": [
+    "lean",
+    "make-ahead",
+    "no-knead",
+    "cold"
+  ],
+  "tags_ru": [
+    "простой",
+    "впрок",
+    "без замеса",
+    "в холодильнике"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes I p. 38–40 (after Hertzberg & François)",
+    "detail_ru": "Recipes I с. 38–40 (по Херцбергу и Франсуа)"
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 8,
+    "pieceWeight": 500,
+    "total": 4061,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 300,
+      "max": 1100,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Everything",
+      "name_ru": "Всё сразу",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Water, room temperature",
+          "orig": "Water, room temperature",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода комнатной температуры",
+          "pct": 73.991
+        },
+        {
+          "en": "Vital wheat gluten",
+          "orig": "Vital wheat gluten",
+          "flour": false,
+          "water": 0,
+          "ru": "Сухая пшеничная клейковина",
+          "pct": 3.0045
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.7354
+        },
+        {
+          "en": "Polydextrose",
+          "orig": "Polydextrose",
+          "flour": false,
+          "water": 0,
+          "ru": "Полидекстроза",
+          "pct": 1.0314
+        },
+        {
+          "en": "Ascorbic acid",
+          "orig": "Ascorbic acid",
+          "flour": false,
+          "water": 0,
+          "ru": "Аскорбиновая кислота",
+          "pct": 0.2242
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.1211
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Mix everything to a shaggy mass (by hand, or on low in a mixer). Move to a lightly oiled tub with a lid.",
+    "Leave 1 h at room temperature, then press plastic wrap onto the surface, put the lid on and refrigerate at least 23 h. It keeps up to 14 days.",
+    "Each day, cut off about 500 g (or 1 kg), shape a boule or bâtard and put it in a lightly floured basket or banneton.",
+    "Proof at 27 °C / 21 °C: 500 g 2 h / 3–4 h; 1 kg 3 h / 4–5 h — it may take a little longer each day towards the end of the 2 weeks. Or shape in the morning and cold-proof in the basket 10–12 h, then bake in the evening.",
+    "Check with a fingertip, turn seam side down onto a peel, move to a cast-iron combo cooker or donabe, score, cover and bake (500 g: 30 min lid on + 10 off; 1 kg: 45 + 10, at 245 °C).",
+    "Over-proofed? Reshape it into a tight ball to degas and let it proof again — this dough recovers well, even on day 14."
+  ],
+  "method_ru": [
+    "Перемешать всё до лохматой массы (руками или на низкой скорости). Переложить в слегка смазанный контейнер с крышкой.",
+    "Оставить на 1 ч при комнатной температуре, затем прижать плёнку к поверхности, закрыть крышкой и убрать в холодильник минимум на 23 ч. Хранится до 14 дней.",
+    "Каждый день отрезать около 500 г (или 1 кг), сформовать шар или батон и положить в слегка присыпанную корзинку или расстоечную форму.",
+    "Расстойка при 27 °C / 21 °C: 500 г — 2 ч / 3–4 ч; 1 кг — 3 ч / 4–5 ч; к концу 2 недель может понадобиться чуть дольше. Или сформовать утром и выдержать в корзинке в холодильнике 10–12 ч, а вечером испечь.",
+    "Проверить пальцем, перевернуть швом вниз на лопату, переложить в чугунную кастрюлю-сковороду или донабэ, надрезать, накрыть и печь (500 г: 30 мин под крышкой + 10 без; 1 кг: 45 + 10, при 245 °C).",
+    "Перестоял? Переформовать в тугой шар, выпустить газ и дать снова подойти — это тесто отлично восстанавливается, даже на 14-й день."
+  ],
+  "notes": "One 4 kg batch makes eight 500 g or four 1 kg loaves; for a 500 g loaf every day for 14 days you'd need 7 kg — check fridge space. Ascorbic acid keeps the stored dough from greying; gluten and polydextrose give volume and a crisp crust. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Одна порция 4 кг — это восемь батонов по 500 г или четыре по 1 кг; на 500 г в день 14 дней нужно 7 кг — проверьте место в холодильнике. Аскорбиновая кислота не даёт тесту сереть при хранении; клейковина и полидекстроза — объём и хрустящая корка. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-daily-bread-1.jpg",
+      "kind": "photo",
+      "caption": "A daily loaf",
+      "caption_ru": "Хлеб дня"
+    },
+    {
+      "src": "img/mb-daily-bread-2.jpg",
+      "kind": "steps",
+      "caption": "Mix, store, cut off, shape, proof",
+      "caption_ru": "Замес, хранение, отрезать, сформовать, расстойка"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "mb-van-over",
+  "name": {
+    "en": "Food-processor French bread (Van Over)",
+    "ru": "Французский хлеб в комбайне (метод Ван Овера)",
+    "orig": "Van Over Method"
+  },
+  "category": "Lean breads",
+  "category_ru": "Простой хлеб",
+  "tags": [
+    "lean",
+    "food processor",
+    "fast"
+  ],
+  "tags_ru": [
+    "простой",
+    "кухонный комбайн",
+    "быстрый"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes I p. 44 (after Charles van Over)",
+    "detail_ru": "Recipes I с. 44 (по Чарльзу ван Оверу)"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 330,
+    "total": 990,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 1100,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Dry",
+      "name_ru": "Сухое",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9835
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.6612
+        }
+      ]
+    },
+    {
+      "name": "Water",
+      "name_ru": "Вода",
+      "time": "",
+      "temp": "DDT 24–26.5 °C",
+      "ingredients": [
+        {
+          "en": "Water, cool",
+          "orig": "Water, cool",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода прохладная",
+          "note": "about 16 °C if the flour is 21 °C",
+          "note_ru": "около 16 °C, если мука 21 °C",
+          "pct": 65.2893
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Put the dry ingredients in a food processor (a standard 3 qt / 12-cup bowl is enough). Turn it on and pour in the water in a steady stream; process 45 s.",
+    "Stop and take the dough temperature: it should be at least 24 °C. If it's lower, process 5 s more and check again, until it's 24–26.5 °C. Check gluten with the windowpane test. Move to a lightly oiled tub with a lid.",
+    "Bulk 1–1½ h, no folds, covered. If the dough came out above 26.5 °C, keep it in the fridge for the first 30 min of bulk.",
+    "Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small loaf 500 g, large — don't divide. Preshape, rest 20 min, shape.",
+    "Proof at 27 °C / 21 °C: large 1–1¼ h / 1½–1¾ h; small loaf and baguette 45 min–1 h / 1¼–1½ h; ficelle and rolls 30–45 min / 1–1¼ h.",
+    "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+    "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10."
+  ],
+  "method_ru": [
+    "Насыпать сухое в кухонный комбайн (хватит обычной чаши на 3 л). Включить и влить воду тонкой струйкой; обрабатывать 45 с.",
+    "Остановить и измерить температуру теста: должно быть не меньше 24 °C. Если ниже — ещё 5 с и снова проверить, пока не будет 24–26,5 °C. Проверить клейковину тестом на «окно». Переложить в слегка смазанный контейнер с крышкой.",
+    "Брожение 1–1½ ч, без складываний, под крышкой. Если тесто получилось теплее 26,5 °C — первые 30 мин брожения держать в холодильнике.",
+    "Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон 500 г, большой — не делить. Предформовка, отдых 20 мин, формовка.",
+    "Расстойка при 27 °C / 21 °C: большой 1–1¼ ч / 1½–1¾ ч; малый батон и багет 45 мин–1 ч / 1¼–1½ ч; фисель и булочки 30–45 мин / 1–1¼ ч.",
+    "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+    "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10."
+  ],
+  "notes": "Under a minute of mixing; the crumb is tighter than other French lean breads. The blade heats the dough a lot, so the water must be cool. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Меньше минуты замеса; мякиш плотнее, чем у других французских хлебов. Нож сильно греет тесто, поэтому вода должна быть прохладной. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-van-over-1.jpg",
+      "kind": "photo",
+      "caption": "Van Over boule",
+      "caption_ru": "Каравай Ван Овера"
+    },
+    {
+      "src": "img/mb-van-over-2.jpg",
+      "kind": "photo",
+      "caption": "Crumb",
+      "caption_ru": "Мякиш"
+    }
+  ]
+}

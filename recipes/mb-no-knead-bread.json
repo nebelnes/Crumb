@@ -1,0 +1,128 @@
+{
+  "id": "mb-no-knead-bread",
+  "name": {
+    "en": "No-knead lean bread",
+    "ru": "Хлеб без замеса",
+    "orig": "No-Knead Lean Bread"
+  },
+  "category": "Lean breads",
+  "category_ru": "Простой хлеб",
+  "tags": [
+    "lean",
+    "no-knead",
+    "overnight"
+  ],
+  "tags_ru": [
+    "простой",
+    "без замеса",
+    "на ночь"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes I p. 42 (after Jim Lahey)",
+    "detail_ru": "Recipes I с. 42 (по Джиму Лейхи)"
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 1,
+    "pieceWeight": 1000,
+    "total": 1002,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 500,
+      "max": 1200,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Dry",
+      "name_ru": "① Сухое",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9469
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.2655
+        }
+      ]
+    },
+    {
+      "name": "② Water",
+      "name_ru": "② Вода",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 75.2212
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Stir ① together, add ② and mix by hand to a homogeneous mass; gently round it without stressing it. Move to a lightly oiled tub and cover well.",
+    "Bulk 12–18 h, no folds, covered.",
+    "Turn out onto a well-floured bench and gently round it as if preshaping a boule, seam side down.",
+    "Flour a kitchen towel well, put the dough on it seam side down, dust the top with flour and fold the towel loosely over it, leaving room to expand.",
+    "Proof 1–2 h at 20–24 °C.",
+    "Flip it into a hot cast-iron pot or skillet so the seam is on top — no scoring needed, the seam opens by itself — and put the lid on straight away. Bake at 245 °C, 45 min lid on + 10 min lid off. A cold pot works nearly as well and is safer: put the dough in seam side up."
+  ],
+  "method_ru": [
+    "Смешать ①, добавить ② и перемешать рукой до однородности; бережно подкатать, не натягивая. Переложить в слегка смазанный контейнер и хорошо накрыть.",
+    "Брожение 12–18 ч, без складываний, под крышкой.",
+    "Выложить на хорошо присыпанный стол и аккуратно подкатать шаром, как при предформовке, швом вниз.",
+    "Обильно присыпать полотенце, положить тесто швом вниз, припылить сверху и свободно накрыть краями полотенца, оставив место для роста.",
+    "Расстойка 1–2 ч при 20–24 °C.",
+    "Перевернуть в горячую чугунную кастрюлю или сковороду швом вверх — надрезать не нужно, шов раскроется сам — и сразу накрыть крышкой. Печь при 245 °C: 45 мин под крышкой + 10 мин без. Холодная кастрюля работает почти так же и безопаснее: класть тесто швом вверх."
+  ],
+  "notes": "75 % hydration — too slack to shape much, so it's baked as one large boule in a lidded pot. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "75 % воды — слишком жидкое для формовки, поэтому печётся одним большим караваем в кастрюле с крышкой. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-no-knead-bread-1.jpg",
+      "kind": "photo",
+      "caption": "No-knead boule",
+      "caption_ru": "Каравай без замеса"
+    },
+    {
+      "src": "img/mb-no-knead-bread-2.jpg",
+      "kind": "photo",
+      "caption": "Crumb",
+      "caption_ru": "Мякиш"
+    }
+  ]
+}

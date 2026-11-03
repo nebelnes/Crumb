@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-03 — Baguettes and lean breads (Modernist Bread, Recipes I)
+- New category **Lean breads** with 7 recipes and 37 photos from the book.
+- **Baguette / French lean bread**, three tabs: *Baguette* (Master on poolish, Modernist with vacuum autolyse, A-Plus with corn flour and levain, Direct), *Flavors* (20 % whole wheat, toasted flour, soy sauce, orange juice, seeded) and *Purees* (sunchoke, Niçoise olive, pumpkin, candied chestnut, raspberry, poi). Every version has the shape sizes, proof times at 27 °C and 21 °C, the finger test and the home-oven bake times from the book's table.
+- Baguette notes and photos: what makes a good baguette, crust colours, the book's survey of 125 baguettes and other bakers' versions, and step photos for mixing, shaping, couche proofing, scoring and baking.
+- Also: **Pain rustique** (Calvel), **Your daily bread** (14-day fridge dough), **No-knead lean bread** (Lahey), **Food-processor French bread** (Van Over), **Filone** and **Banh mi rolls**.
+- Not added: English muffins and crumpets (same chapter, not baguettes — say if you want them); Comté-water and raspberry-gel loaves (need preparations from another volume).
+
 ## 2026-11-03 — Flatbread photos
 - 58 photos from Modernist Bread added to the flatbreads: the finished bread at the top of each recipe, plus shaping/step photos and variations (puree pitas, other-flour pitas, rye dosa, sorghum injera, modernist knäckebröd rings…) in Reference photos. Tap to enlarge.
 

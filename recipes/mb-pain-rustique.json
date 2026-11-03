@@ -1,0 +1,179 @@
+{
+  "id": "mb-pain-rustique",
+  "name": {
+    "en": "Pain rustique",
+    "ru": "Пэн рустик",
+    "orig": "Pain rustique"
+  },
+  "category": "Lean breads",
+  "category_ru": "Простой хлеб",
+  "tags": [
+    "lean",
+    "pâte fermentée",
+    "easy"
+  ],
+  "tags_ru": [
+    "простой",
+    "старое тесто",
+    "лёгкий"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes I p. 36–37 (after Raymond Calvel)",
+    "detail_ru": "Recipes I с. 36–37 (по Раймону Кальвелю)"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 200,
+      "max": 1100,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "④ Pâte fermentée (4 h ahead, add all of it)",
+      "name_ru": "④ Старое тесто (за 4 ч, добавить всё)",
+      "time": "4 h",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 15.2542
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 10.1695
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.1017
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 0.3051
+        }
+      ],
+      "note": "Mix 4 h ahead, airtight. Or use 150 g of dough saved from a previous batch. If it was refrigerated, let it warm up 1–2 h first.",
+      "note_ru": "Замесить за 4 ч, в герметичном контейнере. Или взять 150 г теста от прошлого замеса. Если из холодильника — отогреть 1–2 ч.",
+      "link": "richemont-fermented-dough"
+    },
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 57.6271
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.5085
+        }
+      ]
+    },
+    {
+      "name": "② Flour",
+      "name_ru": "② Мука",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 84.7458
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.6949
+        }
+      ]
+    }
+  ],
+  "method": [
+    "By machine: dissolve the yeast in ①, add ② and mix on low to a shaggy mass; autolyse 20–30 min. Add ③ and mix on medium to medium development; add the pâte fermentée ④ and mix to full development.",
+    "Bulk 45 min in a square or rectangular tub, no folds, covered.",
+    "Turn out onto a floured bench and cut into pieces — one large loaf, two of 500 g or four of 250 g (or just halves/quarters by eye). Put any make-weight pieces on top; don't try to bind them.",
+    "Move the pieces smooth side down onto a floured couche or towel on a board; cover well. No shaping — handle as gently as you can.",
+    "Proof at 27 °C / 21 °C: large 1–1½ h / 1½–2 h; medium and small 30–45 min / 1–1½ h.",
+    "Turn each piece onto the peel so the smooth side is up, make one diagonal score if you like, and bake with steam (French lean bread table: small loaf on a stone with a lid 25 + 10 min at 245 °C)."
+  ],
+  "method_ru": [
+    "В миксере: растворить дрожжи в ①, добавить ② и замесить на низкой до лохматой массы; автолиз 20–30 мин. Добавить ③ и месить на средней до среднего развития; добавить старое тесто ④ и вымесить до полного развития.",
+    "Брожение 45 мин в квадратном или прямоугольном контейнере, без складываний, под крышкой.",
+    "Выложить на присыпанный стол и нарезать — один большой, два по 500 г или четыре по 250 г (или просто пополам/на четверти на глаз). Довески класть сверху, не пытаться соединить.",
+    "Переложить куски гладкой стороной вниз на присыпанную кушетку или полотенце на доске; хорошо накрыть. Не формовать — обращаться как можно бережнее.",
+    "Расстойка при 27 °C / 21 °C: большой 1–1½ ч / 1½–2 ч; средние и малые 30–45 мин / 1–1½ ч.",
+    "Перевернуть каждый кусок на лопату гладкой стороной вверх, по желанию один диагональный надрез, печь с паром (таблица французского хлеба: малый батон на камне под крышкой 25 + 10 мин при 245 °C)."
+  ],
+  "notes": "Barely shaped, so the crumb stays very open. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Почти без формовки — мякиш остаётся очень открытым. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-pain-rustique-1.jpg",
+      "kind": "photo",
+      "caption": "Pain rustique",
+      "caption_ru": "Пэн рустик"
+    },
+    {
+      "src": "img/mb-pain-rustique-2.jpg",
+      "kind": "photo",
+      "caption": "Crumb",
+      "caption_ru": "Мякиш"
+    }
+  ]
+}

@@ -1,0 +1,1983 @@
+{
+  "id": "mb-french-lean-bread",
+  "name": {
+    "en": "Baguette / French lean bread",
+    "ru": "Багет / французский хлеб",
+    "orig": "French lean bread"
+  },
+  "category": "Lean breads",
+  "category_ru": "Простой хлеб",
+  "tags": [
+    "baguette",
+    "poolish",
+    "lean"
+  ],
+  "tags_ru": [
+    "багет",
+    "пулиш",
+    "простой"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes I p. 18–37, 50–51",
+    "detail_ru": "Recipes I с. 18–37, 50–51"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 330,
+    "total": 990,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 1100,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master (poolish)",
+      "label_ru": "Мастер (на пулише)",
+      "sub": "p. 27–32",
+      "sub_ru": "с. 27–32",
+      "stages": [
+        {
+          "name": "Poolish (12 h ahead)",
+          "name_ru": "Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 24.8062
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 24.8062
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0248
+            }
+          ],
+          "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+          "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "5 % of the water, to dissolve the salt",
+              "note_ru": "5 % воды — для растворения соли",
+              "pct": 2.3256
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0155
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 41.0853
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.4651
+            }
+          ]
+        },
+        {
+          "name": "③ Flour (+ all the poolish)",
+          "name_ru": "③ Мука (+ весь пулиш)",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 75.1938
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the poolish 12 h ahead.",
+        "By hand: stir the salt into ① (the salt water) and set aside. Dissolve the yeast in ②, add ③ with the poolish and mix to a shaggy mass; autolyse 30 min. Add ① and mix until homogeneous. Bulk 3½ h with 3 four-edge folds (one every hour after the first hour), then 30 min rest.",
+        "By machine: same order on low speed to a shaggy mass, autolyse 20–30 min, add ① and mix on medium to medium gluten development (stand mixer: about 8 min low, 2 min to take in the salt water, 2 min medium). Bulk 1½ h with 2 folds (right after mixing and after 45 min), then 45 min rest.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Пулиш — за 12 ч.",
+        "Вручную: растворить соль в ① (солёная вода) и отставить. Растворить дрожжи в ②, добавить ③ с пулишем и замесить до лохматой массы; автолиз 30 мин. Добавить ① и перемешать до однородности. Брожение 3½ ч с 3 складываниями «конвертом» (каждый час после первого часа), затем 30 мин отдыха.",
+        "В миксере: тот же порядок на низкой скорости до лохматой массы, автолиз 20–30 мин, добавить ① и месить на средней до среднего развития клейковины (планетарный миксер: около 8 мин на низкой, 2 мин чтобы впиталась солёная вода, 2 мин на средней). Брожение 1½ ч с 2 складываниями (сразу после замеса и через 45 мин), затем 45 мин отдыха.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "What makes a good baguette (book p. 18–21): a crust that shatters when broken, amber-brown and crisp but not tough; a light-yellow (not stark white) crumb with a mix of small, medium and large holes; clean, lifted ears from the scoring; aroma of toasted corn, nuts or caramel. In France a baguette weighs about 300 g raw dough-wise and is 55–70 cm long. Hydration is the main lever for an open crumb, but too much water costs shape. Of 125 baguette recipes the book surveyed, most sit around 68 % hydration and 2 % salt; famous bakers' versions range from 64 % (Tartine) to 80 % (Edward Behr), with preferments from none to 99 % poolish (Suas). This recipe is 68 % with 66 % poolish.",
+      "notes_ru": "Каким должен быть хороший багет (книга, с. 18–21): корка ломается с хрустом, янтарно-коричневая и хрустящая, но не жёсткая; мякиш светло-кремовый (не белоснежный) с ячейками разного размера; чёткие приподнятые «ушки» от надрезов; аромат жареной кукурузы, орехов или карамели. Во Франции багет — около 300 г, длина 55–70 см. Главный рычаг открытого мякиша — гидратация, но избыток воды портит форму. Из 125 рецептов багета, собранных авторами, большинство — около 68 % воды и 2 % соли; у известных пекарей — от 64 % (Tartine) до 80 % (Эдвард Бер), предферментов — от нуля до 99 % пулиша (Суас). В этом рецепте — 68 % воды и 66 % пулиша.",
+      "group": "classic"
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "label_ru": "Модернист",
+      "sub": "vacuum autolyse · p. 33",
+      "sub_ru": "вакуумный автолиз · с. 33",
+      "stages": [
+        {
+          "name": "① Dry ingredients and fats",
+          "name_ru": "① Сухие и жиры",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            },
+            {
+              "en": "Polydextrose",
+              "orig": "Polydextrose",
+              "flour": false,
+              "water": 0,
+              "ru": "Полидекстроза",
+              "pct": 1.0
+            },
+            {
+              "en": "Vegetable shortening",
+              "orig": "Vegetable shortening",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительный кулинарный жир",
+              "pct": 1.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "② Warm water",
+          "name_ru": "② Тёплая вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, 43–49 °C",
+              "orig": "Water, 43–49 °C",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, 43–49 °C",
+              "note": "warm, because the vacuum cools the dough",
+              "note_ru": "тёплая, потому что вакуум охлаждает тесто",
+              "pct": 73.5043
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Needs a vacuum chamber. Combine ① in a bowl, add ② and mix to a shaggy mass; put the bowl in the vacuum chamber and pull a vacuum for 30 s. Check full gluten development with the windowpane test.",
+        "Bulk 1½ h with 2 folds (right after mixing and after 45 min), then 45 min rest, covered.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Divide: baguette 330 g, ficelle 250 g, roll 50 g, small loaf 500 g. Preshape, rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 1–1½ h / 1½–2 h; ficelle 45 min–1 h / 1–1¼ h; rolls 45 min–1 h / 1–1½ h; small loaf 2–2½ h / 2½–3 h; large 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Нужна вакуумная камера. Соединить ① в миске, добавить ② и замесить до лохматой массы; поставить миску в вакуумную камеру и откачать воздух на 30 с. Проверить полное развитие клейковины тестом на «окно».",
+        "Брожение 1½ ч с 2 складываниями (сразу после замеса и через 45 мин), затем 45 мин отдыха под крышкой.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Деление: багет 330 г, фисель 250 г, булочка 50 г, малый батон 500 г. Предформовка, отдых 20 мин, формовка. Расстойка при 27 °C / 21 °C: багет 1–1½ ч / 1½–2 ч; фисель 45 мин–1 ч / 1–1¼ ч; булочки 45 мин–1 ч / 1–1½ ч; малый батон 2–2½ ч / 2½–3 ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "A little fat raises volume, polydextrose makes the crust crispier, and the vacuum hydrates the flour fast so it needs less mixing — creamier crumb.",
+      "notes_ru": "Немного жира увеличивает объём, полидекстроза делает корку хрустящее, а вакуум быстро увлажняет муку — меньше замеса, мякиш кремовее.",
+      "group": "classic"
+    },
+    {
+      "id": "aplus",
+      "label": "A-Plus baguette",
+      "label_ru": "Багет «A-Plus»",
+      "sub": "corn flour + levain · p. 34",
+      "sub_ru": "кукурузная мука + закваска · с. 34",
+      "stages": [
+        {
+          "name": "Poolish (12 h ahead)",
+          "name_ru": "Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 25.4237
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 25.4237
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0254
+            }
+          ],
+          "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+          "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "5 % of the water, to dissolve the salt",
+              "note_ru": "5 % воды — для растворения соли",
+              "pct": 2.3729
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9322
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 45.0847
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.3559
+            }
+          ]
+        },
+        {
+          "name": "③ Flour (+ all the poolish)",
+          "name_ru": "③ Мука (+ весь пулиш)",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 71.1864
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, 100 %",
+              "flourIn": 0.5,
+              "pct": 7.6271
+            },
+            {
+              "en": "Corn flour",
+              "orig": "Corn flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Кукурузная мука",
+              "pct": 1.6949
+            },
+            {
+              "en": "Corn flour, toasted",
+              "orig": "Corn flour, toasted",
+              "flour": true,
+              "water": 0,
+              "ru": "Кукурузная мука, обжаренная",
+              "pct": 1.6949
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the poolish 12 h ahead. Toast half the corn flour on a tray at 175 °C for about 20 min, until it smells nutty (or pressure-cook it in a mason jar for 1½ h); cool.",
+        "By hand: stir the salt into ① (the salt water) and set aside. Dissolve the yeast in ②, add ③ with the poolish and mix to a shaggy mass; autolyse 30 min. Add ① and mix until homogeneous. Bulk 3½ h with 3 four-edge folds (one every hour after the first hour), then 30 min rest. Check full development with the windowpane test.",
+        "By machine: same order on low speed to a shaggy mass, autolyse 20–30 min, add ① and mix on medium to medium gluten development (stand mixer: about 8 min low, 2 min to take in the salt water, 2 min medium). Bulk 1½ h with 2 folds (right after mixing and after 45 min), then 45 min rest.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Divide: baguette 330 g, ficelle 250 g, roll 50 g, small loaf 500 g. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle 30–45 min / 45 min–1 h; rolls 1–1¼ h / 1¼–1½ h; small loaf 1¼–1½ h / 1½–2 h; large 1½–2 h / 2–2½ h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Пулиш — за 12 ч. Половину кукурузной муки обжарить на противне при 175 °C около 20 мин до орехового аромата (или 1½ ч в банке в скороварке); остудить.",
+        "Вручную: растворить соль в ① (солёная вода) и отставить. Растворить дрожжи в ②, добавить ③ с пулишем и замесить до лохматой массы; автолиз 30 мин. Добавить ① и перемешать до однородности. Брожение 3½ ч с 3 складываниями «конвертом» (каждый час после первого часа), затем 30 мин отдыха. Проверить полное развитие тестом на «окно».",
+        "В миксере: тот же порядок на низкой скорости до лохматой массы, автолиз 20–30 мин, добавить ① и месить на средней до среднего развития клейковины (планетарный миксер: около 8 мин на низкой, 2 мин чтобы впиталась солёная вода, 2 мин на средней). Брожение 1½ ч с 2 складываниями (сразу после замеса и через 45 мин), затем 45 мин отдыха.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Деление: багет 330 г, фисель 250 г, булочка 50 г, малый батон 500 г. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель 30–45 мин / 45 мин–1 ч; булочки 1–1¼ ч / 1¼–1½ ч; малый батон 1¼–1½ ч / 1½–2 ч; большой 1½–2 ч / 2–2½ ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Raw corn flour crisps the crust like polydextrose; toasted corn flour adds a nutty flavour. (The book's net-contents yeast line, 0.21 g, looks like a misprint; the dough table says 2.1 g + 0.15 g in the poolish.)",
+      "notes_ru": "Сырая кукурузная мука делает корку хрустящей, как полидекстроза; обжаренная даёт ореховый вкус. (Строка дрожжей в итоговом составе книги — 0,21 г — похоже, опечатка; в таблице теста 2,1 г + 0,15 г в пулише.)",
+      "group": "classic"
+    },
+    {
+      "id": "direct",
+      "label": "Direct (no preferment)",
+      "label_ru": "Безопарный",
+      "sub": "same day · p. 37",
+      "sub_ru": "в тот же день · с. 37",
+      "stages": [
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 3.4188
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 64.9573
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "No poolish: mix and bulk exactly as the Master (salt water ①, yeast in ②, flour ③, autolyse, then ①).",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Без пулиша: замес и брожение — как у мастер-рецепта (солёная вода ①, дрожжи в ②, мука ③, автолиз, затем ①).",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Faster (about 4 h from start), a little less flavour than with poolish.",
+      "notes_ru": "Быстрее (около 4 ч от начала), вкус чуть проще, чем на пулише.",
+      "group": "classic"
+    },
+    {
+      "id": "ww20",
+      "label": "20 % whole wheat",
+      "label_ru": "20 % цельнозерновой",
+      "sub": "p. 51",
+      "sub_ru": "с. 51",
+      "stages": [
+        {
+          "name": "Poolish (12 h ahead)",
+          "name_ru": "Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 24.8062
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 24.8062
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0248
+            }
+          ],
+          "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+          "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "5 % of the water, to dissolve the salt",
+              "note_ru": "5 % воды — для растворения соли",
+              "pct": 2.3256
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0155
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 41.0853
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.4651
+            }
+          ]
+        },
+        {
+          "name": "③ Flour (+ all the poolish)",
+          "name_ru": "③ Мука (+ весь пулиш)",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 55.1938
+            },
+            {
+              "en": "Whole wheat flour",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Цельнозерновая пшеничная мука",
+              "pct": 20.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the poolish 12 h ahead.",
+        "By hand: stir the salt into ① (the salt water) and set aside. Dissolve the yeast in ②, add ③ with the poolish and mix to a shaggy mass; autolyse 30 min. Add ① and mix until homogeneous. Bulk 3½ h with 3 four-edge folds (one every hour after the first hour), then 30 min rest.",
+        "By machine: same order on low speed to a shaggy mass, autolyse 20–30 min, add ① and mix on medium to medium gluten development (stand mixer: about 8 min low, 2 min to take in the salt water, 2 min medium). Bulk 1½ h with 2 folds (right after mixing and after 45 min), then 45 min rest.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Пулиш — за 12 ч.",
+        "Вручную: растворить соль в ① (солёная вода) и отставить. Растворить дрожжи в ②, добавить ③ с пулишем и замесить до лохматой массы; автолиз 30 мин. Добавить ① и перемешать до однородности. Брожение 3½ ч с 3 складываниями «конвертом» (каждый час после первого часа), затем 30 мин отдыха.",
+        "В миксере: тот же порядок на низкой скорости до лохматой массы, автолиз 20–30 мин, добавить ① и месить на средней до среднего развития клейковины (планетарный миксер: около 8 мин на низкой, 2 мин чтобы впиталась солёная вода, 2 мин на средней). Брожение 1½ ч с 2 складываниями (сразу после замеса и через 45 мин), затем 45 мин отдыха.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Whole wheat is 20 % of all the flour (129 g), taken from the dough flour; the poolish stays white.",
+      "notes_ru": "Цельнозерновая — 20 % всей муки (129 г), за счёт муки теста; пулиш остаётся на белой.",
+      "group": "flavor"
+    },
+    {
+      "id": "toasted",
+      "label": "Toasted flour loaf",
+      "label_ru": "С обжаренной мукой",
+      "sub": "tastes like toast · p. 51",
+      "sub_ru": "вкус тоста · с. 51",
+      "stages": [
+        {
+          "name": "Poolish (12 h ahead)",
+          "name_ru": "Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 24.8062
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 24.8062
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0248
+            }
+          ],
+          "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+          "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "5 % of the water, to dissolve the salt",
+              "note_ru": "5 % воды — для растворения соли",
+              "pct": 2.3256
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0155
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 41.0853
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.4651
+            }
+          ]
+        },
+        {
+          "name": "③ Flour (+ all the poolish)",
+          "name_ru": "③ Мука (+ весь пулиш)",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 55.1938
+            },
+            {
+              "en": "Bread flour, toasted",
+              "orig": "Bread flour, toasted",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная, обжаренная",
+              "pct": 20.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Toast the flour first: spread it on a sheet pan and toast at 175 °C until golden brown, stirring every 10 min; cool completely.",
+        "Make the poolish 12 h ahead.",
+        "By hand: stir the salt into ① (the salt water) and set aside. Dissolve the yeast in ②, add ③ with the poolish and mix to a shaggy mass; autolyse 30 min. Add ① and mix until homogeneous. Bulk 3½ h with 3 four-edge folds (one every hour after the first hour), then 30 min rest.",
+        "By machine: same order on low speed to a shaggy mass, autolyse 20–30 min, add ① and mix on medium to medium gluten development (stand mixer: about 8 min low, 2 min to take in the salt water, 2 min medium). Bulk 1½ h with 2 folds (right after mixing and after 45 min), then 45 min rest.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Сначала обжарить муку: распределить по противню и обжарить при 175 °C до золотисто-коричневого цвета, перемешивая каждые 10 мин; полностью остудить.",
+        "Пулиш — за 12 ч.",
+        "Вручную: растворить соль в ① (солёная вода) и отставить. Растворить дрожжи в ②, добавить ③ с пулишем и замесить до лохматой массы; автолиз 30 мин. Добавить ① и перемешать до однородности. Брожение 3½ ч с 3 складываниями «конвертом» (каждый час после первого часа), затем 30 мин отдыха.",
+        "В миксере: тот же порядок на низкой скорости до лохматой массы, автолиз 20–30 мин, добавить ① и месить на средней до среднего развития клейковины (планетарный миксер: около 8 мин на низкой, 2 мин чтобы впиталась солёная вода, 2 мин на средней). Брожение 1½ ч с 2 складываниями (сразу после замеса и через 45 мин), затем 45 мин отдыха.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "20 % of the flour toasted (here 129 g of the dough flour). Toasted flour acts like an inclusion, so the crumb is tighter.",
+      "notes_ru": "20 % муки обжарено (здесь 129 г муки теста). Обжаренная мука работает как добавка, мякиш плотнее.",
+      "group": "flavor"
+    },
+    {
+      "id": "soy",
+      "label": "Soy sauce",
+      "label_ru": "С соевым соусом",
+      "sub": "no salt · p. 51",
+      "sub_ru": "без соли · с. 51",
+      "stages": [
+        {
+          "name": "Poolish (12 h ahead)",
+          "name_ru": "Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 24.8062
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 24.8062
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0248
+            }
+          ],
+          "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+          "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "no salt in this version",
+              "note_ru": "соли в этой версии нет",
+              "pct": 2.3256
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 34.1085
+            },
+            {
+              "en": "Soy sauce",
+              "orig": "Soy sauce",
+              "flour": false,
+              "water": 0.7,
+              "ru": "Соевый соус",
+              "pct": 6.0465
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.4651
+            }
+          ]
+        },
+        {
+          "name": "③ Flour (+ all the poolish)",
+          "name_ru": "③ Мука (+ весь пулиш)",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 75.1938
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the poolish 12 h ahead.",
+        "Mix as the Master but with no salt and no autolyse; the soy sauce goes in with the water ②.",
+        "By machine: same order on low speed to a shaggy mass, add ① and mix on medium to medium gluten development.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Пулиш — за 12 ч.",
+        "Замес как у мастер-рецепта, но без соли и без автолиза; соевый соус — вместе с водой ②.",
+        "В миксере: тот же порядок, на средней до среднего развития клейковины.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Water reduced by 45 g and 39 g soy sauce added; the soy sauce replaces the salt.",
+      "notes_ru": "Воды на 45 г меньше, добавлено 39 г соевого соуса; он заменяет соль.",
+      "group": "flavor"
+    },
+    {
+      "id": "orange",
+      "label": "Orange juice",
+      "label_ru": "На апельсиновом соке",
+      "sub": "p. 51",
+      "sub_ru": "с. 51",
+      "stages": [
+        {
+          "name": "Poolish (12 h ahead)",
+          "name_ru": "Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 24.8062
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 24.8062
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0248
+            }
+          ],
+          "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+          "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Orange juice",
+              "orig": "Orange juice",
+              "flour": false,
+              "water": 0.88,
+              "ru": "Апельсиновый сок",
+              "pct": 2.3256
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0155
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Orange juice",
+              "orig": "Orange juice",
+              "flour": false,
+              "water": 0.88,
+              "ru": "Апельсиновый сок",
+              "pct": 41.0853
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.4651
+            }
+          ]
+        },
+        {
+          "name": "③ Flour (+ all the poolish)",
+          "name_ru": "③ Мука (+ весь пулиш)",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 75.1938
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the poolish 12 h ahead.",
+        "By hand: stir the salt into ① (the salt water) and set aside. Dissolve the yeast in ②, add ③ with the poolish and mix to a shaggy mass; autolyse 30 min. Add ① and mix until homogeneous. Bulk 3½ h with 3 four-edge folds (one every hour after the first hour), then 30 min rest.",
+        "By machine: same order on low speed to a shaggy mass, autolyse 20–30 min, add ① and mix on medium to medium gluten development (stand mixer: about 8 min low, 2 min to take in the salt water, 2 min medium). Bulk 1½ h with 2 folds (right after mixing and after 45 min), then 45 min rest.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Пулиш — за 12 ч.",
+        "Вручную: растворить соль в ① (солёная вода) и отставить. Растворить дрожжи в ②, добавить ③ с пулишем и замесить до лохматой массы; автолиз 30 мин. Добавить ① и перемешать до однородности. Брожение 3½ ч с 3 складываниями «конвертом» (каждый час после первого часа), затем 30 мин отдыха.",
+        "В миксере: тот же порядок на низкой скорости до лохматой массы, автолиз 20–30 мин, добавить ① и месить на средней до среднего развития клейковины (планетарный миксер: около 8 мин на низкой, 2 мин чтобы впиталась солёная вода, 2 мин на средней). Брожение 1½ ч с 2 складываниями (сразу после замеса и через 45 мин), затем 45 мин отдыха.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "The book says to replace the water with orange juice; here the dough water is replaced and the poolish keeps water.",
+      "notes_ru": "В книге — заменить воду апельсиновым соком; здесь заменена вода теста, пулиш остаётся на воде.",
+      "group": "flavor"
+    },
+    {
+      "id": "seeded",
+      "label": "Seeded",
+      "label_ru": "С семенами",
+      "sub": "p. 51",
+      "sub_ru": "с. 51",
+      "stages": [
+        {
+          "name": "Poolish (12 h ahead)",
+          "name_ru": "Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 24.8062
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 24.8062
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0248
+            }
+          ],
+          "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+          "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "5 % of the water, to dissolve the salt",
+              "note_ru": "5 % воды — для растворения соли",
+              "pct": 2.3256
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0155
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 41.0853
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.4651
+            }
+          ]
+        },
+        {
+          "name": "③ Flour (+ all the poolish)",
+          "name_ru": "③ Мука (+ весь пулиш)",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 75.1938
+            }
+          ]
+        },
+        {
+          "name": "Seed coating",
+          "name_ru": "Обсыпка семенами",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Sesame, flax or everything-seed mix",
+              "orig": "Sesame, flax or everything-seed mix",
+              "flour": false,
+              "water": 0,
+              "ru": "Кунжут, лён или смесь семян",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the poolish 12 h ahead.",
+        "By hand: stir the salt into ① (the salt water) and set aside. Dissolve the yeast in ②, add ③ with the poolish and mix to a shaggy mass; autolyse 30 min. Add ① and mix until homogeneous. Bulk 3½ h with 3 four-edge folds (one every hour after the first hour), then 30 min rest.",
+        "By machine: same order on low speed to a shaggy mass, autolyse 20–30 min, add ① and mix on medium to medium gluten development (stand mixer: about 8 min low, 2 min to take in the salt water, 2 min medium). Bulk 1½ h with 2 folds (right after mixing and after 45 min), then 45 min rest.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "After shaping, lay each loaf smooth side down on a damp towel to wet the surface, then roll it in the seeds.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Пулиш — за 12 ч.",
+        "Вручную: растворить соль в ① (солёная вода) и отставить. Растворить дрожжи в ②, добавить ③ с пулишем и замесить до лохматой массы; автолиз 30 мин. Добавить ① и перемешать до однородности. Брожение 3½ ч с 3 складываниями «конвертом» (каждый час после первого часа), затем 30 мин отдыха.",
+        "В миксере: тот же порядок на низкой скорости до лохматой массы, автолиз 20–30 мин, добавить ① и месить на средней до среднего развития клейковины (планетарный миксер: около 8 мин на низкой, 2 мин чтобы впиталась солёная вода, 2 мин на средней). Брожение 1½ ч с 2 складываниями (сразу после замеса и через 45 мин), затем 45 мин отдыха.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "После формовки положить батон гладкой стороной на влажное полотенце, затем обвалять в семенах.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "group": "flavor"
+    },
+    {
+      "id": "sunchoke",
+      "label": "Sunchoke",
+      "label_ru": "Топинамбур",
+      "sub": "puree · p. 50",
+      "sub_ru": "пюре · с. 50",
+      "stages": [
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 3.4188
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 46.1538
+            },
+            {
+              "en": "Caramelized sunchoke puree",
+              "orig": "Caramelized sunchoke puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из карамелизованного топинамбура",
+              "pct": 50.4274
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Pressure-cook 300 g sliced sunchokes with 150 g water and 2.25 g baking soda for 1 h; cool naturally, puree smooth, cool.",
+        "Mix as the Direct version, adding the puree with the water ②.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "В скороварке 1 ч: 300 г нарезанного топинамбура, 150 г воды, 2,25 г соды; дать остыть, пробить, остудить.",
+        "Замес как у безопарной версии, пюре — вместе с водой ②.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Built on the Direct dough. Water inside the puree isn't counted in hydration.",
+      "notes_ru": "На основе безопарного теста. Вода в пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "olive",
+      "label": "Niçoise olives",
+      "label_ru": "Оливки нисуаз",
+      "sub": "puree · p. 50",
+      "sub_ru": "пюре · с. 50",
+      "stages": [
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 3.4188
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 52.1368
+            },
+            {
+              "en": "Niçoise olives, pitted, pureed",
+              "orig": "Niçoise olives, pitted, pureed",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливки нисуаз без косточек, пюре",
+              "pct": 20.5128
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Blend the olives smooth. Add them only after the dough reaches medium gluten development, on low just until incorporated (olives hold back gluten).",
+        "Mix as the Direct version, adding the puree with the water ② (except olives — see above).",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Пробить оливки. Добавлять только после среднего развития клейковины, на низкой — до равномерности (оливки мешают клейковине).",
+        "Замес как у безопарной версии, пюре — вместе с водой ② (кроме оливок — см. выше).",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Built on the Direct dough. Water inside the puree isn't counted in hydration.",
+      "notes_ru": "На основе безопарного теста. Вода в пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "pumpkin",
+      "label": "Pumpkin",
+      "label_ru": "Тыквенный",
+      "sub": "puree · p. 50",
+      "sub_ru": "пюре · с. 50",
+      "stages": [
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 3.4188
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 40.1709
+            },
+            {
+              "en": "Pumpkin pie filling (canned)",
+              "orig": "Pumpkin pie filling (canned)",
+              "flour": false,
+              "water": 0,
+              "ru": "Тыквенная начинка для пирога (консерв.)",
+              "pct": 40.1709
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Fresh pumpkin puree also works.",
+        "Mix as the Direct version, adding the puree with the water ②.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Можно свежее тыквенное пюре.",
+        "Замес как у безопарной версии, пюре — вместе с водой ②.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Built on the Direct dough. Water inside the puree isn't counted in hydration.",
+      "notes_ru": "На основе безопарного теста. Вода в пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "chestnut",
+      "label": "Candied chestnut",
+      "label_ru": "Каштановый",
+      "sub": "puree · p. 50",
+      "sub_ru": "пюре · с. 50",
+      "stages": [
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 3.4188
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 74.359
+            },
+            {
+              "en": "Candied chestnut puree",
+              "orig": "Candied chestnut puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из засахаренных каштанов",
+              "pct": 50.4274
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix as the Direct version, adding the puree with the water ②.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Замес как у безопарной версии, пюре — вместе с водой ②.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Built on the Direct dough. Water inside the puree isn't counted in hydration.",
+      "notes_ru": "На основе безопарного теста. Вода в пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "raspberry",
+      "label": "Raspberry",
+      "label_ru": "Малиновый",
+      "sub": "puree · p. 50",
+      "sub_ru": "пюре · с. 50",
+      "stages": [
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 3.4188
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 54.7009
+            },
+            {
+              "en": "Raspberry puree (frozen, thawed)",
+              "orig": "Raspberry puree (frozen, thawed)",
+              "flour": false,
+              "water": 0,
+              "ru": "Малиновое пюре (замороженное, разморозить)",
+              "pct": 20.5128
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix as the Direct version, adding the puree with the water ②.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Замес как у безопарной версии, пюре — вместе с водой ②.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Built on the Direct dough. Water inside the puree isn't counted in hydration.",
+      "notes_ru": "На основе безопарного теста. Вода в пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "poi",
+      "label": "Poi (taro)",
+      "label_ru": "Пои (таро)",
+      "sub": "puree · p. 50",
+      "sub_ru": "пюре · с. 50",
+      "stages": [
+        {
+          "name": "① Salt water",
+          "name_ru": "① Солёная вода",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 3.4188
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0513
+            }
+          ]
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 47.0085
+            },
+            {
+              "en": "Frozen poi",
+              "orig": "Frozen poi",
+              "flour": false,
+              "water": 0,
+              "ru": "Пои замороженное",
+              "pct": 50.4274
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.7009
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Break the poi apart into the water with your fingers — no need to puree.",
+        "Mix as the Direct version, adding the puree with the water ②.",
+        "Turn the dough gently out onto a well-floured bench — keep the gas in.",
+        "Shape and proof (book table). Divide: baguette or short baguette 350 g, ficelle 250 g, roll 50 g, small boule/bâtard 500 g, large boule/bâtard — don't divide. Preshape (baguette and ficelle as a baguette, the rest as boules or rolls), rest 20 min, shape. Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle and rolls 30–45 min / 45 min–1 h; small loaf 1–1¼ h / 1¼–1½ h; large loaf 1¼–1½ h / 1½–2 h.",
+        "Proofed when a gentle finger press feels bubbly inside and springs back very slowly; if it springs back fast, give it more time (check every 30 min). Or cold-proof at 4 °C: 50–250 g pieces 2 h, 350–500 g 2½–3 h, 1–2 kg 3½–4 h.",
+        "Move the loaves seam side down onto a peel or loader, score, and load straight into the preheated oven.",
+        "Bake at 245 °C with steam (a crisp crust needs it). Home oven, stone + a lid big enough not to touch the bread: baguette, short baguette or ficelle 15 min lid on + 10 min lid off; rolls 10 + 5; small loaf 25 + 10 (in a cast-iron combo cooker 30 + 10); large loaf 30 + 10 (cast iron 45 + 10). Convection, lowest fan, steam after closing the door: baguette/ficelle 20 + 5 min vented; rolls 10 + 5; loaves 20 + 15. Deck: baguette 15 + 10, ficelle 10 + 5, loaves 20 + 10.",
+        "Most home ovens are too small for a full baguette: roll it to about 30 cm (short baguette). Don't bake a 2 kg miche at home. Cool on a rack; eat within 1 day or freeze up to 2 months."
+      ],
+      "method_ru": [
+        "Размять пои пальцами прямо в воде — пробивать не нужно.",
+        "Замес как у безопарной версии, пюре — вместе с водой ②.",
+        "Аккуратно выложить тесто на хорошо присыпанный стол — сохраняя газ.",
+        "Формовка и расстойка (таблица книги). Деление: багет или короткий багет 350 г, фисель 250 г, булочка 50 г, малый батон/бульон 500 г, большой — не делить. Предформовка (багет и фисель — как багет, остальное — шаром или булочкой), отдых 20 мин, окончательная формовка. Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель и булочки 30–45 мин / 45 мин–1 ч; малый батон 1–1¼ ч / 1¼–1½ ч; большой 1¼–1½ ч / 1½–2 ч.",
+        "Готово, когда при лёгком нажатии пальцем тесто ощущается пузырчатым и выравнивается очень медленно; если быстро — ещё подождать (проверять каждые 30 мин). Или холодная расстойка при 4 °C: куски 50–250 г — 2 ч, 350–500 г — 2½–3 ч, 1–2 кг — 3½–4 ч.",
+        "Переложить тесто швом вниз на лопату или загрузчик, сделать надрезы и сразу загрузить в разогретую печь.",
+        "Печь при 245 °C с паром (без пара не будет хрустящей корки). Домашняя духовка, камень + крышка такого размера, чтобы не касалась хлеба: багет, короткий багет или фисель 15 мин под крышкой + 10 мин без неё; булочки 10 + 5; малый батон 25 + 10 (в чугунной кастрюле-сковороде 30 + 10); большой 30 + 10 (в чугуне 45 + 10). Конвекция, минимальный обдув, пар после закрытия дверцы: багет/фисель 20 + 5 мин с открытой заслонкой; булочки 10 + 5; батоны 20 + 15. Подовая: багет 15 + 10, фисель 10 + 5, батоны 20 + 10.",
+        "В большинство домашних духовок полный багет не влезает: раскатайте его примерно до 30 см (короткий багет). Мишу 2 кг дома не печь. Остудить на решётке; съесть в течение дня или заморозить до 2 мес."
+      ],
+      "notes": "Built on the Direct dough. Water inside the puree isn't counted in hydration.",
+      "notes_ru": "На основе безопарного теста. Вода в пюре не учитывается в гидратации.",
+      "group": "puree"
+    }
+  ],
+  "groups": [
+    {
+      "id": "classic",
+      "label": "Baguette",
+      "label_ru": "Багет"
+    },
+    {
+      "id": "flavor",
+      "label": "Flavors",
+      "label_ru": "Вкусы"
+    },
+    {
+      "id": "puree",
+      "label": "Purees",
+      "label_ru": "С пюре"
+    }
+  ],
+  "images": [
+    {
+      "src": "img/mb-french-lean-bread-1.jpg",
+      "kind": "photo",
+      "caption": "Baguettes",
+      "caption_ru": "Багеты"
+    },
+    {
+      "src": "img/mb-french-lean-bread-2.jpg",
+      "kind": "steps",
+      "caption": "Anatomy of a good baguette: ears, score, crust, crumb",
+      "caption_ru": "Хороший багет: ушки, надрезы, корка, мякиш"
+    },
+    {
+      "src": "img/mb-french-lean-bread-3.jpg",
+      "kind": "photo",
+      "caption": "Crust from light to bien cuit (well done)",
+      "caption_ru": "Корка: от светлой до «bien cuit»"
+    },
+    {
+      "src": "img/mb-french-lean-bread-4.jpg",
+      "kind": "steps",
+      "caption": "Mixing, folding, dividing",
+      "caption_ru": "Замес, складывания, деление"
+    },
+    {
+      "src": "img/mb-french-lean-bread-5.jpg",
+      "kind": "steps",
+      "caption": "Shaping, couche, finger test",
+      "caption_ru": "Формовка, кушетка, проверка пальцем"
+    },
+    {
+      "src": "img/mb-french-lean-bread-6.jpg",
+      "kind": "steps",
+      "caption": "Transfer, scoring, baking",
+      "caption_ru": "Перенос, надрезы, выпечка"
+    },
+    {
+      "src": "img/mb-french-lean-bread-7.jpg",
+      "kind": "photo",
+      "caption": "Crumb",
+      "caption_ru": "Мякиш"
+    },
+    {
+      "src": "img/mb-french-lean-bread-8.jpg",
+      "kind": "steps",
+      "caption": "Other bakers' baguettes compared",
+      "caption_ru": "Багеты других пекарей"
+    },
+    {
+      "src": "img/mb-french-lean-bread-9.jpg",
+      "kind": "steps",
+      "caption": "Survey: hydration and salt of 125 baguettes",
+      "caption_ru": "Обзор 125 багетов: гидратация и соль"
+    },
+    {
+      "src": "img/mb-french-lean-bread-10.jpg",
+      "kind": "photo",
+      "caption": "Modernist baguette",
+      "caption_ru": "Модернист-багет"
+    },
+    {
+      "src": "img/mb-french-lean-bread-11.jpg",
+      "kind": "photo",
+      "caption": "A-Plus baguette",
+      "caption_ru": "Багет «A-Plus»"
+    },
+    {
+      "src": "img/mb-french-lean-bread-12.jpg",
+      "kind": "photo",
+      "caption": "A-Plus crumb",
+      "caption_ru": "Мякиш «A-Plus»"
+    },
+    {
+      "src": "img/mb-french-lean-bread-13.jpg",
+      "kind": "photo",
+      "caption": "Puree breads (crumb): sunchoke, olive, pumpkin, chestnut, raspberry, poi",
+      "caption_ru": "Хлеб с пюре (мякиш): топинамбур, оливки, тыква, каштан, малина, пои"
+    },
+    {
+      "src": "img/mb-french-lean-bread-14.jpg",
+      "kind": "photo",
+      "caption": "Seeded loaf",
+      "caption_ru": "С семенами"
+    }
+  ]
+}

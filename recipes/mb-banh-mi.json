@@ -1,0 +1,152 @@
+{
+  "id": "mb-banh-mi",
+  "name": {
+    "en": "Banh mi rolls",
+    "ru": "Булочки бань ми",
+    "orig": "Banh mi rolls"
+  },
+  "category": "Lean breads",
+  "category_ru": "Простой хлеб",
+  "tags": [
+    "rolls",
+    "Vietnamese",
+    "sandwich"
+  ],
+  "tags_ru": [
+    "булочки",
+    "вьетнамские",
+    "для сэндвичей"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes I p. 53",
+    "detail_ru": "Recipes I с. 53"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 250,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 80,
+      "max": 400,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 57.5
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.1667
+        }
+      ]
+    },
+    {
+      "name": "② Flour and sugar",
+      "name_ru": "② Мука и сахар",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 3.3333
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.0
+        }
+      ]
+    },
+    {
+      "name": "④ Fat",
+      "name_ru": "④ Жир",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Shortening or lard, melted and cooled",
+          "orig": "Shortening or lard, melted and cooled",
+          "flour": false,
+          "water": 0,
+          "ru": "Кулинарный жир или смалец, растопленный и остывший",
+          "pct": 16.6667
+        }
+      ]
+    }
+  ],
+  "method": [
+    "By machine (recommended — it's a firm dough): dissolve the yeast in ①, add ② and mix on low to a shaggy mass; autolyse 20–30 min. Add ③ and mix on medium-low to low development; add ④ and mix on medium to full development. (For an 8 qt mixer, double the recipe.)",
+    "Bulk 1 h with one fold after 30 min, then 30 min rest.",
+    "Divide into 250 g, preshape as baguettes, rest 15–20 min, shape into 20 cm baguettes.",
+    "Proof 30–45 min at 27 °C or 1–1½ h at 21 °C.",
+    "Refrigerate 10 min uncovered, make one score down the centre, and bake with steam (ficelle row: stone + lid 15 + 10 min at 245 °C)."
+  ],
+  "method_ru": [
+    "В миксере (лучше так — тесто плотное): растворить дрожжи в ①, добавить ② и замесить на низкой до лохматой массы; автолиз 20–30 мин. Добавить ③ и месить на средне-низкой до слабого развития; добавить ④ и вымесить на средней до полного. (Для миксера 8 л — удвоить.)",
+    "Брожение 1 ч с одним складыванием через 30 мин, затем 30 мин отдыха.",
+    "Разделить по 250 г, предформовка багетом, отдых 15–20 мин, сформовать багетики по 20 см.",
+    "Расстойка 30–45 мин при 27 °C или 1–1½ ч при 21 °C.",
+    "10 мин в холодильнике без плёнки, один надрез по центру, печь с паром (строка фиселя: камень + крышка 15 + 10 мин при 245 °C)."
+  ],
+  "notes": "Softer crumb and thin crisp crust; also good as Mexican bolillos for tortas. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Мягкий мякиш и тонкая хрустящая корка; подойдут и как мексиканские болильо для торт. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-banh-mi-1.jpg",
+      "kind": "photo",
+      "caption": "Banh mi",
+      "caption_ru": "Бань ми"
+    }
+  ]
+}

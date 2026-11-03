@@ -1,0 +1,175 @@
+{
+  "id": "mb-filone",
+  "name": {
+    "en": "Filone",
+    "ru": "Филоне",
+    "orig": "Filone"
+  },
+  "category": "Lean breads",
+  "category_ru": "Простой хлеб",
+  "tags": [
+    "baguette",
+    "Italian",
+    "durum",
+    "poolish"
+  ],
+  "tags_ru": [
+    "багет",
+    "итальянский",
+    "дурум",
+    "пулиш"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes I p. 52",
+    "detail_ru": "Recipes I с. 52"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 350,
+    "total": 1050,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 150,
+      "max": 500,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Poolish (12 h ahead)",
+      "name_ru": "Пулиш (за 12 ч)",
+      "time": "12 h",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 29.8246
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 29.8246
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.0298
+        }
+      ],
+      "note": "Mix 12 h ahead and ferment in an airtight container at 21–24 °C (12–16 h).",
+      "note_ru": "Замесить за 12 ч и бродить в герметичном контейнере при 21–24 °C (12–16 ч).",
+      "link": "mb-poolish"
+    },
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 45.614
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.5263
+        }
+      ]
+    },
+    {
+      "name": "② Flours (+ all the poolish)",
+      "name_ru": "② Мука (+ весь пулиш)",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 55.2632
+        },
+        {
+          "en": "Durum flour",
+          "orig": "Durum flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука из твёрдой пшеницы (дурум)",
+          "pct": 14.9123
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9298
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the poolish 12 h ahead.",
+    "By hand: dissolve the yeast in ①, add ② with the poolish and mix to a shaggy mass; autolyse 20–30 min; add ③ and mix until homogeneous. Bulk 3½ h with 3 folds (one every hour after the first hour), 30 min rest. Check full development.",
+    "By machine: same order on low, autolyse 20–30 min, add ③ and mix on medium to medium development. Bulk 2 h with 2 folds (one every hour after the first hour), 30 min rest.",
+    "Divide: baguette or short baguette 350 g, ficelle 250 g. Preshape as a baguette, rest 20 min, shape.",
+    "Proof at 27 °C / 21 °C: baguette 45 min–1 h / 1–1½ h; ficelle 30–45 min / 45 min–1 h.",
+    "One score straight down the centre, then bake with steam (baguette row: stone + lid 15 + 10 min at 245 °C)."
+  ],
+  "method_ru": [
+    "Пулиш — за 12 ч.",
+    "Вручную: растворить дрожжи в ①, добавить ② с пулишем и замесить до лохматой массы; автолиз 20–30 мин; добавить ③ и перемешать до однородности. Брожение 3½ ч с 3 складываниями (каждый час после первого часа), 30 мин отдыха. Проверить полное развитие.",
+    "В миксере: тот же порядок на низкой, автолиз 20–30 мин, добавить ③ и месить на средней до среднего развития. Брожение 2 ч с 2 складываниями (каждый час после первого часа), 30 мин отдыха.",
+    "Деление: багет или короткий багет 350 г, фисель 250 г. Предформовка багетом, отдых 20 мин, формовка.",
+    "Расстойка при 27 °C / 21 °C: багет 45 мин–1 ч / 1–1½ ч; фисель 30–45 мин / 45 мин–1 ч.",
+    "Один надрез вдоль по центру, печь с паром (строка багета: камень + крышка 15 + 10 мин при 245 °C)."
+  ],
+  "notes": "Italian cousin of the baguette: wetter (75 %), broader and more rustic; durum gives a yellow tint and flavour. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Итальянский родственник багета: влажнее (75 %), шире и деревенистее; дурум даёт желтоватый цвет и вкус. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-filone-1.jpg",
+      "kind": "photo",
+      "caption": "Filone",
+      "caption_ru": "Филоне"
+    }
+  ]
+}
