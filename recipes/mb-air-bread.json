@@ -155,5 +155,19 @@
     "Подавать сразу, например обернув прошутто."
   ],
   "notes": "Eat the same day; doesn't freeze well.",
-  "notes_ru": "Съесть в тот же день; плохо переносит заморозку."
+  "notes_ru": "Съесть в тот же день; плохо переносит заморозку.",
+  "images": [
+    {
+      "src": "img/mb-air-bread-1.jpg",
+      "kind": "photo",
+      "caption": "Air bread",
+      "caption_ru": "Воздушный хлеб"
+    },
+    {
+      "src": "img/mb-air-bread-2.jpg",
+      "kind": "steps",
+      "caption": "Cutting and baking",
+      "caption_ru": "Вырезка и выпечка"
+    }
+  ]
 }

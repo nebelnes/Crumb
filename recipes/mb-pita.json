@@ -2438,5 +2438,37 @@
       "label": "Other flours",
       "label_ru": "Другая мука"
     }
+  ],
+  "images": [
+    {
+      "src": "img/mb-pita-1.jpg",
+      "kind": "photo",
+      "caption": "Pita",
+      "caption_ru": "Пита"
+    },
+    {
+      "src": "img/mb-pita-2.jpg",
+      "kind": "steps",
+      "caption": "Rolling and resting",
+      "caption_ru": "Раскатка и подсушивание"
+    },
+    {
+      "src": "img/mb-pita-3.jpg",
+      "kind": "photo",
+      "caption": "Why it puffs",
+      "caption_ru": "Почему раздувается"
+    },
+    {
+      "src": "img/mb-pita-4.jpg",
+      "kind": "photo",
+      "caption": "Puree pitas",
+      "caption_ru": "Пита с пюре"
+    },
+    {
+      "src": "img/mb-pita-5.jpg",
+      "kind": "photo",
+      "caption": "Other flours",
+      "caption_ru": "Другая мука"
+    }
   ]
 }

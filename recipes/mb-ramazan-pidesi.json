@@ -183,5 +183,19 @@
     "Вручную: тот же порядок, автолиз 30 мин, замес до слабого развития клейковины, затем брожение 4½ ч с 4 складываниями (каждый час после первого часа) и 30 мин отдыха после последнего."
   ],
   "notes": "Osmotolerant yeast because of the sugar. Eat within 1 day or freeze up to 2 months.",
-  "notes_ru": "Осмотолерантные дрожжи — из-за сахара. Съесть в течение дня или заморозить до 2 мес."
+  "notes_ru": "Осмотолерантные дрожжи — из-за сахара. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-ramazan-pidesi-1.jpg",
+      "kind": "photo",
+      "caption": "Ramazan pidesi",
+      "caption_ru": "Рамазан пидеси"
+    },
+    {
+      "src": "img/mb-ramazan-pidesi-2.jpg",
+      "kind": "steps",
+      "caption": "Docking the pattern",
+      "caption_ru": "Узор вилкой"
+    }
+  ]
 }

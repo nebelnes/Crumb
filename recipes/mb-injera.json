@@ -485,5 +485,25 @@
       "notes": "Dehydrated injera adds sourness and kick-starts the levain; xanthan holds the bubbles. Eat within 2–3 days or freeze up to 2 months.",
       "notes_ru": "Сушёная инджера даёт кислинку и ускоряет закваску; ксантан удерживает пузыри. Съесть в течение 2–3 дней или заморозить до 2 мес."
     }
+  ],
+  "images": [
+    {
+      "src": "img/mb-injera-1.jpg",
+      "kind": "photo",
+      "caption": "Injera",
+      "caption_ru": "Инджера"
+    },
+    {
+      "src": "img/mb-injera-2.jpg",
+      "kind": "photo",
+      "caption": "Teff and sorghum injera",
+      "caption_ru": "Инджера из теффа и сорго"
+    },
+    {
+      "src": "img/mb-injera-3.jpg",
+      "kind": "steps",
+      "caption": "Batter and cooking",
+      "caption_ru": "Тесто и выпечка"
+    }
   ]
 }

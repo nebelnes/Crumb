@@ -652,5 +652,25 @@
       "notes_ru": "В книге это замена: тот же вес этого зерна вместо риса жасмин."
     }
   ],
-  "noFlour": true
+  "noFlour": true,
+  "images": [
+    {
+      "src": "img/mb-dosa-1.jpg",
+      "kind": "photo",
+      "caption": "Dosa",
+      "caption_ru": "Доса"
+    },
+    {
+      "src": "img/mb-dosa-2.jpg",
+      "kind": "photo",
+      "caption": "Rye and buckwheat dosa",
+      "caption_ru": "Ржаная и гречневая доса"
+    },
+    {
+      "src": "img/mb-dosa-3.jpg",
+      "kind": "photo",
+      "caption": "Modernist dosa, also in a waffle iron",
+      "caption_ru": "Модернист-доса, в т. ч. в вафельнице"
+    }
+  ]
 }

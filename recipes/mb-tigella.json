@@ -144,5 +144,19 @@
     "Вручную: автолиз 30 мин, слабое развитие клейковины, влить ④, брожение 4½ ч с 4 складываниями."
   ],
   "notes": "Often split and filled with lardo or cured meat. Eat within 1 day or freeze up to 2 months.",
-  "notes_ru": "Часто разрезают и начиняют салом (лардо) или вяленым мясом. Съесть в течение дня или заморозить до 2 мес."
+  "notes_ru": "Часто разрезают и начиняют салом (лардо) или вяленым мясом. Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-tigella-1.jpg",
+      "kind": "photo",
+      "caption": "Tigella",
+      "caption_ru": "Тиджелла"
+    },
+    {
+      "src": "img/mb-tigella-2.jpg",
+      "kind": "photo",
+      "caption": "Crumb and the tigella mould",
+      "caption_ru": "Мякиш и форма-тиджеллера"
+    }
+  ]
 }

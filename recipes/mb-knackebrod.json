@@ -285,5 +285,25 @@
       "notes": "Same ingredients as the Master; caramelizing the oats, sugar and butter first gives a deeper flavour. Keeps 3–5 days.",
       "notes_ru": "Ингредиенты те же, что у мастер-рецепта; предварительная карамелизация овса, сахара и масла даёт более глубокий вкус. Хранится 3–5 дней."
     }
+  ],
+  "images": [
+    {
+      "src": "img/mb-knackebrod-1.jpg",
+      "kind": "photo",
+      "caption": "Knäckebröd sheet",
+      "caption_ru": "Лист кнекебрёда"
+    },
+    {
+      "src": "img/mb-knackebrod-2.jpg",
+      "kind": "photo",
+      "caption": "Modernist rings",
+      "caption_ru": "Модернист-кольца"
+    },
+    {
+      "src": "img/mb-knackebrod-3.jpg",
+      "kind": "steps",
+      "caption": "Mixing and rolling",
+      "caption_ru": "Замес и раскатка"
+    }
   ]
 }

@@ -126,5 +126,13 @@
     "Совет: шарики можно оставить на ночь в холодильнике — раскатывать легче."
   ],
   "notes": "Best within 2–3 h.",
-  "notes_ru": "Лучше всего в первые 2–3 часа."
+  "notes_ru": "Лучше всего в первые 2–3 часа.",
+  "images": [
+    {
+      "src": "img/mb-pane-carasau-1.jpg",
+      "kind": "photo",
+      "caption": "Pane carasau",
+      "caption_ru": "Пане карасау"
+    }
+  ]
 }

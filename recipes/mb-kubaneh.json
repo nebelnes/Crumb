@@ -139,5 +139,19 @@
     "Традиционно, на ночь: под крышкой 5 ч при 105 °C в домашней духовке (100 °C конвекция); выключить и оставить внутри ещё на 3 ч, затем вынуть."
   ],
   "notes": "Serve top side up, or upside down to show the smooth side.",
-  "notes_ru": "Подавать верхом вверх или перевернуть гладкой стороной."
+  "notes_ru": "Подавать верхом вверх или перевернуть гладкой стороной.",
+  "images": [
+    {
+      "src": "img/mb-kubaneh-1.jpg",
+      "kind": "photo",
+      "caption": "Kubaneh",
+      "caption_ru": "Кубане"
+    },
+    {
+      "src": "img/mb-kubaneh-2.jpg",
+      "kind": "photo",
+      "caption": "In the pot",
+      "caption_ru": "В форме"
+    }
+  ]
 }

@@ -1612,5 +1612,25 @@
       "label": "Purees",
       "label_ru": "С пюре"
     }
+  ],
+  "images": [
+    {
+      "src": "img/naan-modernist-bread-1.jpg",
+      "kind": "photo",
+      "caption": "Naan",
+      "caption_ru": "Наан"
+    },
+    {
+      "src": "img/naan-modernist-bread-2.jpg",
+      "kind": "steps",
+      "caption": "Rolling, docking and baking",
+      "caption_ru": "Раскатка, накалывание и выпечка"
+    },
+    {
+      "src": "img/naan-modernist-bread-3.jpg",
+      "kind": "photo",
+      "caption": "Puree naans",
+      "caption_ru": "Наан с пюре"
+    }
   ]
 }

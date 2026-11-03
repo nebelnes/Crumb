@@ -783,5 +783,25 @@
         "pieceWeight": 105
       }
     }
+  ],
+  "images": [
+    {
+      "src": "img/mb-flatbread-base-1.jpg",
+      "kind": "photo",
+      "caption": "Armenian meat pie",
+      "caption_ru": "Армянский мясной пирог"
+    },
+    {
+      "src": "img/mb-flatbread-base-2.jpg",
+      "kind": "photo",
+      "caption": "Sujuk pie",
+      "caption_ru": "Пирог с суджуком"
+    },
+    {
+      "src": "img/mb-flatbread-base-3.jpg",
+      "kind": "photo",
+      "caption": "Kafta pie",
+      "caption_ru": "Пирог с кафтой"
+    }
   ]
 }

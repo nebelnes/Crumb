@@ -1,5 +1,8 @@
 # Change log
 
+## 2026-11-03 — Flatbread photos
+- 58 photos from Modernist Bread added to the flatbreads: the finished bread at the top of each recipe, plus shaping/step photos and variations (puree pitas, other-flour pitas, rye dosa, sorghum injera, modernist knäckebröd rings…) in Reference photos. Tap to enlarge.
+
 ## 2026-11-03 — Modernist Bread: all flatbreads (Recipes II, ch. 24)
 - Read straight from the book on your computer. 33 new recipes in Flatbreads: matnakash, tonis puri, malooga, tigella, sheermal, obi non, ftira, lángos, bhatoora, ramazan pidesi, malawach, kubaneh, lachmachun, pita (16 versions in 3 tabs), Arabic bread, aish merahrah, soft lavash, jreesh, air bread, lavash crackers, pane carasau, carta da musica, fougasse, sfincione, calzone, garlic knots, flatbread base with three Armenian pies, dosa (5 versions), injera (3), lahoh, knäckebröd (2), grissini (2). Tomato sauce goes in a new Sauces category.
 - Naan gets 100 % whole wheat and six puree versions; Focaccia gets six purees, whole wheat and fugazzeta; Pizza gets same-day, 50 % whole wheat, no-knead, compleat wheat and six puree versions. Recipes with many versions now use tabs.

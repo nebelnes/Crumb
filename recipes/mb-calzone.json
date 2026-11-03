@@ -254,5 +254,19 @@
     "Подавать с тёплым томатным соусом."
   ],
   "notes": "Other fillings from the book, per 1 kg of dough: ricotta 150 g + sautéed spinach 150 g; pepperoni 100 g + pickled peppers 50 g + mozzarella 25 g; roasted broccoli 30 g + chorizo 125 g + caramelized onion 50 g + mozzarella 50 g; jalapeño 5 g + olives 50 g + anchovies 20 g + Parmesan 50 g + mozzarella 50 g.",
-  "notes_ru": "Другие начинки из книги на 1 кг теста: рикотта 150 г + припущенный шпинат 150 г; пепперони 100 г + маринованный перец 50 г + моцарелла 25 г; печёная брокколи 30 г + чоризо 125 г + карамелизованный лук 50 г + моцарелла 50 г; халапеньо 5 г + оливки 50 г + анчоусы 20 г + пармезан 50 г + моцарелла 50 г."
+  "notes_ru": "Другие начинки из книги на 1 кг теста: рикотта 150 г + припущенный шпинат 150 г; пепперони 100 г + маринованный перец 50 г + моцарелла 25 г; печёная брокколи 30 г + чоризо 125 г + карамелизованный лук 50 г + моцарелла 50 г; халапеньо 5 г + оливки 50 г + анчоусы 20 г + пармезан 50 г + моцарелла 50 г.",
+  "images": [
+    {
+      "src": "img/mb-calzone-1.jpg",
+      "kind": "photo",
+      "caption": "Calzone",
+      "caption_ru": "Кальцоне"
+    },
+    {
+      "src": "img/mb-calzone-2.jpg",
+      "kind": "steps",
+      "caption": "Filling and folding",
+      "caption_ru": "Начинка и защипывание"
+    }
+  ]
 }

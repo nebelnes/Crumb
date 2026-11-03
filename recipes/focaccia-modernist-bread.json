@@ -1916,5 +1916,13 @@
       "label": "Flavors",
       "label_ru": "Вкусы"
     }
+  ],
+  "images": [
+    {
+      "src": "img/focaccia-modernist-bread-1.jpg",
+      "kind": "photo",
+      "caption": "Puree focaccias (crumb)",
+      "caption_ru": "Фокачча с пюре (мякиш)"
+    }
   ]
 }

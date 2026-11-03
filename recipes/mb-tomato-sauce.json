@@ -100,5 +100,13 @@
   ],
   "notes": "Not a dough: the tomatoes are the 100 % base here.",
   "notes_ru": "Это не тесто: здесь за 100 % взяты томаты.",
-  "noFlour": true
+  "noFlour": true,
+  "images": [
+    {
+      "src": "img/mb-tomato-sauce-1.jpg",
+      "kind": "steps",
+      "caption": "Making the sauce",
+      "caption_ru": "Приготовление соуса"
+    }
+  ]
 }

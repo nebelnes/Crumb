@@ -188,5 +188,13 @@
     "Вручную: автолиз 30 мин, вмешать ③ и ④, брожение 4½ ч с 6 складываниями."
   ],
   "notes": "Eat within 1 day or freeze up to 2 months.",
-  "notes_ru": "Съесть в течение дня или заморозить до 2 мес."
+  "notes_ru": "Съесть в течение дня или заморозить до 2 мес.",
+  "images": [
+    {
+      "src": "img/mb-sfincione-1.jpg",
+      "kind": "photo",
+      "caption": "Sfincione",
+      "caption_ru": "Сфинчоне"
+    }
+  ]
 }

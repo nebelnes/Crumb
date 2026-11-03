@@ -298,5 +298,13 @@
       "notes": "Whole wheat flour in place of the bread flour.",
       "notes_ru": "Цельнозерновая мука вместо хлебопекарной."
     }
+  ],
+  "images": [
+    {
+      "src": "img/mb-grissini-1.jpg",
+      "kind": "photo",
+      "caption": "Grissini",
+      "caption_ru": "Гриссини"
+    }
   ]
 }

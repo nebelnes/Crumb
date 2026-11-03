@@ -167,5 +167,19 @@
     "Остывшую хрустящую лепёшку можно разделить на две половинки."
   ],
   "notes": "Corn flour is counted as flour here, so the % differ from the book's (it bases them on bread flour alone). Keeps 3 days.",
-  "notes_ru": "Кукурузная мука здесь считается мукой, поэтому % отличаются от книжных (там они от одной хлебопекарной). Хранится 3 дня."
+  "notes_ru": "Кукурузная мука здесь считается мукой, поэтому % отличаются от книжных (там они от одной хлебопекарной). Хранится 3 дня.",
+  "images": [
+    {
+      "src": "img/mb-carta-da-musica-1.jpg",
+      "kind": "photo",
+      "caption": "Carta da musica",
+      "caption_ru": "Карта да музика"
+    },
+    {
+      "src": "img/mb-carta-da-musica-2.jpg",
+      "kind": "photo",
+      "caption": "Split halves",
+      "caption_ru": "Половинки"
+    }
+  ]
 }

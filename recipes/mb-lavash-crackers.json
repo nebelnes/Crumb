@@ -522,5 +522,19 @@
       "notes": "The book allows up to 20 % whole wheat in place of bread flour; this uses the full 20 %.",
       "notes_ru": "Книга допускает до 20 % цельнозерновой вместо хлебопекарной; здесь взято максимальные 20 %."
     }
+  ],
+  "images": [
+    {
+      "src": "img/mb-lavash-crackers-1.jpg",
+      "kind": "photo",
+      "caption": "Lavash crackers",
+      "caption_ru": "Лаваш-крекеры"
+    },
+    {
+      "src": "img/mb-lavash-crackers-2.jpg",
+      "kind": "steps",
+      "caption": "Mixing, rolling, topping",
+      "caption_ru": "Замес, раскатка, посыпка"
+    }
   ]
 }
