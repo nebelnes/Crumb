@@ -15,8 +15,8 @@
     "type": "book",
     "title": "Modernist Bread",
     "volume": 5,
-    "detail": "Recipes II: Neapolitan p. 113, Modernist p. 120–121, New York p. 122–123, Sicilian p. 124–125",
-    "detail_ru": "Recipes II: неаполитанская с. 113, модернист с. 120–121, нью-йоркская с. 122–123, сицилийская с. 124–125"
+    "detail": "Recipes II: Neapolitan p. 113, Modernist p. 120–121, New York p. 122–123, Sicilian p. 124–125; same-day, 50 % WW p. 119, no-knead p. 126, compleat wheat p. 129, purees p. 130–131",
+    "detail_ru": "Recipes II: неаполитанская с. 113, модернист с. 120–121, нью-йоркская с. 122–123, сицилийская с. 124–125; в тот же день, 50 % цельнозерновой с. 119, без замеса с. 126, цельнозерновая с. 129, пюре с. 130–131"
   },
   "status": "draft",
   "yield": {
@@ -217,7 +217,8 @@
         "Формовать по пошаговым фото в книге (с. 116).",
         "Выложить половником 75 г соуса, оставляя край 2,5 см. Положить 100 г сыра и посолить его 1 г соли. Сразу выпекать: каждая пицца 4–10 мин (таблица выпечки неаполитанской пиццы, с. 117). После выпечки добавить 1 г базилика."
       ],
-      "notes_ru": "Общее время в миксере около 1 ч 2 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 21 мин активно, 52½ ч пассивно.\nВыходит 4 пиццы из примерно 1 кг теста (ингредиенты в сумме дают 989 г)."
+      "notes_ru": "Общее время в миксере около 1 ч 2 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 21 мин активно, 52½ ч пассивно.\nВыходит 4 пиццы из примерно 1 кг теста (ингредиенты в сумме дают 989 г).",
+      "group": "styles"
     },
     {
       "id": "modernist",
@@ -415,7 +416,8 @@
         "Формовать как в шагах 11–12 мастер-рецепта (с. 113–116).",
         "Выложить половником 75 г соуса, оставляя край 2,5 см. Посыпать 100 г сыра и выложить 20 г пепперони. Сразу выпекать: каждая пицца 3–7 мин (таблица выпечки неаполитанской пиццы, с. 117)."
       ],
-      "notes_ru": "Общее время в миксере около 46 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 5 мин активно, 52½ ч пассивно.\nВыходит 4 пиццы. Релаксант теста на ваш выбор (книга, с. 121); по умолчанию ананасовый сок 0,01 % — это всего около 0,05 г на замес.\nСоли здесь 10 г (в мастер-рецепте 11 г)."
+      "notes_ru": "Общее время в миксере около 46 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 5 мин активно, 52½ ч пассивно.\nВыходит 4 пиццы. Релаксант теста на ваш выбор (книга, с. 121); по умолчанию ананасовый сок 0,01 % — это всего около 0,05 г на замес.\nСоли здесь 10 г (в мастер-рецепте 11 г).",
+      "group": "styles"
     },
     {
       "id": "newyork",
@@ -595,7 +597,8 @@
         "Подовая печь: разогрев 245 °C 1 ч; начальная 2–4 мин, клапан на 11 мин, всего 13–15 мин.",
         "Дровяная или газовая печь для пиццы: разогрев 280 °C 1 ч; 13–15 мин, развернуть на 180° после первых 3 мин."
       ],
-      "notes_ru": "Общее время в миксере около 59 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 18 мин активно, 52½ ч пассивно.\nПо умолчанию кусок 330 г — для домашней духовки (3 пиццы); для 2 больших пицц в подовой печи или печи для пиццы поставьте 500 г."
+      "notes_ru": "Общее время в миксере около 59 мин активно, 49 ч 43 мин пассивно; вручную 1 ч 18 мин активно, 52½ ч пассивно.\nПо умолчанию кусок 330 г — для домашней духовки (3 пиццы); для 2 больших пицц в подовой печи или печи для пиццы поставьте 500 г.",
+      "group": "styles"
     },
     {
       "id": "sicilian",
@@ -750,7 +753,1492 @@
         "Сначала сыр: равномерно посыпать тесто, затем сверху соус, оставляя край около 1,25 см. Так соус укрывает сыр, и он плавится, не подрумяниваясь.",
         "Выпекать до золотистого низа, 10–45 мин (таблица выпечки фокаччи, с. 91). Сразу вынуть из формы лопаткой и остудить на решётке, чтобы низ не отсырел."
       ],
-      "notes_ru": "Общее время в миксере около 16 мин активно, 6 ч 58 мин пассивно; вручную 24 мин активно, 8 ч 15 мин пассивно.\nСамая толстая пицца, до 5 см; много масла в форме даёт хрустящую, почти жареную корочку. Обычно её пекут, остужают и режут на порции, но можно есть и тёплой."
+      "notes_ru": "Общее время в миксере около 16 мин активно, 6 ч 58 мин пассивно; вручную 24 мин активно, 8 ч 15 мин пассивно.\nСамая толстая пицца, до 5 см; много масла в форме даёт хрустящую, почти жареную корочку. Обычно её пекут, остужают и режут на порции, но можно есть и тёплой.",
+      "group": "styles"
+    },
+    {
+      "id": "sameday",
+      "label": "Same day",
+      "label_ru": "В тот же день",
+      "sub": "no malt, warm proof · p. 119",
+      "sub_ru": "без солода, тёплая расстойка · с. 119",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 65.4545
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 90.9091
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Начинка",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Tomato sauce",
+              "orig": "Tomato sauce",
+              "flour": false,
+              "water": 0,
+              "ru": "Томатный соус",
+              "link": "mb-tomato-sauce",
+              "pct": 54.5455
+            },
+            {
+              "en": "Fresh mozzarella, air-dried",
+              "orig": "Fresh mozzarella, air-dried",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежая моцарелла, подсушенная на воздухе",
+              "note": "break into 2.5 cm pieces, air-dry 1–2 days in the fridge",
+              "note_ru": "разорвать на куски 2,5 см, подсушить 1–2 дня в холодильнике",
+              "pct": 72.7273
+            }
+          ],
+          "note": "75 g sauce and 100 g cheese per 250 g pizza. Not part of the dough weight.",
+          "note_ru": "75 г соуса и 100 г сыра на пиццу 250 г. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "As the Neapolitan but without the malt: dissolve the yeast in ①, add the poolish and ③, mix to a shaggy mass and autolyse 20–30 min (30 min by hand) before adding ④. Mix to full development; bulk 1½ h with one fold after 1 h.",
+        "Divide into 250 g and preshape boules. Instead of the fridge, proof 1–1¼ h at 27 °C or 1½ h at 21 °C. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Как неаполитанская, но без солода: растворить дрожжи в ①, добавить пулиш и ③, замесить до лохматой массы и дать автолиз 20–30 мин (вручную 30 мин) перед ④. Вымесить до полного развития; брожение 1½ ч с одним складыванием через 1 ч.",
+        "Разделить по 250 г и сформовать шарики. Вместо холодильника — расстойка 1–1¼ ч при 27 °C или 1½ ч при 21 °C. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "Topping shown is the book's sauce and cheese per pizza.",
+      "notes_ru": "Начинка — книжные соус и сыр на пиццу.",
+      "group": "neapolitan",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "ww50",
+      "label": "50 % whole wheat",
+      "label_ru": "50 % цельнозерновой",
+      "sub": "p. 119",
+      "sub_ru": "с. 119",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 65.4545
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 45.4545
+            },
+            {
+              "en": "Whole wheat flour",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Цельнозерновая пшеничная мука",
+              "pct": 45.4545
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Начинка",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Tomato sauce",
+              "orig": "Tomato sauce",
+              "flour": false,
+              "water": 0,
+              "ru": "Томатный соус",
+              "link": "mb-tomato-sauce",
+              "pct": 54.5455
+            },
+            {
+              "en": "Fresh mozzarella, air-dried",
+              "orig": "Fresh mozzarella, air-dried",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежая моцарелла, подсушенная на воздухе",
+              "note": "break into 2.5 cm pieces, air-dry 1–2 days in the fridge",
+              "note_ru": "разорвать на куски 2,5 см, подсушить 1–2 дня в холодильнике",
+              "pct": 72.7273
+            }
+          ],
+          "note": "75 g sauce and 100 g cheese per 250 g pizza. Not part of the dough weight.",
+          "note_ru": "75 г соуса и 100 г сыра на пиццу 250 г. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Mix as the Neapolitan: dissolve the yeast in ①, add the poolish and ③, mix on low to a shaggy mass, add ④ and mix on medium to full development. Bulk 1½ h with one fold after 1 h, then 30 min rest.",
+        "Divide into 250 g, preshape tight boules and cold-proof at 4 °C for 1–2 days; take out 1½–2 h before shaping. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Замес как у неаполитанской: растворить дрожжи в ①, добавить пулиш и ③, замесить на низкой до лохматой массы, добавить ④ и вымесить на средней до полного развития. Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха.",
+        "Разделить по 250 г, плотно сформовать шарики и выдержать при 4 °C 1–2 дня; вынуть за 1½–2 ч до формовки. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "The book's rule: replace 50 % of the flour with whole wheat. Applied to the main flour (500 g); the poolish stays white.",
+      "notes_ru": "Правило книги: заменить 50 % муки цельнозерновой. Применено к основной муке (500 г); пулиш остаётся на белой.",
+      "group": "neapolitan",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "noknead",
+      "label": "No-knead",
+      "label_ru": "Без замеса",
+      "sub": "Jim Lahey style · p. 126–127",
+      "sub_ru": "по Джиму Лейхи · с. 126–127",
+      "stages": [
+        {
+          "name": "① Everything",
+          "name_ru": "① Всё сразу",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Water, room temperature",
+              "orig": "Water, room temperature",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода комнатной температуры",
+              "pct": 69.5652
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.087
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "note": "CHECK: book prints 10 g, but its % (0.2) and ¼ tsp mean about 1 g",
+              "note_ru": "ПРОВЕРИТЬ: в книге 10 г, но % (0,2) и ¼ ч. л. дают около 1 г",
+              "pct": 0.2
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.1739
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Начинка",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Modernist béchamel",
+              "orig": "Modernist béchamel",
+              "flour": false,
+              "water": 0,
+              "ru": "Модернистский соус бешамель",
+              "note": "book p. XXII",
+              "note_ru": "книга, с. XXII",
+              "pct": 52.1739
+            },
+            {
+              "en": "Fresh mozzarella, air-dried",
+              "orig": "Fresh mozzarella, air-dried",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежая моцарелла, подсушенная на воздухе",
+              "pct": 69.5652
+            },
+            {
+              "en": "Ricotta",
+              "orig": "Ricotta",
+              "flour": false,
+              "water": 0,
+              "ru": "Рикотта",
+              "pct": 34.7826
+            },
+            {
+              "en": "Thyme leaves",
+              "orig": "Thyme leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Тимьян (листья)",
+              "pct": 2.087
+            }
+          ],
+          "note": "Per pizza: 75 g béchamel, 100 g sliced mozzarella, 50 g ricotta, a few thyme leaves.",
+          "note_ru": "На пиццу: 75 г бешамеля, 100 г моцареллы ломтиками, 50 г рикотты, немного тимьяна.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Combine everything in a tub and mix by hand until homogeneous.",
+        "Bulk 18 h at room temperature, well covered, no folds.",
+        "Divide into 250 g and shape boules. Proof 1–1¼ h at 27 °C or 1½–2 h at 21 °C, covered.",
+        "Press a ball into a 15 cm disc with a thicker rim, pick it up and stretch over your knuckles to 30 cm. Put on a well-floured peel and stretch again (it pulls back).",
+        "Spread 75 g béchamel leaving a 2.5 cm border, add 100 g mozzarella and 50 g ricotta, and bake straight away as the Neapolitan (4–10 min)."
+      ],
+      "method_ru": [
+        "Соединить всё в контейнере и перемешать рукой до однородности.",
+        "Брожение 18 ч при комнатной температуре под крышкой, без складываний.",
+        "Разделить по 250 г и сформовать шарики. Расстойка 1–1¼ ч при 27 °C или 1½–2 ч при 21 °C под плёнкой.",
+        "Прижать шарик в диск 15 см с более толстым краем, поднять и растянуть на костяшках до 30 см. Переложить на хорошо присыпанную лопату и растянуть ещё раз (тесто стягивается).",
+        "Распределить 75 г бешамеля, оставив край 2,5 см, добавить 100 г моцареллы и 50 г рикотты и сразу печь как неаполитанскую (4–10 мин)."
+      ],
+      "group": "neapolitan",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "compleat",
+      "label": "Compleat wheat",
+      "label_ru": "Цельнозерновая (отруби)",
+      "sub": "bran + germ, 18 h cold · p. 129",
+      "sub_ru": "отруби + зародыши, 18 ч в холоде · с. 129",
+      "stages": [
+        {
+          "name": "③ Poolish (made 12 h ahead)",
+          "name_ru": "③ Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Bran and germ soaker",
+          "name_ru": "① Замочка отрубей и зародышей",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 16.3636
+            },
+            {
+              "en": "Wheat bran, toasted",
+              "orig": "Wheat bran, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Пшеничные отруби, обжаренные",
+              "pct": 13.6364
+            },
+            {
+              "en": "Wheat germ, toasted",
+              "orig": "Wheat germ, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Пшеничные зародыши, обжаренные",
+              "pct": 2.7273
+            }
+          ],
+          "note": "Combine and set aside.",
+          "note_ru": "Смешать и отставить."
+        },
+        {
+          "name": "② Water and yeast",
+          "name_ru": "② Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 65.4545
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "④ Flour",
+          "name_ru": "④ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 90.9091
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "⑤ Salt and oil",
+          "name_ru": "⑤ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Начинка",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Tomato sauce",
+              "orig": "Tomato sauce",
+              "flour": false,
+              "water": 0,
+              "ru": "Томатный соус",
+              "link": "mb-tomato-sauce",
+              "pct": 54.5455
+            },
+            {
+              "en": "Fresh mozzarella, air-dried",
+              "orig": "Fresh mozzarella, air-dried",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежая моцарелла, подсушенная на воздухе",
+              "note": "break into 2.5 cm pieces, air-dry 1–2 days in the fridge",
+              "note_ru": "разорвать на куски 2,5 см, подсушить 1–2 дня в холодильнике",
+              "pct": 72.7273
+            }
+          ],
+          "note": "75 g sauce and 100 g cheese per 250 g pizza. Not part of the dough weight.",
+          "note_ru": "75 г соуса и 100 г сыра на пиццу 250 г. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Combine ① and set aside. Dissolve the yeast in ②, add the poolish ③ and ④ and mix until homogeneous; add ① and ⑤ and mix until homogeneous again.",
+        "Bulk 18 h in the fridge, well covered, no folds.",
+        "Divide into 250 g, shape boules, proof 1–1¼ h at 27 °C or 1½–2 h at 21 °C.",
+        "Press into a 15 cm disc with a thicker rim, then stretch over your knuckles to 30 cm. Top (75 g sauce, 100 g cheese) and bake straight away as the Neapolitan (4–10 min)."
+      ],
+      "method_ru": [
+        "Смешать ① и отставить. Растворить дрожжи в ②, добавить пулиш ③ и ④, перемешать до однородности; добавить ① и ⑤ и снова до однородности.",
+        "Брожение 18 ч в холодильнике под крышкой, без складываний.",
+        "Разделить по 250 г, сформовать шарики, расстойка 1–1¼ ч при 27 °C или 1½–2 ч при 21 °C.",
+        "Прижать в диск 15 см с толстым краем и растянуть на костяшках до 30 см. Начинка (75 г соуса, 100 г сыра) и сразу в печь как неаполитанскую (4–10 мин)."
+      ],
+      "notes": "Bran and germ are not counted as flour.",
+      "notes_ru": "Отруби и зародыши не считаются мукой.",
+      "group": "neapolitan",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "p-onion",
+      "label": "Onion",
+      "label_ru": "Луковая",
+      "sub": "puree · p. 130–131",
+      "sub_ru": "пюре · с. 130–131",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Sweet onion, small dice, lightly sweated",
+              "orig": "Sweet onion, small dice, lightly sweated",
+              "flour": false,
+              "water": 0,
+              "ru": "Сладкий лук, мелкий кубик, слегка припущенный",
+              "pct": 36.3636
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 27.2727
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 90.9091
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Blend the onion with the water until smooth. Dissolve the yeast in this mixture (①).",
+        "Mix as the Neapolitan: dissolve the yeast in ①, add the poolish and ③, mix on low to a shaggy mass, add ④ and mix on medium to full development. Bulk 1½ h with one fold after 1 h, then 30 min rest.",
+        "Divide into 250 g, preshape tight boules and cold-proof at 4 °C for 1–2 days; take out 1½–2 h before shaping. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Пробить лук с водой до гладкости. Растворить в этой смеси дрожжи (①).",
+        "Замес как у неаполитанской: растворить дрожжи в ①, добавить пулиш и ③, замесить на низкой до лохматой массы, добавить ④ и вымесить на средней до полного развития. Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха.",
+        "Разделить по 250 г, плотно сформовать шарики и выдержать при 4 °C 1–2 дня; вынуть за 1½–2 ч до формовки. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (except the passata, counted as water).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (кроме пассаты — она считается водой).",
+      "group": "puree",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "p-tomato",
+      "label": "Tomato",
+      "label_ru": "Томатная",
+      "sub": "puree · p. 130–131",
+      "sub_ru": "пюре · с. 130–131",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Strained tomatoes (passata)",
+              "orig": "Strained tomatoes (passata)",
+              "flour": false,
+              "water": 1,
+              "ru": "Протёртые томаты (пассата)",
+              "pct": 65.4545
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 90.9091
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        }
+      ],
+      "method": [
+        "No extra water — the passata hydrates the dough. Dissolve the yeast in this mixture (①).",
+        "Mix as the Neapolitan: dissolve the yeast in ①, add the poolish and ③, mix on low to a shaggy mass, add ④ and mix on medium to full development. Bulk 1½ h with one fold after 1 h, then 30 min rest.",
+        "Divide into 250 g, preshape tight boules and cold-proof at 4 °C for 1–2 days; take out 1½–2 h before shaping. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Без воды — пассата увлажняет тесто. Растворить в этой смеси дрожжи (①).",
+        "Замес как у неаполитанской: растворить дрожжи в ①, добавить пулиш и ③, замесить на низкой до лохматой массы, добавить ④ и вымесить на средней до полного развития. Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха.",
+        "Разделить по 250 г, плотно сформовать шарики и выдержать при 4 °C 1–2 дня; вынуть за 1½–2 ч до формовки. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (except the passata, counted as water).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (кроме пассаты — она считается водой).",
+      "group": "puree",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "p-spinach",
+      "label": "Spinach",
+      "label_ru": "Шпинатная",
+      "sub": "puree · p. 130–131",
+      "sub_ru": "пюре · с. 130–131",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Spinach, blanched, shocked, drained",
+              "orig": "Spinach, blanched, shocked, drained",
+              "flour": false,
+              "water": 0,
+              "ru": "Шпинат, бланшированный, охлаждённый, отжатый",
+              "pct": 21.8182
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 43.6364
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 90.9091
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Blend the spinach with the water until smooth. Dissolve the yeast in this mixture (①).",
+        "Mix as the Neapolitan: dissolve the yeast in ①, add the poolish and ③, mix on low to a shaggy mass, add ④ and mix on medium to full development. Bulk 1½ h with one fold after 1 h, then 30 min rest.",
+        "Divide into 250 g, preshape tight boules and cold-proof at 4 °C for 1–2 days; take out 1½–2 h before shaping. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Пробить шпинат с водой до гладкости. Растворить в этой смеси дрожжи (①).",
+        "Замес как у неаполитанской: растворить дрожжи в ①, добавить пулиш и ③, замесить на низкой до лохматой массы, добавить ④ и вымесить на средней до полного развития. Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха.",
+        "Разделить по 250 г, плотно сформовать шарики и выдержать при 4 °C 1–2 дня; вынуть за 1½–2 ч до формовки. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (except the passata, counted as water).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (кроме пассаты — она считается водой).",
+      "group": "puree",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "p-garlic",
+      "label": "Roasted garlic",
+      "label_ru": "С печёным чесноком",
+      "sub": "puree · p. 130–131",
+      "sub_ru": "пюре · с. 130–131",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Roasted garlic cloves",
+              "orig": "Roasted garlic cloves",
+              "flour": false,
+              "water": 0,
+              "ru": "Печёный чеснок (зубчики)",
+              "note": "toss 200 g peeled cloves in oil, bake 2 h at 120 °C",
+              "note_ru": "200 г очищенных зубчиков с маслом запекать 2 ч при 120 °C",
+              "pct": 16.3636
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 49.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 90.9091
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Blend the roasted garlic with the water until smooth. Dissolve the yeast in this mixture (①).",
+        "Mix as the Neapolitan: dissolve the yeast in ①, add the poolish and ③, mix on low to a shaggy mass, add ④ and mix on medium to full development. Bulk 1½ h with one fold after 1 h, then 30 min rest.",
+        "Divide into 250 g, preshape tight boules and cold-proof at 4 °C for 1–2 days; take out 1½–2 h before shaping. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Пробить печёный чеснок с водой до гладкости. Растворить в этой смеси дрожжи (①).",
+        "Замес как у неаполитанской: растворить дрожжи в ①, добавить пулиш и ③, замесить на низкой до лохматой массы, добавить ④ и вымесить на средней до полного развития. Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха.",
+        "Разделить по 250 г, плотно сформовать шарики и выдержать при 4 °C 1–2 дня; вынуть за 1½–2 ч до формовки. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (except the passata, counted as water).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (кроме пассаты — она считается водой).",
+      "group": "puree",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "p-potato",
+      "label": "Potato",
+      "label_ru": "Картофельная",
+      "sub": "puree · p. 130–131",
+      "sub_ru": "пюре · с. 130–131",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Potato puree",
+              "orig": "Potato puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Картофельное пюре",
+              "pct": 18.1818
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 45.4545
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 90.9091
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Stir the potato puree into the water. Dissolve the yeast in this mixture (①).",
+        "Mix as the Neapolitan: dissolve the yeast in ①, add the poolish and ③, mix on low to a shaggy mass, add ④ and mix on medium to full development. Bulk 1½ h with one fold after 1 h, then 30 min rest.",
+        "Divide into 250 g, preshape tight boules and cold-proof at 4 °C for 1–2 days; take out 1½–2 h before shaping. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Смешать картофельное пюре с водой. Растворить в этой смеси дрожжи (①).",
+        "Замес как у неаполитанской: растворить дрожжи в ①, добавить пулиш и ③, замесить на низкой до лохматой массы, добавить ④ и вымесить на средней до полного развития. Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха.",
+        "Разделить по 250 г, плотно сформовать шарики и выдержать при 4 °C 1–2 дня; вынуть за 1½–2 ч до формовки. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (except the passata, counted as water).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (кроме пассаты — она считается водой).",
+      "group": "puree",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
+    },
+    {
+      "id": "p-mushroom",
+      "label": "Mushroom",
+      "label_ru": "Грибная",
+      "sub": "puree · p. 130–131",
+      "sub_ru": "пюре · с. 130–131",
+      "stages": [
+        {
+          "name": "② Poolish (made 12 h ahead)",
+          "name_ru": "② Пулиш (за 12 ч)",
+          "time": "12 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 9.0909
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 9.0909
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.0091
+            }
+          ],
+          "note": "Mix 12 h before the dough and let it ferment in an airtight container.",
+          "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере.",
+          "link": "mb-poolish"
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Shiitake caps, thinly sliced, sautéed golden",
+              "orig": "Shiitake caps, thinly sliced, sautéed golden",
+              "flour": false,
+              "water": 0,
+              "ru": "Шляпки шиитаке, тонко нарезанные, обжаренные до золотистого",
+              "pct": 45.4545
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 42.7273
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.5455
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour or 00 pizza flour",
+              "orig": "Bread flour or 00 pizza flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная или мука 00 для пиццы",
+              "pct": 90.9091
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 1.8182
+            }
+          ]
+        },
+        {
+          "name": "④ Salt and oil",
+          "name_ru": "④ Соль и масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8182
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 0.9091
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Sauté the mushrooms in a little oil until golden, then blend with the water. Dissolve the yeast in this mixture (①).",
+        "Mix as the Neapolitan: dissolve the yeast in ①, add the poolish and ③, mix on low to a shaggy mass, add ④ and mix on medium to full development. Bulk 1½ h with one fold after 1 h, then 30 min rest.",
+        "Divide into 250 g, preshape tight boules and cold-proof at 4 °C for 1–2 days; take out 1½–2 h before shaping. Shape, top and bake as the Neapolitan."
+      ],
+      "method_ru": [
+        "Обжарить грибы на небольшом количестве масла до золотистого цвета, затем пробить с водой. Растворить в этой смеси дрожжи (①).",
+        "Замес как у неаполитанской: растворить дрожжи в ①, добавить пулиш и ③, замесить на низкой до лохматой массы, добавить ④ и вымесить на средней до полного развития. Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха.",
+        "Разделить по 250 г, плотно сформовать шарики и выдержать при 4 °C 1–2 дня; вынуть за 1½–2 ч до формовки. Формовка, начинка и выпечка — как у неаполитанской."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (except the passata, counted as water).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (кроме пассаты — она считается водой).",
+      "group": "puree",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 250
+      }
     }
   ],
   "category_ru": "Лепёшки",
@@ -759,5 +2247,22 @@
     "лепёшка",
     "пулиш"
   ],
-  "variantLabel_ru": "Стиль"
+  "variantLabel_ru": "Стиль",
+  "groups": [
+    {
+      "id": "styles",
+      "label": "Styles",
+      "label_ru": "Стили"
+    },
+    {
+      "id": "neapolitan",
+      "label": "Neapolitan +",
+      "label_ru": "Неаполитанская +"
+    },
+    {
+      "id": "puree",
+      "label": "Purees",
+      "label_ru": "С пюре"
+    }
+  ]
 }

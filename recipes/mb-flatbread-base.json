@@ -1,0 +1,787 @@
+{
+  "id": "mb-flatbread-base",
+  "name": {
+    "en": "Flatbread dough base & Armenian pies",
+    "ru": "Тесто-основа и армянские пироги",
+    "orig": "Flatbread dough base"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Armenian",
+    "topped"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "армянская",
+    "с начинкой"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 136–139",
+    "detail_ru": "Recipes II с. 136–139"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 209,
+    "total": 836,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 40,
+      "max": 400,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "base",
+      "label": "Plain base",
+      "label_ru": "Основа",
+      "sub": "p. 136",
+      "sub_ru": "с. 136",
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "name_ru": "① Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–25.5 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 58.8235
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.3431
+            }
+          ]
+        },
+        {
+          "name": "② Dry ingredients (sifted)",
+          "name_ru": "② Сухие ингредиенты (просеять)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 70.5882
+            },
+            {
+              "en": "Cake flour",
+              "orig": "Cake flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука для тортов (низкобелковая)",
+              "pct": 29.4118
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 1.9608
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 0.9804
+            }
+          ]
+        },
+        {
+          "name": "③ Oil",
+          "name_ru": "③ Масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Vegetable oil",
+              "orig": "Vegetable oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительное масло",
+              "pct": 1.9608
+            }
+          ]
+        }
+      ],
+      "method": [
+        "By machine: stir the yeast into ① until dissolved; sift ② separately, pour it onto ①, add ③ and mix on medium to full development. (By hand: pour ① and ③ gradually into the sifted ②, mix smooth, then knead on a floured bench to full development.) Bulk 1 h with one fold after 30 min.",
+        "Divide into 200 g, shape boules, rest 20 min.",
+        "Just before baking roll each to 25 cm, 6 mm thick; top as you like.",
+        "Bake hot, as for Neapolitan pizza, on a stone or steel (a parchment-lined pan on the stone also works, a few minutes longer). Each takes 3–7 min."
+      ],
+      "method_ru": [
+        "В миксере: растворить дрожжи в ①; отдельно просеять ②, высыпать на ①, добавить ③ и вымесить на средней до полного развития. (Вручную: постепенно влить ① и ③ в просеянное ②, замесить, затем вымесить на присыпанном столе до полного развития.) Брожение 1 ч с одним складыванием через 30 мин.",
+        "Разделить по 200 г, сформовать шарики, отдых 20 мин.",
+        "Прямо перед выпечкой раскатать каждый до 25 см толщиной 6 мм; начинка — по вкусу.",
+        "Печь горячо, как неаполитанскую пиццу, на камне или стали (можно на противне с пергаментом прямо на камне — на несколько минут дольше). Каждая 3–7 мин."
+      ],
+      "notes": "Cake flour keeps the gluten low so it rolls easily; a little sugar helps browning.",
+      "notes_ru": "Мука для тортов снижает клейковину — тесто легко раскатывается; немного сахара — для румяности.",
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 209
+      }
+    },
+    {
+      "id": "meatpie",
+      "label": "Armenian meat pie",
+      "label_ru": "Армянский мясной пирог",
+      "sub": "lahm bi-ʿajeen · p. 137",
+      "sub_ru": "лахм би аджин · с. 137",
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "name_ru": "① Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–25.5 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 58.8235
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.3431
+            }
+          ]
+        },
+        {
+          "name": "② Dry ingredients (sifted)",
+          "name_ru": "② Сухие ингредиенты (просеять)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 70.5882
+            },
+            {
+              "en": "Cake flour",
+              "orig": "Cake flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука для тортов (низкобелковая)",
+              "pct": 29.4118
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 1.9608
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 0.9804
+            }
+          ]
+        },
+        {
+          "name": "③ Oil",
+          "name_ru": "③ Масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Vegetable oil",
+              "orig": "Vegetable oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительное масло",
+              "pct": 1.9608
+            }
+          ]
+        },
+        {
+          "name": "Meat topping",
+          "name_ru": "Мясная начинка",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Onion",
+              "orig": "Onion",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук",
+              "pct": 49.0196
+            },
+            {
+              "en": "Plum tomatoes, small",
+              "orig": "Plum tomatoes, small",
+              "flour": false,
+              "water": 0,
+              "ru": "Томаты сливовидные, небольшие",
+              "pct": 39.2157
+            },
+            {
+              "en": "Green bell pepper",
+              "orig": "Green bell pepper",
+              "flour": false,
+              "water": 0,
+              "ru": "Перец болгарский зелёный",
+              "pct": 19.6078
+            },
+            {
+              "en": "Flat-leaf parsley, stems removed",
+              "orig": "Flat-leaf parsley, stems removed",
+              "flour": false,
+              "water": 0,
+              "ru": "Петрушка (без стеблей)",
+              "pct": 9.8039
+            },
+            {
+              "en": "Garlic cloves",
+              "orig": "Garlic cloves",
+              "flour": false,
+              "water": 0,
+              "ru": "Чеснок",
+              "pct": 4.902
+            },
+            {
+              "en": "Beef or lamb, finely ground",
+              "orig": "Beef or lamb, finely ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Говядина или баранина, мелкий фарш",
+              "pct": 98.0392
+            },
+            {
+              "en": "Red pepper paste",
+              "orig": "Red pepper paste",
+              "flour": false,
+              "water": 0,
+              "ru": "Паста из красного перца",
+              "note": "or tomato paste",
+              "note_ru": "или томатная паста",
+              "pct": 2.9412
+            },
+            {
+              "en": "Allspice, ground",
+              "orig": "Allspice, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Душистый перец молотый",
+              "pct": 0.1961
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.5686
+            },
+            {
+              "en": "Black pepper, a pinch",
+              "orig": "Black pepper, a pinch",
+              "flour": false,
+              "water": 0,
+              "ru": "Чёрный перец, щепотка",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Pine nuts (optional)",
+              "orig": "Pine nuts (optional)",
+              "flour": false,
+              "water": 0,
+              "ru": "Кедровые орешки (по желанию)",
+              "pct": 10.7843
+            },
+            {
+              "en": "Lemon wedges; red pepper powder (optional)",
+              "orig": "Lemon wedges; red pepper powder (optional)",
+              "flour": false,
+              "water": 0,
+              "ru": "Дольки лимона; молотый красный перец (по желанию)",
+              "note": "2 lemons cut into 18 wedges",
+              "note_ru": "2 лимона на 18 долек",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "note": "About 65 g per pie, spread raw — make sure the meat cooks through. Not part of the dough weight.",
+          "note_ru": "Около 65 г на пирожок, кладётся сырой — мясо должно пропечься. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine: stir the yeast into ① until dissolved; sift ② separately, pour it onto ①, add ③ and mix on medium to full development. (By hand: pour ① and ③ gradually into the sifted ②, mix smooth, then knead on a floured bench to full development.) Bulk 1 h with one fold after 30 min.",
+        "Divide into 18 pieces of about 45 g. Shape tight balls, oil them lightly, put on well-oiled parchment on a sheet pan, cover and refrigerate while you make the topping.",
+        "Finely chop the onion, tomatoes, bell pepper, parsley and garlic (by hand or in a processor). Mix the meat with the pepper paste, allspice, salt, pepper and pine nuts, then mix in the vegetables. Drain off excess liquid and divide into 18 portions (about 65 g).",
+        "Roll the balls into small discs. Put 6–8 on a lightly floured peel and spread the meat over the whole surface (it shrinks in baking).",
+        "Bake hot, as for Neapolitan pizza, on a stone or steel (a parchment-lined pan on the stone also works, a few minutes longer). 5–7 min, until the edges are golden and the meat is fully cooked. Serve hot with lemon, or a pinch of red pepper."
+      ],
+      "method_ru": [
+        "В миксере: растворить дрожжи в ①; отдельно просеять ②, высыпать на ①, добавить ③ и вымесить на средней до полного развития. (Вручную: постепенно влить ① и ③ в просеянное ②, замесить, затем вымесить на присыпанном столе до полного развития.) Брожение 1 ч с одним складыванием через 30 мин.",
+        "Разделить на 18 кусков примерно по 45 г. Сформовать плотные шарики, слегка смазать маслом, выложить на противень с хорошо смазанным пергаментом, накрыть и убрать в холодильник, пока готовится начинка.",
+        "Мелко порубить лук, томаты, перец, петрушку и чеснок (ножом или в комбайне). Смешать фарш с перечной пастой, душистым перцем, солью, перцем и орешками, затем вмешать овощи. Слить лишнюю жидкость и разделить на 18 порций (около 65 г).",
+        "Раскатать шарики в небольшие диски. Выложить по 6–8 на слегка присыпанную лопату и распределить мясо по всей поверхности (при выпечке оно ужимается).",
+        "Печь горячо, как неаполитанскую пиццу, на камне или стали (можно на противне с пергаментом прямо на камне — на несколько минут дольше). 5–7 мин, пока края не зарумянятся и мясо полностью не пропечётся. Подавать горячими с лимоном или щепоткой красного перца."
+      ],
+      "notes": "The book says to roll the balls to about 6 cm (2½ in) — that looks very small for 45 g; roll them as thin as you like.",
+      "notes_ru": "В книге — раскатать примерно до 6 см (2½ дюйма); для 45 г это очень мало — раскатывайте тоньше по своему вкусу.",
+      "yield": {
+        "pieces": 18,
+        "pieceWeight": 46
+      }
+    },
+    {
+      "id": "sujuk",
+      "label": "Armenian sausage pie",
+      "label_ru": "Армянский пирог с суджуком",
+      "sub": "sujuk · p. 138",
+      "sub_ru": "суджук · с. 138",
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "name_ru": "① Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–25.5 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 58.8235
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.3431
+            }
+          ]
+        },
+        {
+          "name": "② Dry ingredients (sifted)",
+          "name_ru": "② Сухие ингредиенты (просеять)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 70.5882
+            },
+            {
+              "en": "Cake flour",
+              "orig": "Cake flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука для тортов (низкобелковая)",
+              "pct": 29.4118
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 1.9608
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 0.9804
+            }
+          ]
+        },
+        {
+          "name": "③ Oil",
+          "name_ru": "③ Масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Vegetable oil",
+              "orig": "Vegetable oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительное масло",
+              "pct": 1.9608
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Начинка",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Tomatoes, sliced 1 cm thick",
+              "orig": "Tomatoes, sliced 1 cm thick",
+              "flour": false,
+              "water": 0,
+              "ru": "Томаты, кружки 1 см",
+              "note": "peak-season heirloom or beefsteak",
+              "note_ru": "сезонные, сорта «бычье сердце» и т. п.",
+              "pct": 39.2157
+            },
+            {
+              "en": "Sujuk sausage, thinly sliced",
+              "orig": "Sujuk sausage, thinly sliced",
+              "flour": false,
+              "water": 0,
+              "ru": "Суджук, тонко нарезанный",
+              "note": "or chorizo, merguez or another cured sausage",
+              "note_ru": "или чоризо, мергез или другая вяленая колбаса",
+              "pct": 86.2745
+            }
+          ],
+          "note": "50 g tomato and 110 g sausage per pie. Not part of the dough weight.",
+          "note_ru": "50 г томатов и 110 г колбасы на пирог. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine: stir the yeast into ① until dissolved; sift ② separately, pour it onto ①, add ③ and mix on medium to full development. (By hand: pour ① and ③ gradually into the sifted ②, mix smooth, then knead on a floured bench to full development.) Bulk 1 h with one fold after 30 min.",
+        "Divide into four 200 g pieces. Shape tight balls, oil them lightly, put on well-oiled parchment on a sheet pan, cover and refrigerate while you make the topping.",
+        "Roll each ball on a lightly floured peel into a 25 cm disc, 6 mm thick, and dock it.",
+        "Lay 50 g tomato slices in a single layer, then 110 g sausage on top.",
+        "Bake hot, as for Neapolitan pizza, on a stone or steel (a parchment-lined pan on the stone also works, a few minutes longer). 7–10 min, until the edges are golden. Serve hot."
+      ],
+      "method_ru": [
+        "В миксере: растворить дрожжи в ①; отдельно просеять ②, высыпать на ①, добавить ③ и вымесить на средней до полного развития. (Вручную: постепенно влить ① и ③ в просеянное ②, замесить, затем вымесить на присыпанном столе до полного развития.) Брожение 1 ч с одним складыванием через 30 мин.",
+        "Разделить на 4 куска по 200 г. Сформовать плотные шарики, слегка смазать маслом, выложить на противень с хорошо смазанным пергаментом, накрыть и убрать в холодильник, пока готовится начинка.",
+        "Раскатать каждый шарик на слегка присыпанной лопате в диск 25 см толщиной 6 мм и наколоть.",
+        "Выложить 50 г томатов в один слой, сверху 110 г колбасы.",
+        "Печь горячо, как неаполитанскую пиццу, на камне или стали (можно на противне с пергаментом прямо на камне — на несколько минут дольше). 7–10 мин, до золотистых краёв. Подавать горячими."
+      ],
+      "yield": {
+        "pieces": 4,
+        "pieceWeight": 209
+      }
+    },
+    {
+      "id": "kafta",
+      "label": "Kafta pie",
+      "label_ru": "Пирог с кафтой",
+      "sub": "meat, onion, parsley · p. 139",
+      "sub_ru": "мясо, лук, петрушка · с. 139",
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "name_ru": "① Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–25.5 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 58.8235
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.3431
+            }
+          ]
+        },
+        {
+          "name": "② Dry ingredients (sifted)",
+          "name_ru": "② Сухие ингредиенты (просеять)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 70.5882
+            },
+            {
+              "en": "Cake flour",
+              "orig": "Cake flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука для тортов (низкобелковая)",
+              "pct": 29.4118
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 1.9608
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 0.9804
+            }
+          ]
+        },
+        {
+          "name": "③ Oil",
+          "name_ru": "③ Масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Vegetable oil",
+              "orig": "Vegetable oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительное масло",
+              "pct": 1.9608
+            }
+          ]
+        },
+        {
+          "name": "Kafta topping",
+          "name_ru": "Начинка кафта",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Onions",
+              "orig": "Onions",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук",
+              "pct": 49.0196
+            },
+            {
+              "en": "Flat-leaf parsley, stems removed",
+              "orig": "Flat-leaf parsley, stems removed",
+              "flour": false,
+              "water": 0,
+              "ru": "Петрушка (без стеблей)",
+              "pct": 9.8039
+            },
+            {
+              "en": "Beef or lamb, finely ground",
+              "orig": "Beef or lamb, finely ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Говядина или баранина, мелкий фарш",
+              "pct": 98.0392
+            },
+            {
+              "en": "Allspice, ground",
+              "orig": "Allspice, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Душистый перец молотый",
+              "pct": 0.1961
+            },
+            {
+              "en": "Seven-spice, ground",
+              "orig": "Seven-spice, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Смесь «семь специй»",
+              "pct": 0.1961
+            },
+            {
+              "en": "Cinnamon, ground",
+              "orig": "Cinnamon, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Корица молотая",
+              "pct": 0.098
+            },
+            {
+              "en": "Nutmeg, ground",
+              "orig": "Nutmeg, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Мускатный орех молотый",
+              "pct": 0.098
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.5686
+            },
+            {
+              "en": "Black pepper, ground",
+              "orig": "Black pepper, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Чёрный перец молотый",
+              "pct": 0.098
+            },
+            {
+              "en": "Lemon, cut into 8 wedges",
+              "orig": "Lemon, cut into 8 wedges",
+              "flour": false,
+              "water": 0,
+              "ru": "Лимон, 8 долек",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "note": "100 g per pie. Not part of the dough weight.",
+          "note_ru": "100 г на пирог. Не входит в вес теста.",
+          "topping": true
+        },
+        {
+          "name": "Hummus (optional, side prep)",
+          "name_ru": "Хумус (по желанию, заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Chickpeas, dried",
+              "orig": "Chickpeas, dried",
+              "flour": false,
+              "water": 0,
+              "ru": "Нут сухой",
+              "note": "or 200 g canned (skip soda and soaking)",
+              "note_ru": "или 200 г консервированного (без соды и замачивания)",
+              "pct": 39.2157
+            },
+            {
+              "en": "Baking soda",
+              "orig": "Baking soda",
+              "flour": false,
+              "water": 0,
+              "ru": "Пищевая сода",
+              "pct": 0.9216
+            },
+            {
+              "en": "Tahini",
+              "orig": "Tahini",
+              "flour": false,
+              "water": 0,
+              "ru": "Тахини",
+              "pct": 23.5294
+            },
+            {
+              "en": "Lemon juice",
+              "orig": "Lemon juice",
+              "flour": false,
+              "water": 0,
+              "ru": "Лимонный сок",
+              "pct": 8.8235
+            },
+            {
+              "en": "Garlic cloves",
+              "orig": "Garlic cloves",
+              "flour": false,
+              "water": 0,
+              "ru": "Чеснок",
+              "pct": 1.9608
+            },
+            {
+              "en": "Kosher salt",
+              "orig": "Kosher salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Крупная соль",
+              "pct": 0.9804
+            },
+            {
+              "en": "Red chili pepper, ground",
+              "orig": "Red chili pepper, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Красный перец чили молотый",
+              "pct": 0.3922
+            }
+          ],
+          "note": "Soak chickpeas with the soda in water to cover by 2.5 cm, 12 h. Drain, cover with fresh water, simmer 15–30 min until tender. Keep 229 g of the liquid and 60 g whole chickpeas; puree the rest, adding tahini and lemon alternately, then garlic and salt; loosen with the liquid. Makes about 380 g; 45 g per pie.",
+          "note_ru": "Замочить нут с содой в воде (на 2,5 см выше) на 12 ч. Слить, залить свежей водой, варить на слабом огне 15–30 мин до мягкости. Оставить 229 г отвара и 60 г целого нута; остальное пробить, попеременно добавляя тахини и лимон, затем чеснок и соль; разбавить отваром. Выход около 380 г; 45 г на пирог.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine: stir the yeast into ① until dissolved; sift ② separately, pour it onto ①, add ③ and mix on medium to full development. (By hand: pour ① and ③ gradually into the sifted ②, mix smooth, then knead on a floured bench to full development.) Bulk 1 h with one fold after 30 min.",
+        "Divide into 8 pieces of about 100 g. Shape tight balls, oil them lightly, put on well-oiled parchment on a sheet pan, cover and refrigerate while you make the topping.",
+        "Finely chop the onions and parsley. Mix the meat with the spices, then mix in the onions and parsley.",
+        "Roll the balls into 13 cm discs — smaller and thicker than pita. Put on a well-floured peel and spread 100 g meat over each, leaving a 2 cm border.",
+        "Bake hot, as for Neapolitan pizza, on a stone or steel (a parchment-lined pan on the stone also works, a few minutes longer).",
+        "Optional: spread 45 g hummus on each after baking, add a few whole chickpeas and a pinch of chili, and serve hot with lemon."
+      ],
+      "method_ru": [
+        "В миксере: растворить дрожжи в ①; отдельно просеять ②, высыпать на ①, добавить ③ и вымесить на средней до полного развития. (Вручную: постепенно влить ① и ③ в просеянное ②, замесить, затем вымесить на присыпанном столе до полного развития.) Брожение 1 ч с одним складыванием через 30 мин.",
+        "Разделить на 8 кусков примерно по 100 г. Сформовать плотные шарики, слегка смазать маслом, выложить на противень с хорошо смазанным пергаментом, накрыть и убрать в холодильник, пока готовится начинка.",
+        "Мелко порубить лук и петрушку. Смешать фарш со специями, затем вмешать лук и петрушку.",
+        "Раскатать шарики в диски 13 см — меньше и толще, чем пита. Выложить на хорошо присыпанную лопату и распределить по 100 г фарша, оставив край 2 см.",
+        "Печь горячо, как неаполитанскую пиццу, на камне или стали (можно на противне с пергаментом прямо на камне — на несколько минут дольше).",
+        "По желанию: после выпечки намазать 45 г хумуса, добавить несколько горошин нута и щепотку чили, подавать горячими с лимоном."
+      ],
+      "yield": {
+        "pieces": 8,
+        "pieceWeight": 105
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "mb-air-bread",
+  "name": {
+    "en": "Air bread",
+    "ru": "Воздушный хлеб",
+    "orig": "Air bread"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "crispy",
+    "pâte fermentée"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "хрустящая",
+    "старое тесто"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 66–67",
+    "detail_ru": "Recipes II с. 66–67"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 11,
+    "pieceWeight": 90,
+    "total": 990,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 40,
+      "max": 200,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Pâte fermentée (12 h ahead)",
+      "name_ru": "Старое тесто (за 12 ч)",
+      "time": "12 h",
+      "temp": "21 °C",
+      "ingredients": [
+        {
+          "en": "Flour",
+          "orig": "Flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука",
+          "pct": 3.0612
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 2.0408
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.0068
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 0.0612
+        }
+      ],
+      "note": "Mix until even, cover tightly, ferment 12 h at 21 °C.",
+      "note_ru": "Перемешать до однородности, плотно накрыть, 12 ч при 21 °C.",
+      "link": "richemont-fermented-dough"
+    },
+    {
+      "name": "① Milk and yeast",
+      "name_ru": "① Молоко и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Whole milk",
+          "orig": "Whole milk",
+          "flour": false,
+          "water": 0.87,
+          "ru": "Молоко цельное",
+          "pct": 65.4762
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.7007
+        }
+      ]
+    },
+    {
+      "name": "② Flour and salt (+ all the pâte fermentée)",
+      "name_ru": "② Мука и соль (+ всё старое тесто)",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Flour",
+          "orig": "Flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука",
+          "note": "the book says just \"flour\"",
+          "note_ru": "в книге просто «мука»",
+          "pct": 96.9388
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.7007
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the pâte fermentée 12 h ahead.",
+    "By machine only: stir the yeast into the milk ①, add ② and the pâte fermentée and mix on medium to full gluten development. Bulk 1 h, no folds, covered.",
+    "With a sheeter or pasta machine (a rolling pin won't do), roll the dough to exactly 2 mm. Cut clean 18 × 4 cm ellipses with a cutter or stencil; trim frayed edges, or they won't puff.",
+    "Put on a sheet pan with a silicone mat; keep pieces covered while you work — dry dough won't puff. No proof.",
+    "Bake in the middle of the oven: convection/combi 205 °C, lowest fan, 4 min; home oven 220 °C with the pan straight on a stone or steel, 4–5 min; deck 230 °C 4–5 min.",
+    "Serve straight away, e.g. wrapped in prosciutto."
+  ],
+  "method_ru": [
+    "Старое тесто — за 12 ч.",
+    "Только в миксере: растворить дрожжи в молоке ①, добавить ② и старое тесто, вымесить на средней до полного развития клейковины. Брожение 1 ч без складываний, накрыть.",
+    "Раскатать на тестораскатке или машинке для пасты (скалкой не получится) ровно до 2 мм. Вырезать ровные эллипсы 18 × 4 см резаком или по трафарету; рваные края подрезать, иначе не раздуются.",
+    "Выложить на противень с силиконовым ковриком; пока работаете, держать под плёнкой — подсохшее тесто не раздувается. Без расстойки.",
+    "Печь в середине духовки: конвекция/пароконвектомат 205 °C, минимальный обдув, 4 мин; домашняя 220 °C, противень прямо на камень или сталь, 4–5 мин; подовая 230 °C 4–5 мин.",
+    "Подавать сразу, например обернув прошутто."
+  ],
+  "notes": "Eat the same day; doesn't freeze well.",
+  "notes_ru": "Съесть в тот же день; плохо переносит заморозку."
+}

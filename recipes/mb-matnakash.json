@@ -1,0 +1,188 @@
+{
+  "id": "mb-matnakash",
+  "name": {
+    "en": "Matnakash",
+    "ru": "Матнакаш",
+    "orig": "Matnakash"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "poolish",
+    "Armenian"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "пулиш",
+    "армянская"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 26–27",
+    "detail_ru": "Recipes II с. 26–27"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 250,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 500,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Poolish (made 12 h ahead)",
+      "name_ru": "Пулиш (за 12 ч)",
+      "time": "12 h",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 79.5918
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 79.5918
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.6327
+        }
+      ],
+      "note": "Mix 12 h before the dough; ferment in an airtight container.",
+      "note_ru": "Замесить за 12 ч до теста; бродить в герметичном контейнере.",
+      "link": "mb-poolish"
+    },
+    {
+      "name": "③ Dough (+ all the poolish)",
+      "name_ru": "③ Тесто (+ весь пулиш)",
+      "time": "autolyse 20–30 min",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 20.4082
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 2.0408
+        }
+      ]
+    },
+    {
+      "name": "④ Salt",
+      "name_ru": "④ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.0408
+        }
+      ]
+    },
+    {
+      "name": "Tea glaze",
+      "name_ru": "Чайная глазурь",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Herbal tea infusion, hot",
+          "orig": "Herbal tea infusion, hot",
+          "flour": false,
+          "water": 0,
+          "ru": "Травяной чай, горячий",
+          "note": "e.g. thyme, linden, elderflower, mint",
+          "note_ru": "напр. чабрец, липа, бузина, мята",
+          "pct": 35.7143
+        },
+        {
+          "en": "Honey",
+          "orig": "Honey",
+          "flour": false,
+          "water": 0.17,
+          "ru": "Мёд",
+          "pct": 15.3061
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 15.3061
+        },
+        {
+          "en": "Bread flour (for the glaze)",
+          "orig": "Bread flour (for the glaze)",
+          "flour": false,
+          "water": 0,
+          "ru": "Мука хлебопекарная (для глазури)",
+          "pct": 6.1224
+        }
+      ],
+      "note": "Stir the honey into the hot tea (①). Whisk the water and flour (②) over high heat until thick, stir in ①, cool completely. Not part of the dough.",
+      "note_ru": "Растворить мёд в горячем чае (①). Воду с мукой (②) уварить на сильном огне, постоянно взбивая, до загустения, влить ①, полностью остудить. Не входит в тесто.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "Make the poolish 12 h ahead and the tea glaze (dashed card).",
+    "By machine: mix ③ on low to a shaggy mass, autolyse 20–30 min, add ④ and mix on medium to full gluten development. Bulk 1 h with one book fold after 30 min.",
+    "Divide into 250 g, shape boules, rest 10 min covered. Roll each into a 25 cm disc.",
+    "Put the discs on a parchment-lined sheet pan, brush with glaze and proof 20–30 min at 27 °C or 40–50 min at 21 °C, covered.",
+    "On the peel, press long lines into the surface with a bench knife, then dock around the edge with a fork so the pattern holds.",
+    "Brush with glaze again and bake hot, as for naan: each flatbread takes 2–7 min.",
+    "Tip: the balls can rest in the fridge overnight, well covered; the dough is easier to roll. Rewarm the glaze to a simmer if it thickens after a day."
+  ],
+  "method_ru": [
+    "Пулиш — за 12 ч; приготовить чайную глазурь (пунктирная карточка).",
+    "В миксере: ③ на низкой скорости до лохматой массы, автолиз 20–30 мин, добавить ④ и вымесить на средней до полного развития клейковины. Брожение 1 ч с одним складыванием «книжкой» через 30 мин.",
+    "Разделить по 250 г, сформовать шарики, отдых 10 мин под плёнкой. Раскатать каждый в диск 25 см.",
+    "Выложить на противень с пергаментом, смазать глазурью, расстойка 20–30 мин при 27 °C или 40–50 мин при 21 °C, накрыть.",
+    "На лопате продавить скребком длинные полосы, затем наколоть вилкой по краю, чтобы узор сохранился.",
+    "Ещё раз смазать глазурью и печь горячо, как наан: каждая лепёшка 2–7 мин.",
+    "Совет: шарики можно оставить на ночь в холодильнике под плёнкой — раскатывать легче. Если глазурь загустела за сутки, довести её до кипения."
+  ],
+  "notes": "By hand: autolyse 30 min, low gluten development, bulk 4½ h with 4 folds. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Вручную: автолиз 30 мин, слабое развитие клейковины, брожение 4½ ч с 4 складываниями. Съесть в течение дня или заморозить до 2 мес."
+}

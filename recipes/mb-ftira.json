@@ -1,0 +1,171 @@
+{
+  "id": "mb-ftira",
+  "name": {
+    "en": "Ftira",
+    "ru": "Фтира",
+    "orig": "Ftira"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Maltese",
+    "levain"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "мальтийская",
+    "закваска"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 34–35",
+    "detail_ru": "Recipes II с. 34–35"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 330,
+    "total": 990,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 600,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 77.1739
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.413
+        }
+      ]
+    },
+    {
+      "name": "② Flour, levain, oil, sugar",
+      "name_ru": "② Мука, закваска, масло, сахар",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Liquid levain, mature",
+          "orig": "Liquid levain, mature",
+          "flour": false,
+          "water": 0.5,
+          "ru": "Жидкая закваска (левен), зрелая",
+          "note": "100 % hydration",
+          "note_ru": "гидратация 100 %",
+          "flourIn": 0.5,
+          "pct": 28.2609
+        },
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 4.3478
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 3.913
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.3913
+        }
+      ]
+    },
+    {
+      "name": "Topping",
+      "name_ru": "Посыпка",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Poppy seeds",
+          "orig": "Poppy seeds",
+          "flour": false,
+          "water": 0,
+          "ru": "Мак",
+          "note": "optional, as needed",
+          "note_ru": "по желанию",
+          "pct": 0,
+          "asNeeded": true
+        }
+      ],
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to full gluten development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 330 g, preshape boules, rest 10 min covered.",
+    "Poke a hole through the centre of each ball and stretch into a 20 cm ring, like a big bagel.",
+    "Put on parchment-lined sheet pans; sprinkle with poppy seeds if you like. Proof 30–45 min at 27 °C or 45 min–1 h at 21 °C.",
+    "Bake: home oven in a cast-iron combo cooker — load at 260 °C, bake at 220 °C, 20 min, one ring at a time (keep the others in the fridge); combi 245 °C, 1 steam burst per minute for the first 5 min, 15–18 min; convection 245 °C, steam after closing the door, 18 min; deck 245 °C, 20 min.",
+    "By hand instead: same order, autolyse 30 min, mix to low gluten development, then bulk 4½ h with 4 folds (one every hour after the first hour) and 30 min rest after the last fold."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и вымесить на средней до полного развития клейковины.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 330 г, сформовать шарики, отдых 10 мин под плёнкой.",
+    "Проткнуть пальцем отверстие в центре и растянуть в кольцо 20 см, как большой бейгл.",
+    "Выложить на противни с пергаментом; по желанию посыпать маком. Расстойка 30–45 мин при 27 °C или 45 мин–1 ч при 21 °C.",
+    "Выпечка: домашняя духовка в чугунной кастрюле-сковороде — загрузка при 260 °C, выпечка 220 °C 20 мин, по одному кольцу (остальные в холодильнике); пароконвектомат 245 °C, пар каждую минуту первые 5 мин, 15–18 мин; конвекция 245 °C, пар после закрытия дверцы, 18 мин; подовая 245 °C 20 мин.",
+    "Вручную: тот же порядок, автолиз 30 мин, замес до слабого развития клейковины, затем брожение 4½ ч с 4 складываниями (каждый час после первого часа) и 30 мин отдыха после последнего."
+  ],
+  "notes": "Usually split and filled (potatoes and ġbejniet cheese, or tuna and capers). Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Обычно разрезают и начиняют (картофель и сыр ġbejniet или тунец с каперсами). Съесть в течение дня или заморозить до 2 мес."
+}

@@ -1,0 +1,2442 @@
+{
+  "id": "mb-pita",
+  "name": {
+    "en": "Pita",
+    "ru": "Пита",
+    "orig": "Pita"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "pita",
+    "flatbread",
+    "pocket"
+  ],
+  "tags_ru": [
+    "пита",
+    "лепёшка",
+    "с карманом"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 53–60",
+    "detail_ru": "Recipes II с. 53–60"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master",
+      "label_ru": "Мастер",
+      "sub": "cold proof 1 day · p. 53",
+      "sub_ru": "холодная расстойка 1 сутки · с. 53",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots.",
+        "By hand instead: same order, mix to low gluten development, drizzle in ④, then bulk 4½ h with 5 folds (one right after mixing, then one every hour) and 30 min rest after the last."
+      ],
+      "method_ru": [
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами.",
+        "Вручную: тот же порядок, замес до слабого развития клейковины, понемногу влить ④, затем брожение 4½ ч с 5 складываниями (сразу после замеса и далее каждый час) и 30 мин отдыха после последнего."
+      ],
+      "notes": "Pita stales fast: best within 2–3 h, or freeze up to 2 months.",
+      "notes_ru": "Пита быстро черствеет: лучше всего в первые 2–3 часа, или заморозить до 2 мес.",
+      "group": "classic"
+    },
+    {
+      "id": "sameday",
+      "label": "Same day",
+      "label_ru": "В тот же день",
+      "sub": "warm proof · p. 56",
+      "sub_ru": "тёплая расстойка · с. 56",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix as the Master, but autolyse before the salt and oils: 20–30 min by machine (30 min by hand).",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Instead of the fridge, proof 1–1¼ h at 27 °C or 1½–2 h at 21 °C, covered.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Замес как у мастер-рецепта, но с автолизом перед солью и маслами: 20–30 мин в миксере (30 мин вручную).",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать булочки. Вместо холодильника — расстойка 1–1¼ ч при 27 °C или 1½–2 ч при 21 °C под плёнкой.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Best within 2–3 h, or freeze up to 2 months.",
+      "notes_ru": "Лучше всего в первые 2–3 часа, или заморозить до 2 мес.",
+      "group": "classic"
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "label_ru": "Модернист",
+      "sub": "lecithin + HPMC · p. 57",
+      "sub_ru": "лецитин + ГПМЦ · с. 57",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            },
+            {
+              "en": "Soy lecithin powder",
+              "orig": "Soy lecithin powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Соевый лецитин, порошок",
+              "note": "if granules, grind first",
+              "note_ru": "гранулы предварительно смолоть",
+              "pct": 2.0
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            },
+            {
+              "en": "Hydroxypropyl methylcellulose (HPMC)",
+              "orig": "Hydroxypropyl methylcellulose (HPMC)",
+              "flour": false,
+              "water": 0,
+              "ru": "Гидроксипропилметилцеллюлоза (ГПМЦ)",
+              "pct": 0.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Dissolve the lecithin in the water with the yeast; mix the HPMC into the flour. Then follow the Master.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Растворить лецитин в воде вместе с дрожжами; ГПМЦ смешать с мукой. Дальше — как мастер-рецепт.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "HPMC delays staling by about 5 h: best within 7–8 h, or freeze up to 2 months.",
+      "notes_ru": "ГПМЦ замедляет черствение примерно на 5 ч: лучше в первые 7–8 часов, или заморозить до 2 мес.",
+      "group": "classic"
+    },
+    {
+      "id": "wholewheat",
+      "label": "100 % whole wheat",
+      "label_ru": "Цельнозерновая",
+      "sub": "bran + germ soaker · p. 60",
+      "sub_ru": "замочка отрубей и зародышей · с. 60",
+      "stages": [
+        {
+          "name": "Soaker",
+          "name_ru": "Замочка",
+          "time": "10 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bran, toasted",
+              "orig": "Bran, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Отруби пшеничные, обжаренные",
+              "pct": 14.2857
+            },
+            {
+              "en": "Wheat germ, toasted",
+              "orig": "Wheat germ, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Пшеничные зародыши, обжаренные",
+              "pct": 2.3214
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 16.6071
+            }
+          ],
+          "note": "Soak 10 min; added at the end of mixing.",
+          "note_ru": "Замочить на 10 мин; добавляется в конце замеса."
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix the bran, germ and soaker water and leave 10 min.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development. Then stop, add the soaker and mix on low until incorporated.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Смешать отруби, зародыши и воду замочки, оставить на 10 мин.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития. Затем остановить, добавить замочку и вмешать на низкой скорости.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Bran and germ are not counted as flour, as in the book.",
+      "notes_ru": "Отруби и зародыши не считаются мукой, как в книге.",
+      "group": "classic"
+    },
+    {
+      "id": "chimichurri",
+      "label": "Chimichurri",
+      "label_ru": "Чимичурри",
+      "sub": "puree · p. 58–59",
+      "sub_ru": "пюре · с. 58–59",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Chimichurri",
+              "orig": "Chimichurri",
+              "flour": false,
+              "water": 0,
+              "ru": "Чимичурри",
+              "pct": 30.3571
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 30.3571
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        },
+        {
+          "name": "Chimichurri (side prep)",
+          "name_ru": "Чимичурри (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Cilantro leaves",
+              "orig": "Cilantro leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Кинза (листья)",
+              "pct": 17.8571
+            },
+            {
+              "en": "Scallions, green parts",
+              "orig": "Scallions, green parts",
+              "flour": false,
+              "water": 0,
+              "ru": "Зелёный лук (зелёная часть)",
+              "pct": 10.7143
+            },
+            {
+              "en": "Basil leaves",
+              "orig": "Basil leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Базилик (листья)",
+              "pct": 7.1429
+            },
+            {
+              "en": "Parsley leaves",
+              "orig": "Parsley leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Петрушка (листья)",
+              "pct": 4.4643
+            },
+            {
+              "en": "Mint leaves",
+              "orig": "Mint leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Мята (листья)",
+              "pct": 1.7857
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 8.9286
+            },
+            {
+              "en": "Lemon zest",
+              "orig": "Lemon zest",
+              "flour": false,
+              "water": 0,
+              "ru": "Цедра лимона",
+              "pct": 1.7857
+            },
+            {
+              "en": "Lemon juice",
+              "orig": "Lemon juice",
+              "flour": false,
+              "water": 0,
+              "ru": "Лимонный сок",
+              "pct": 1.7857
+            },
+            {
+              "en": "Garlic",
+              "orig": "Garlic",
+              "flour": false,
+              "water": 0,
+              "ru": "Чеснок",
+              "pct": 1.4286
+            },
+            {
+              "en": "Thyme leaves",
+              "orig": "Thyme leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Тимьян (листья)",
+              "pct": 0.8929
+            }
+          ],
+          "note": "Blanch the cilantro, scallions, basil, parsley and mint 20 s, chill in ice water, squeeze dry; blend with the oil, lemon, garlic and thyme. Make the puree first; it makes more than you need — freeze the rest. Amounts scale with the dough.",
+          "note_ru": "Бланшировать кинзу, лук, базилик, петрушку и мяту 20 с, охладить в ледяной воде, отжать; пробить с маслом, лимоном, чесноком и тимьяном. Сначала приготовить пюре; его получится больше, чем нужно, — остаток заморозить. Количество масштабируется вместе с тестом.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master, adding the puree with ①.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт, добавив пюре вместе с ①.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "beet",
+      "label": "Beet muhammara",
+      "label_ru": "Свекольная мухаммара",
+      "sub": "puree · p. 58–59",
+      "sub_ru": "пюре · с. 58–59",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Beet muhammara",
+              "orig": "Beet muhammara",
+              "flour": false,
+              "water": 0,
+              "ru": "Свекольная мухаммара",
+              "pct": 34.8214
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 25.8929
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        },
+        {
+          "name": "Beet muhammara (side prep)",
+          "name_ru": "Свекольная мухаммара (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Red beets, peeled",
+              "orig": "Red beets, peeled",
+              "flour": false,
+              "water": 0,
+              "ru": "Свёкла, очищенная",
+              "pct": 65.1786
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 4.6429
+            },
+            {
+              "en": "Walnuts",
+              "orig": "Walnuts",
+              "flour": false,
+              "water": 0,
+              "ru": "Грецкие орехи",
+              "pct": 10.7143
+            },
+            {
+              "en": "Scallions, finely chopped",
+              "orig": "Scallions, finely chopped",
+              "flour": false,
+              "water": 0,
+              "ru": "Зелёный лук, мелко нарезанный",
+              "pct": 4.4643
+            },
+            {
+              "en": "Pomegranate molasses",
+              "orig": "Pomegranate molasses",
+              "flour": false,
+              "water": 0,
+              "ru": "Гранатовая патока (наршараб)",
+              "pct": 5.7143
+            },
+            {
+              "en": "Cumin, toasted",
+              "orig": "Cumin, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Зира, обжаренная",
+              "pct": 0.3571
+            },
+            {
+              "en": "Chili flakes",
+              "orig": "Chili flakes",
+              "flour": false,
+              "water": 0,
+              "ru": "Хлопья чили",
+              "pct": 0.3571
+            },
+            {
+              "en": "Fine salt, lime juice",
+              "orig": "Fine salt, lime juice",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль, сок лайма",
+              "note": "to taste",
+              "note_ru": "по вкусу",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "note": "Toss the beets with oil and salt on a foil-lined tray, cover and roast 45–50 min (190 °C convection, 205 °C home) until tender. Cool, dice, blend with the walnuts, scallions, molasses, cumin and chili; season with lime and salt. Make the puree first; it makes more than you need — freeze the rest. Amounts scale with the dough.",
+          "note_ru": "Свёклу перемешать с маслом и солью на противне с фольгой, накрыть и запекать 45–50 мин (190 °C конвекция, 205 °C обычная) до мягкости. Остудить, нарезать, пробить с орехами, луком, патокой, зирой и чили; заправить лаймом и солью. Сначала приготовить пюре; его получится больше, чем нужно, — остаток заморозить. Количество масштабируется вместе с тестом.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master, adding the puree with ①.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт, добавив пюре вместе с ①.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "spinach",
+      "label": "Spinach",
+      "label_ru": "Шпинатная",
+      "sub": "puree · p. 58–59",
+      "sub_ru": "пюре · с. 58–59",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Spinach puree",
+              "orig": "Spinach puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из шпината",
+              "pct": 25.0
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 35.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        },
+        {
+          "name": "Spinach (side prep)",
+          "name_ru": "Шпинатная (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Spinach",
+              "orig": "Spinach",
+              "flour": false,
+              "water": 0,
+              "ru": "Шпинат",
+              "pct": 22.3214
+            },
+            {
+              "en": "Parsley leaves",
+              "orig": "Parsley leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Петрушка (листья)",
+              "pct": 2.6786
+            }
+          ],
+          "note": "Blanch 30 s, chill in ice water, squeeze dry, blend smooth. Make the puree first; it makes more than you need — freeze the rest. Amounts scale with the dough.",
+          "note_ru": "Бланшировать 30 с, охладить в ледяной воде, отжать, пробить до гладкости. Сначала приготовить пюре; его получится больше, чем нужно, — остаток заморозить. Количество масштабируется вместе с тестом.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master, adding the puree with ①.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт, добавив пюре вместе с ①.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "scallion",
+      "label": "Scallion",
+      "label_ru": "С зелёным луком",
+      "sub": "puree · p. 58–59",
+      "sub_ru": "пюре · с. 58–59",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Scallion puree",
+              "orig": "Scallion puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из зелёного лука",
+              "pct": 30.3571
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 30.3571
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        },
+        {
+          "name": "Scallion (side prep)",
+          "name_ru": "С зелёным луком (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Scallions, green parts, chopped",
+              "orig": "Scallions, green parts, chopped",
+              "flour": false,
+              "water": 0,
+              "ru": "Зелёный лук (зелёная часть), нарезанный",
+              "pct": 28.5714
+            },
+            {
+              "en": "Parsley leaves",
+              "orig": "Parsley leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Петрушка (листья)",
+              "pct": 2.6786
+            },
+            {
+              "en": "Thyme leaves",
+              "orig": "Thyme leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Тимьян (листья)",
+              "pct": 0.8929
+            }
+          ],
+          "note": "Blanch the scallions and parsley 20 s, chill in ice water, squeeze dry, blend with the thyme. Sprinkle chopped scallion on the dough just before rolling. Make the puree first; it makes more than you need — freeze the rest. Amounts scale with the dough.",
+          "note_ru": "Бланшировать лук и петрушку 20 с, охладить в ледяной воде, отжать, пробить с тимьяном. Перед раскаткой посыпать тесто рубленым луком. Сначала приготовить пюре; его получится больше, чем нужно, — остаток заморозить. Количество масштабируется вместе с тестом.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master, adding the puree with ①.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт, добавив пюре вместе с ①.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "leek",
+      "label": "Caramelized leek & onion",
+      "label_ru": "Карамелизованный лук-порей и лук",
+      "sub": "puree · p. 58–59",
+      "sub_ru": "пюре · с. 58–59",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Leek and onion puree",
+              "orig": "Leek and onion puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из порея и лука",
+              "pct": 30.3571
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 30.3571
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        },
+        {
+          "name": "Caramelized leek & onion (side prep)",
+          "name_ru": "Карамелизованный лук-порей и лук (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Leeks, thinly sliced",
+              "orig": "Leeks, thinly sliced",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук-порей, тонко нарезанный",
+              "pct": 44.6429
+            },
+            {
+              "en": "Onions, thinly sliced",
+              "orig": "Onions, thinly sliced",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук репчатый, тонко нарезанный",
+              "pct": 44.6429
+            },
+            {
+              "en": "Butter",
+              "orig": "Butter",
+              "flour": false,
+              "water": 0.16,
+              "ru": "Сливочное масло",
+              "pct": 1.7857
+            },
+            {
+              "en": "Baking soda",
+              "orig": "Baking soda",
+              "flour": false,
+              "water": 0,
+              "ru": "Пищевая сода",
+              "pct": 0.4464
+            }
+          ],
+          "note": "Pressure-cook everything 20 min; cool before opening. If not amber-brown yet, repeat in 10-min rounds. Blend smooth. Make the puree first; it makes more than you need — freeze the rest. Amounts scale with the dough.",
+          "note_ru": "Готовить всё в скороварке 20 мин; остудить перед открытием. Если ещё не янтарно-коричневое — повторять по 10 мин. Пробить до гладкости. Сначала приготовить пюре; его получится больше, чем нужно, — остаток заморозить. Количество масштабируется вместе с тестом.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master, adding the puree with ①.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт, добавив пюре вместе с ①.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "squash",
+      "label": "Caramelized butternut squash",
+      "label_ru": "Карамелизованная тыква",
+      "sub": "puree · p. 58–59",
+      "sub_ru": "пюре · с. 58–59",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Caramelized butternut squash puree",
+              "orig": "Caramelized butternut squash puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из карамелизованной тыквы",
+              "pct": 30.3571
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "adjusted for this puree",
+              "note_ru": "скорректировано под это пюре",
+              "pct": 30.3571
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        },
+        {
+          "name": "Caramelized butternut squash (side prep)",
+          "name_ru": "Карамелизованная тыква (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Butternut squash, diced",
+              "orig": "Butternut squash, diced",
+              "flour": false,
+              "water": 0,
+              "ru": "Тыква баттернат, кубиками",
+              "pct": 103.5714
+            },
+            {
+              "en": "Butter",
+              "orig": "Butter",
+              "flour": false,
+              "water": 0.16,
+              "ru": "Сливочное масло",
+              "pct": 3.0357
+            },
+            {
+              "en": "Baking soda",
+              "orig": "Baking soda",
+              "flour": false,
+              "water": 0,
+              "ru": "Пищевая сода",
+              "pct": 0.5357
+            }
+          ],
+          "note": "Pressure-cook 20 min; cool before opening. If not amber-brown yet, repeat in 10-min rounds. Blend smooth. Make the puree first; it makes more than you need — freeze the rest. Amounts scale with the dough.",
+          "note_ru": "Готовить в скороварке 20 мин; остудить перед открытием. Если ещё не янтарно-коричневое — повторять по 10 мин. Пробить до гладкости. Сначала приготовить пюре; его получится больше, чем нужно, — остаток заморозить. Количество масштабируется вместе с тестом.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master, adding the puree with ①.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт, добавив пюре вместе с ①.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "pumpernickel",
+      "label": "Pumpernickel",
+      "label_ru": "Пумперникель",
+      "sub": "50 % other flour · p. 60",
+      "sub_ru": "50 % другой муки · с. 60",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "note": "half the master's 560 g",
+              "note_ru": "половина от 560 г",
+              "pct": 50.0
+            },
+            {
+              "en": "Pumpernickel (coarse rye) flour",
+              "orig": "Pumpernickel (coarse rye) flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Ржаная мука грубого помола (пумперникель)",
+              "pct": 50.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Half of the bread flour is replaced by the other flour; everything else is the Master.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Половина хлебопекарной муки заменена другой мукой; всё остальное — как мастер-рецепт.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "The book shows these as photos and gives the swap as a rule: 50 % of the bread flour replaced.",
+      "notes_ru": "В книге эти варианты показаны на фото, а замена дана правилом: 50 % хлебопекарной муки заменить.",
+      "group": "flours"
+    },
+    {
+      "id": "quinoa",
+      "label": "Quinoa",
+      "label_ru": "Киноа",
+      "sub": "50 % other flour · p. 60",
+      "sub_ru": "50 % другой муки · с. 60",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "note": "half the master's 560 g",
+              "note_ru": "половина от 560 г",
+              "pct": 50.0
+            },
+            {
+              "en": "Quinoa flour",
+              "orig": "Quinoa flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из киноа",
+              "pct": 50.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Half of the bread flour is replaced by the other flour; everything else is the Master.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Половина хлебопекарной муки заменена другой мукой; всё остальное — как мастер-рецепт.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "The book shows these as photos and gives the swap as a rule: 50 % of the bread flour replaced.",
+      "notes_ru": "В книге эти варианты показаны на фото, а замена дана правилом: 50 % хлебопекарной муки заменить.",
+      "group": "flours"
+    },
+    {
+      "id": "country",
+      "label": "Country",
+      "label_ru": "Деревенская",
+      "sub": "50 % other flour · p. 60",
+      "sub_ru": "50 % другой муки · с. 60",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "note": "half the master's 560 g",
+              "note_ru": "половина от 560 г",
+              "pct": 50.0
+            },
+            {
+              "en": "Rye flour",
+              "orig": "Rye flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Ржаная мука",
+              "pct": 25.0
+            },
+            {
+              "en": "Whole wheat flour",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Цельнозерновая пшеничная мука",
+              "pct": 25.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Half of the bread flour is replaced by the other flour; everything else is the Master.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Половина хлебопекарной муки заменена другой мукой; всё остальное — как мастер-рецепт.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "The book shows these as photos and gives the swap as a rule: 50 % of the bread flour replaced.",
+      "notes_ru": "В книге эти варианты показаны на фото, а замена дана правилом: 50 % хлебопекарной муки заменить.",
+      "group": "flours"
+    },
+    {
+      "id": "almond",
+      "label": "Almond flour",
+      "label_ru": "Миндальная",
+      "sub": "50 % other flour · p. 60",
+      "sub_ru": "50 % другой муки · с. 60",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "note": "half the master's 560 g",
+              "note_ru": "половина от 560 г",
+              "pct": 50.0
+            },
+            {
+              "en": "Almond flour",
+              "orig": "Almond flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Миндальная мука",
+              "pct": 50.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Half of the bread flour is replaced by the other flour; everything else is the Master.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Половина хлебопекарной муки заменена другой мукой; всё остальное — как мастер-рецепт.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "The book shows these as photos and gives the swap as a rule: 50 % of the bread flour replaced.",
+      "notes_ru": "В книге эти варианты показаны на фото, а замена дана правилом: 50 % хлебопекарной муки заменить.",
+      "group": "flours"
+    },
+    {
+      "id": "glutinous",
+      "label": "Glutinous rice flour",
+      "label_ru": "Клейкая рисовая",
+      "sub": "50 % other flour · p. 60",
+      "sub_ru": "50 % другой муки · с. 60",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "note": "half the master's 560 g",
+              "note_ru": "половина от 560 г",
+              "pct": 50.0
+            },
+            {
+              "en": "Glutinous rice flour",
+              "orig": "Glutinous rice flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из клейкого риса",
+              "pct": 50.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Half of the bread flour is replaced by the other flour; everything else is the Master.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Половина хлебопекарной муки заменена другой мукой; всё остальное — как мастер-рецепт.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "The book shows these as photos and gives the swap as a rule: 50 % of the bread flour replaced.",
+      "notes_ru": "В книге эти варианты показаны на фото, а замена дана правилом: 50 % хлебопекарной муки заменить.",
+      "group": "flours"
+    },
+    {
+      "id": "buckwheat",
+      "label": "Buckwheat",
+      "label_ru": "Гречневая",
+      "sub": "50 % other flour · p. 60",
+      "sub_ru": "50 % другой муки · с. 60",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 60.7143
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 2.3214
+            }
+          ]
+        },
+        {
+          "name": "② Flour and sugar",
+          "name_ru": "② Мука и сахар",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "note": "half the master's 560 g",
+              "note_ru": "половина от 560 г",
+              "pct": 50.0
+            },
+            {
+              "en": "Buckwheat flour",
+              "orig": "Buckwheat flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Гречневая мука",
+              "pct": 50.0
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 4.4643
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9643
+            }
+          ]
+        },
+        {
+          "name": "④ Oils",
+          "name_ru": "④ Масла",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 7.1429
+            },
+            {
+              "en": "Canola oil",
+              "orig": "Canola oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Рапсовое масло",
+              "pct": 6.25
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Half of the bread flour is replaced by the other flour; everything else is the Master.",
+        "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+        "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+        "Divide into 100 g and shape tight round rolls. Cold-proof in the fridge (4 °C) for 1 day, well covered; take them out 1 h before shaping.",
+        "Flour the bench and dough and roll each ball into a thin 18 cm disc, about 7 mm thick.",
+        "Leave the discs uncovered on a lightly floured surface for about 10 min, until the surface feels dry — that skin is what makes the pocket.",
+        "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Done when puffed with light-brown spots."
+      ],
+      "method_ru": [
+        "Половина хлебопекарной муки заменена другой мукой; всё остальное — как мастер-рецепт.",
+        "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+        "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+        "Разделить по 100 г и плотно сформовать круглые булочки. Холодная расстойка в холодильнике (4 °C) 1 сутки под плёнкой; вынуть за 1 ч до формовки.",
+        "Присыпать стол и тесто мукой и раскатать каждый шарик в тонкий диск 18 см толщиной около 7 мм.",
+        "Оставить диски открытыми на слегка присыпанной поверхности примерно на 10 мин, пока поверхность не станет сухой на ощупь — эта корочка и даёт «карман».",
+        "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Готова, когда раздулась и покрылась светло-коричневыми пятнами."
+      ],
+      "notes": "The book shows these as photos and gives the swap as a rule: 50 % of the bread flour replaced.",
+      "notes_ru": "В книге эти варианты показаны на фото, а замена дана правилом: 50 % хлебопекарной муки заменить.",
+      "group": "flours"
+    }
+  ],
+  "groups": [
+    {
+      "id": "classic",
+      "label": "Classic",
+      "label_ru": "Классика"
+    },
+    {
+      "id": "puree",
+      "label": "Purees",
+      "label_ru": "С пюре"
+    },
+    {
+      "id": "flours",
+      "label": "Other flours",
+      "label_ru": "Другая мука"
+    }
+  ]
+}

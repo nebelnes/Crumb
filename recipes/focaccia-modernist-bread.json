@@ -16,8 +16,8 @@
     "type": "book",
     "title": "Modernist Bread",
     "volume": 5,
-    "detail": "Recipes II: master p. 87, Direct p. 92–93, Modernist p. 94–95",
-    "detail_ru": "Recipes II: мастер с. 87, прямая с. 92–93, модернист с. 94–95"
+    "detail": "Recipes II: master p. 87, Direct p. 92–93, Modernist p. 94–95; purees, whole wheat, fugazzeta p. 96–97",
+    "detail_ru": "Recipes II: мастер с. 87, прямая с. 92–93, модернист с. 94–95; пюре, цельнозерновая, фугаццета с. 96–97"
   },
   "status": "draft",
   "yield": {
@@ -159,7 +159,8 @@
         "Окончательная расстойка под крышкой. При 27 °C и влажности 65 %: большая 2½–3 ч, средняя 2–2½ ч, маленькая 1½–2 ч. При 21 °C: большая 3–4 ч, средняя 3–3½ ч, маленькая 2½–3 ч. Сделать «пальцевые ямки» перед расстойкой и ещё раз через 1 ч после её начала.",
         "Сбрызнуть оливковым маслом, начинку добавить прямо перед выпечкой и выпекать 8–45 мин в зависимости от размера (таблица выпечки фокаччи в книге, с. 91). Съесть в тот же день или заморозить до 2 месяцев."
       ],
-      "notes_ru": "Общее время в миксере около 15 мин активно, 8½ ч пассивно; вручную 20 мин активно, 9 ч 45 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nВ книге выход указан около 1,00 кг, но ингредиенты в сумме дают 1 090 г. Калькулятор начинает с 1 090 г, чтобы граммы совпадали с таблицей."
+      "notes_ru": "Общее время в миксере около 15 мин активно, 8½ ч пассивно; вручную 20 мин активно, 9 ч 45 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nВ книге выход указан около 1,00 кг, но ингредиенты в сумме дают 1 090 г. Калькулятор начинает с 1 090 г, чтобы граммы совпадали с таблицей.",
+      "group": "main"
     },
     {
       "id": "direct",
@@ -269,7 +270,8 @@
         "Окончательная расстойка под крышкой. При 27 °C и влажности 65 %: большая 2–2½ ч, средняя 1½–2 ч, маленькая 1–1½ ч. При 21 °C: большая 3–3½ ч, средняя 2½–3 ч, маленькая 2–2½ ч. Сделать «пальцевые ямки» перед расстойкой и ещё раз через 1 ч после её начала.",
         "Сбрызнуть оливковым маслом, начинку добавить прямо перед выпечкой и выпекать 8–45 мин в зависимости от размера (таблица выпечки фокаччи в книге, с. 91). Съесть в тот же день или заморозить до 2 месяцев."
       ],
-      "notes_ru": "Общее время в миксере около 15 мин активно, 8 ч пассивно; вручную 20 мин активно, 9 ч 15 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nФормы: 1 большая (не делить), 2 средние (500 г) или 4 маленькие (250 г).\nВ таблице книги солод указан как 0,20 %, но 1 г на 550 г муки — это 0,18 % (как и в «чистом составе» книги). Здесь используется 0,18 %."
+      "notes_ru": "Общее время в миксере около 15 мин активно, 8 ч пассивно; вручную 20 мин активно, 9 ч 15 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nФормы: 1 большая (не делить), 2 средние (500 г) или 4 маленькие (250 г).\nВ таблице книги солод указан как 0,20 %, но 1 г на 550 г муки — это 0,18 % (как и в «чистом составе» книги). Здесь используется 0,18 %.",
+      "group": "main"
     },
     {
       "id": "modernist",
@@ -408,7 +410,8 @@
         "Окончательная расстойка под крышкой. При 27 °C и влажности 65 %: большая 1½–2½ ч, средняя 1–2 ч, маленькая 1–1½ ч. При 21 °C: большая 2½–3½ ч, средняя 1½–2½ ч, маленькая 1–1½ ч. Сделать «пальцевые ямки» перед расстойкой и ещё раз через 1 ч после её начала.",
         "Сбрызнуть оливковым маслом, начинку добавить прямо перед выпечкой и выпекать 8–45 мин в зависимости от размера (таблица выпечки фокаччи в книге, с. 91). Съесть в тот же день или заморозить до 2 месяцев."
       ],
-      "notes_ru": "Общее время в миксере около 15 мин активно, 7 ч 33 мин пассивно; вручную 20 мин активно, 9 ч 15 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nВ книге сухая клейковина считается частью муки (мука 95,86 % + клейковина 4,14 % = 100 %), в калькуляторе так же.\nВыход в книге около 1,10 кг; ингредиенты в сумме дают 1 104 г."
+      "notes_ru": "Общее время в миксере около 15 мин активно, 7 ч 33 мин пассивно; вручную 20 мин активно, 9 ч 15 мин пассивно.\nОливковое масло для формы и сбрызгивания — по необходимости (в формулу не входит).\nВ книге сухая клейковина считается частью муки (мука 95,86 % + клейковина 4,14 % = 100 %), в калькуляторе так же.\nВыход в книге около 1,10 кг; ингредиенты в сумме дают 1 104 г.",
+      "group": "main"
     },
     {
       "id": "pizzana",
@@ -529,7 +532,8 @@
         "Выпекайте на среднем уровне при 260 °C (500 °F) 10–12 минут до золотистого цвета."
       ],
       "notes": "From Pizzana, Los Angeles (Daniele Uditi), as published by Time Out. Makes one half-sheet pan (about 1.7 kg of dough). The poolish is 100 % hydration, like the Modernist Poolish in Starters (tap its name). Pan oil: about 1 cup, converted to grams.",
-      "notes_ru": "Рецепт Pizzana, Лос-Анджелес (Даниэле Удити), опубликован Time Out. На один противень half-sheet (около 1,7 кг теста). Пулиш — 100 % гидратации, как Пулиш Modernist в разделе «Закваски» (нажмите на название). Масло для формы — около 1 стакана, переведено в граммы."
+      "notes_ru": "Рецепт Pizzana, Лос-Анджелес (Даниэле Удити), опубликован Time Out. На один противень half-sheet (около 1,7 кг теста). Пулиш — 100 % гидратации, как Пулиш Modernist в разделе «Закваски» (нажмите на название). Масло для формы — около 1 стакана, переведено в граммы.",
+      "group": "main"
     },
     {
       "id": "atk",
@@ -691,7 +695,1201 @@
         "Поставьте формы на камень, уменьшите жар до 230 °C (450 °F) и выпекайте 25–28 минут до золотистого цвета, поменяв формы местами на середине. Остудите 5 минут, выньте, смажьте оставшимся маслом и остудите 30 минут."
       ],
       "notes": "From America’s Test Kitchen / Cook’s Country, Rosemary Focaccia. ATK calls the preferment a biga, but at 107 % water it is really a poolish. Makes two 9-inch rounds (about 800 g of dough). Spoon amounts converted to grams (instant yeast 3.1 g per tsp, Diamond Crystal kosher salt 2.8 g per tsp, olive oil 13.5 g per tbsp).",
-      "notes_ru": "Рецепт America’s Test Kitchen / Cook’s Country, «Фокачча с розмарином». В ATK предферментом названа бига, но при 107 % воды это по сути пулиш. Две круглые фокаччи по 23 см (около 800 г теста). Ложки переведены в граммы (сухие дрожжи 3,1 г в ч. л., кошерная соль Diamond Crystal 2,8 г в ч. л., оливковое масло 13,5 г в ст. л.)."
+      "notes_ru": "Рецепт America’s Test Kitchen / Cook’s Country, «Фокачча с розмарином». В ATK предферментом названа бига, но при 107 % воды это по сути пулиш. Две круглые фокаччи по 23 см (около 800 г теста). Ложки переведены в граммы (сухие дрожжи 3,1 г в ч. л., кошерная соль Diamond Crystal 2,8 г в ч. л., оливковое масло 13,5 г в ст. л.).",
+      "group": "main"
+    },
+    {
+      "id": "sunflower",
+      "label": "Sunflower seed",
+      "label_ru": "С подсолнечной пастой",
+      "sub": "puree · p. 96–97",
+      "sub_ru": "пюре · с. 96–97",
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "less than the Master (425 g), as printed for the purees",
+              "note_ru": "меньше, чем у мастер-рецепта (425 г), как в книге для вариантов с пюре",
+              "pct": 70.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        },
+        {
+          "name": "④ Puree (spread on, folded in)",
+          "name_ru": "④ Пюре (намазать и вмешать складываниями)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Sunflower seed paste",
+              "orig": "Sunflower seed paste",
+              "flour": false,
+              "water": 0,
+              "ru": "Паста из семечек подсолнечника",
+              "pct": 15.0
+            }
+          ]
+        },
+        {
+          "name": "Sunflower seed paste (side prep)",
+          "name_ru": "Паста из семечек (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Sunflower seeds, toasted, still warm",
+              "orig": "Sunflower seeds, toasted, still warm",
+              "flour": false,
+              "water": 0,
+              "ru": "Семечки подсолнечника, обжаренные, ещё тёплые",
+              "pct": 50.0
+            }
+          ],
+          "note": "Blend in a food processor until completely smooth; cool. Makes far more than needed — keeps 3 months in the fridge; store-bought sunflower butter works too.",
+          "note_ru": "Пробить в комбайне до полной гладкости; остудить. Получится намного больше нужного — хранится 3 мес. в холодильнике; подойдёт и покупная урбеч/паста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master to medium gluten development, move to the tub and spread the puree over the top; the folds during bulk work it in.",
+        "Bulk, shape, proof and bake exactly as the Master (see that version's steps)."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт до среднего развития клейковины, переложить в контейнер и распределить пюре сверху; складывания при брожении вмешают его.",
+        "Брожение, формовка, расстойка и выпечка — как у мастер-рецепта (см. шаги той версии)."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration.",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "onion",
+      "label": "Caramelized onion",
+      "label_ru": "С карамелизованным луком",
+      "sub": "puree · p. 96–97",
+      "sub_ru": "пюре · с. 96–97",
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "less than the Master (425 g), as printed for the purees",
+              "note_ru": "меньше, чем у мастер-рецепта (425 г), как в книге для вариантов с пюре",
+              "pct": 70.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        },
+        {
+          "name": "④ Puree (spread on, folded in)",
+          "name_ru": "④ Пюре (намазать и вмешать складываниями)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Caramelized onion puree",
+              "orig": "Caramelized onion puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из карамелизованного лука",
+              "pct": 21.0
+            }
+          ]
+        },
+        {
+          "name": "Caramelized onion puree (side prep)",
+          "name_ru": "Пюре из карамелизованного лука (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Onions, thinly sliced",
+              "orig": "Onions, thinly sliced",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук, тонко нарезанный",
+              "pct": 100.0
+            },
+            {
+              "en": "Butter",
+              "orig": "Butter",
+              "flour": false,
+              "water": 0.16,
+              "ru": "Сливочное масло",
+              "pct": 2.0
+            },
+            {
+              "en": "Baking soda",
+              "orig": "Baking soda",
+              "flour": false,
+              "water": 0,
+              "ru": "Пищевая сода",
+              "pct": 0.5
+            }
+          ],
+          "note": "Pressure-cook 20 min; cool before opening; if not amber-brown, repeat in 10-min rounds. Blend smooth. Freeze the rest up to 3 months.",
+          "note_ru": "Готовить в скороварке 20 мин; остудить перед открытием; если не янтарное — повторять по 10 мин. Пробить до гладкости. Остаток заморозить до 3 мес.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master to medium gluten development, move to the tub and spread the puree over the top; the folds during bulk work it in.",
+        "Bulk, shape, proof and bake exactly as the Master (see that version's steps)."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт до среднего развития клейковины, переложить в контейнер и распределить пюре сверху; складывания при брожении вмешают его.",
+        "Брожение, формовка, расстойка и выпечка — как у мастер-рецепта (см. шаги той версии)."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration.",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "plantain",
+      "label": "Plantain",
+      "label_ru": "С бананом-плантаном",
+      "sub": "puree · p. 96–97",
+      "sub_ru": "пюре · с. 96–97",
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "less than the Master (425 g), as printed for the purees",
+              "note_ru": "меньше, чем у мастер-рецепта (425 г), как в книге для вариантов с пюре",
+              "pct": 70.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        },
+        {
+          "name": "④ Puree (spread on, folded in)",
+          "name_ru": "④ Пюре (намазать и вмешать складываниями)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Plantain puree",
+              "orig": "Plantain puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из плантана",
+              "pct": 20.0
+            }
+          ]
+        },
+        {
+          "name": "Plantain puree (side prep)",
+          "name_ru": "Пюре из плантана (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Plantains, peeled, chopped",
+              "orig": "Plantains, peeled, chopped",
+              "flour": false,
+              "water": 0,
+              "ru": "Бананы-плантаны, очищенные, нарезанные",
+              "pct": 30.0
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "note": "Vacuum-seal and cook sous vide at 85 °C for 45 min; blend warm, adding a little water if needed.",
+          "note_ru": "Запечатать в вакуум и готовить су-вид при 85 °C 45 мин; пробить тёплым, добавив немного воды при необходимости.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master to medium gluten development, move to the tub and spread the puree over the top; the folds during bulk work it in.",
+        "Bulk, shape, proof and bake exactly as the Master (see that version's steps)."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт до среднего развития клейковины, переложить в контейнер и распределить пюре сверху; складывания при брожении вмешают его.",
+        "Брожение, формовка, расстойка и выпечка — как у мастер-рецепта (см. шаги той версии)."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration.",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "calamansi",
+      "label": "Calamansi",
+      "label_ru": "С каламанси",
+      "sub": "puree · p. 96–97",
+      "sub_ru": "пюре · с. 96–97",
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Calamansi puree",
+              "orig": "Calamansi puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре каламанси",
+              "note": "thawed; or fresh juice, strained",
+              "note_ru": "размороженное; или свежий сок, процеженный",
+              "pct": 7.0
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "less than the Master (425 g), as printed for the purees",
+              "note_ru": "меньше, чем у мастер-рецепта (425 г), как в книге для вариантов с пюре",
+              "pct": 70.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix as the Master, adding the calamansi with the water in ②.",
+        "Bulk, shape, proof and bake exactly as the Master (see that version's steps)."
+      ],
+      "method_ru": [
+        "Замесить как мастер-рецепт, добавив каламанси вместе с водой в ②.",
+        "Брожение, формовка, расстойка и выпечка — как у мастер-рецепта (см. шаги той версии)."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration.",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "cassava",
+      "label": "Cassava",
+      "label_ru": "С маниокой",
+      "sub": "puree · p. 96–97",
+      "sub_ru": "пюре · с. 96–97",
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "less than the Master (425 g), as printed for the purees",
+              "note_ru": "меньше, чем у мастер-рецепта (425 г), как в книге для вариантов с пюре",
+              "pct": 70.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        },
+        {
+          "name": "④ Puree (spread on, folded in)",
+          "name_ru": "④ Пюре (намазать и вмешать складываниями)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Cassava, peeled, finely grated (raw)",
+              "orig": "Cassava, peeled, finely grated (raw)",
+              "flour": false,
+              "water": 0,
+              "ru": "Маниока, очищенная, мелко натёртая (сырая)",
+              "pct": 20.0
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix as the Master to medium gluten development, move to the tub and spread the puree over the top; the folds during bulk work it in.",
+        "Bulk, shape, proof and bake exactly as the Master (see that version's steps)."
+      ],
+      "method_ru": [
+        "Замесить как мастер-рецепт до среднего развития клейковины, переложить в контейнер и распределить пюре сверху; складывания при брожении вмешают его.",
+        "Брожение, формовка, расстойка и выпечка — как у мастер-рецепта (см. шаги той версии)."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration.",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "tomato",
+      "label": "Tomato",
+      "label_ru": "Томатная",
+      "sub": "puree · p. 96–97",
+      "sub_ru": "пюре · с. 96–97",
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "less than the Master (425 g), as printed for the purees",
+              "note_ru": "меньше, чем у мастер-рецепта (425 г), как в книге для вариантов с пюре",
+              "pct": 70.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        },
+        {
+          "name": "④ Puree (spread on, folded in)",
+          "name_ru": "④ Пюре (намазать и вмешать складываниями)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Tomato puree",
+              "orig": "Tomato puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Томатное пюре",
+              "pct": 17.0
+            }
+          ]
+        },
+        {
+          "name": "Tomato puree (side prep)",
+          "name_ru": "Томатное пюре (заготовка)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Canned diced tomatoes, drained",
+              "orig": "Canned diced tomatoes, drained",
+              "flour": false,
+              "water": 0,
+              "ru": "Томаты кубиками консервированные, без жидкости",
+              "pct": 20.0
+            }
+          ],
+          "note": "Blend smooth; add a little of the reserved liquid if needed.",
+          "note_ru": "Пробить до гладкости; при необходимости добавить немного слитой жидкости.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix as the Master to medium gluten development, move to the tub and spread the puree over the top; the folds during bulk work it in.",
+        "Bulk, shape, proof and bake exactly as the Master (see that version's steps)."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить как мастер-рецепт до среднего развития клейковины, переложить в контейнер и распределить пюре сверху; складывания при брожении вмешают его.",
+        "Брожение, формовка, расстойка и выпечка — как у мастер-рецепта (см. шаги той версии)."
+      ],
+      "notes": "Water inside the puree isn't counted in hydration.",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации.",
+      "group": "puree"
+    },
+    {
+      "id": "wholewheat",
+      "label": "100 % whole wheat",
+      "label_ru": "Цельнозерновая",
+      "sub": "bran + germ · p. 97",
+      "sub_ru": "отруби + зародыши · с. 97",
+      "stages": [
+        {
+          "name": "Soaker",
+          "name_ru": "Замочка",
+          "time": "≥ 10 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bran, toasted",
+              "orig": "Bran, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Отруби пшеничные, обжаренные",
+              "pct": 15.2
+            },
+            {
+              "en": "Wheat germ, toasted",
+              "orig": "Wheat germ, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Пшеничные зародыши, обжаренные",
+              "pct": 2.8
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 18.0
+            }
+          ],
+          "note": "Toast bran and germ in a thin layer 6–8 min at 175 °C (fan off), then stir in the water; make at least 10 min ahead.",
+          "note_ru": "Обжарить отруби и зародыши тонким слоем 6–8 мин при 175 °C (без обдува), затем вмешать воду; приготовить минимум за 10 мин."
+        },
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 85.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Make the soaker at least 10 min ahead.",
+        "By machine: mix as the Master to medium gluten development, stop, add the soaker and mix on low 1–2 min until incorporated. By hand: work it in just before the second fold, squeezing and pulling.",
+        "Bulk, shape, proof and bake exactly as the Master (see that version's steps)."
+      ],
+      "method_ru": [
+        "Замочку приготовить минимум за 10 мин.",
+        "В миксере: замесить как мастер-рецепт до среднего развития клейковины, остановить, добавить замочку и вмешать на низкой 1–2 мин. Вручную: вмешать перед вторым складыванием, сжимая и растягивая.",
+        "Брожение, формовка, расстойка и выпечка — как у мастер-рецепта (см. шаги той версии)."
+      ],
+      "notes": "Bran and germ are not counted as flour.",
+      "notes_ru": "Отруби и зародыши не считаются мукой.",
+      "group": "flavor"
+    },
+    {
+      "id": "fugazzeta",
+      "label": "Fugazzeta",
+      "label_ru": "Фугаццета",
+      "sub": "cheese-filled · p. 97",
+      "sub_ru": "с сыром внутри · с. 97",
+      "stages": [
+        {
+          "name": "① Salty oil",
+          "name_ru": "① Солёное масло",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 7.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.4
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.2
+            }
+          ]
+        },
+        {
+          "name": "② Liquids, levain and yeast",
+          "name_ru": "② Жидкость, закваска и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 85.0
+            },
+            {
+              "en": "Liquid levain, mature",
+              "orig": "Liquid levain, mature",
+              "flour": false,
+              "water": 0.5,
+              "ru": "Жидкая закваска (левен), зрелая",
+              "note": "mature liquid levain, 100 % hydration",
+              "note_ru": "зрелая жидкая закваска, гидратация 100 %",
+              "flourIn": 0.5,
+              "pct": 20.0
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.33
+            }
+          ]
+        },
+        {
+          "name": "③ Flour",
+          "name_ru": "③ Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "High-gluten bread flour",
+              "orig": "High-gluten bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная высокобелковая",
+              "pct": 100.0
+            },
+            {
+              "en": "Diastatic malt powder",
+              "orig": "Diastatic malt powder",
+              "flour": false,
+              "water": 0,
+              "ru": "Диастатический солодовый порошок",
+              "pct": 0.2
+            }
+          ]
+        },
+        {
+          "name": "Filling and topping",
+          "name_ru": "Начинка и верх",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Mozzarella, shredded",
+              "orig": "Mozzarella, shredded",
+              "flour": false,
+              "water": 0,
+              "ru": "Моцарелла, тёртая",
+              "note": "book: 300 g per 1 kg dough",
+              "note_ru": "в книге: 300 г на 1 кг теста",
+              "pct": 60.0
+            },
+            {
+              "en": "Yellow onion, thinly sliced",
+              "orig": "Yellow onion, thinly sliced",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук репчатый, тонко нарезанный",
+              "pct": 36.0
+            },
+            {
+              "en": "Olive oil, for drizzling",
+              "orig": "Olive oil, for drizzling",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло для сбрызгивания",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Black pepper, freshly ground",
+              "orig": "Black pepper, freshly ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Чёрный перец, свежемолотый",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the Master dough. After preshaping and resting, stretch it into a rectangle twice the length of your pan.",
+        "Scatter the mozzarella evenly over one half, leaving a 2.5 cm border. Fold the other half over and seal the edges well with your fingertips.",
+        "Move to the oiled pan and proof as the Master.",
+        "Just before baking, toss the onions in olive oil with salt and pepper and spread them over the top. Bake as the Master."
+      ],
+      "method_ru": [
+        "Замесить мастер-тесто. После предформовки и отдыха растянуть в прямоугольник вдвое длиннее формы.",
+        "Равномерно посыпать моцареллой одну половину, оставив край 2,5 см. Накрыть второй половиной и хорошо защипнуть края пальцами.",
+        "Переложить в смазанную форму и расстаивать как мастер-рецепт.",
+        "Перед выпечкой перемешать лук с оливковым маслом, солью и перцем и разложить сверху. Печь как мастер-рецепт."
+      ],
+      "notes": "Argentina's fugazza with a cheese filling. The book gives the filling per 1 kg of dough; here it's tied to one Master batch.",
+      "notes_ru": "Аргентинская фугацца с сырной начинкой. В книге начинка дана на 1 кг теста; здесь — на одну порцию мастер-теста.",
+      "group": "flavor"
     }
   ],
   "category_ru": "Лепёшки",
@@ -701,5 +1899,22 @@
     "закваска",
     "пулиш"
   ],
-  "variantLabel_ru": "Версия"
+  "variantLabel_ru": "Версия",
+  "groups": [
+    {
+      "id": "main",
+      "label": "Focaccia",
+      "label_ru": "Фокачча"
+    },
+    {
+      "id": "puree",
+      "label": "Purees",
+      "label_ru": "С пюре"
+    },
+    {
+      "id": "flavor",
+      "label": "Flavors",
+      "label_ru": "Вкусы"
+    }
+  ]
 }

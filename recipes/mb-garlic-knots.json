@@ -1,0 +1,224 @@
+{
+  "id": "mb-garlic-knots",
+  "name": {
+    "en": "Garlic knots",
+    "ru": "Чесночные узелки",
+    "orig": "Garlic knots"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "pizza dough",
+    "fried",
+    "garlic"
+  ],
+  "tags_ru": [
+    "тесто для пиццы",
+    "жареные",
+    "чеснок"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 133 (New York dough p. 122)",
+    "detail_ru": "Recipes II с. 133 (нью-йоркское тесто с. 122)"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 12,
+    "pieceWeight": 42,
+    "total": 500,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 2000,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 25,
+      "max": 80,
+      "step": 1
+    }
+  },
+  "stages": [
+    {
+      "name": "② Poolish (made 12 h ahead)",
+      "time": "12 h",
+      "temp": "",
+      "note": "Mix 12 h before the dough and let it ferment in an airtight container (book p. 3·20).",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "pct": 13.6364,
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная"
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "pct": 13.6364,
+          "flour": false,
+          "water": 1,
+          "ru": "Вода"
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "pct": 0.0136,
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие"
+        }
+      ],
+      "name_ru": "② Пулиш (за 12 ч)",
+      "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере (книга, с. 3·20)."
+    },
+    {
+      "name": "① Water and yeast",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "pct": 60.9091,
+          "flour": false,
+          "water": 1,
+          "ru": "Вода"
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "pct": 0.5455,
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие"
+        }
+      ],
+      "name_ru": "① Вода и дрожжи"
+    },
+    {
+      "name": "③ Flour",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "pct": 86.3636,
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная"
+        },
+        {
+          "en": "Diastatic malt powder",
+          "orig": "Diastatic malt powder",
+          "pct": 1.8182,
+          "flour": false,
+          "water": 0,
+          "ru": "Диастатический солодовый порошок"
+        }
+      ],
+      "name_ru": "③ Мука"
+    },
+    {
+      "name": "④ Salt and oil",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая"
+        },
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "pct": 0.9091,
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло"
+        }
+      ],
+      "name_ru": "④ Соль и масло"
+    },
+    {
+      "name": "To finish",
+      "name_ru": "Для обмазки",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Butter, melted",
+          "orig": "Butter, melted",
+          "flour": false,
+          "water": 0.16,
+          "ru": "Сливочное масло, растопленное",
+          "pct": 21.5798
+        },
+        {
+          "en": "Parmesan, finely grated",
+          "orig": "Parmesan, finely grated",
+          "flour": false,
+          "water": 0,
+          "ru": "Пармезан, мелко тёртый",
+          "pct": 14.3866
+        },
+        {
+          "en": "Garlic, minced",
+          "orig": "Garlic, minced",
+          "flour": false,
+          "water": 0,
+          "ru": "Чеснок, рубленый",
+          "pct": 10.7899
+        },
+        {
+          "en": "Extra-virgin olive oil",
+          "orig": "Extra-virgin olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло extra virgin",
+          "pct": 10.7899
+        },
+        {
+          "en": "Chili flakes",
+          "orig": "Chili flakes",
+          "flour": false,
+          "water": 0,
+          "ru": "Хлопья чили",
+          "pct": 1.7983
+        },
+        {
+          "en": "Oregano, fresh, finely chopped",
+          "orig": "Oregano, fresh, finely chopped",
+          "flour": false,
+          "water": 0,
+          "ru": "Орегано свежий, мелко рубленый",
+          "pct": 0.7193
+        }
+      ],
+      "note": "Whisk together and keep warm so the butter stays liquid. Not part of the dough weight.",
+      "note_ru": "Взбить и держать в тепле, чтобы масло не застыло. Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "Use 500 g of pizza dough — the New York dough is shown (the book also allows Neapolitan or Sicilian, or any stretchy dough such as trimmings). Make it as in the Pizza recipe.",
+    "Roll the dough into a 38 × 25 cm rectangle. With a ruler and wheel cutter, cut 12 strips 25 × 2.5 cm and tie each into a knot.",
+    "Put the knots on a parchment-lined sheet pan and proof 20 min at 27 °C or 40 min at 21 °C. Heat frying oil to 175 °C.",
+    "Whisk the finishing ingredients and keep them warm.",
+    "Fry the knots 2–3 min, turning, until golden. Drain on paper towels.",
+    "Toss the hot knots in the butter mixture until coated and serve hot."
+  ],
+  "method_ru": [
+    "Нужно 500 г теста для пиццы — показано нью-йоркское (книга допускает и неаполитанское или сицилийское, а также любое тянущееся тесто, хоть обрезки). Замесить как в рецепте пиццы.",
+    "Раскатать в прямоугольник 38 × 25 см. По линейке роликом нарезать 12 полос 25 × 2,5 см и завязать каждую узелком.",
+    "Выложить на противень с пергаментом, расстойка 20 мин при 27 °C или 40 мин при 21 °C. Разогреть масло для жарки до 175 °C.",
+    "Взбить ингредиенты для обмазки и держать в тепле.",
+    "Жарить узелки 2–3 мин, переворачивая, до золотистого цвета. Обсушить на бумаге.",
+    "Горячие узелки перемешать с масляной смесью и сразу подавать."
+  ]
+}

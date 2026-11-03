@@ -1,0 +1,104 @@
+{
+  "id": "mb-tomato-sauce",
+  "name": {
+    "en": "Tomato sauce (for pizza)",
+    "ru": "Томатный соус (для пиццы)",
+    "orig": "Tomato sauce"
+  },
+  "category": "Sauces",
+  "category_ru": "Соусы",
+  "tags": [
+    "sauce",
+    "pizza"
+  ],
+  "tags_ru": [
+    "соус",
+    "пицца"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 132",
+    "detail_ru": "Recipes II с. 132"
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": false,
+    "total": 500,
+    "pieces": 1,
+    "pieceWeight": 500,
+    "loss": 0,
+    "slider": {
+      "min": 100,
+      "max": 1500,
+      "step": 10
+    },
+    "label": "How much sauce",
+    "label_ru": "Сколько соуса"
+  },
+  "stages": [
+    {
+      "name": "Sauce",
+      "name_ru": "Соус",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Canned tomatoes, drained",
+          "orig": "Canned tomatoes, drained",
+          "flour": false,
+          "water": 0,
+          "ru": "Томаты консервированные, без жидкости",
+          "note": "scaling base (100 %)",
+          "note_ru": "база расчёта (100 %)",
+          "pct": 100.0
+        },
+        {
+          "en": "Tomato paste",
+          "orig": "Tomato paste",
+          "flour": false,
+          "water": 0,
+          "ru": "Томатная паста",
+          "pct": 34.7222
+        },
+        {
+          "en": "Oregano, dried",
+          "orig": "Oregano, dried",
+          "flour": false,
+          "water": 0,
+          "ru": "Орегано сушёный",
+          "pct": 0.1389
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.3889
+        },
+        {
+          "en": "Extra-virgin olive oil",
+          "orig": "Extra-virgin olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло extra virgin",
+          "pct": 1.9444
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Combine everything and blend smooth with an immersion blender — no cooking needed (canned tomatoes are already cooked).",
+    "Keep in an airtight container in the fridge up to 1 week, or freeze up to 3 months."
+  ],
+  "method_ru": [
+    "Соединить всё и пробить погружным блендером до гладкости — варить не нужно (консервированные томаты уже готовы).",
+    "Хранить в герметичном контейнере в холодильнике до 1 недели или заморозить до 3 мес."
+  ],
+  "notes": "Not a dough: the tomatoes are the 100 % base here.",
+  "notes_ru": "Это не тесто: здесь за 100 % взяты томаты.",
+  "noFlour": true
+}

@@ -1,0 +1,141 @@
+{
+  "id": "mb-obi-non",
+  "name": {
+    "en": "Obi non",
+    "ru": "Оби нон (ташкентская лепёшка)",
+    "orig": "Obi non"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Uzbek",
+    "yeasted"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "узбекская",
+    "дрожжевая"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 33",
+    "detail_ru": "Recipes II с. 33"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 68.3761
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.8547
+        }
+      ]
+    },
+    {
+      "name": "② Flour",
+      "name_ru": "② Мука",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.8803
+        }
+      ]
+    },
+    {
+      "name": "Topping",
+      "name_ru": "Для смазывания",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Ghee or clarified butter, melted",
+          "orig": "Ghee or clarified butter, melted",
+          "flour": false,
+          "water": 0,
+          "ru": "Гхи или топлёное масло, растопленное",
+          "pct": 9.4017
+        }
+      ],
+      "note": "Brush on as each flatbread comes out. Not part of the dough weight.",
+      "note_ru": "Смазать каждую лепёшку после выпечки. Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to full gluten development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 100 g, shape round rolls, rest 45 min covered.",
+    "Roll each on a floured surface into a 15 cm disc and stamp a decorative pattern with a chekich (bread stamp), or dock with a fork.",
+    "Bake straight away (no final proof), hot as for naan: 2–5 min each. Brush with ghee.",
+    "By hand instead: same order, autolyse 30 min, mix to low gluten development, then bulk 4½ h with 4 folds (one every hour after the first hour) and 30 min rest after the last fold."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и вымесить на средней до полного развития клейковины.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 100 г, сформовать булочки, отдых 45 мин под плёнкой.",
+    "Раскатать на присыпанной поверхности в диск 15 см и наколоть узор чекичем (штампом для лепёшек) или вилкой.",
+    "Сразу печь (без расстойки), горячо, как наан: 2–5 мин каждую. Смазать гхи.",
+    "Вручную: тот же порядок, автолиз 30 мин, замес до слабого развития клейковины, затем брожение 4½ ч с 4 складываниями (каждый час после первого часа) и 30 мин отдыха после последнего."
+  ],
+  "notes": "Eat within 1 day, ideally warm, or freeze up to 2 months.",
+  "notes_ru": "Съесть в течение дня, лучше тёплой, или заморозить до 2 мес."
+}

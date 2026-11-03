@@ -1,0 +1,302 @@
+{
+  "id": "mb-grissini",
+  "name": {
+    "en": "Grissini (breadsticks)",
+    "ru": "Гриссини (хлебные палочки)",
+    "orig": "Grissini"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "crackers",
+    "Italian",
+    "breadsticks"
+  ],
+  "tags_ru": [
+    "крекеры",
+    "итальянские",
+    "хлебные палочки"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 168–169",
+    "detail_ru": "Recipes II с. 168–169"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 25,
+    "pieceWeight": 40,
+    "total": 999,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 15,
+      "max": 100,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Grissini",
+      "label_ru": "Гриссини",
+      "sub": "p. 168",
+      "sub_ru": "с. 168",
+      "stages": [
+        {
+          "name": "① Milk and yeast",
+          "name_ru": "① Молоко и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 44.9153
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 1.5254
+            }
+          ]
+        },
+        {
+          "name": "② Flour, fats, salt, malt",
+          "name_ru": "② Мука, жиры, соль, солод",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Butter, softened",
+              "orig": "Butter, softened",
+              "flour": false,
+              "water": 0.16,
+              "ru": "Сливочное масло, мягкое",
+              "pct": 15.2542
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.7288
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0339
+            },
+            {
+              "en": "Malt syrup",
+              "orig": "Malt syrup",
+              "flour": false,
+              "water": 0.2,
+              "ru": "Солодовый сироп",
+              "pct": 1.8644
+            }
+          ]
+        },
+        {
+          "name": "Finish",
+          "name_ru": "Для отделки",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil, for brushing",
+              "orig": "Olive oil, for brushing",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло для смазывания",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Parmesan, finely grated (optional)",
+              "orig": "Parmesan, finely grated (optional)",
+              "flour": false,
+              "water": 0,
+              "ru": "Пармезан, мелко тёртый (по желанию)",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine (the dough is stiff): stir the yeast into ①, add ② and mix on medium to full gluten development.",
+        "Bulk 1 h with one book fold after 30 min, then 30 min rest.",
+        "Press into a rectangle 1.25 cm thick (about 30 × 25 cm — a bit bigger just makes thinner sticks; trimmings can't be reshaped, so waste as little as you can). Rest 2 h, well covered.",
+        "Cut into strips and stretch each into a long breadstick (book's grissini shaping, p. 3·164).",
+        "Lay 1 cm apart on a parchment-lined pan, brush with olive oil and proof ½ h at 27 °C or ¾ h at 21 °C (covered at room temperature). The stiff dough barely rises — go by time. Grate Parmesan over just before baking, if you like.",
+        "Bake until golden and completely crisp: home oven 190 °C for 15–20 min with the door cracked open; convection/combi 160 °C, full fan, vent open, 10–15 min."
+      ],
+      "method_ru": [
+        "В миксере (тесто тугое): растворить дрожжи в ①, добавить ② и вымесить на средней до полного развития клейковины.",
+        "Брожение 1 ч с одним складыванием «книжкой» через 30 мин, затем 30 мин отдыха.",
+        "Прижать в прямоугольник толщиной 1,25 см (примерно 30 × 25 см — чуть больше значит лишь тоньше палочки; обрезки не переформуешь, поэтому меньше отходов). Отдых 2 ч под плёнкой.",
+        "Нарезать полосками и вытянуть каждую в длинную палочку (формовка гриссини в книге, с. 3·164).",
+        "Выложить на расстоянии 1 см на противень с пергаментом, смазать оливковым маслом, расстойка ½ ч при 27 °C или ¾ ч при 21 °C (накрыть, если в комнате). Тугое тесто почти не поднимается — ориентироваться на время. Перед выпечкой по желанию натереть пармезан.",
+        "Печь до золотистого цвета и полного хруста: домашняя духовка 190 °C 15–20 мин с приоткрытой дверцей; конвекция/пароконвектомат 160 °C, полный обдув, заслонка открыта, 10–15 мин."
+      ],
+      "notes": "The dough can be made a day ahead and kept in the fridge, well wrapped. Store in an airtight container; keeps 3–4 days.",
+      "notes_ru": "Тесто можно сделать накануне и хранить в холодильнике, плотно завернув. Хранить в герметичной банке 3–4 дня."
+    },
+    {
+      "id": "wholewheat",
+      "label": "100 % whole wheat",
+      "label_ru": "Цельнозерновые",
+      "sub": "p. 169",
+      "sub_ru": "с. 169",
+      "stages": [
+        {
+          "name": "① Milk and yeast",
+          "name_ru": "① Молоко и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 44.9153
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 1.5254
+            }
+          ]
+        },
+        {
+          "name": "② Flour, fats, salt, malt",
+          "name_ru": "② Мука, жиры, соль, солод",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Whole wheat flour",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Цельнозерновая пшеничная мука",
+              "pct": 100.0
+            },
+            {
+              "en": "Butter, softened",
+              "orig": "Butter, softened",
+              "flour": false,
+              "water": 0.16,
+              "ru": "Сливочное масло, мягкое",
+              "pct": 15.2542
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 3.7288
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.0339
+            },
+            {
+              "en": "Malt syrup",
+              "orig": "Malt syrup",
+              "flour": false,
+              "water": 0.2,
+              "ru": "Солодовый сироп",
+              "pct": 1.8644
+            }
+          ]
+        },
+        {
+          "name": "Finish",
+          "name_ru": "Для отделки",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil, for brushing",
+              "orig": "Olive oil, for brushing",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло для смазывания",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Parmesan, finely grated (optional)",
+              "orig": "Parmesan, finely grated (optional)",
+              "flour": false,
+              "water": 0,
+              "ru": "Пармезан, мелко тёртый (по желанию)",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine (the dough is stiff): stir the yeast into ①, add ② and mix on medium to full gluten development.",
+        "Bulk 1 h with one book fold after 30 min, then 30 min rest.",
+        "Press into a rectangle 1.25 cm thick (about 30 × 25 cm — a bit bigger just makes thinner sticks; trimmings can't be reshaped, so waste as little as you can). Rest 2 h, well covered.",
+        "Cut into strips and stretch each into a long breadstick (book's grissini shaping, p. 3·164).",
+        "Lay 1 cm apart on a parchment-lined pan, brush with olive oil and proof ½ h at 27 °C or ¾ h at 21 °C (covered at room temperature). The stiff dough barely rises — go by time. Grate Parmesan over just before baking, if you like.",
+        "Bake until golden and completely crisp: home oven 190 °C for 15–20 min with the door cracked open; convection/combi 160 °C, full fan, vent open, 10–15 min."
+      ],
+      "method_ru": [
+        "В миксере (тесто тугое): растворить дрожжи в ①, добавить ② и вымесить на средней до полного развития клейковины.",
+        "Брожение 1 ч с одним складыванием «книжкой» через 30 мин, затем 30 мин отдыха.",
+        "Прижать в прямоугольник толщиной 1,25 см (примерно 30 × 25 см — чуть больше значит лишь тоньше палочки; обрезки не переформуешь, поэтому меньше отходов). Отдых 2 ч под плёнкой.",
+        "Нарезать полосками и вытянуть каждую в длинную палочку (формовка гриссини в книге, с. 3·164).",
+        "Выложить на расстоянии 1 см на противень с пергаментом, смазать оливковым маслом, расстойка ½ ч при 27 °C или ¾ ч при 21 °C (накрыть, если в комнате). Тугое тесто почти не поднимается — ориентироваться на время. Перед выпечкой по желанию натереть пармезан.",
+        "Печь до золотистого цвета и полного хруста: домашняя духовка 190 °C 15–20 мин с приоткрытой дверцей; конвекция/пароконвектомат 160 °C, полный обдув, заслонка открыта, 10–15 мин."
+      ],
+      "notes": "Whole wheat flour in place of the bread flour.",
+      "notes_ru": "Цельнозерновая мука вместо хлебопекарной."
+    }
+  ]
+}

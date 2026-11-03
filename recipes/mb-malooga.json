@@ -1,0 +1,171 @@
+{
+  "id": "mb-malooga",
+  "name": {
+    "en": "Malooga",
+    "ru": "Малуга",
+    "orig": "Malooga"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Yemeni",
+    "enriched"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "йеменская",
+    "сдобная"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 29",
+    "detail_ru": "Recipes II с. 29"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 60.177
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.5044
+        }
+      ]
+    },
+    {
+      "name": "② Flour",
+      "name_ru": "② Мука",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9469
+        }
+      ]
+    },
+    {
+      "name": "④ Fat",
+      "name_ru": "④ Жир",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Brown butter, melted and cooled",
+          "orig": "Brown butter, melted and cooled",
+          "flour": false,
+          "water": 0,
+          "ru": "Ореховое (жжёное) масло, растопленное и остывшее",
+          "note": "ghee or clarified butter also work",
+          "note_ru": "можно гхи или топлёное масло",
+          "pct": 10.6195
+        },
+        {
+          "en": "Vegetable oil",
+          "orig": "Vegetable oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Растительное масло",
+          "note": "or olive oil",
+          "note_ru": "или оливковое",
+          "pct": 3.5398
+        }
+      ]
+    },
+    {
+      "name": "For layering and brushing",
+      "name_ru": "Для слоёв и смазывания",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Brown butter, melted and cooled",
+          "orig": "Brown butter, melted and cooled",
+          "flour": false,
+          "water": 0,
+          "ru": "Ореховое (жжёное) масло, растопленное и остывшее",
+          "pct": 44.2478
+        }
+      ],
+      "note": "Not part of the dough weight.",
+      "note_ru": "Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to medium gluten development, then on low pour in ④ in a steady stream and mix on medium to full development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 500 g rectangles. Roll one to 50 × 40 cm, brush with brown butter, fold in half across the width and turn 90°. Repeat twice more (roll, butter, fold, turn).",
+    "Roll a fourth time to 30 × 20 cm and brush with butter. Put on a parchment-lined sheet pan.",
+    "Proof 30–45 min at 27 °C or 1–1½ h at 21 °C.",
+    "Bake on the sheet pan (the butter runs): convection/combi 180 °C 20–25 min; home oven 195 °C 40–45 min; pizza/deck 245 °C 15–20 min.",
+    "By hand instead: autolyse 30 min, mix in ③ to low gluten development, drizzle in ④ until absorbed, then bulk 4½ h with 4 folds."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и месить на средней до среднего развития клейковины, затем на низкой влить ④ тонкой струйкой и вымесить на средней до полного развития.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить на прямоугольники по 500 г. Раскатать до 50 × 40 см, смазать жжёным маслом, сложить пополам поперёк и повернуть на 90°. Повторить ещё дважды (раскатать, смазать, сложить, повернуть).",
+    "В четвёртый раз раскатать до 30 × 20 см и смазать маслом. Переложить на противень с пергаментом.",
+    "Расстойка 30–45 мин при 27 °C или 1–1½ ч при 21 °C.",
+    "Печь на противне (масло вытекает): конвекция/пароконвектомат 180 °C 20–25 мин; домашняя духовка 195 °C 40–45 мин; пицца-печь/подовая 245 °C 15–20 мин.",
+    "Вручную: автолиз 30 мин, вмешать ③ до слабого развития клейковины, понемногу влить ④ до впитывания, затем брожение 4½ ч с 4 складываниями."
+  ],
+  "notes": "Best within 2–3 hours, warm. Freezes up to 2 months.",
+  "notes_ru": "Лучше всего в первые 2–3 часа, тёплой. Можно заморозить до 2 мес."
+}

@@ -1,0 +1,489 @@
+{
+  "id": "mb-injera",
+  "name": {
+    "en": "Teff injera",
+    "ru": "Инджера из теффа",
+    "orig": "Teff injera"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Ethiopian",
+    "teff",
+    "levain",
+    "batter"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "эфиопская",
+    "тефф",
+    "закваска",
+    "жидкое тесто"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 153–156",
+    "detail_ru": "Recipes II с. 153–156"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 6,
+    "pieceWeight": 200,
+    "total": 1200,
+    "loss": 0,
+    "slider": {
+      "min": 400,
+      "max": 3000,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 100,
+      "max": 300,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master",
+      "label_ru": "Мастер",
+      "sub": "4 days · p. 153–155",
+      "sub_ru": "4 дня · с. 153–155",
+      "stages": [
+        {
+          "name": "Teff liquid levain (3 days ahead)",
+          "name_ru": "Жидкая закваска на теффе (за 3 дня)",
+          "time": "3 d",
+          "temp": "21 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 53.3333
+            },
+            {
+              "en": "Teff flour",
+              "orig": "Teff flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука тефф",
+              "pct": 20.0
+            }
+          ],
+          "time_ru": "3 дн",
+          "note": "Day 1: mix to a thin pancake batter, cover, 1 day at 21 °C. Days 2 and 3: stir, cover, 1 day each. Ready when bubbly and light, with a thin film of dark liquid on top.",
+          "note_ru": "День 1: смешать до жидкого блинного теста, накрыть, 1 сутки при 21 °C. Дни 2 и 3: перемешать, накрыть, по суткам. Готова, когда пузырится, светлая, с тонкой плёнкой тёмной жидкости сверху."
+        },
+        {
+          "name": "② Batter (+ all the levain ①)",
+          "name_ru": "② Тесто (+ вся закваска ①)",
+          "time": "1 d",
+          "temp": "21 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 113.3333
+            },
+            {
+              "en": "Teff flour",
+              "orig": "Teff flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука тефф",
+              "pct": 40.0
+            },
+            {
+              "en": "Self-rising flour",
+              "orig": "Self-rising flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Самоподнимающаяся мука",
+              "note": "contains baking powder and salt",
+              "note_ru": "с разрыхлителем и солью",
+              "pct": 21.3333
+            },
+            {
+              "en": "Barley flour",
+              "orig": "Barley flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Ячменная мука",
+              "pct": 18.6667
+            }
+          ],
+          "time_ru": "1 сут"
+        },
+        {
+          "name": "③ Boiling water",
+          "name_ru": "③ Кипяток",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, boiled",
+              "orig": "Water, boiled",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, вскипячённая",
+              "pct": 53.3333
+            }
+          ]
+        },
+        {
+          "name": "For the pan",
+          "name_ru": "Для сковороды",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Vegetable oil",
+              "orig": "Vegetable oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительное масло",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "topping": true
+        }
+      ],
+      "method": [
+        "Start the levain 3 days ahead (see its card).",
+        "Day 4: blend the levain ① with an immersion blender until light brown and even. Add ② and blend until smooth. Cover and ferment 1 day at 21 °C.",
+        "Day 5: boil the water ③. Whisk half (100 g) into the batter vigorously by hand; bring the rest back to a simmer, whisk it in too, then blend with the immersion blender. (Adding boiling water in two goes — ob-seet — makes a foam that gives the bubbles.)",
+        "Rest 2–4 h, covered, until small bubbles appear on the surface.",
+        "Heat an electric crepe griddle or a nonstick pan (ideally with a lid) to 230 °C / high and oil it lightly.",
+        "Blend the batter again until it's like pancake batter. Ladle in 200 g and swirl so it coats the pan evenly.",
+        "Cover: the steam cooks the top. It's done when the surface is firm and no longer looks wet, 2–3 min. (No glass lid? Wait 2–3 min before lifting it.) Cook on one side only.",
+        "Check the underside is brown, then slide onto a clean towel and cover with another. If not brown yet, cover and cook 1 min more.",
+        "Keep covered. Serve warm, or reheat on a griddle or at 175 °C just before serving."
+      ],
+      "method_ru": [
+        "Закваску начать за 3 дня (см. её карточку).",
+        "День 4: пробить закваску ① погружным блендером до светло-коричневой однородной массы. Добавить ② и пробить до гладкости. Накрыть и бродить 1 сутки при 21 °C.",
+        "День 5: вскипятить воду ③. Энергично вмешать венчиком половину (100 г); остаток снова довести до кипения, тоже вмешать, затем пробить погружным блендером. (Кипяток в два приёма — «об-сеет» — даёт пену и пузыри.)",
+        "Оставить на 2–4 ч под крышкой, пока на поверхности не появятся мелкие пузырьки.",
+        "Разогреть электроблинницу или антипригарную сковороду (лучше с крышкой) до 230 °C / сильный огонь и слегка смазать маслом.",
+        "Ещё раз пробить тесто до консистенции блинного. Налить 200 г и покрутить сковороду, чтобы тесто растеклось ровно.",
+        "Накрыть крышкой: пар допекает верх. Готово, когда поверхность схватилась и не выглядит влажной, 2–3 мин. (Нет стеклянной крышки — не открывать первые 2–3 мин.) Жарить только с одной стороны.",
+        "Проверить, что низ подрумянился, переложить на чистое полотенце и накрыть другим. Если ещё бледный — накрыть и подержать 1 мин.",
+        "Держать накрытыми. Подавать тёплыми или подогреть на сковороде или при 175 °C перед подачей."
+      ],
+      "notes": "Teff (brown, ivory or both). Eat within 2–3 days, or freeze up to 2 months. Book % are based on 300 g of flour; here all 375 g (levain included) is 100 %.",
+      "notes_ru": "Тефф (коричневый, светлый или смесь). Съесть в течение 2–3 дней или заморозить до 2 мес. В книге % от 300 г муки; здесь за 100 % взята вся мука, включая закваску (375 г)."
+    },
+    {
+      "id": "sorghum",
+      "label": "Sorghum",
+      "label_ru": "Сорго",
+      "sub": "p. 155",
+      "sub_ru": "с. 155",
+      "stages": [
+        {
+          "name": "Teff liquid levain (3 days ahead)",
+          "name_ru": "Жидкая закваска на теффе (за 3 дня)",
+          "time": "3 d",
+          "temp": "21 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 53.3333
+            },
+            {
+              "en": "Sorghum flour",
+              "orig": "Sorghum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из сорго",
+              "pct": 20.0
+            }
+          ],
+          "time_ru": "3 дн",
+          "note": "Day 1: mix to a thin pancake batter, cover, 1 day at 21 °C. Days 2 and 3: stir, cover, 1 day each. Ready when bubbly and light, with a thin film of dark liquid on top.",
+          "note_ru": "День 1: смешать до жидкого блинного теста, накрыть, 1 сутки при 21 °C. Дни 2 и 3: перемешать, накрыть, по суткам. Готова, когда пузырится, светлая, с тонкой плёнкой тёмной жидкости сверху."
+        },
+        {
+          "name": "② Batter (+ all the levain ①)",
+          "name_ru": "② Тесто (+ вся закваска ①)",
+          "time": "1 d",
+          "temp": "21 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 113.3333
+            },
+            {
+              "en": "Sorghum flour",
+              "orig": "Sorghum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из сорго",
+              "pct": 40.0
+            },
+            {
+              "en": "Self-rising flour",
+              "orig": "Self-rising flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Самоподнимающаяся мука",
+              "note": "contains baking powder and salt",
+              "note_ru": "с разрыхлителем и солью",
+              "pct": 21.3333
+            },
+            {
+              "en": "Barley flour",
+              "orig": "Barley flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Ячменная мука",
+              "pct": 18.6667
+            }
+          ],
+          "time_ru": "1 сут"
+        },
+        {
+          "name": "③ Boiling water",
+          "name_ru": "③ Кипяток",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, boiled",
+              "orig": "Water, boiled",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, вскипячённая",
+              "pct": 53.3333
+            }
+          ]
+        },
+        {
+          "name": "For the pan",
+          "name_ru": "Для сковороды",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Vegetable oil",
+              "orig": "Vegetable oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительное масло",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "topping": true
+        }
+      ],
+      "method": [
+        "Start the levain 3 days ahead (see its card).",
+        "Day 4: blend the levain ① with an immersion blender until light brown and even. Add ② and blend until smooth. Cover and ferment 1 day at 21 °C.",
+        "Day 5: boil the water ③. Whisk half (100 g) into the batter vigorously by hand; bring the rest back to a simmer, whisk it in too, then blend with the immersion blender. (Adding boiling water in two goes — ob-seet — makes a foam that gives the bubbles.)",
+        "Rest 2–4 h, covered, until small bubbles appear on the surface.",
+        "Heat an electric crepe griddle or a nonstick pan (ideally with a lid) to 230 °C / high and oil it lightly.",
+        "Blend the batter again until it's like pancake batter. Ladle in 200 g and swirl so it coats the pan evenly.",
+        "Cover: the steam cooks the top. It's done when the surface is firm and no longer looks wet, 2–3 min. (No glass lid? Wait 2–3 min before lifting it.) Cook on one side only.",
+        "Check the underside is brown, then slide onto a clean towel and cover with another. If not brown yet, cover and cook 1 min more.",
+        "Keep covered. Serve warm, or reheat on a griddle or at 175 °C just before serving."
+      ],
+      "method_ru": [
+        "Закваску начать за 3 дня (см. её карточку).",
+        "День 4: пробить закваску ① погружным блендером до светло-коричневой однородной массы. Добавить ② и пробить до гладкости. Накрыть и бродить 1 сутки при 21 °C.",
+        "День 5: вскипятить воду ③. Энергично вмешать венчиком половину (100 г); остаток снова довести до кипения, тоже вмешать, затем пробить погружным блендером. (Кипяток в два приёма — «об-сеет» — даёт пену и пузыри.)",
+        "Оставить на 2–4 ч под крышкой, пока на поверхности не появятся мелкие пузырьки.",
+        "Разогреть электроблинницу или антипригарную сковороду (лучше с крышкой) до 230 °C / сильный огонь и слегка смазать маслом.",
+        "Ещё раз пробить тесто до консистенции блинного. Налить 200 г и покрутить сковороду, чтобы тесто растеклось ровно.",
+        "Накрыть крышкой: пар допекает верх. Готово, когда поверхность схватилась и не выглядит влажной, 2–3 мин. (Нет стеклянной крышки — не открывать первые 2–3 мин.) Жарить только с одной стороны.",
+        "Проверить, что низ подрумянился, переложить на чистое полотенце и накрыть другим. Если ещё бледный — накрыть и подержать 1 мин.",
+        "Держать накрытыми. Подавать тёплыми или подогреть на сковороде или при 175 °C перед подачей."
+      ],
+      "notes": "Sorghum flour in place of the teff in both the levain and the batter.",
+      "notes_ru": "Мука из сорго вместо теффа — и в закваске, и в тесте."
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "label_ru": "Модернист",
+      "sub": "xanthan + siphon · p. 156",
+      "sub_ru": "ксантан + сифон · с. 156",
+      "stages": [
+        {
+          "name": "Teff liquid levain (3 days ahead)",
+          "name_ru": "Жидкая закваска на теффе (за 3 дня)",
+          "time": "3 d",
+          "temp": "21 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 53.3333
+            },
+            {
+              "en": "Teff flour",
+              "orig": "Teff flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука тефф",
+              "pct": 20.0
+            },
+            {
+              "en": "Dehydrated injera",
+              "orig": "Dehydrated injera",
+              "flour": false,
+              "water": 0,
+              "ru": "Сушёная инджера",
+              "note": "bought or homemade, air-dried",
+              "note_ru": "покупная или домашняя, высушенная на воздухе",
+              "pct": 13.3333
+            }
+          ],
+          "time_ru": "3 дн",
+          "note": "Day 1: mix to a thin pancake batter, cover, 1 day at 21 °C. Days 2 and 3: stir, cover, 1 day each. Ready when bubbly and light, with a thin film of dark liquid on top.",
+          "note_ru": "День 1: смешать до жидкого блинного теста, накрыть, 1 сутки при 21 °C. Дни 2 и 3: перемешать, накрыть, по суткам. Готова, когда пузырится, светлая, с тонкой плёнкой тёмной жидкости сверху."
+        },
+        {
+          "name": "② Batter (+ all the levain ①)",
+          "name_ru": "② Тесто (+ вся закваска ①)",
+          "time": "1 d",
+          "temp": "21 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 113.3333
+            },
+            {
+              "en": "Teff flour",
+              "orig": "Teff flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука тефф",
+              "pct": 40.0
+            },
+            {
+              "en": "Self-rising flour",
+              "orig": "Self-rising flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Самоподнимающаяся мука",
+              "note": "contains baking powder and salt",
+              "note_ru": "с разрыхлителем и солью",
+              "pct": 21.3333
+            },
+            {
+              "en": "Barley flour",
+              "orig": "Barley flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Ячменная мука",
+              "pct": 18.6667
+            }
+          ],
+          "time_ru": "1 сут"
+        },
+        {
+          "name": "③ Boiling water",
+          "name_ru": "③ Кипяток",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, boiled",
+              "orig": "Water, boiled",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, вскипячённая",
+              "pct": 53.3333
+            }
+          ]
+        },
+        {
+          "name": "④ Xanthan gum",
+          "name_ru": "④ Ксантановая камедь",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Xanthan gum",
+              "orig": "Xanthan gum",
+              "flour": false,
+              "water": 0,
+              "ru": "Ксантановая камедь",
+              "pct": 0.44
+            }
+          ]
+        },
+        {
+          "name": "For the pan",
+          "name_ru": "Для сковороды",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Vegetable oil",
+              "orig": "Vegetable oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Растительное масло",
+              "pct": 0,
+              "asNeeded": true
+            }
+          ],
+          "topping": true
+        }
+      ],
+      "method": [
+        "Start the levain 3 days ahead (see its card).",
+        "Day 4: blend the levain ① with an immersion blender until light brown and even. Add ② and blend until smooth. Cover and ferment 1 day at 21 °C.",
+        "Day 5: boil the water ③. Whisk half (100 g) into the batter vigorously by hand; bring the rest back to a simmer, whisk it in too, add the xanthan gum ④, then blend with the immersion blender. (Adding boiling water in two goes — ob-seet — makes a foam that gives the bubbles.)",
+        "Rest 2–4 h, covered, until small bubbles appear on the surface.",
+        "Pour the batter into a whipping siphon, charge with 3 N₂O cartridges, shake 5 s and check it's aerated. Dispense enough to cover the oiled, hot pan, swirl, then cover and cook as the Master.",
+        "Cover: the steam cooks the top. It's done when the surface is firm and no longer looks wet, 2–3 min. (No glass lid? Wait 2–3 min before lifting it.) Cook on one side only.",
+        "Check the underside is brown, then slide onto a clean towel and cover with another. If not brown yet, cover and cook 1 min more.",
+        "Keep covered. Serve warm, or reheat on a griddle or at 175 °C just before serving."
+      ],
+      "method_ru": [
+        "Закваску начать за 3 дня (см. её карточку).",
+        "День 4: пробить закваску ① погружным блендером до светло-коричневой однородной массы. Добавить ② и пробить до гладкости. Накрыть и бродить 1 сутки при 21 °C.",
+        "День 5: вскипятить воду ③. Энергично вмешать венчиком половину (100 г); остаток снова довести до кипения, тоже вмешать, добавить ксантан ④ и пробить погружным блендером. (Кипяток в два приёма — «об-сеет» — даёт пену и пузыри.)",
+        "Оставить на 2–4 ч под крышкой, пока на поверхности не появятся мелкие пузырьки.",
+        "Перелить тесто в сифон для сливок, зарядить 3 баллончиками N₂O, встряхнуть 5 с и проверить, что оно аэрировано. Выдавить на горячую смазанную сковороду столько, чтобы покрыть дно, покрутить, накрыть и жарить как мастер-рецепт.",
+        "Накрыть крышкой: пар допекает верх. Готово, когда поверхность схватилась и не выглядит влажной, 2–3 мин. (Нет стеклянной крышки — не открывать первые 2–3 мин.) Жарить только с одной стороны.",
+        "Проверить, что низ подрумянился, переложить на чистое полотенце и накрыть другим. Если ещё бледный — накрыть и подержать 1 мин.",
+        "Держать накрытыми. Подавать тёплыми или подогреть на сковороде или при 175 °C перед подачей."
+      ],
+      "notes": "Dehydrated injera adds sourness and kick-starts the levain; xanthan holds the bubbles. Eat within 2–3 days or freeze up to 2 months.",
+      "notes_ru": "Сушёная инджера даёт кислинку и ускоряет закваску; ксантан удерживает пузыри. Съесть в течение 2–3 дней или заморозить до 2 мес."
+    }
+  ]
+}

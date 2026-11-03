@@ -1,0 +1,289 @@
+{
+  "id": "mb-knackebrod",
+  "name": {
+    "en": "Knäckebröd (Swedish hardtack)",
+    "ru": "Кнекебрёд (шведские хлебцы)",
+    "orig": "Knäckebröd"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "crackers",
+    "Swedish",
+    "oats"
+  ],
+  "tags_ru": [
+    "крекеры",
+    "шведские",
+    "овсянка"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 163–166",
+    "detail_ru": "Recipes II с. 163–166"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 9,
+    "pieceWeight": 110,
+    "total": 990,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 1000,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master",
+      "label_ru": "Мастер",
+      "sub": "9 squares or 1 sheet · p. 163–165",
+      "sub_ru": "9 квадратов или 1 лист · с. 163–165",
+      "stages": [
+        {
+          "name": "① Buttermilk and yeast",
+          "name_ru": "① Пахта и дрожжи",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Buttermilk",
+              "orig": "Buttermilk",
+              "flour": false,
+              "water": 0.9,
+              "ru": "Пахта",
+              "pct": 76.0563
+            },
+            {
+              "en": "Instant dry osmotolerant yeast",
+              "orig": "Instant dry osmotolerant yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие осмотолерантные",
+              "pct": 0.0141
+            }
+          ]
+        },
+        {
+          "name": "② Dry ingredients",
+          "name_ru": "② Сухие ингредиенты",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Rolled oats",
+              "orig": "Rolled oats",
+              "flour": false,
+              "water": 0,
+              "ru": "Овсяные хлопья",
+              "pct": 45.0704
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9718
+            },
+            {
+              "en": "Baking soda",
+              "orig": "Baking soda",
+              "flour": false,
+              "water": 0,
+              "ru": "Пищевая сода",
+              "pct": 1.1268
+            }
+          ]
+        },
+        {
+          "name": "③ Creamed fats and sugar",
+          "name_ru": "③ Сахар и жиры (взбить)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine (caster) sugar",
+              "orig": "Fine (caster) sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Мелкий сахар (сахарная пудра-кастер)",
+              "pct": 25.3521
+            },
+            {
+              "en": "Shortening",
+              "orig": "Shortening",
+              "flour": false,
+              "water": 0,
+              "ru": "Кулинарный жир (шортенинг)",
+              "pct": 22.5352
+            },
+            {
+              "en": "Butter, softened",
+              "orig": "Butter, softened",
+              "flour": false,
+              "water": 0.16,
+              "ru": "Сливочное масло, мягкое",
+              "pct": 14.0845
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Stir the yeast into the buttermilk ①. Mix ② in a separate bowl.",
+        "In a stand or planetary mixer with the paddle, cream ③ until smooth. On medium, add ① and ② alternately, three additions each, until stiff like cookie dough. (By hand: cream with a spatula and add the same way.) No gluten development needed.",
+        "Flatten into a 1.25–3 cm square, wrap and refrigerate 30 min.",
+        "Divide into nine 110 g pieces (or leave whole for one big sheet). Roll each between a floured bench and floured parchment to a 2–3 mm square; keep the rest cold.",
+        "Dock evenly with a fork or docker (a notched hardtack pin does this as you roll); cut into squares if you like. No proof.",
+        "Bake on a parchment-lined pan or silicone mat: home oven 175 °C 25–30 min; convection 160 °C, medium fan, 15–18 min; combi 160 °C 15–20 min; deck 190 °C 15–20 min; pizza oven 205 °C 5–7 min — until crisp and light golden-brown.",
+        "Cool 3 min on the pan, then on a rack. Not crisp once cool? Back in the oven for a few minutes, checking every couple of minutes."
+      ],
+      "method_ru": [
+        "Растворить дрожжи в пахте ①. Смешать ② в отдельной миске.",
+        "В планетарном миксере с лопаткой взбить ③ до гладкости. На средней скорости добавлять ① и ② поочерёдно, по три порции каждого, до плотного теста, как песочное. (Вручную: взбить лопаткой и добавлять так же.) Клейковину развивать не нужно.",
+        "Сплющить в квадрат толщиной 1,25–3 см, завернуть и убрать в холодильник на 30 мин.",
+        "Разделить на 9 кусков по 110 г (или не делить для одного большого листа). Раскатать каждый между присыпанным столом и присыпанным пергаментом в квадрат 2–3 мм; остальное держать в холоде.",
+        "Равномерно наколоть вилкой или роликом (зубчатая скалка для кнекебрёда накалывает сама); по желанию нарезать квадратами. Без расстойки.",
+        "Печь на противне с пергаментом или силиконовым ковриком: домашняя духовка 175 °C 25–30 мин; конвекция 160 °C, средний обдув, 15–18 мин; пароконвектомат 160 °C 15–20 мин; подовая 190 °C 15–20 мин; печь для пиццы 205 °C 5–7 мин — до хруста и светло-золотистого цвета.",
+        "Остудить 3 мин на противне, затем на решётке. Если после остывания не хрустит — вернуть в духовку на несколько минут, проверяя каждые пару минут."
+      ],
+      "notes": "Use fine sugar — it blends into the fats better. Keeps 3–5 days.",
+      "notes_ru": "Брать мелкий сахар — он лучше смешивается с жиром. Хранится 3–5 дней."
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "label_ru": "Модернист",
+      "sub": "9 rings, caramelized · p. 166",
+      "sub_ru": "9 колец, карамелизованные · с. 166",
+      "stages": [
+        {
+          "name": "① Pressure-caramelized mix",
+          "name_ru": "① Карамелизованная смесь (скороварка)",
+          "time": "1 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Rolled oats",
+              "orig": "Rolled oats",
+              "flour": false,
+              "water": 0,
+              "ru": "Овсяные хлопья",
+              "pct": 45.0704
+            },
+            {
+              "en": "Fine (caster) sugar",
+              "orig": "Fine (caster) sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Мелкий сахар",
+              "pct": 25.3521
+            },
+            {
+              "en": "Shortening, melted and cooled",
+              "orig": "Shortening, melted and cooled",
+              "flour": false,
+              "water": 0,
+              "ru": "Кулинарный жир, растопленный и остывший",
+              "pct": 22.5352
+            },
+            {
+              "en": "Butter, melted and cooled",
+              "orig": "Butter, melted and cooled",
+              "flour": false,
+              "water": 0.16,
+              "ru": "Сливочное масло, растопленное и остывшее",
+              "pct": 14.0845
+            },
+            {
+              "en": "Baking soda",
+              "orig": "Baking soda",
+              "flour": false,
+              "water": 0,
+              "ru": "Пищевая сода",
+              "pct": 1.1268
+            }
+          ],
+          "time_ru": "1 ч"
+        },
+        {
+          "name": "② Flour, buttermilk, yeast, salt",
+          "name_ru": "② Мука, пахта, дрожжи, соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Flour",
+              "orig": "Flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука",
+              "pct": 100.0
+            },
+            {
+              "en": "Instant dry osmotolerant yeast",
+              "orig": "Instant dry osmotolerant yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие осмотолерантные",
+              "pct": 0.0141
+            },
+            {
+              "en": "Buttermilk",
+              "orig": "Buttermilk",
+              "flour": false,
+              "water": 0.9,
+              "ru": "Пахта",
+              "pct": 76.0563
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.9718
+            }
+          ]
+        }
+      ],
+      "method": [
+        "Mix ① with a spatula, split between two 500 ml canning jars and pressure-caramelize for 1 h (book technique, p. 2·378). Cool.",
+        "In the mixer with the paddle, mix ① and ② on low until smooth. Flatten into a 1.25–3 cm square, wrap and refrigerate 30 min.",
+        "Divide into 110 g pieces. Roll each into a ball, then into a 12.5–15 cm disc, 2–3 mm thick. Dock, and cut a 2.5 cm hole in the centre with a ring cutter.",
+        "Bake on a parchment-lined pan or silicone mat: home oven 175 °C 25–30 min; convection 160 °C, medium fan, 15–18 min; combi 160 °C 15–20 min; deck 190 °C 15–20 min; pizza oven 205 °C 5–7 min — until crisp and light golden-brown.",
+        "Cool 3 min on the pan, then on a rack. Not crisp once cool? Back in the oven for a few minutes, checking every couple of minutes."
+      ],
+      "method_ru": [
+        "Смешать ① лопаткой, разложить в две банки по 500 мл и карамелизовать в скороварке 1 ч (техника книги, с. 2·378). Остудить.",
+        "В миксере с лопаткой смешать ① и ② на низкой скорости до гладкости. Сплющить в квадрат 1,25–3 см, завернуть, 30 мин в холодильник.",
+        "Разделить по 110 г. Скатать шар, раскатать в диск 12,5–15 см толщиной 2–3 мм. Наколоть и вырезать кольцом отверстие 2,5 см в центре.",
+        "Печь на противне с пергаментом или силиконовым ковриком: домашняя духовка 175 °C 25–30 мин; конвекция 160 °C, средний обдув, 15–18 мин; пароконвектомат 160 °C 15–20 мин; подовая 190 °C 15–20 мин; печь для пиццы 205 °C 5–7 мин — до хруста и светло-золотистого цвета.",
+        "Остудить 3 мин на противне, затем на решётке. Если после остывания не хрустит — вернуть в духовку на несколько минут, проверяя каждые пару минут."
+      ],
+      "notes": "Same ingredients as the Master; caramelizing the oats, sugar and butter first gives a deeper flavour. Keeps 3–5 days.",
+      "notes_ru": "Ингредиенты те же, что у мастер-рецепта; предварительная карамелизация овса, сахара и масла даёт более глубокий вкус. Хранится 3–5 дней."
+    }
+  ]
+}

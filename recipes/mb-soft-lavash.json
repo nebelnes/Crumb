@@ -1,0 +1,148 @@
+{
+  "id": "mb-soft-lavash",
+  "name": {
+    "en": "Soft lavash",
+    "ru": "Мягкий лаваш",
+    "orig": "Soft lavash"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "lavash",
+    "flatbread",
+    "Armenian"
+  ],
+  "tags_ru": [
+    "лаваш",
+    "лепёшка",
+    "армянская"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 64",
+    "detail_ru": "Recipes II с. 64"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C (21 °C by hand)",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 76.8519
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.2037
+        }
+      ]
+    },
+    {
+      "name": "② Flour",
+      "name_ru": "② Мука",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Flour",
+          "orig": "Flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука",
+          "note": "the book says just \"flour\"; bread flour is used across this chapter",
+          "note_ru": "в книге просто «мука»; в этой главе везде хлебопекарная",
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.037
+        }
+      ]
+    },
+    {
+      "name": "④ Oils",
+      "name_ru": "④ Масла",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 2.7778
+        },
+        {
+          "en": "Canola oil",
+          "orig": "Canola oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Рапсовое масло",
+          "pct": 2.7778
+        }
+      ]
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, add ③ and mix on medium to medium gluten development; on low pour in ④ in a steady stream, then mix on medium to full development.",
+    "Bulk 1½ h with one book fold after 45 min.",
+    "Divide into 100 g, shape round rolls, rest 20 min.",
+    "Roll each into a 25 cm disc, put on a lightly floured surface and bake straight away.",
+    "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Each takes 2–5 min — take it out when it bubbles and the bubbles get light golden spots; overbaked, it turns crisp. Cool on a rack.",
+    "By hand instead: autolyse 30 min, low development, drizzle in ④, bulk 4½ h with 4 folds."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, добавить ③ и месить на средней до среднего развития клейковины; на низкой влить ④ тонкой струйкой, затем вымесить на средней до полного развития.",
+    "Брожение 1½ ч с одним складыванием «книжкой» через 45 мин.",
+    "Разделить по 100 г, сформовать булочки, отдых 20 мин.",
+    "Раскатать в диск 25 см, выложить на слегка присыпанную поверхность и сразу печь.",
+    "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Каждый 2–5 мин — вынимать, когда пойдут пузыри со светло-золотистыми пятнами; если передержать, станет хрустящим. Остудить на решётке.",
+    "Вручную: автолиз 30 мин, слабое развитие, влить ④, брожение 4½ ч с 4 складываниями."
+  ],
+  "notes": "Best within 2–3 h, or freeze up to 2 months.",
+  "notes_ru": "Лучше всего в первые 2–3 часа, или заморозить до 2 мес."
+}

@@ -1,0 +1,144 @@
+{
+  "id": "mb-arabic-bread",
+  "name": {
+    "en": "Arabic bread (khobz ʿarabi)",
+    "ru": "Арабский хлеб (хубз араби)",
+    "orig": "Khobz 'arabi"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "pita",
+    "flatbread"
+  ],
+  "tags_ru": [
+    "пита",
+    "лепёшка"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 61",
+    "detail_ru": "Recipes II с. 61"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 8,
+    "pieceWeight": 125,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–25.5 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 59.0164
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.4262
+        }
+      ]
+    },
+    {
+      "name": "② Flours, sugar, salt",
+      "name_ru": "② Мука, сахар, соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 70.4918
+        },
+        {
+          "en": "Cake flour",
+          "orig": "Cake flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука для тортов (низкобелковая)",
+          "pct": 29.5082
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 0.9836
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 0.9836
+        }
+      ]
+    },
+    {
+      "name": "③ Oil",
+      "name_ru": "③ Масло",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 1.9672
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Stir the yeast into ① until dissolved, then stir in the oil ③.",
+    "By machine: put ② in the bowl and, on low, gradually add the yeast-oil mixture; raise the speed as a soft dough forms and mix on medium to full gluten development.",
+    "Bulk 1½ h with one book fold after 45 min (by hand: 1½–2 h, no folds).",
+    "Divide into 125 g for 8 flatbreads (or 165 g for 6 thicker ones), shape round rolls, rest 20 min covered.",
+    "Roll each into a 25 cm disc and leave uncovered 10 min.",
+    "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Each takes 3–5 min."
+  ],
+  "method_ru": [
+    "Растворить дрожжи в ①, затем вмешать масло ③.",
+    "В миксере: ② в чашу и на низкой скорости постепенно влить смесь дрожжей с маслом; когда соберётся мягкое тесто, прибавить скорость и вымесить на средней до полного развития клейковины.",
+    "Брожение 1½ ч с одним складыванием «книжкой» через 45 мин (вручную: 1½–2 ч без складываний).",
+    "Разделить по 125 г на 8 лепёшек (или по 165 г на 6 потолще), сформовать булочки, отдых 20 мин под плёнкой.",
+    "Раскатать каждую в диск 25 см и оставить открытой на 10 мин.",
+    "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Каждая — 3–5 мин."
+  ],
+  "notes": "Cake flour makes it easier to roll. Best within 2–3 h, or freeze up to 2 months.",
+  "notes_ru": "Мука для тортов облегчает раскатку. Лучше всего в первые 2–3 часа, или заморозить до 2 мес."
+}

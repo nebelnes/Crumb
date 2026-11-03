@@ -15,8 +15,8 @@
     "type": "book",
     "title": "Modernist Bread",
     "volume": 5,
-    "detail": "Recipes II: master recipe p. 17, Modernist Naan p. 22–23",
-    "detail_ru": "Recipes II: мастер-рецепт с. 17, модернист-наан с. 22–23"
+    "detail": "Recipes II: master recipe p. 17, Modernist Naan p. 22–23; whole wheat p. 23, purees p. 24–25",
+    "detail_ru": "Recipes II: мастер-рецепт с. 17, модернист-наан с. 22–23; цельнозерновой с. 23, пюре с. 24–25"
   },
   "status": "draft",
   "yield": {
@@ -176,7 +176,8 @@
         "Вручную: размешать ① до растворения дрожжей, добавить ② и замесить до лохматой массы, автолиз 30 мин, добавить ③ и вымешать до слабого развития клейковины. Брожение 4½ ч с 4 обминками — по одной каждый час после первого часа — и 30 мин отдыха после последней.",
         "Посыпка по желанию: сбрызнуть водой, вдавить листья кинзы скалкой, снова сбрызнуть и посыпать кунжутом перед выпечкой."
       ],
-      "notes_ru": "Общее время в миксере: около 1 ч 8 мин активно, 2 ч 27 мин пассивно. Вручную: около 1 ч 17 мин активно, 5 ч 45 мин пассивно.\nВыход около 1 кг теста, 10 лепёшек. Съесть в тот же день, лучше тёплыми, или заморозить до 2 месяцев."
+      "notes_ru": "Общее время в миксере: около 1 ч 8 мин активно, 2 ч 27 мин пассивно. Вручную: около 1 ч 17 мин активно, 5 ч 45 мин пассивно.\nВыход около 1 кг теста, 10 лепёшек. Съесть в тот же день, лучше тёплыми, или заморозить до 2 месяцев.",
+      "group": "classic"
     },
     {
       "id": "modernist",
@@ -326,7 +327,1271 @@
         "Сразу выпекать в очень горячей печи: каждый наан 2–5 мин (таблица выпечки в книге, с. 21). Сразу после выпечки смазать гхи.",
         "Вручную: размешать ① до растворения дрожжей, добавить ② и замесить до лохматой массы, автолиз 30 мин, добавить ③ и вымешать до слабого развития клейковины. Брожение 4½ ч с 4 обминками — по одной каждый час после первого часа — и 30 мин отдыха после последней."
       ],
-      "notes_ru": "Выход около 1 кг теста, 10 лепёшек. Съесть в тот же день, лучше тёплыми, или заморозить до 2 месяцев.\nРелаксант теста можно выбрать (книга, с. 23). По умолчанию стоит ананасовый сок; скажите, если используете другой."
+      "notes_ru": "Выход около 1 кг теста, 10 лепёшек. Съесть в тот же день, лучше тёплыми, или заморозить до 2 месяцев.\nРелаксант теста можно выбрать (книга, с. 23). По умолчанию стоит ананасовый сок; скажите, если используете другой.",
+      "group": "classic"
+    },
+    {
+      "id": "wholewheat",
+      "label": "100 % whole wheat",
+      "label_ru": "Цельнозерновой",
+      "sub": "bran + germ soaker · p. 23",
+      "sub_ru": "замочка отрубей и зародышей · с. 23",
+      "stages": [
+        {
+          "name": "Soaker",
+          "name_ru": "Замочка",
+          "time": "10 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bran, toasted",
+              "orig": "Bran, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Отруби пшеничные, обжаренные",
+              "pct": 14.1379
+            },
+            {
+              "en": "Wheat germ, toasted",
+              "orig": "Wheat germ, toasted",
+              "flour": false,
+              "water": 0,
+              "ru": "Пшеничные зародыши, обжаренные",
+              "pct": 2.4138
+            },
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 16.5517
+            }
+          ],
+          "note": "Soak 10 min; added at the end of mixing.",
+          "note_ru": "Замочить на 10 мин; добавляется в конце замеса."
+        },
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 45.6897
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 24.1379
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 0.6897
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.6897
+            }
+          ]
+        },
+        {
+          "name": "② Flour",
+          "name_ru": "② Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "note": "replaces the bread + durum flour of the master",
+              "note_ru": "вместо хлебопекарной + дурум мастер-рецепта",
+              "pct": 100.0
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "flour": false,
+              "water": 0.85,
+              "ru": "Йогурт натуральный",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Для смазывания",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "pct": 9.4828
+            }
+          ],
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Toast the bran and germ, mix with the soaker water and leave 10 min.",
+        "Make the dough like the Master naan with bread flour only (no durum). After ③ is in and the dough reaches full gluten development, stop the mixer, add the soaker and mix on low until it's evenly incorporated.",
+        "Bulk, divide into 100 g balls, rest, roll to 15 cm and bake exactly as the Master naan.",
+        "Brush with ghee as soon as each naan comes out."
+      ],
+      "method_ru": [
+        "Обжарить отруби и зародыши, смешать с водой замочки, оставить на 10 мин.",
+        "Замесить тесто как мастер-наан, только на хлебопекарной муке (без дурума). Когда ③ добавлена и клейковина развита полностью, остановить миксер, добавить замочку и вмешать на низкой скорости до равномерности.",
+        "Брожение, деление на шарики по 100 г, отдых, раскатка до 15 см и выпечка — как в мастер-наане.",
+        "Смазать гхи сразу после выпечки."
+      ],
+      "notes": "Bran and germ are not counted as flour, as in the book.",
+      "notes_ru": "Отруби и зародыши не считаются мукой, как в книге.",
+      "group": "classic"
+    },
+    {
+      "id": "butterchicken",
+      "label": "Butter chicken spice",
+      "label_ru": "Со специями баттер-чикен",
+      "sub": "puree variation · p. 24–25",
+      "sub_ru": "вариант с пюре · с. 24–25",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "water reduced to 65 g (book prints 1.12 %, a misprint for 11.2 %)",
+              "note_ru": "вода уменьшена до 65 г (в книге опечатка 1,12 % вместо 11,2 %)",
+              "pct": 11.2069
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 24.1379
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 0.6897
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.6897
+            },
+            {
+              "en": "Butter chicken spice puree",
+              "orig": "Butter chicken spice puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре со специями баттер-чикен",
+              "pct": 35.3448
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "name_ru": "② Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 68.1034
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)",
+              "pct": 31.8966
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "flour": false,
+              "water": 0.85,
+              "ru": "Йогурт натуральный",
+              "note": "full-fat recommended",
+              "note_ru": "лучше жирный",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "Butter chicken spice puree",
+          "name_ru": "Пюре баттер-чикен",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Onion, thinly sliced",
+              "orig": "Onion, thinly sliced",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук, тонко нарезанный",
+              "pct": 43.1034
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 4.4828
+            },
+            {
+              "en": "Tomatoes, crushed",
+              "orig": "Tomatoes, crushed",
+              "flour": false,
+              "water": 0,
+              "ru": "Томаты, раздавленные (можно консервированные, слить жидкость)",
+              "pct": 34.4828
+            },
+            {
+              "en": "Butter chicken spice",
+              "orig": "Butter chicken spice",
+              "flour": false,
+              "water": 0,
+              "ru": "Смесь специй для баттер-чикен",
+              "pct": 6.0345
+            }
+          ],
+          "note": "Cook the onion in the oil until translucent, add tomatoes and spice, reduce until most liquid is gone, cool, blend smooth. Make the puree first. Amounts scale with the dough; you'll use only the weight shown in the dough.",
+          "note_ru": "Обжарить лук в масле до прозрачности, добавить томаты и специи, уварить почти досуха, остудить, пробить в блендере. Сначала приготовить пюре. Количество масштабируется вместе с тестом; в тесто идёт только указанный вес.",
+          "topping": true
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Для смазывания",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "pct": 9.4828
+            }
+          ],
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix the dough like the Master naan, adding the puree with ①.",
+        "Bulk, divide into 100 g balls, rest, roll to 15 cm and bake exactly as the Master naan.",
+        "Brush with ghee as soon as each naan comes out."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить тесто как мастер-наан, добавив пюре вместе с ①.",
+        "Брожение, деление на шарики по 100 г, отдых, раскатка до 15 см и выпечка — как в мастер-наане.",
+        "Смазать гхи сразу после выпечки."
+      ],
+      "notes": "The water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "blackgarlic",
+      "label": "Black garlic",
+      "label_ru": "С чёрным чесноком",
+      "sub": "puree variation · p. 24–25",
+      "sub_ru": "вариант с пюре · с. 24–25",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 45.6897
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 24.1379
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 0.6897
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.6897
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "name_ru": "② Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 68.1034
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)",
+              "pct": 31.8966
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "flour": false,
+              "water": 0.85,
+              "ru": "Йогурт натуральный",
+              "note": "full-fat recommended",
+              "note_ru": "лучше жирный",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "④ Puree",
+          "name_ru": "④ Пюре",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Black garlic puree",
+              "orig": "Black garlic puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из чёрного чеснока",
+              "pct": 30.1724
+            }
+          ],
+          "note": "Mix the dough to full gluten development, stop, add the puree and mix on low 2–3 min until incorporated.",
+          "note_ru": "Вымесить тесто до полного развития клейковины, остановить, добавить пюре и вмешать на низкой скорости 2–3 мин."
+        },
+        {
+          "name": "Black garlic puree",
+          "name_ru": "Пюре из чёрного чеснока",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Black garlic, peeled",
+              "orig": "Black garlic, peeled",
+              "flour": false,
+              "water": 0,
+              "ru": "Чёрный чеснок, очищенный",
+              "pct": 34.4828
+            }
+          ],
+          "note": "Blend the peeled black garlic smooth. Make the puree first. Amounts scale with the dough; you'll use only the weight shown in the dough.",
+          "note_ru": "Пробить очищенный чёрный чеснок в блендере до гладкости. Сначала приготовить пюре. Количество масштабируется вместе с тестом; в тесто идёт только указанный вес.",
+          "topping": true
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Для смазывания",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "pct": 9.4828
+            }
+          ],
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix the dough like the Master naan to full gluten development, then add the puree (④) on low, 2–3 min.",
+        "Bulk, divide into 100 g balls, rest, roll to 15 cm and bake exactly as the Master naan.",
+        "Brush with ghee as soon as each naan comes out."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить тесто как мастер-наан до полного развития клейковины, затем на низкой скорости вмешать пюре (④), 2–3 мин.",
+        "Брожение, деление на шарики по 100 г, отдых, раскатка до 15 см и выпечка — как в мастер-наане.",
+        "Смазать гхи сразу после выпечки."
+      ],
+      "notes": "The water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "piquillo",
+      "label": "Roasted piquillo pepper",
+      "label_ru": "С печёным перцем пикильо",
+      "sub": "puree variation · p. 24–25",
+      "sub_ru": "вариант с пюре · с. 24–25",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 45.6897
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 24.1379
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 0.6897
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.6897
+            },
+            {
+              "en": "Roasted piquillo pepper puree",
+              "orig": "Roasted piquillo pepper puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из печёного перца пикильо",
+              "pct": 25.8621
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "name_ru": "② Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 68.1034
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)",
+              "pct": 31.8966
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "flour": false,
+              "water": 0.85,
+              "ru": "Йогурт натуральный",
+              "note": "full-fat recommended",
+              "note_ru": "лучше жирный",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "Piquillo puree",
+          "name_ru": "Пюре из пикильо",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Canned roasted piquillo peppers",
+              "orig": "Canned roasted piquillo peppers",
+              "flour": false,
+              "water": 0,
+              "ru": "Печёный перец пикильо, консервированный",
+              "pct": 48.2759
+            }
+          ],
+          "note": "Blend smooth; freeze what you don't need. Make the puree first. Amounts scale with the dough; you'll use only the weight shown in the dough.",
+          "note_ru": "Пробить до гладкости; лишнее заморозить. Сначала приготовить пюре. Количество масштабируется вместе с тестом; в тесто идёт только указанный вес.",
+          "topping": true
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Для смазывания",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "pct": 9.4828
+            }
+          ],
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix the dough like the Master naan, adding the puree with ①.",
+        "Bulk, divide into 100 g balls, rest, roll to 15 cm and bake exactly as the Master naan.",
+        "Brush with ghee as soon as each naan comes out."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить тесто как мастер-наан, добавив пюре вместе с ①.",
+        "Брожение, деление на шарики по 100 г, отдых, раскатка до 15 см и выпечка — как в мастер-наане.",
+        "Смазать гхи сразу после выпечки."
+      ],
+      "notes": "The water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "herb",
+      "label": "Herb",
+      "label_ru": "С зеленью",
+      "sub": "puree variation · p. 24–25",
+      "sub_ru": "вариант с пюре · с. 24–25",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 45.6897
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 24.1379
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 0.6897
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.6897
+            },
+            {
+              "en": "Herb puree",
+              "orig": "Herb puree",
+              "flour": false,
+              "water": 0,
+              "ru": "Пюре из зелени",
+              "pct": 30.1724
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "name_ru": "② Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 68.1034
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)",
+              "pct": 31.8966
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "flour": false,
+              "water": 0.85,
+              "ru": "Йогурт натуральный",
+              "note": "full-fat recommended",
+              "note_ru": "лучше жирный",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "Herb puree",
+          "name_ru": "Пюре из зелени",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Italian parsley leaves",
+              "orig": "Italian parsley leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Петрушка (листья)",
+              "pct": 8.6207
+            },
+            {
+              "en": "Mint leaves",
+              "orig": "Mint leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Мята (листья)",
+              "pct": 8.6207
+            },
+            {
+              "en": "Chives",
+              "orig": "Chives",
+              "flour": false,
+              "water": 0,
+              "ru": "Шнитт-лук",
+              "pct": 3.4483
+            },
+            {
+              "en": "Basil leaves",
+              "orig": "Basil leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Базилик (листья)",
+              "pct": 3.4483
+            },
+            {
+              "en": "Chervil leaves",
+              "orig": "Chervil leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Кервель (листья)",
+              "pct": 2.5862
+            }
+          ],
+          "note": "Blanch the herbs 20 s, chill in ice water 30–45 s, squeeze dry, blend smooth. Make the puree first. Amounts scale with the dough; you'll use only the weight shown in the dough.",
+          "note_ru": "Бланшировать зелень 20 с, охладить в ледяной воде 30–45 с, отжать, пробить до гладкости. Сначала приготовить пюре. Количество масштабируется вместе с тестом; в тесто идёт только указанный вес.",
+          "topping": true
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Для смазывания",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "pct": 9.4828
+            }
+          ],
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix the dough like the Master naan, adding the puree with ①.",
+        "Bulk, divide into 100 g balls, rest, roll to 15 cm and bake exactly as the Master naan.",
+        "Brush with ghee as soon as each naan comes out."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить тесто как мастер-наан, добавив пюре вместе с ①.",
+        "Брожение, деление на шарики по 100 г, отдых, раскатка до 15 см и выпечка — как в мастер-наане.",
+        "Смазать гхи сразу после выпечки."
+      ],
+      "notes": "The water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "pesto",
+      "label": "Cilantro pesto",
+      "label_ru": "С песто из кинзы",
+      "sub": "puree variation · p. 24–25",
+      "sub_ru": "вариант с пюре · с. 24–25",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "water reduced to 90 g",
+              "note_ru": "вода уменьшена до 90 г",
+              "pct": 15.5172
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 24.1379
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 0.6897
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.6897
+            },
+            {
+              "en": "Cilantro pesto",
+              "orig": "Cilantro pesto",
+              "flour": false,
+              "water": 0,
+              "ru": "Песто из кинзы",
+              "pct": 30.1724
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "name_ru": "② Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 68.1034
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)",
+              "pct": 31.8966
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "flour": false,
+              "water": 0.85,
+              "ru": "Йогурт натуральный",
+              "note": "full-fat recommended",
+              "note_ru": "лучше жирный",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "Cilantro pesto",
+          "name_ru": "Песто из кинзы",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Cilantro leaves",
+              "orig": "Cilantro leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Кинза (листья)",
+              "pct": 20.6897
+            },
+            {
+              "en": "Spinach leaves",
+              "orig": "Spinach leaves",
+              "flour": false,
+              "water": 0,
+              "ru": "Шпинат (листья)",
+              "pct": 3.4483
+            },
+            {
+              "en": "Parmesan, grated",
+              "orig": "Parmesan, grated",
+              "flour": false,
+              "water": 0,
+              "ru": "Пармезан, тёртый",
+              "pct": 8.6207
+            },
+            {
+              "en": "Pumpkin seeds",
+              "orig": "Pumpkin seeds",
+              "flour": false,
+              "water": 0,
+              "ru": "Тыквенные семечки",
+              "pct": 8.6207
+            }
+          ],
+          "note": "Blanch cilantro and spinach 20 s, chill in ice water, squeeze dry, blend with the cheese and seeds. Sprinkle chopped cilantro on the dough before baking. Make the puree first. Amounts scale with the dough; you'll use only the weight shown in the dough.",
+          "note_ru": "Бланшировать кинзу и шпинат 20 с, охладить в ледяной воде, отжать, пробить с сыром и семечками. Перед выпечкой посыпать рубленой кинзой. Сначала приготовить пюре. Количество масштабируется вместе с тестом; в тесто идёт только указанный вес.",
+          "topping": true
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Для смазывания",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "pct": 9.4828
+            }
+          ],
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix the dough like the Master naan, adding the puree with ①.",
+        "Bulk, divide into 100 g balls, rest, roll to 15 cm and bake exactly as the Master naan.",
+        "Brush with ghee as soon as each naan comes out."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить тесто как мастер-наан, добавив пюре вместе с ①.",
+        "Брожение, деление на шарики по 100 г, отдых, раскатка до 15 см и выпечка — как в мастер-наане.",
+        "Смазать гхи сразу после выпечки."
+      ],
+      "notes": "The water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
+    },
+    {
+      "id": "chutney",
+      "label": "Tomato chutney & nigella",
+      "label_ru": "С томатным чатни и нигеллой",
+      "sub": "puree variation · p. 24–25",
+      "sub_ru": "вариант с пюре · с. 24–25",
+      "stages": [
+        {
+          "name": "① Liquids and yeast",
+          "name_ru": "① Жидкость и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "note": "water reduced to 90 g",
+              "note_ru": "вода уменьшена до 90 г",
+              "pct": 15.5172
+            },
+            {
+              "en": "Whole milk",
+              "orig": "Whole milk",
+              "flour": false,
+              "water": 0.87,
+              "ru": "Молоко цельное",
+              "pct": 24.1379
+            },
+            {
+              "en": "Sugar",
+              "orig": "Sugar",
+              "flour": false,
+              "water": 0,
+              "ru": "Сахар",
+              "pct": 0.6897
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.6897
+            },
+            {
+              "en": "Tomato chutney",
+              "orig": "Tomato chutney",
+              "flour": false,
+              "water": 0,
+              "ru": "Томатный чатни",
+              "pct": 30.1724
+            }
+          ]
+        },
+        {
+          "name": "② Flours",
+          "name_ru": "② Мука",
+          "time": "autolyse 20–30 min",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 68.1034
+            },
+            {
+              "en": "Durum flour",
+              "orig": "Durum flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука из твёрдой пшеницы (дурум)",
+              "pct": 31.8966
+            },
+            {
+              "en": "Plain yogurt",
+              "orig": "Plain yogurt",
+              "flour": false,
+              "water": 0.85,
+              "ru": "Йогурт натуральный",
+              "note": "full-fat recommended",
+              "note_ru": "лучше жирный",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "③ Salt",
+          "name_ru": "③ Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.7241
+            }
+          ]
+        },
+        {
+          "name": "Tomato chutney",
+          "name_ru": "Томатный чатни",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Tomatoes, crushed (canned)",
+              "orig": "Tomatoes, crushed (canned)",
+              "flour": false,
+              "water": 0,
+              "ru": "Томаты консервированные, раздавленные",
+              "pct": 41.3793
+            },
+            {
+              "en": "Shallots, thinly sliced",
+              "orig": "Shallots, thinly sliced",
+              "flour": false,
+              "water": 0,
+              "ru": "Лук-шалот, тонко нарезанный",
+              "pct": 9.3103
+            },
+            {
+              "en": "Black raisins",
+              "orig": "Black raisins",
+              "flour": false,
+              "water": 0,
+              "ru": "Изюм тёмный",
+              "pct": 6.0345
+            },
+            {
+              "en": "Cloves, ground",
+              "orig": "Cloves, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Гвоздика молотая",
+              "pct": 0.0862
+            },
+            {
+              "en": "Cinnamon, ground",
+              "orig": "Cinnamon, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Корица молотая",
+              "pct": 0.1724
+            },
+            {
+              "en": "Cardamom, ground",
+              "orig": "Cardamom, ground",
+              "flour": false,
+              "water": 0,
+              "ru": "Кардамон молотый",
+              "pct": 0.1724
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 0.8621
+            }
+          ],
+          "note": "Mix, put in a 350 ml jar, pressure-cook on a trivet with 2.5 cm water for 1½ h, cool naturally, blend smooth. Sprinkle nigella seeds on the dough before shaping. Make the puree first. Amounts scale with the dough; you'll use only the weight shown in the dough.",
+          "note_ru": "Смешать, переложить в банку 350 мл, готовить в скороварке на подставке с 2,5 см воды 1½ ч, дать остыть, пробить до гладкости. Перед формовкой посыпать тесто нигеллой. Сначала приготовить пюре. Количество масштабируется вместе с тестом; в тесто идёт только указанный вес.",
+          "topping": true
+        },
+        {
+          "name": "Topping",
+          "name_ru": "Для смазывания",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "pct": 9.4828
+            }
+          ],
+          "note": "Not part of the dough weight. Brush on as each naan comes out of the oven.",
+          "note_ru": "Не входит в вес теста. Смазать каждый наан сразу после выпечки.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Make the puree (dashed card).",
+        "Mix the dough like the Master naan, adding the puree with ①.",
+        "Bulk, divide into 100 g balls, rest, roll to 15 cm and bake exactly as the Master naan.",
+        "Brush with ghee as soon as each naan comes out."
+      ],
+      "method_ru": [
+        "Приготовить пюре (пунктирная карточка).",
+        "Замесить тесто как мастер-наан, добавив пюре вместе с ①.",
+        "Брожение, деление на шарики по 100 г, отдых, раскатка до 15 см и выпечка — как в мастер-наане.",
+        "Смазать гхи сразу после выпечки."
+      ],
+      "notes": "The water inside the puree isn't counted in hydration (the book doesn't give it).",
+      "notes_ru": "Вода внутри пюре не учитывается в гидратации (в книге её нет).",
+      "group": "puree"
     }
   ],
   "category_ru": "Лепёшки",
@@ -335,5 +1600,17 @@
     "лепёшка",
     "на дрожжах"
   ],
-  "variantLabel_ru": "Версия"
+  "variantLabel_ru": "Версия",
+  "groups": [
+    {
+      "id": "classic",
+      "label": "Naan",
+      "label_ru": "Наан"
+    },
+    {
+      "id": "puree",
+      "label": "Purees",
+      "label_ru": "С пюре"
+    }
+  ]
 }

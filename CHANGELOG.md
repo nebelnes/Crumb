@@ -1,5 +1,12 @@
 # Change log
 
+## 2026-11-03 — Modernist Bread: all flatbreads (Recipes II, ch. 24)
+- Read straight from the book on your computer. 33 new recipes in Flatbreads: matnakash, tonis puri, malooga, tigella, sheermal, obi non, ftira, lángos, bhatoora, ramazan pidesi, malawach, kubaneh, lachmachun, pita (16 versions in 3 tabs), Arabic bread, aish merahrah, soft lavash, jreesh, air bread, lavash crackers, pane carasau, carta da musica, fougasse, sfincione, calzone, garlic knots, flatbread base with three Armenian pies, dosa (5 versions), injera (3), lahoh, knäckebröd (2), grissini (2). Tomato sauce goes in a new Sauces category.
+- Naan gets 100 % whole wheat and six puree versions; Focaccia gets six purees, whole wheat and fugazzeta; Pizza gets same-day, 50 % whole wheat, no-knead, compleat wheat and six puree versions. Recipes with many versions now use tabs.
+- Grams are exactly the book's. Corn and sorghum flour count as flour, so aish merahrah, carta da musica and lahoh show different % than the book (which bases them on bread flour only). Dosa has no flour: rice is the 100 % base.
+- Not added: brioche naan (its dough is in another volume) and balloon bread (needs a heat-gun table). Pages 40–41 are missing from the scan. No-knead pizza malt: book prints 10 g but its % says ~1 g — set to ~1 g with a CHECK note.
+- Ingredients the book lists "as needed" now show "as needed" instead of 0 g; recipes without flour (sauce, dosa) hide hydration and the flour warning.
+
 ## 2026-11-01 — Poolish focaccias
 - Focaccia has two new versions: **Poolish (Pizzana)** (65 % poolish, half-sheet pan) and **Poolish (ATK)** (America’s Test Kitchen’s wet “biga”, two 9-inch rounds). Both link to the Modernist Poolish in Starters. Spoon and cup amounts converted to grams and marked.
 

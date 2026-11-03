@@ -1,0 +1,138 @@
+{
+  "id": "mb-bhatoora",
+  "name": {
+    "en": "Bhatoora",
+    "ru": "Бхатура",
+    "orig": "Bhatoora"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Indian",
+    "fried"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "индийская",
+    "жареная"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 37",
+    "detail_ru": "Recipes II с. 37"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Liquids and yeast",
+      "name_ru": "① Жидкость и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 49.5652
+        },
+        {
+          "en": "Plain yogurt",
+          "orig": "Plain yogurt",
+          "flour": false,
+          "water": 0.85,
+          "ru": "Йогурт натуральный",
+          "note": "full-fat recommended",
+          "note_ru": "лучше жирный",
+          "pct": 19.1304
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.7391
+        }
+      ]
+    },
+    {
+      "name": "② Flour and sugar",
+      "name_ru": "② Мука и сахар",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 1.7391
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.7391
+        }
+      ]
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to full gluten development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 100 g and shape round rolls. Proof 1–1¼ h at 27 °C or 1½–2 h at 21 °C, covered.",
+    "Roll a proofed ball into a 13 cm disc and fry straight away in oil at 190 °C, 2–3 min, turning, until golden. Baste with a ladle if it puffs too much to turn. Drain on paper towels.",
+    "By hand instead: same order, autolyse 30 min, mix to low gluten development, then bulk 4½ h with 4 folds (one every hour after the first hour) and 30 min rest after the last fold."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и вымесить на средней до полного развития клейковины.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 100 г, сформовать булочки. Расстойка 1–1¼ ч при 27 °C или 1½–2 ч при 21 °C, накрыть.",
+    "Раскатать шарик в диск 13 см и сразу жарить во фритюре при 190 °C 2–3 мин, переворачивая, до золотистого цвета. Если раздуется — поливать маслом половником. Обсушить на бумаге.",
+    "Вручную: тот же порядок, автолиз 30 мин, замес до слабого развития клейковины, затем брожение 4½ ч с 4 складываниями (каждый час после первого часа) и 30 мин отдыха после последнего."
+  ],
+  "notes": "Eat within 2–3 hours of frying. Classic with chole (spicy chickpea curry).",
+  "notes_ru": "Съесть в течение 2–3 часов после жарки. Классика — с чхоле (острым карри из нута)."
+}

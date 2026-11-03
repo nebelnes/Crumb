@@ -29,7 +29,7 @@ const UI = {
     hydNote: 'Effective hydration counts the water and flour inside starters, dairy and eggs.',
     hydShort: 'hydration',
     loadErr: 'Couldn’t load recipes. Open the app with an internet connection at least once.',
-    offline: 'offline', switchTo: 'Русский', refPhotos: 'Reference photos', tapToEnlarge: 'Tap a photo to enlarge', close: 'Close',
+    asNeeded: 'as needed', offline: 'offline', switchTo: 'Русский', refPhotos: 'Reference photos', tapToEnlarge: 'Tap a photo to enlarge', close: 'Close',
   },
   ru: {
     verified: 'Проверено', draft: 'Черновик', placeholder: 'Заглушка: формулы ещё нет',
@@ -47,7 +47,7 @@ const UI = {
     hydNote: 'Эффективная гидратация учитывает воду и муку внутри заквасок, молочных продуктов и яиц.',
     hydShort: 'гидратация',
     loadErr: 'Не удалось загрузить рецепты. Откройте приложение с интернетом хотя бы один раз.',
-    offline: 'офлайн', switchTo: 'English', refPhotos: 'Фото для справки', tapToEnlarge: 'Нажмите на фото, чтобы увеличить', close: 'Закрыть',
+    asNeeded: 'по необходимости', offline: 'офлайн', switchTo: 'English', refPhotos: 'Фото для справки', tapToEnlarge: 'Нажмите на фото, чтобы увеличить', close: 'Закрыть',
   },
 };
 const T = k => UI[LANG][k];
@@ -355,18 +355,18 @@ function renderRecipe(id) {
     const cond = s => [L(s, 'time', true), L(s, 'temp', true)].filter(Boolean).map(esc).join(' · ');
     const extras = allIngredients(r).filter(i => i.extra).map(i => ingName(i).split(',')[0].toLowerCase());
     const summary = (c.mode === 'pieces' ? `${num(c.pieces)} × ${num(c.pieceWeight)} ${T('g')}` : `${grams(res.dough)} ${T('g')}`)
-      + ` · ${num(res.hydration, 1)} % ${T('hydShort')}`;
+      + (r.noFlour ? '' : ` · ${num(res.hydration, 1)} % ${T('hydShort')}`);
     document.getElementById('summary').textContent = summary;
     document.getElementById('out').innerHTML = `
-      ${!res.flourOk ? `<div class="warn">${esc(T('flourWarn')(pct(res.flourPct)))}</div>` : ''}
+      ${!res.flourOk && !r.noFlour ? `<div class="warn">${esc(T('flourWarn')(pct(res.flourPct)))}</div>` : ''}
       <section class="card totals-card">
         <div class="totals">
           <div class="tot"><div class="k">${esc(T('total'))}${extras.length ? esc(T('with') + extras.join(T('and'))) : ''}</div><div class="v">${grams(res.dough)} ${T('g')}</div></div>
-          <div class="tot"><div class="k">${esc(T('hydration'))}</div><div class="v">${num(res.hydration, 1)} %</div></div>
-          <div class="tot"><div class="k">${esc(T('formulaFlour'))}</div><div class="v">${grams(res.freshFlour)} ${T('g')}</div></div>
-          <div class="tot"><div class="k">${esc(T('allFlour'))}</div><div class="v">${grams(res.allFlour)} ${T('g')}</div></div>
+          ${r.noFlour ? '' : `<div class="tot"><div class="k">${esc(T('hydration'))}</div><div class="v">${num(res.hydration, 1)} %</div></div>
+          <div class="tot"><div class="k">${esc(T('formulaFlour'))}</div><div class="v">${grams(res.freshFlour)} ${T('g')}</div></div>`}
+          ${r.noFlour ? '' : `<div class="tot"><div class="k">${esc(T('allFlour'))}</div><div class="v">${grams(res.allFlour)} ${T('g')}</div></div>`}
         </div>
-        <p class="fine">${esc(T('hydNote'))}</p>
+        ${r.noFlour ? '' : `<p class="fine">${esc(T('hydNote'))}</p>`}
       </section>
       ${res.stages.map(s => `
         <section class="card stage${s.topping ? ' topping' : ''}">
@@ -376,8 +376,8 @@ function renderRecipe(id) {
             ${s.rows.map(i => `<li>
               <div class="ing-top">
                 <span class="ing-name">${i.link ? `<a class="rlink" href="#/r/${esc(i.link)}">${esc(ingName(i))}&nbsp;<span aria-hidden="true">→</span></a>` : esc(ingName(i))}${i.flour ? `<span class="flag flour">${T('flour')}</span>` : ''}${i.extra ? `<span class="flag">${T('onTop')}</span>` : ''}${i.converted ? `<span class="flag">${T('converted')}</span>` : ''}</span>
-                <span class="ing-pct">${pct(i.pct)} %</span>
-                <b class="ing-g">${grams(i.g)} ${T('g')}</b>
+                <span class="ing-pct">${i.asNeeded ? '—' : `${pct(i.pct)} %`}</span>
+                <b class="ing-g">${i.asNeeded ? esc(T('asNeeded')) : `${grams(i.g)} ${T('g')}`}</b>
               </div>
               ${ingAlt(i) ? `<small>${esc(ingAlt(i))}</small>` : ''}${L(i, 'note') ? `<small>${esc(L(i, 'note'))}</small>` : ''}
             </li>`).join('')}

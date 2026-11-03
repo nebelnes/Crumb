@@ -1,0 +1,187 @@
+{
+  "id": "mb-sheermal",
+  "name": {
+    "en": "Sheermal",
+    "ru": "Ширмал",
+    "orig": "Sheermal"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "naan",
+    "saffron",
+    "enriched"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "наан",
+    "шафран",
+    "сдобная"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 32",
+    "detail_ru": "Recipes II с. 32"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Saffron infusion",
+      "name_ru": "① Настой шафрана",
+      "time": "20 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Water, hot (65 °C)",
+          "orig": "Water, hot (65 °C)",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода горячая (65 °C)",
+          "pct": 14.2857
+        },
+        {
+          "en": "Saffron threads",
+          "orig": "Saffron threads",
+          "flour": false,
+          "water": 0,
+          "ru": "Шафран (нити)",
+          "pct": 0.5357
+        }
+      ],
+      "note": "Infuse 20 min.",
+      "note_ru": "Настаивать 20 мин."
+    },
+    {
+      "name": "② Milk and yeast",
+      "name_ru": "② Молоко и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Whole milk",
+          "orig": "Whole milk",
+          "flour": false,
+          "water": 0.87,
+          "ru": "Молоко цельное",
+          "pct": 60.7143
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.8929
+        }
+      ]
+    },
+    {
+      "name": "③ Flour",
+      "name_ru": "③ Мука",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Cardamom, ground",
+          "orig": "Cardamom, ground",
+          "flour": false,
+          "water": 0,
+          "ru": "Кардамон молотый",
+          "pct": 0.8929
+        }
+      ]
+    },
+    {
+      "name": "④ Salt and ghee",
+      "name_ru": "④ Соль и гхи",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9643
+        },
+        {
+          "en": "Ghee or clarified butter, melted and cooled",
+          "orig": "Ghee or clarified butter, melted and cooled",
+          "flour": false,
+          "water": 0,
+          "ru": "Гхи или топлёное масло, растопленное и остывшее",
+          "pct": 5.3571
+        }
+      ]
+    },
+    {
+      "name": "Topping",
+      "name_ru": "Для смазывания",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Ghee or clarified butter, melted",
+          "orig": "Ghee or clarified butter, melted",
+          "flour": false,
+          "water": 0,
+          "ru": "Гхи или топлёное масло, растопленное",
+          "pct": 17.8571
+        }
+      ],
+      "note": "Brush on while the bread is hot. Not part of the dough weight.",
+      "note_ru": "Смазать горячий хлеб. Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "Infuse the saffron in the hot water (①) for 20 min.",
+    "By machine: stir the yeast into the milk (②) with the saffron water until dissolved. Add ③, mix on low to a shaggy mass, autolyse 20–30 min. Add ④ and mix on medium to full gluten development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 100 g, shape round rolls, rest 20 min covered.",
+    "Flour the surface and dough, roll each into a 30 cm disc and move to a well-floured peel. Flour well and dock all over with the tip of a paring knife or a lattice roller.",
+    "Bake hot, as for naan: each disc takes 5–6 min. Brush with ghee while hot.",
+    "By hand instead: same order, autolyse 30 min, mix to low gluten development, then bulk 4½ h with 4 folds (one every hour after the first hour) and 30 min rest after the last fold."
+  ],
+  "method_ru": [
+    "Настоять шафран в горячей воде (①) 20 мин.",
+    "В миксере: растворить дрожжи в молоке (②) вместе с шафрановой водой. Добавить ③, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ④ и вымесить на средней до полного развития клейковины.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 100 г, сформовать круглые булочки, отдых 20 мин под плёнкой.",
+    "Присыпать поверхность и тесто мукой, раскатать в диск 30 см, переложить на хорошо присыпанную лопату. Обильно присыпать и наколоть кончиком ножа или решётчатым роликом.",
+    "Печь горячо, как наан: каждый диск 5–6 мин. Смазать гхи, пока горячий.",
+    "Вручную: тот же порядок, автолиз 30 мин, замес до слабого развития клейковины, затем брожение 4½ ч с 4 складываниями (каждый час после первого часа) и 30 мин отдыха после последнего."
+  ],
+  "notes": "Eat within 1 day, ideally warm, or freeze up to 2 months.",
+  "notes_ru": "Съесть в течение дня, лучше тёплым, или заморозить до 2 мес."
+}

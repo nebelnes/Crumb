@@ -1,0 +1,148 @@
+{
+  "id": "mb-lahoh",
+  "name": {
+    "en": "Lahoh",
+    "ru": "Лахох",
+    "orig": "Lahoh"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Yemeni",
+    "batter",
+    "skillet"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "йеменская",
+    "жидкое тесто",
+    "на сковороде"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 157",
+    "detail_ru": "Recipes II с. 157"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 6,
+    "pieceWeight": 165,
+    "total": 1002,
+    "loss": 0,
+    "slider": {
+      "min": 400,
+      "max": 3000,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 100,
+      "max": 300,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Water, room temperature",
+          "orig": "Water, room temperature",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода комнатной температуры",
+          "pct": 224.5902
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.9836
+        }
+      ]
+    },
+    {
+      "name": "② Dry ingredients",
+      "name_ru": "② Сухие ингредиенты",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 80.3279
+        },
+        {
+          "en": "Sorghum flour",
+          "orig": "Sorghum flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука из сорго",
+          "pct": 19.6721
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9672
+        },
+        {
+          "en": "Fenugreek, ground",
+          "orig": "Fenugreek, ground",
+          "flour": false,
+          "water": 0,
+          "ru": "Пажитник (шамбала) молотый",
+          "pct": 0.9836
+        }
+      ]
+    },
+    {
+      "name": "For the pan",
+      "name_ru": "Для сковороды",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Vegetable oil",
+          "orig": "Vegetable oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Растительное масло",
+          "pct": 0,
+          "asNeeded": true
+        }
+      ],
+      "topping": true
+    }
+  ],
+  "method": [
+    "Stir the yeast into ① until dissolved. Pour into ② and whisk to a batter with no lumps. Cover well.",
+    "Ferment 1½ h, until small bubbles form on the surface.",
+    "Heat a lightly oiled nonstick pan over medium heat (or an electric crepe griddle on medium-high). Pour in 165 g batter and tilt the pan to coat the bottom evenly (or use a crepe spreader).",
+    "It's done when small holes form on top and it no longer looks wet, 2–5 min — cook on one side only.",
+    "Slide onto a sheet pan lined with a clean towel. Serve within 5 min, or wrap in foil and reheat in a hot oven just before serving."
+  ],
+  "method_ru": [
+    "Растворить дрожжи в ①. Влить в ② и взбить венчиком до теста без комков. Хорошо накрыть.",
+    "Брожение 1½ ч, пока на поверхности не появятся мелкие пузырьки.",
+    "Разогреть слегка смазанную антипригарную сковороду на среднем огне (или электроблинницу на средне-сильном). Налить 165 г теста и наклонить сковороду, чтобы оно ровно покрыло дно (или развести лопаткой для блинов).",
+    "Готово, когда сверху появятся мелкие дырочки и поверхность перестанет быть влажной, 2–5 мин — жарить только с одной стороны.",
+    "Переложить на противень с чистым полотенцем. Подавать в течение 5 мин или завернуть в фольгу и подогреть в горячей духовке перед подачей."
+  ],
+  "notes": "Like injera but without the sourness. Sorghum counts as flour here, so the % differ from the book's (based on bread flour alone). Eat within 2–3 days or freeze up to 2 months.",
+  "notes_ru": "Похоже на инджеру, но без кислинки. Сорго здесь считается мукой, поэтому % отличаются от книжных (там — от одной хлебопекарной). Съесть в течение 2–3 дней или заморозить до 2 мес."
+}

@@ -1,0 +1,181 @@
+{
+  "id": "mb-fougasse",
+  "name": {
+    "en": "Fougasse",
+    "ru": "Фугас",
+    "orig": "Fougasse"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "French",
+    "levain",
+    "olives"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "французская",
+    "закваска",
+    "оливки"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 98",
+    "detail_ru": "Recipes II с. 98"
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 2,
+    "pieceWeight": 500,
+    "total": 1005,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 250,
+      "max": 1100,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Liquids, levain and yeast",
+      "name_ru": "① Жидкость, закваска и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 61.1765
+        },
+        {
+          "en": "Liquid levain, mature",
+          "orig": "Liquid levain, mature",
+          "flour": false,
+          "water": 0.5,
+          "ru": "Жидкая закваска (левен), зрелая",
+          "note": "100 % hydration",
+          "note_ru": "гидратация 100 %",
+          "flourIn": 0.5,
+          "pct": 54.1176
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.9412
+        }
+      ]
+    },
+    {
+      "name": "② Flour",
+      "name_ru": "② Мука",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.5882
+        }
+      ]
+    },
+    {
+      "name": "④ Olives and oil",
+      "name_ru": "④ Оливки и масло",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Oil-cured black olives, pitted, chopped",
+          "orig": "Oil-cured black olives, pitted, chopped",
+          "flour": false,
+          "water": 0,
+          "ru": "Вяленые чёрные оливки, без косточек, нарезанные",
+          "pct": 10.5882
+        },
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 7.0588
+        }
+      ]
+    },
+    {
+      "name": "Finish",
+      "name_ru": "Для смазывания",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 0,
+          "asNeeded": true
+        }
+      ],
+      "note": "Brush on when it comes out of the oven.",
+      "note_ru": "Смазать после выпечки.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: stir ① until the yeast dissolves, add ② and mix on low to a shaggy mass; autolyse 20–30 min. Add ③ and mix on medium to medium development, then on low add ④ until even.",
+    "Bulk 2½ h with 2 folds (one each hour) and 30 min rest after the last; check full development with the windowpane test.",
+    "Leave whole for one large, or divide into 500 g for two medium. Preshape bâtards, rest 20 min.",
+    "Shape into a leaf on a parchment-lined sheet pan: press flat and cut the vein pattern. Sprinkle seeds now if you like.",
+    "Proof: large 1–2 h at 27 °C or 2–3 h at 21 °C; medium 45 min–1¼ h at 27 °C or 1½–2½ h at 21 °C.",
+    "Bake (focaccia table): large (1 kg) home 230 °C on a stone/steel 35–45 min, combi or convection 220 °C full fan 17–20 min, deck 245 °C 15–20 min, wood-fired 175 °C 30–35 min; medium (500 g) home 25–30 min, combi/convection 10–13 min, deck 10–15 min, wood-fired 20–25 min. Bake on the pan it was cut on; brush with olive oil straight away.",
+    "By hand instead: autolyse 30 min, mix in ③ and ④, bulk 4½ h with 6 folds (every 30 min after the first hour); after the third fold keep it in the fridge, and bring back to room temperature for the last 30 min."
+  ],
+  "method_ru": [
+    "В миксере: размешать ① до растворения дрожжей, добавить ② и замесить на низкой до лохматой массы; автолиз 20–30 мин. Добавить ③ и месить на средней до среднего развития, затем на низкой вмешать ④.",
+    "Брожение 2½ ч с 2 складываниями (каждый час) и 30 мин отдыха после последнего; проверить полное развитие тестом на «окно».",
+    "Не делить для одного большого или разделить по 500 г на два средних. Предформовка батаром, отдых 20 мин.",
+    "Сформовать «лист» на противне с пергаментом: расплющить и прорезать «прожилки». При желании посыпать семенами.",
+    "Расстойка: большой 1–2 ч при 27 °C или 2–3 ч при 21 °C; средний 45 мин–1¼ ч при 27 °C или 1½–2½ ч при 21 °C.",
+    "Выпечка (таблица фокаччи): большая (1 кг) — домашняя 230 °C на камне/стали 35–45 мин, пароконвектомат или конвекция 220 °C полный обдув 17–20 мин, подовая 245 °C 15–20 мин, дровяная 175 °C 30–35 мин; средняя (500 г) — домашняя 25–30 мин, конвекция 10–13 мин, подовая 10–15 мин, дровяная 20–25 мин. Печь на том же противне; сразу смазать оливковым маслом.",
+    "Вручную: автолиз 30 мин, вмешать ③ и ④, брожение 4½ ч с 6 складываниями (каждые 30 мин после первого часа); после третьего держать в холодильнике, на последние 30 мин вернуть в тепло."
+  ],
+  "notes": "Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Съесть в течение дня или заморозить до 2 мес."
+}

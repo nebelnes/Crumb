@@ -1,0 +1,171 @@
+{
+  "id": "mb-carta-da-musica",
+  "name": {
+    "en": "Carta da musica",
+    "ru": "Карта да музика",
+    "orig": "Carta da musica"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Sardinian",
+    "poolish",
+    "crispy"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "сардинская",
+    "пулиш",
+    "хрустящая"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 74–75",
+    "detail_ru": "Recipes II с. 74–75"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 5,
+    "pieceWeight": 200,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 400,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Poolish (12 h ahead)",
+      "name_ru": "Пулиш (за 12 ч)",
+      "time": "12 h",
+      "temp": "room temp",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 15.2542
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 15.2542
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.0153
+        }
+      ],
+      "note": "Mix until incorporated; ferment covered at room temperature 12 h.",
+      "note_ru": "Перемешать; бродить под крышкой при комнатной температуре 12 ч.",
+      "link": "mb-poolish"
+    },
+    {
+      "name": "① Water and yeast (+ all the poolish)",
+      "name_ru": "① Вода и дрожжи (+ весь пулиш)",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 52.5424
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.1695
+        }
+      ]
+    },
+    {
+      "name": "② Bread flour",
+      "name_ru": "② Хлебопекарная мука",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 63.5593
+        }
+      ]
+    },
+    {
+      "name": "③ Corn flour and salt",
+      "name_ru": "③ Кукурузная мука и соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Corn flour",
+          "orig": "Corn flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Кукурузная мука",
+          "note": "corn flour, not cornmeal",
+          "note_ru": "именно мука, не крупа",
+          "pct": 21.1864
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.5254
+        }
+      ]
+    }
+  ],
+  "method": [
+    "Make the poolish 12 h ahead.",
+    "By machine: put ① and the poolish in the bowl and stir until the yeast dissolves; add ② and ③ and mix on medium to full gluten development.",
+    "Bulk 1½ h with one fold after 1 h, then 30 min rest; use a big tub so nothing touches the dough.",
+    "Divide into 200 g and shape round rolls. Proof 1–1¼ h at 27 °C or 1½–2 h at 21 °C.",
+    "Roll each into a 33 cm disc and move to a well-floured peel.",
+    "Bake on a stone or steel: home 260 °C 5–7 min; convection 230 °C, lowest fan, 5–7 min; combi 230 °C 4–6 min; deck 245 °C 5–7 min; pizza oven 220 °C 3–5 min. Bake until puffed, set and coloured — not soft like pita. If they deflate, put them back: they'll crisp. At home, let the oven recover 5–8 min between bakes.",
+    "Once cool and crisp, the two halves can be split apart."
+  ],
+  "method_ru": [
+    "Пулиш — за 12 ч.",
+    "В миксере: ① и пулиш в чашу, размешать до растворения дрожжей; добавить ② и ③ и вымесить на средней до полного развития клейковины.",
+    "Брожение 1½ ч с одним складыванием через 1 ч, затем 30 мин отдыха; в большом контейнере, чтобы ничего не касалось теста.",
+    "Разделить по 200 г, сформовать булочки. Расстойка 1–1¼ ч при 27 °C или 1½–2 ч при 21 °C.",
+    "Раскатать каждую в диск 33 см и переложить на хорошо присыпанную лопату.",
+    "Печь на камне или стали: домашняя 260 °C 5–7 мин; конвекция 230 °C, минимальный обдув, 5–7 мин; пароконвектомат 230 °C 4–6 мин; подовая 245 °C 5–7 мин; печь для пиццы 220 °C 3–5 мин. Печь, пока не раздуется, не схватится и не зарумянится — не мягкой, как пита. Если опала — вернуть в духовку, станет хрустящей. Дома давать духовке 5–8 мин прогреться между закладками.",
+    "Остывшую хрустящую лепёшку можно разделить на две половинки."
+  ],
+  "notes": "Corn flour is counted as flour here, so the % differ from the book's (it bases them on bread flour alone). Keeps 3 days.",
+  "notes_ru": "Кукурузная мука здесь считается мукой, поэтому % отличаются от книжных (там они от одной хлебопекарной). Хранится 3 дня."
+}

@@ -1,0 +1,215 @@
+{
+  "id": "mb-jreesh",
+  "name": {
+    "en": "Jreesh (anise, mahleb and bulgur pie)",
+    "ru": "Джриш (лепёшка с анисом, махлебом и булгуром)",
+    "orig": "Jreesh"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "whole wheat",
+    "bulgur"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "цельнозерновая",
+    "булгур"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 65",
+    "detail_ru": "Recipes II с. 65"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 5,
+    "pieceWeight": 200,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 400,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "Soaked bulgur",
+      "name_ru": "Замоченный булгур",
+      "time": "3 h",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bulgur wheat (dry)",
+          "orig": "Bulgur wheat (dry)",
+          "flour": false,
+          "water": 0,
+          "ru": "Булгур (сухой)",
+          "note": "cover with water, soak 3 h, strain — gives about 415 g",
+          "note_ru": "залить водой, 3 ч, откинуть — около 415 г",
+          "pct": 39.7849
+        }
+      ],
+      "note": "Prep only: the soaked weight goes into ④.",
+      "note_ru": "Только заготовка: в ④ идёт замоченный вес.",
+      "topping": true
+    },
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C (21 °C by hand)",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 66.6667
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.8602
+        }
+      ]
+    },
+    {
+      "name": "② Flour and spices",
+      "name_ru": "② Мука и специи",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Whole wheat flour",
+          "orig": "Whole wheat flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Цельнозерновая пшеничная мука",
+          "pct": 100.0
+        },
+        {
+          "en": "Oil",
+          "orig": "Oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Масло",
+          "pct": 2.1505
+        },
+        {
+          "en": "Whole anise seed",
+          "orig": "Whole anise seed",
+          "flour": false,
+          "water": 0,
+          "ru": "Анис (семена)",
+          "pct": 1.2903
+        },
+        {
+          "en": "Anise, ground",
+          "orig": "Anise, ground",
+          "flour": false,
+          "water": 0,
+          "ru": "Анис молотый",
+          "pct": 0.6452
+        },
+        {
+          "en": "Mahleb, ground",
+          "orig": "Mahleb, ground",
+          "flour": false,
+          "water": 0,
+          "ru": "Махлеб молотый",
+          "pct": 0.6452
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9355
+        }
+      ]
+    },
+    {
+      "name": "④ Soaked bulgur",
+      "name_ru": "④ Замоченный булгур",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Soaked bulgur, strained",
+          "orig": "Soaked bulgur, strained",
+          "flour": false,
+          "water": 0,
+          "ru": "Замоченный булгур, откинутый",
+          "note": "all of it; its water isn't counted in hydration",
+          "note_ru": "весь; его вода не учитывается в гидратации",
+          "pct": 89.2473
+        }
+      ]
+    },
+    {
+      "name": "Finish",
+      "name_ru": "Для смазывания",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 0,
+          "asNeeded": true
+        }
+      ],
+      "note": "Brush on as soon as the bread is out of the oven.",
+      "note_ru": "Смазать сразу после выпечки.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "Soak the bulgur in water to cover for 3 h at room temperature; strain.",
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to medium development; on low add ④ just until incorporated.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 200 g, shape round rolls, rest 10 min covered.",
+    "Roll each into a thin 25 cm disc, put on a lightly floured surface and bake straight away.",
+    "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Each takes 2–5 min. Brush with olive oil while hot.",
+    "By hand instead: autolyse 30 min, low development, bulk 4½ h with 4 folds; work the bulgur in after the first fold by squeezing and folding. The balls can rest in the fridge overnight."
+  ],
+  "method_ru": [
+    "Замочить булгур в воде на 3 ч при комнатной температуре; откинуть.",
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой до лохматой массы, автолиз 20–30 мин. Добавить ③ и месить на средней до среднего развития; на низкой вмешать ④ до равномерности.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 200 г, сформовать булочки, отдых 10 мин под плёнкой.",
+    "Раскатать в тонкий диск 25 см, выложить на слегка присыпанную поверхность и сразу печь.",
+    "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Каждая 2–5 мин. Горячую смазать оливковым маслом.",
+    "Вручную: автолиз 30 мин, слабое развитие, брожение 4½ ч с 4 складываниями; булгур вмешать после первого складывания, сжимая и складывая. Шарики можно оставить на ночь в холодильнике."
+  ],
+  "notes": "Best within 2–3 h, or freeze up to 2 months.",
+  "notes_ru": "Лучше всего в первые 2–3 часа, или заморозить до 2 мес."
+}

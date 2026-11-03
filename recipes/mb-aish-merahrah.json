@@ -1,0 +1,152 @@
+{
+  "id": "mb-aish-merahrah",
+  "name": {
+    "en": "Aish merahrah",
+    "ru": "Аиш мерахрах",
+    "orig": "Aish merahrah"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Egyptian",
+    "corn",
+    "fenugreek"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "египетская",
+    "кукуруза",
+    "пажитник"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 62–63",
+    "detail_ru": "Recipes II с. 62–63"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 8,
+    "pieceWeight": 125,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C (21 °C by hand)",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "note": "book: 107.14 % of the bread flour",
+          "note_ru": "в книге 107,14 % от хлебопекарной муки",
+          "pct": 64.6552
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.5172
+        }
+      ]
+    },
+    {
+      "name": "② Flours and sugar",
+      "name_ru": "② Мука и сахар",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 60.3448
+        },
+        {
+          "en": "Corn flour",
+          "orig": "Corn flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Кукурузная мука",
+          "note": "corn flour, not cornmeal",
+          "note_ru": "именно мука, не крупа",
+          "pct": 39.6552
+        },
+        {
+          "en": "Brown sugar",
+          "orig": "Brown sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар коричневый",
+          "pct": 4.3103
+        }
+      ]
+    },
+    {
+      "name": "③ Salt and fenugreek",
+      "name_ru": "③ Соль и пажитник",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.8966
+        },
+        {
+          "en": "Fenugreek, ground",
+          "orig": "Fenugreek, ground",
+          "flour": false,
+          "water": 0,
+          "ru": "Пажитник (шамбала) молотый",
+          "pct": 0.8621
+        }
+      ]
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ② and mix on medium to medium gluten development; on low add ③, then mix on medium to full development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 125 g, shape round rolls, rest 20 min.",
+    "Roll each into a thin 15 cm disc, put on a lightly floured surface, dust with flour and cover well (no air-drying for this one). Rest 20 min.",
+    "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Each takes 2–5 min.",
+    "By hand instead: autolyse 30 min before ③, mix to low development, bulk 4½ h with 4 folds. If the dough gets gassy fast, keep it in the fridge between folds."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ② и месить на средней до среднего развития клейковины; на низкой добавить ③, затем вымесить на средней до полного развития.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 125 г, сформовать булочки, отдых 20 мин.",
+    "Раскатать в тонкий диск 15 см, выложить на слегка присыпанную поверхность, припылить мукой и хорошо накрыть (подсушивать не нужно). Отдых 20 мин.",
+    "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Каждая — 2–5 мин.",
+    "Вручную: автолиз 30 мин перед ③, замес до слабого развития, брожение 4½ ч с 4 складываниями. Если тесто быстро газует — держать в холодильнике между складываниями."
+  ],
+  "notes": "Corn flour is counted as flour here, so the % differ from the book's (it bases them on the bread flour alone). Traditionally ~50 cm across — halve the dough for that. Best within 2 h; reheat later. The balls can rest in the fridge overnight (temper 1 h).",
+  "notes_ru": "Кукурузная мука здесь считается мукой, поэтому % отличаются от книжных (там они от одной хлебопекарной). Традиционно лепёшка ~50 см — для этого делить тесто пополам. Лучше в первые 2 часа; потом подогреть. Шарики можно оставить на ночь в холодильнике (отогреть 1 ч)."
+}

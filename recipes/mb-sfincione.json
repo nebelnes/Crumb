@@ -1,0 +1,192 @@
+{
+  "id": "mb-sfincione",
+  "name": {
+    "en": "Sfincione",
+    "ru": "Сфинчоне",
+    "orig": "Sfincione"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Sicilian",
+    "pan",
+    "topped"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "сицилийская",
+    "в форме",
+    "с начинкой"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 99",
+    "detail_ru": "Recipes II с. 99"
+  },
+  "yield": {
+    "mode": "total",
+    "allowPieces": true,
+    "pieces": 1,
+    "pieceWeight": 1006,
+    "total": 1006,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 500,
+      "max": 1600,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 68.4211
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.8772
+        }
+      ]
+    },
+    {
+      "name": "② Flour",
+      "name_ru": "② Мука",
+      "time": "autolyse 30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9298
+        }
+      ]
+    },
+    {
+      "name": "④ Oil",
+      "name_ru": "④ Масло",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 5.2632
+        }
+      ]
+    },
+    {
+      "name": "Toppings",
+      "name_ru": "Начинка",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 7.0175
+        },
+        {
+          "en": "Tomato sauce",
+          "orig": "Tomato sauce",
+          "flour": false,
+          "water": 0,
+          "ru": "Томатный соус",
+          "link": "mb-tomato-sauce",
+          "pct": 15.7895
+        },
+        {
+          "en": "Aged caciocavallo, grated",
+          "orig": "Aged caciocavallo, grated",
+          "flour": false,
+          "water": 0,
+          "ru": "Выдержанный качокавалло, тёртый",
+          "note": "pecorino Romano works",
+          "note_ru": "можно пекорино романо",
+          "pct": 7.8947
+        },
+        {
+          "en": "Bread crumbs, toasted",
+          "orig": "Bread crumbs, toasted",
+          "flour": false,
+          "water": 0,
+          "ru": "Сухари панировочные, поджаренные",
+          "note": "or toasted panko",
+          "note_ru": "или поджаренные панко",
+          "pct": 5.2632
+        }
+      ],
+      "note": "Not part of the dough weight.",
+      "note_ru": "Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: stir ① until dissolved, add ② and mix on low to a shaggy mass; autolyse 30 min. Add ③ and mix on medium to medium development, then on low add ④ until even.",
+    "Bulk 2½ h with 2 folds (one each hour after the first hour) and 30 min rest; check full development.",
+    "Preshape a boule, rest 20 min. Meanwhile pour plenty of olive oil into a 38 cm round pan, 5 cm deep, and line the bottom with parchment.",
+    "Put the boule in the pan, drizzle with oil and stipple with your fingertips until it fills the pan.",
+    "Proof 1–2 h at 27 °C or 2–3 h at 21 °C.",
+    "Drizzle the 40 g oil over, spread the sauce evenly, then sprinkle the cheese and crumbs.",
+    "Bake (focaccia table): large (1 kg) home 230 °C on a stone/steel 35–45 min, combi or convection 220 °C full fan 17–20 min, deck 245 °C 15–20 min, wood-fired 175 °C 30–35 min; medium (500 g) home 25–30 min, combi/convection 10–13 min, deck 10–15 min, wood-fired 20–25 min. Slide it out with an offset spatula onto a rack straight away.",
+    "By hand instead: autolyse 30 min, mix in ③ and ④, bulk 4½ h with 6 folds."
+  ],
+  "method_ru": [
+    "В миксере: размешать ①, добавить ② и замесить на низкой до лохматой массы; автолиз 30 мин. Добавить ③ и месить на средней до среднего развития, затем на низкой вмешать ④.",
+    "Брожение 2½ ч с 2 складываниями (каждый час после первого часа) и 30 мин отдыха; проверить полное развитие.",
+    "Сформовать шар, отдых 20 мин. Тем временем щедро налить оливкового масла в круглую форму 38 см глубиной 5 см и выстелить дно пергаментом.",
+    "Положить шар в форму, сбрызнуть маслом и растянуть пальцами по всей форме.",
+    "Расстойка 1–2 ч при 27 °C или 2–3 ч при 21 °C.",
+    "Полить 40 г масла, равномерно распределить соус, посыпать сыром и сухарями.",
+    "Выпечка (таблица фокаччи): большая (1 кг) — домашняя 230 °C на камне/стали 35–45 мин, пароконвектомат или конвекция 220 °C полный обдув 17–20 мин, подовая 245 °C 15–20 мин, дровяная 175 °C 30–35 мин; средняя (500 г) — домашняя 25–30 мин, конвекция 10–13 мин, подовая 10–15 мин, дровяная 20–25 мин. Сразу вынуть широкой лопаткой на решётку.",
+    "Вручную: автолиз 30 мин, вмешать ③ и ④, брожение 4½ ч с 6 складываниями."
+  ],
+  "notes": "Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Съесть в течение дня или заморозить до 2 мес."
+}

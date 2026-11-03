@@ -1,0 +1,656 @@
+{
+  "id": "mb-dosa",
+  "name": {
+    "en": "Dosa",
+    "ru": "Доса",
+    "orig": "Dosa"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Indian",
+    "gluten-free",
+    "batter",
+    "fermented"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "индийская",
+    "без глютена",
+    "жидкое тесто",
+    "ферментированная"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 147–149",
+    "detail_ru": "Recipes II с. 147–149"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 29,
+    "pieceWeight": 70,
+    "total": 2030,
+    "loss": 0,
+    "slider": {
+      "min": 300,
+      "max": 3000,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 40,
+      "max": 150,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master",
+      "label_ru": "Мастер",
+      "sub": "jasmine rice · p. 147–148",
+      "sub_ru": "рис жасмин · с. 147–148",
+      "stages": [
+        {
+          "name": "① Soak",
+          "name_ru": "① Замочка",
+          "time": "about 3 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, 21 °C",
+              "orig": "Water, 21 °C",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, 21 °C",
+              "pct": 300.0
+            },
+            {
+              "en": "Jasmine rice",
+              "orig": "Jasmine rice",
+              "flour": false,
+              "water": 0,
+              "ru": "Рис жасмин",
+              "note": "the 100 % base (no flour in this recipe)",
+              "note_ru": "база 100 % (муки в рецепте нет)",
+              "pct": 100.0
+            },
+            {
+              "en": "Whole black gram (urad dhal), husked, not split",
+              "orig": "Whole black gram (urad dhal), husked, not split",
+              "flour": false,
+              "water": 0,
+              "ru": "Урад дал (чёрный маш), очищенный, целый",
+              "note": "husked but whole — split lentils rise less",
+              "note_ru": "очищенный, но целый — колотый поднимается хуже",
+              "pct": 50.0
+            },
+            {
+              "en": "Fresh coconut, grated",
+              "orig": "Fresh coconut, grated",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежий кокос, тёртый",
+              "pct": 7.9545
+            },
+            {
+              "en": "Flattened rice flakes (poha)",
+              "orig": "Flattened rice flakes (poha)",
+              "flour": false,
+              "water": 0,
+              "ru": "Рисовые хлопья (поха)",
+              "pct": 6.8182
+            }
+          ],
+          "time_ru": "около 3 ч"
+        },
+        {
+          "name": "② Salt",
+          "name_ru": "② Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.5
+            }
+          ]
+        },
+        {
+          "name": "For cooking",
+          "name_ru": "Для жарки",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "note": "plus more as needed",
+              "note_ru": "плюс по необходимости",
+              "pct": 34.0909
+            }
+          ],
+          "note": "About 5 ml per dosa. Not part of the batter weight.",
+          "note_ru": "Около 5 мл на досу. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Soak ① for about 3 h, until soft.",
+        "Blend on high speed in a blender until smooth and fluffy — not grainy. Stir in the salt ② until dissolved.",
+        "Ferment, covered, 4–5 h at 27 °C or 6–7 h at 21 °C, until bubbly. The fermentation matters for flavour: if you see no bubbles, give it longer.",
+        "Heat a 20 cm nonstick skillet or crepe griddle over medium heat. Ladle 70 g batter into the centre and spread it outward in a spiral with the bottom of the ladle, to the size of the pan.",
+        "Drizzle 5 ml (1 tsp) ghee around the edge and cook until crisp and golden, 2–4 min. Adjust the heat so it doesn't burn.",
+        "Roll up (or just fold in half) and serve warm, within 30 min. To fill, lay the filling down the centre before rolling."
+      ],
+      "method_ru": [
+        "Замочить ① примерно на 3 ч, до мягкости.",
+        "Пробить в блендере на высокой скорости до гладкой пышной массы — без крупинок. Вмешать соль ② до растворения.",
+        "Брожение под крышкой 4–5 ч при 27 °C или 6–7 ч при 21 °C, до пузырьков. Брожение важно для вкуса: если пузырьков нет — подождать дольше.",
+        "Разогреть антипригарную сковороду 20 см или блинницу на среднем огне. Налить 70 г теста в центр и донышком половника развести по спирали до краёв.",
+        "Полить 5 мл (1 ч. л.) гхи по краю и жарить до хруста и золотистого цвета, 2–4 мин. Регулировать огонь, чтобы не подгорало.",
+        "Свернуть трубочкой (или просто пополам) и подавать тёплой, в течение 30 мин. С начинкой — выложить её по центру перед сворачиванием."
+      ],
+      "notes": "Machine only (a blender). Ghee is preferred over oil for flavour.",
+      "notes_ru": "Только в блендере. Гхи лучше масла — даёт сливочный вкус."
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "label_ru": "Модернист",
+      "sub": "stays crisp longer · p. 149",
+      "sub_ru": "дольше хрустит · с. 149",
+      "stages": [
+        {
+          "name": "① Soak",
+          "name_ru": "① Замочка",
+          "time": "about 3 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, 21 °C",
+              "orig": "Water, 21 °C",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, 21 °C",
+              "pct": 300.0
+            },
+            {
+              "en": "Jasmine rice",
+              "orig": "Jasmine rice",
+              "flour": false,
+              "water": 0,
+              "ru": "Рис жасмин",
+              "note": "the 100 % base (no flour in this recipe)",
+              "note_ru": "база 100 % (муки в рецепте нет)",
+              "pct": 100.0
+            },
+            {
+              "en": "Whole black gram (urad dhal), husked, not split",
+              "orig": "Whole black gram (urad dhal), husked, not split",
+              "flour": false,
+              "water": 0,
+              "ru": "Урад дал (чёрный маш), очищенный, целый",
+              "note": "husked but whole — split lentils rise less",
+              "note_ru": "очищенный, но целый — колотый поднимается хуже",
+              "pct": 50.0
+            },
+            {
+              "en": "Fresh coconut, grated",
+              "orig": "Fresh coconut, grated",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежий кокос, тёртый",
+              "pct": 7.9545
+            },
+            {
+              "en": "Flattened rice flakes (poha)",
+              "orig": "Flattened rice flakes (poha)",
+              "flour": false,
+              "water": 0,
+              "ru": "Рисовые хлопья (поха)",
+              "pct": 6.8182
+            },
+            {
+              "en": "Polydextrose",
+              "orig": "Polydextrose",
+              "flour": false,
+              "water": 0,
+              "ru": "Полидекстроза",
+              "pct": 1.1364
+            },
+            {
+              "en": "Lactic acid",
+              "orig": "Lactic acid",
+              "flour": false,
+              "water": 0,
+              "ru": "Молочная кислота",
+              "pct": 0.625
+            }
+          ],
+          "time_ru": "около 3 ч"
+        },
+        {
+          "name": "② Salt",
+          "name_ru": "② Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.5
+            }
+          ]
+        },
+        {
+          "name": "For cooking",
+          "name_ru": "Для жарки",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "note": "plus more as needed",
+              "note_ru": "плюс по необходимости",
+              "pct": 34.0909
+            }
+          ],
+          "note": "About 5 ml per dosa. Not part of the batter weight.",
+          "note_ru": "Около 5 мл на досу. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Soak ① for about 3 h, until soft.",
+        "Blend on high speed in a blender until smooth and fluffy — not grainy. Stir in the salt ② until dissolved.",
+        "Ferment, covered, 4–5 h at 27 °C or 6–7 h at 21 °C, until bubbly. The fermentation matters for flavour: if you see no bubbles, give it longer.",
+        "Heat a 20 cm nonstick skillet or crepe griddle over medium heat. Ladle 70 g batter into the centre and spread it outward in a spiral with the bottom of the ladle, to the size of the pan.",
+        "Drizzle 5 ml (1 tsp) ghee around the edge and cook until crisp and golden, 2–4 min. Adjust the heat so it doesn't burn.",
+        "Roll up (or just fold in half) and serve warm, within 30 min. To fill, lay the filling down the centre before rolling."
+      ],
+      "method_ru": [
+        "Замочить ① примерно на 3 ч, до мягкости.",
+        "Пробить в блендере на высокой скорости до гладкой пышной массы — без крупинок. Вмешать соль ② до растворения.",
+        "Брожение под крышкой 4–5 ч при 27 °C или 6–7 ч при 21 °C, до пузырьков. Брожение важно для вкуса: если пузырьков нет — подождать дольше.",
+        "Разогреть антипригарную сковороду 20 см или блинницу на среднем огне. Налить 70 г теста в центр и донышком половника развести по спирали до краёв.",
+        "Полить 5 мл (1 ч. л.) гхи по краю и жарить до хруста и золотистого цвета, 2–4 мин. Регулировать огонь, чтобы не подгорало.",
+        "Свернуть трубочкой (или просто пополам) и подавать тёплой, в течение 30 мин. С начинкой — выложить её по центру перед сворачиванием."
+      ],
+      "notes": "Polydextrose keeps it crisp and browns better; lactic acid adds a little sourness. The batter keeps 2 days in the fridge. Also good in a waffle iron (about 120 g batter) or an aebleskiver pan.",
+      "notes_ru": "Полидекстроза сохраняет хруст и усиливает румяность; молочная кислота даёт лёгкую кислинку. Тесто хранится 2 дня в холодильнике. Хорошо и в вафельнице (около 120 г теста) или сковороде для эблескивер."
+    },
+    {
+      "id": "rye",
+      "label": "Rye",
+      "label_ru": "Ржаная",
+      "sub": "grain swap · p. 144",
+      "sub_ru": "замена зерна · с. 144",
+      "stages": [
+        {
+          "name": "① Soak",
+          "name_ru": "① Замочка",
+          "time": "about 3 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, 21 °C",
+              "orig": "Water, 21 °C",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, 21 °C",
+              "pct": 300.0
+            },
+            {
+              "en": "Rye berries",
+              "orig": "Rye berries",
+              "flour": false,
+              "water": 0,
+              "ru": "Рожь (зерно)",
+              "note": "in place of the jasmine rice",
+              "note_ru": "вместо риса жасмин",
+              "pct": 100.0
+            },
+            {
+              "en": "Whole black gram (urad dhal), husked, not split",
+              "orig": "Whole black gram (urad dhal), husked, not split",
+              "flour": false,
+              "water": 0,
+              "ru": "Урад дал (чёрный маш), очищенный, целый",
+              "note": "husked but whole — split lentils rise less",
+              "note_ru": "очищенный, но целый — колотый поднимается хуже",
+              "pct": 50.0
+            },
+            {
+              "en": "Fresh coconut, grated",
+              "orig": "Fresh coconut, grated",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежий кокос, тёртый",
+              "pct": 7.9545
+            },
+            {
+              "en": "Flattened rice flakes (poha)",
+              "orig": "Flattened rice flakes (poha)",
+              "flour": false,
+              "water": 0,
+              "ru": "Рисовые хлопья (поха)",
+              "pct": 6.8182
+            }
+          ],
+          "time_ru": "около 3 ч"
+        },
+        {
+          "name": "② Salt",
+          "name_ru": "② Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.5
+            }
+          ]
+        },
+        {
+          "name": "For cooking",
+          "name_ru": "Для жарки",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "note": "plus more as needed",
+              "note_ru": "плюс по необходимости",
+              "pct": 34.0909
+            }
+          ],
+          "note": "About 5 ml per dosa. Not part of the batter weight.",
+          "note_ru": "Около 5 мл на досу. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Soak ① for about 3 h, until soft.",
+        "Blend on high speed in a blender until smooth and fluffy — not grainy. Stir in the salt ② until dissolved.",
+        "Ferment, covered, 4–5 h at 27 °C or 6–7 h at 21 °C, until bubbly. The fermentation matters for flavour: if you see no bubbles, give it longer.",
+        "Heat a 20 cm nonstick skillet or crepe griddle over medium heat. Ladle 70 g batter into the centre and spread it outward in a spiral with the bottom of the ladle, to the size of the pan.",
+        "Drizzle 5 ml (1 tsp) ghee around the edge and cook until crisp and golden, 2–4 min. Adjust the heat so it doesn't burn.",
+        "Roll up (or just fold in half) and serve warm, within 30 min. To fill, lay the filling down the centre before rolling."
+      ],
+      "method_ru": [
+        "Замочить ① примерно на 3 ч, до мягкости.",
+        "Пробить в блендере на высокой скорости до гладкой пышной массы — без крупинок. Вмешать соль ② до растворения.",
+        "Брожение под крышкой 4–5 ч при 27 °C или 6–7 ч при 21 °C, до пузырьков. Брожение важно для вкуса: если пузырьков нет — подождать дольше.",
+        "Разогреть антипригарную сковороду 20 см или блинницу на среднем огне. Налить 70 г теста в центр и донышком половника развести по спирали до краёв.",
+        "Полить 5 мл (1 ч. л.) гхи по краю и жарить до хруста и золотистого цвета, 2–4 мин. Регулировать огонь, чтобы не подгорало.",
+        "Свернуть трубочкой (или просто пополам) и подавать тёплой, в течение 30 мин. С начинкой — выложить её по центру перед сворачиванием."
+      ],
+      "notes": "The book gives this as a swap: the same weight of this grain in place of the jasmine rice.",
+      "notes_ru": "В книге это замена: тот же вес этого зерна вместо риса жасмин."
+    },
+    {
+      "id": "buckwheat",
+      "label": "Buckwheat",
+      "label_ru": "Гречневая",
+      "sub": "grain swap · p. 144",
+      "sub_ru": "замена зерна · с. 144",
+      "stages": [
+        {
+          "name": "① Soak",
+          "name_ru": "① Замочка",
+          "time": "about 3 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, 21 °C",
+              "orig": "Water, 21 °C",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, 21 °C",
+              "pct": 300.0
+            },
+            {
+              "en": "Buckwheat groats",
+              "orig": "Buckwheat groats",
+              "flour": false,
+              "water": 0,
+              "ru": "Гречневая крупа",
+              "note": "in place of the jasmine rice",
+              "note_ru": "вместо риса жасмин",
+              "pct": 100.0
+            },
+            {
+              "en": "Whole black gram (urad dhal), husked, not split",
+              "orig": "Whole black gram (urad dhal), husked, not split",
+              "flour": false,
+              "water": 0,
+              "ru": "Урад дал (чёрный маш), очищенный, целый",
+              "note": "husked but whole — split lentils rise less",
+              "note_ru": "очищенный, но целый — колотый поднимается хуже",
+              "pct": 50.0
+            },
+            {
+              "en": "Fresh coconut, grated",
+              "orig": "Fresh coconut, grated",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежий кокос, тёртый",
+              "pct": 7.9545
+            },
+            {
+              "en": "Flattened rice flakes (poha)",
+              "orig": "Flattened rice flakes (poha)",
+              "flour": false,
+              "water": 0,
+              "ru": "Рисовые хлопья (поха)",
+              "pct": 6.8182
+            }
+          ],
+          "time_ru": "около 3 ч"
+        },
+        {
+          "name": "② Salt",
+          "name_ru": "② Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.5
+            }
+          ]
+        },
+        {
+          "name": "For cooking",
+          "name_ru": "Для жарки",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "note": "plus more as needed",
+              "note_ru": "плюс по необходимости",
+              "pct": 34.0909
+            }
+          ],
+          "note": "About 5 ml per dosa. Not part of the batter weight.",
+          "note_ru": "Около 5 мл на досу. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Soak ① for about 3 h, until soft.",
+        "Blend on high speed in a blender until smooth and fluffy — not grainy. Stir in the salt ② until dissolved.",
+        "Ferment, covered, 4–5 h at 27 °C or 6–7 h at 21 °C, until bubbly. The fermentation matters for flavour: if you see no bubbles, give it longer.",
+        "Heat a 20 cm nonstick skillet or crepe griddle over medium heat. Ladle 70 g batter into the centre and spread it outward in a spiral with the bottom of the ladle, to the size of the pan.",
+        "Drizzle 5 ml (1 tsp) ghee around the edge and cook until crisp and golden, 2–4 min. Adjust the heat so it doesn't burn.",
+        "Roll up (or just fold in half) and serve warm, within 30 min. To fill, lay the filling down the centre before rolling."
+      ],
+      "method_ru": [
+        "Замочить ① примерно на 3 ч, до мягкости.",
+        "Пробить в блендере на высокой скорости до гладкой пышной массы — без крупинок. Вмешать соль ② до растворения.",
+        "Брожение под крышкой 4–5 ч при 27 °C или 6–7 ч при 21 °C, до пузырьков. Брожение важно для вкуса: если пузырьков нет — подождать дольше.",
+        "Разогреть антипригарную сковороду 20 см или блинницу на среднем огне. Налить 70 г теста в центр и донышком половника развести по спирали до краёв.",
+        "Полить 5 мл (1 ч. л.) гхи по краю и жарить до хруста и золотистого цвета, 2–4 мин. Регулировать огонь, чтобы не подгорало.",
+        "Свернуть трубочкой (или просто пополам) и подавать тёплой, в течение 30 мин. С начинкой — выложить её по центру перед сворачиванием."
+      ],
+      "notes": "The book gives this as a swap: the same weight of this grain in place of the jasmine rice.",
+      "notes_ru": "В книге это замена: тот же вес этого зерна вместо риса жасмин."
+    },
+    {
+      "id": "quinoa",
+      "label": "Quinoa",
+      "label_ru": "Киноа",
+      "sub": "grain swap · p. 144",
+      "sub_ru": "замена зерна · с. 144",
+      "stages": [
+        {
+          "name": "① Soak",
+          "name_ru": "① Замочка",
+          "time": "about 3 h",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Water, 21 °C",
+              "orig": "Water, 21 °C",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода, 21 °C",
+              "pct": 300.0
+            },
+            {
+              "en": "Whole quinoa",
+              "orig": "Whole quinoa",
+              "flour": false,
+              "water": 0,
+              "ru": "Киноа (целое зерно)",
+              "note": "in place of the jasmine rice",
+              "note_ru": "вместо риса жасмин",
+              "pct": 100.0
+            },
+            {
+              "en": "Whole black gram (urad dhal), husked, not split",
+              "orig": "Whole black gram (urad dhal), husked, not split",
+              "flour": false,
+              "water": 0,
+              "ru": "Урад дал (чёрный маш), очищенный, целый",
+              "note": "husked but whole — split lentils rise less",
+              "note_ru": "очищенный, но целый — колотый поднимается хуже",
+              "pct": 50.0
+            },
+            {
+              "en": "Fresh coconut, grated",
+              "orig": "Fresh coconut, grated",
+              "flour": false,
+              "water": 0,
+              "ru": "Свежий кокос, тёртый",
+              "pct": 7.9545
+            },
+            {
+              "en": "Flattened rice flakes (poha)",
+              "orig": "Flattened rice flakes (poha)",
+              "flour": false,
+              "water": 0,
+              "ru": "Рисовые хлопья (поха)",
+              "pct": 6.8182
+            }
+          ],
+          "time_ru": "около 3 ч"
+        },
+        {
+          "name": "② Salt",
+          "name_ru": "② Соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 2.5
+            }
+          ]
+        },
+        {
+          "name": "For cooking",
+          "name_ru": "Для жарки",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Ghee or clarified butter, melted",
+              "orig": "Ghee or clarified butter, melted",
+              "flour": false,
+              "water": 0,
+              "ru": "Гхи или топлёное масло, растопленное",
+              "note": "plus more as needed",
+              "note_ru": "плюс по необходимости",
+              "pct": 34.0909
+            }
+          ],
+          "note": "About 5 ml per dosa. Not part of the batter weight.",
+          "note_ru": "Около 5 мл на досу. Не входит в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "Soak ① for about 3 h, until soft.",
+        "Blend on high speed in a blender until smooth and fluffy — not grainy. Stir in the salt ② until dissolved.",
+        "Ferment, covered, 4–5 h at 27 °C or 6–7 h at 21 °C, until bubbly. The fermentation matters for flavour: if you see no bubbles, give it longer.",
+        "Heat a 20 cm nonstick skillet or crepe griddle over medium heat. Ladle 70 g batter into the centre and spread it outward in a spiral with the bottom of the ladle, to the size of the pan.",
+        "Drizzle 5 ml (1 tsp) ghee around the edge and cook until crisp and golden, 2–4 min. Adjust the heat so it doesn't burn.",
+        "Roll up (or just fold in half) and serve warm, within 30 min. To fill, lay the filling down the centre before rolling."
+      ],
+      "method_ru": [
+        "Замочить ① примерно на 3 ч, до мягкости.",
+        "Пробить в блендере на высокой скорости до гладкой пышной массы — без крупинок. Вмешать соль ② до растворения.",
+        "Брожение под крышкой 4–5 ч при 27 °C или 6–7 ч при 21 °C, до пузырьков. Брожение важно для вкуса: если пузырьков нет — подождать дольше.",
+        "Разогреть антипригарную сковороду 20 см или блинницу на среднем огне. Налить 70 г теста в центр и донышком половника развести по спирали до краёв.",
+        "Полить 5 мл (1 ч. л.) гхи по краю и жарить до хруста и золотистого цвета, 2–4 мин. Регулировать огонь, чтобы не подгорало.",
+        "Свернуть трубочкой (или просто пополам) и подавать тёплой, в течение 30 мин. С начинкой — выложить её по центру перед сворачиванием."
+      ],
+      "notes": "The book gives this as a swap: the same weight of this grain in place of the jasmine rice.",
+      "notes_ru": "В книге это замена: тот же вес этого зерна вместо риса жасмин."
+    }
+  ],
+  "noFlour": true
+}

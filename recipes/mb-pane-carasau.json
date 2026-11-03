@@ -1,0 +1,130 @@
+{
+  "id": "mb-pane-carasau",
+  "name": {
+    "en": "Pane carasau (Sardinian flatbread)",
+    "ru": "Пане карасау (сардинская лепёшка)",
+    "orig": "Pane carasau"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Sardinian",
+    "durum",
+    "crispy"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "сардинская",
+    "дурум",
+    "хрустящая"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 73",
+    "detail_ru": "Recipes II с. 73"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C (21 °C by hand)",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 68.6441
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.5254
+        }
+      ]
+    },
+    {
+      "name": "② Flours",
+      "name_ru": "② Мука",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Durum flour",
+          "orig": "Durum flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука из твёрдой пшеницы (дурум)",
+          "pct": 55.0847
+        },
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 44.9153
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.0339
+        }
+      ]
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves; add ② and ③ and mix on medium to full gluten development. (By hand: autolyse 30 min before the salt, then mix to full development.)",
+    "Bulk 1 h with one book fold after 30 min, in a tub big enough that nothing touches the dough.",
+    "Divide into 100 g, shape round rolls, rest 10 min covered. Roll each into a thin 25 cm disc.",
+    "Bake on a stone or steel: home oven 260 °C 5–6 min; convection 230 °C, lowest fan, 4–5 min; combi 230 °C, lowest fan, 3–4 min; deck 245 °C 5–7 min on the floor; wood/gas pizza oven 220 °C 3–5 min on the floor. Each takes 3–7 min: it puffs like a pillow, then keep baking until crisp.",
+    "Tip: the balls can rest in the fridge overnight for easier rolling."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей; добавить ② и ③ и вымесить на средней до полного развития клейковины. (Вручную: автолиз 30 мин перед солью, затем до полного развития.)",
+    "Брожение 1 ч с одним складыванием «книжкой» через 30 мин, в большом контейнере, чтобы ничего не касалось теста.",
+    "Разделить по 100 г, сформовать булочки, отдых 10 мин под плёнкой. Раскатать в тонкий диск 25 см.",
+    "Печь на камне или стали: домашняя духовка 260 °C 5–6 мин; конвекция 230 °C, минимальный обдув, 4–5 мин; пароконвектомат 230 °C, минимальный обдув, 3–4 мин; подовая 245 °C 5–7 мин на поду; дровяная/газовая печь для пиццы 220 °C 3–5 мин на поду. Каждый 3–7 мин: раздувается подушкой, затем допекать до хруста.",
+    "Совет: шарики можно оставить на ночь в холодильнике — раскатывать легче."
+  ],
+  "notes": "Best within 2–3 h.",
+  "notes_ru": "Лучше всего в первые 2–3 часа."
+}

@@ -1,0 +1,143 @@
+{
+  "id": "mb-kubaneh",
+  "name": {
+    "en": "Kubaneh",
+    "ru": "Кубане",
+    "orig": "Kubaneh"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "Yemeni",
+    "laminated",
+    "pull-apart"
+  ],
+  "tags_ru": [
+    "йеменский",
+    "слоёный",
+    "отрывной"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 44–45",
+    "detail_ru": "Recipes II с. 44–45"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 8,
+    "pieceWeight": 125,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 75,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 57.8947
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.7018
+        }
+      ]
+    },
+    {
+      "name": "② Flour, sugar, salt",
+      "name_ru": "② Мука, сахар, соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 12.2807
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.5789
+        }
+      ]
+    },
+    {
+      "name": "For stretching and the pan",
+      "name_ru": "Для растягивания и формы",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Butter, softened",
+          "orig": "Butter, softened",
+          "flour": false,
+          "water": 0.16,
+          "ru": "Сливочное масло, мягкое",
+          "pct": 43.8596
+        }
+      ],
+      "note": "You may need a little extra. Not part of the dough weight.",
+      "note_ru": "Может понадобиться чуть больше. Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: stir the yeast into ① until dissolved, add ② and mix on medium to full gluten development. Bulk 30 min, no folds, covered.",
+    "Divide into 125 g, shape round rolls, rest 20 min covered.",
+    "Butter the kubaneh pot and line its lid with parchment — or line a 23 cm cake pan, 7.5 cm deep, with foil and butter it.",
+    "Butter a large area of the bench, your hands and a ball. Press and stretch it with your palms to a very thin 60 cm square (more butter if it resists). Fold the left third in and the right third over, then roll it up into a cylinder. Repeat with all.",
+    "Stand the cylinders in the pan, spiral side up, like a bouquet of roses. Proof 30–40 min at 27 °C or 40–45 min at 21 °C.",
+    "Same day: cover (lid, or buttered foil crimped tight). Bake 15 min at 175 °C home oven (160 °C combi/convection), then 30–40 min at 160 °C (150 °C) to 90–93 °C in the centre. Cool 20–30 min in the pan, then turn out.",
+    "Traditional overnight: covered, 5 h at 105 °C home oven (100 °C combi/convection); turn the oven off and leave 3 h inside, then turn out."
+  ],
+  "method_ru": [
+    "В миксере: растворить дрожжи в ①, добавить ② и вымесить на средней скорости до полного развития клейковины. Брожение 30 мин без складываний, накрыть.",
+    "Разделить по 125 г, сформовать булочки, отдых 20 мин под плёнкой.",
+    "Смазать маслом горшок для кубане и выстелить крышку пергаментом — или выстелить фольгой форму для торта 23 см глубиной 7,5 см и смазать маслом.",
+    "Смазать маслом большой участок стола, руки и шарик. Ладонями растянуть очень тонко до квадрата 60 см (добавить масла, если не тянется). Сложить левую треть к центру, правую сверху и свернуть рулетом. Повторить со всеми.",
+    "Поставить рулетики в форму вертикально спиралью вверх, как букет роз. Расстойка 30–40 мин при 27 °C или 40–45 мин при 21 °C.",
+    "В тот же день: накрыть (крышкой или плотно обжатой смазанной фольгой). 15 мин при 175 °C в домашней духовке (160 °C конвекция), затем 30–40 мин при 160 °C (150 °C) до 90–93 °C в центре. Остудить в форме 20–30 мин и вынуть.",
+    "Традиционно, на ночь: под крышкой 5 ч при 105 °C в домашней духовке (100 °C конвекция); выключить и оставить внутри ещё на 3 ч, затем вынуть."
+  ],
+  "notes": "Serve top side up, or upside down to show the smooth side.",
+  "notes_ru": "Подавать верхом вверх или перевернуть гладкой стороной."
+}

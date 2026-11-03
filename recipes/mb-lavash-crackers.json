@@ -1,0 +1,526 @@
+{
+  "id": "mb-lavash-crackers",
+  "name": {
+    "en": "Lavash crackers",
+    "ru": "Лаваш-крекеры",
+    "orig": "Lavash crackers"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "crackers",
+    "lavash",
+    "crispy"
+  ],
+  "tags_ru": [
+    "крекеры",
+    "лаваш",
+    "хрустящие"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 69–72",
+    "detail_ru": "Recipes II с. 69–72"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 3,
+    "pieceWeight": 310,
+    "total": 930,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 150,
+      "max": 500,
+      "step": 5
+    }
+  },
+  "variantLabel": "Version",
+  "variantLabel_ru": "Вариант",
+  "variants": [
+    {
+      "id": "master",
+      "label": "Master",
+      "label_ru": "Мастер",
+      "sub": "p. 69–71",
+      "sub_ru": "с. 69–71",
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "name_ru": "① Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 52.7778
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.963
+            }
+          ]
+        },
+        {
+          "name": "② Flour, oil, honey, salt",
+          "name_ru": "② Мука, масло, мёд, соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 9.2593
+            },
+            {
+              "en": "Honey",
+              "orig": "Honey",
+              "flour": false,
+              "water": 0.17,
+              "ru": "Мёд",
+              "pct": 7.4074
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8519
+            }
+          ]
+        },
+        {
+          "name": "Topping (optional)",
+          "name_ru": "Посыпка (по желанию)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil, for brushing",
+              "orig": "Olive oil, for brushing",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло для смазывания",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Salt, for sprinkling",
+              "orig": "Salt, for sprinkling",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль для посыпки",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Sesame seeds",
+              "orig": "Sesame seeds",
+              "flour": false,
+              "water": 0,
+              "ru": "Кунжут",
+              "pct": 1.6667
+            },
+            {
+              "en": "Poppy seeds",
+              "orig": "Poppy seeds",
+              "flour": false,
+              "water": 0,
+              "ru": "Мак",
+              "pct": 1.6667
+            },
+            {
+              "en": "Za'atar spice mix",
+              "orig": "Za'atar spice mix",
+              "flour": false,
+              "water": 0,
+              "ru": "Заатар",
+              "pct": 1.2963
+            }
+          ],
+          "note": "Use the seeds and za'atar alone or together. Not part of the dough weight.",
+          "note_ru": "Семена и заатар — по отдельности или вместе. Не входят в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine only (stiff dough): stir the yeast into ①, add ② and mix on medium to full gluten development (windowpane).",
+        "Bulk 1½ h, no folds, covered; keep it as rectangular as you can.",
+        "Lightly oil the backs of 3 half sheet pans, line with parchment and brush the paper with oil.",
+        "Divide into 300 g. On a well-floured bench roll each to a 5 mm rectangle; rest 20 min covered.",
+        "Flour well and roll (pin, pasta machine or sheeter) to 2 mm, about the size of a half sheet pan. Lay on the pans.",
+        "Just before baking brush with oil and sprinkle with salt and toppings.",
+        "Bake: home oven 190 °C, 18–20 min with the pan on a stone or steel (add 4–5 min without); convection 175 °C, full fan, 20–24 min; combi 175 °C, medium fan, 15–18 min; deck 175 °C, 19–20 min on the floor — until golden-brown and crisp.",
+        "Cool on the pan and break into pieces."
+      ],
+      "method_ru": [
+        "Только в миксере (тесто тугое): растворить дрожжи в ①, добавить ② и вымесить на средней до полного развития клейковины (тест на «окно»).",
+        "Брожение 1½ ч без складываний, накрыть; держать форму как можно более прямоугольной.",
+        "Слегка смазать обратную сторону 3 противней (половинных), выстелить пергаментом и смазать его маслом.",
+        "Разделить по 300 г. На хорошо присыпанном столе раскатать в прямоугольник 5 мм; отдых 20 мин под плёнкой.",
+        "Присыпать и раскатать (скалкой, машинкой для пасты или тестораскаткой) до 2 мм, примерно по размеру противня. Переложить на противни.",
+        "Перед выпечкой смазать маслом, посыпать солью и посыпкой.",
+        "Выпечка: домашняя духовка 190 °C, 18–20 мин, противень на камне или стали (без них +4–5 мин); конвекция 175 °C, полный обдув, 20–24 мин; пароконвектомат 175 °C, средний обдув, 15–18 мин; подовая 175 °C, 19–20 мин на поду — до золотисто-коричневого цвета и хруста.",
+        "Остудить на противне и разломать."
+      ],
+      "notes": "Keeps 3 days.",
+      "notes_ru": "Хранится 3 дня."
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "label_ru": "Модернист",
+      "sub": "stays crisp longer · p. 72",
+      "sub_ru": "дольше хрустят · с. 72",
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "name_ru": "① Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 52.7778
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.963
+            }
+          ]
+        },
+        {
+          "name": "② Flour, oil, honey, salt",
+          "name_ru": "② Мука, масло, мёд, соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 100.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 9.2593
+            },
+            {
+              "en": "Honey",
+              "orig": "Honey",
+              "flour": false,
+              "water": 0.17,
+              "ru": "Мёд",
+              "pct": 7.4074
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8519
+            },
+            {
+              "en": "Hydroxypropyl methylcellulose (HPMC)",
+              "orig": "Hydroxypropyl methylcellulose (HPMC)",
+              "flour": false,
+              "water": 0,
+              "ru": "Гидроксипропилметилцеллюлоза (ГПМЦ)",
+              "pct": 0.8333
+            },
+            {
+              "en": "Sodium stearoyl lactylate",
+              "orig": "Sodium stearoyl lactylate",
+              "flour": false,
+              "water": 0,
+              "ru": "Стеароиллактилат натрия",
+              "pct": 0.6667
+            },
+            {
+              "en": "Glycerol",
+              "orig": "Glycerol",
+              "flour": false,
+              "water": 0,
+              "ru": "Глицерин",
+              "pct": 0.1852
+            }
+          ]
+        },
+        {
+          "name": "Topping (optional)",
+          "name_ru": "Посыпка (по желанию)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil, for brushing",
+              "orig": "Olive oil, for brushing",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло для смазывания",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Salt, for sprinkling",
+              "orig": "Salt, for sprinkling",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль для посыпки",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Sesame seeds",
+              "orig": "Sesame seeds",
+              "flour": false,
+              "water": 0,
+              "ru": "Кунжут",
+              "pct": 1.6667
+            },
+            {
+              "en": "Poppy seeds",
+              "orig": "Poppy seeds",
+              "flour": false,
+              "water": 0,
+              "ru": "Мак",
+              "pct": 1.6667
+            },
+            {
+              "en": "Za'atar spice mix",
+              "orig": "Za'atar spice mix",
+              "flour": false,
+              "water": 0,
+              "ru": "Заатар",
+              "pct": 1.2963
+            }
+          ],
+          "note": "Use the seeds and za'atar alone or together. Not part of the dough weight.",
+          "note_ru": "Семена и заатар — по отдельности или вместе. Не входят в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine only (stiff dough): stir the yeast into ①, add ② and mix on medium to full gluten development (windowpane).",
+        "Bulk 1½ h, no folds, covered; keep it as rectangular as you can.",
+        "Lightly oil the backs of 3 half sheet pans, line with parchment and brush the paper with oil.",
+        "Divide into 300 g. On a well-floured bench roll each to a 5 mm rectangle; rest 20 min covered.",
+        "Flour well and roll (pin, pasta machine or sheeter) to 2 mm, about the size of a half sheet pan. Lay on the pans.",
+        "Just before baking brush with oil and sprinkle with salt and toppings.",
+        "Bake: home oven 190 °C, 18–20 min with the pan on a stone or steel (add 4–5 min without); convection 175 °C, full fan, 20–24 min; combi 175 °C, medium fan, 15–18 min; deck 175 °C, 19–20 min on the floor — until golden-brown and crisp.",
+        "Cool on the pan and break into pieces."
+      ],
+      "method_ru": [
+        "Только в миксере (тесто тугое): растворить дрожжи в ①, добавить ② и вымесить на средней до полного развития клейковины (тест на «окно»).",
+        "Брожение 1½ ч без складываний, накрыть; держать форму как можно более прямоугольной.",
+        "Слегка смазать обратную сторону 3 противней (половинных), выстелить пергаментом и смазать его маслом.",
+        "Разделить по 300 г. На хорошо присыпанном столе раскатать в прямоугольник 5 мм; отдых 20 мин под плёнкой.",
+        "Присыпать и раскатать (скалкой, машинкой для пасты или тестораскаткой) до 2 мм, примерно по размеру противня. Переложить на противни.",
+        "Перед выпечкой смазать маслом, посыпать солью и посыпкой.",
+        "Выпечка: домашняя духовка 190 °C, 18–20 мин, противень на камне или стали (без них +4–5 мин); конвекция 175 °C, полный обдув, 20–24 мин; пароконвектомат 175 °C, средний обдув, 15–18 мин; подовая 175 °C, 19–20 мин на поду — до золотисто-коричневого цвета и хруста.",
+        "Остудить на противне и разломать."
+      ],
+      "notes": "The three additives keep the crackers crisp and make the dough easier to roll. Keeps 5 days.",
+      "notes_ru": "Три добавки сохраняют хруст и облегчают раскатку. Хранится 5 дней."
+    },
+    {
+      "id": "wholewheat",
+      "label": "Whole wheat",
+      "label_ru": "С цельнозерновой",
+      "sub": "up to 20 % · p. 71",
+      "sub_ru": "до 20 % · с. 71",
+      "stages": [
+        {
+          "name": "① Water and yeast",
+          "name_ru": "① Вода и дрожжи",
+          "time": "",
+          "temp": "DDT 24–26 °C",
+          "ingredients": [
+            {
+              "en": "Water",
+              "orig": "Water",
+              "flour": false,
+              "water": 1,
+              "ru": "Вода",
+              "pct": 52.7778
+            },
+            {
+              "en": "Instant dry yeast",
+              "orig": "Instant dry yeast",
+              "flour": false,
+              "water": 0,
+              "ru": "Дрожжи сухие быстродействующие",
+              "pct": 0.963
+            }
+          ]
+        },
+        {
+          "name": "② Flour, oil, honey, salt",
+          "name_ru": "② Мука, масло, мёд, соль",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Bread flour",
+              "orig": "Bread flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Мука хлебопекарная",
+              "pct": 80.0
+            },
+            {
+              "en": "Whole wheat flour",
+              "orig": "Whole wheat flour",
+              "flour": true,
+              "water": 0,
+              "ru": "Цельнозерновая пшеничная мука",
+              "pct": 20.0
+            },
+            {
+              "en": "Olive oil",
+              "orig": "Olive oil",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло",
+              "pct": 9.2593
+            },
+            {
+              "en": "Honey",
+              "orig": "Honey",
+              "flour": false,
+              "water": 0.17,
+              "ru": "Мёд",
+              "pct": 7.4074
+            },
+            {
+              "en": "Fine salt",
+              "orig": "Fine salt",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль мелкая",
+              "pct": 1.8519
+            }
+          ]
+        },
+        {
+          "name": "Topping (optional)",
+          "name_ru": "Посыпка (по желанию)",
+          "time": "",
+          "temp": "",
+          "ingredients": [
+            {
+              "en": "Olive oil, for brushing",
+              "orig": "Olive oil, for brushing",
+              "flour": false,
+              "water": 0,
+              "ru": "Оливковое масло для смазывания",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Salt, for sprinkling",
+              "orig": "Salt, for sprinkling",
+              "flour": false,
+              "water": 0,
+              "ru": "Соль для посыпки",
+              "pct": 0,
+              "asNeeded": true
+            },
+            {
+              "en": "Sesame seeds",
+              "orig": "Sesame seeds",
+              "flour": false,
+              "water": 0,
+              "ru": "Кунжут",
+              "pct": 1.6667
+            },
+            {
+              "en": "Poppy seeds",
+              "orig": "Poppy seeds",
+              "flour": false,
+              "water": 0,
+              "ru": "Мак",
+              "pct": 1.6667
+            },
+            {
+              "en": "Za'atar spice mix",
+              "orig": "Za'atar spice mix",
+              "flour": false,
+              "water": 0,
+              "ru": "Заатар",
+              "pct": 1.2963
+            }
+          ],
+          "note": "Use the seeds and za'atar alone or together. Not part of the dough weight.",
+          "note_ru": "Семена и заатар — по отдельности или вместе. Не входят в вес теста.",
+          "topping": true
+        }
+      ],
+      "method": [
+        "By machine only (stiff dough): stir the yeast into ①, add ② and mix on medium to full gluten development (windowpane).",
+        "Bulk 1½ h, no folds, covered; keep it as rectangular as you can.",
+        "Lightly oil the backs of 3 half sheet pans, line with parchment and brush the paper with oil.",
+        "Divide into 300 g. On a well-floured bench roll each to a 5 mm rectangle; rest 20 min covered.",
+        "Flour well and roll (pin, pasta machine or sheeter) to 2 mm, about the size of a half sheet pan. Lay on the pans.",
+        "Just before baking brush with oil and sprinkle with salt and toppings.",
+        "Bake: home oven 190 °C, 18–20 min with the pan on a stone or steel (add 4–5 min without); convection 175 °C, full fan, 20–24 min; combi 175 °C, medium fan, 15–18 min; deck 175 °C, 19–20 min on the floor — until golden-brown and crisp.",
+        "Cool on the pan and break into pieces."
+      ],
+      "method_ru": [
+        "Только в миксере (тесто тугое): растворить дрожжи в ①, добавить ② и вымесить на средней до полного развития клейковины (тест на «окно»).",
+        "Брожение 1½ ч без складываний, накрыть; держать форму как можно более прямоугольной.",
+        "Слегка смазать обратную сторону 3 противней (половинных), выстелить пергаментом и смазать его маслом.",
+        "Разделить по 300 г. На хорошо присыпанном столе раскатать в прямоугольник 5 мм; отдых 20 мин под плёнкой.",
+        "Присыпать и раскатать (скалкой, машинкой для пасты или тестораскаткой) до 2 мм, примерно по размеру противня. Переложить на противни.",
+        "Перед выпечкой смазать маслом, посыпать солью и посыпкой.",
+        "Выпечка: домашняя духовка 190 °C, 18–20 мин, противень на камне или стали (без них +4–5 мин); конвекция 175 °C, полный обдув, 20–24 мин; пароконвектомат 175 °C, средний обдув, 15–18 мин; подовая 175 °C, 19–20 мин на поду — до золотисто-коричневого цвета и хруста.",
+        "Остудить на противне и разломать."
+      ],
+      "notes": "The book allows up to 20 % whole wheat in place of bread flour; this uses the full 20 %.",
+      "notes_ru": "Книга допускает до 20 % цельнозерновой вместо хлебопекарной; здесь взято максимальные 20 %."
+    }
+  ]
+}

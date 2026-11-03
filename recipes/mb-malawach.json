@@ -1,0 +1,153 @@
+{
+  "id": "mb-malawach",
+  "name": {
+    "en": "Malawach",
+    "ru": "Малауах",
+    "orig": "Malawach"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Yemeni",
+    "laminated",
+    "skillet"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "йеменская",
+    "слоёная",
+    "на сковороде"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 42–43",
+    "detail_ru": "Recipes II с. 42–43"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 5,
+    "pieceWeight": 200,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 400,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 62.7119
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 0.4068
+        }
+      ]
+    },
+    {
+      "name": "② Flour and sugar",
+      "name_ru": "② Мука и сахар",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 5.0847
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.6949
+        }
+      ]
+    },
+    {
+      "name": "For stretching",
+      "name_ru": "Для растягивания",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Butter, softened",
+          "orig": "Butter, softened",
+          "flour": false,
+          "water": 0.16,
+          "ru": "Сливочное масло, мягкое",
+          "pct": 33.8983
+        }
+      ],
+      "note": "Spread on the bench, hands and dough. Not part of the dough weight.",
+      "note_ru": "Для стола, рук и теста. Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: stir the yeast into ① until dissolved, add ② and ③ and mix on medium to full gluten development. (By hand: autolyse 30 min before the salt, then mix to full development.)",
+    "Bulk 30 min, no folds, covered.",
+    "Divide into 200 g, press into flat discs, rest 20 min covered.",
+    "Spread a thin, generous layer of soft butter over a large area of the bench. Butter your hands and the disc, then press and stretch it with your palms to a very thin 60 cm square — add butter if it resists.",
+    "Fold the left third in, then the right third over it, to make a long strip. Starting at the bottom, fold it up in triangles until it's all folded; tuck the ends under to make a ball. Repeat, then refrigerate covered about 1 h.",
+    "Roll each ball, seam down, into a 22.5 cm disc. (The discs can be frozen, wrapped, up to 2 months; thaw before cooking.)",
+    "Cook in a cast-iron or electric skillet over medium heat, 4–5 min a side, until golden-brown spots cover the surface. Scorching with raw patches means too hot; more than 5 min a side means too cool."
+  ],
+  "method_ru": [
+    "В миксере: растворить дрожжи в ①, добавить ② и ③ и вымесить на средней скорости до полного развития клейковины. (Вручную: автолиз 30 мин перед солью, затем вымесить до полного развития.)",
+    "Брожение 30 мин без складываний, накрыть.",
+    "Разделить по 200 г, сплющить в диски, отдых 20 мин под плёнкой.",
+    "Намазать большой участок стола тонким, но щедрым слоем мягкого масла. Смазать руки и диск, ладонями прижать и растянуть очень тонко до квадрата 60 см — если не тянется, добавить масла.",
+    "Сложить левую треть к центру, правую — сверху, получится длинная полоса. Начиная снизу, сворачивать её треугольниками до конца; концы подогнуть вниз — получится шар. Повторить со всеми, убрать в холодильник под плёнку примерно на 1 ч.",
+    "Раскатать каждый шар швом вниз в диск 22,5 см. (Диски можно заморозить, завернув, до 2 мес.; перед жаркой разморозить.)",
+    "Жарить на чугунной или электросковороде на среднем огне по 4–5 мин с каждой стороны до золотистых пятен. Пригорает, а внутри сыро — слишком горячо; дольше 5 мин на сторону — слишком слабо."
+  ],
+  "notes": "Serve warm or at room temperature. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Подавать тёплым или комнатной температуры. Съесть в течение дня или заморозить до 2 мес."
+}

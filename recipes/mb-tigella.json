@@ -1,0 +1,148 @@
+{
+  "id": "mb-tigella",
+  "name": {
+    "en": "Tigella",
+    "ru": "Тиджелла",
+    "orig": "Tigella"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Italian",
+    "yeasted"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "итальянская",
+    "дрожжевая"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 30–31",
+    "detail_ru": "Recipes II с. 30–31"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 10,
+    "pieceWeight": 100,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 250,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 60.5263
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.0526
+        }
+      ]
+    },
+    {
+      "name": "② Flour and sugar",
+      "name_ru": "② Мука и сахар",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 2.1053
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 1.9298
+        }
+      ]
+    },
+    {
+      "name": "④ Oil",
+      "name_ru": "④ Масло",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 10.5263
+        }
+      ]
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to medium gluten development, then on low pour in ④ in a steady stream and mix on medium to full development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Roll the dough 1.25 cm thick on a lightly floured surface and rest 20 min, covered. Cut 7.5 cm discs with a floured metal ring.",
+    "Proof on oiled parchment 30–45 min at 27 °C or 1–1½ h at 21 °C.",
+    "Spray a tigelliera (tigella mould) with oil and preheat it in the oven for 1 h. Put a disc in each cradle; keep extra discs in the fridge until there's room.",
+    "Bake: convection/combi 190 °C 10–12 min; home oven 205 °C 12–15 min. Unmould and cool on a rack.",
+    "By hand instead: autolyse 30 min, low gluten development, drizzle in ④, bulk 4½ h with 4 folds."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и месить на средней до среднего развития клейковины, затем на низкой влить ④ тонкой струйкой и вымесить на средней до полного развития.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Раскатать тесто толщиной 1,25 см на слегка присыпанной поверхности, отдых 20 мин под плёнкой. Вырезать диски 7,5 см присыпанным металлическим кольцом.",
+    "Расстойка на смазанном пергаменте 30–45 мин при 27 °C или 1–1½ ч при 21 °C.",
+    "Форму-тиджеллеру сбрызнуть маслом и прогреть в духовке 1 ч. Положить диск в каждую ячейку; лишние держать в холодильнике, пока не освободится место.",
+    "Выпечка: конвекция/пароконвектомат 190 °C 10–12 мин; домашняя духовка 205 °C 12–15 мин. Вынуть и остудить на решётке.",
+    "Вручную: автолиз 30 мин, слабое развитие клейковины, влить ④, брожение 4½ ч с 4 складываниями."
+  ],
+  "notes": "Often split and filled with lardo or cured meat. Eat within 1 day or freeze up to 2 months.",
+  "notes_ru": "Часто разрезают и начиняют салом (лардо) или вяленым мясом. Съесть в течение дня или заморозить до 2 мес."
+}

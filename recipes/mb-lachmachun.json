@@ -1,0 +1,201 @@
+{
+  "id": "mb-lachmachun",
+  "name": {
+    "en": "Lachmachun",
+    "ru": "Лахмаджун",
+    "orig": "Lachmachun"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Armenian",
+    "Turkish",
+    "topped"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "армянская",
+    "турецкая",
+    "с начинкой"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 46–47",
+    "detail_ru": "Recipes II с. 46–47"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 250,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 500,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water, yeast, yogurt",
+      "name_ru": "① Вода, дрожжи, йогурт",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 24.3697
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.0084
+        },
+        {
+          "en": "Plain yogurt",
+          "orig": "Plain yogurt",
+          "flour": false,
+          "water": 0.85,
+          "ru": "Йогурт натуральный",
+          "note": "full-fat recommended",
+          "note_ru": "лучше жирный",
+          "pct": 25.2101
+        }
+      ]
+    },
+    {
+      "name": "② Flour and sugar",
+      "name_ru": "② Мука и сахар",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 3.3613
+        }
+      ]
+    },
+    {
+      "name": "③ Oil and salt",
+      "name_ru": "③ Масло и соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 13.4454
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.0168
+        }
+      ]
+    },
+    {
+      "name": "Lamb topping",
+      "name_ru": "Начинка из баранины",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Ground lamb",
+          "orig": "Ground lamb",
+          "flour": false,
+          "water": 0,
+          "ru": "Фарш из баранины",
+          "pct": 73.9496
+        },
+        {
+          "en": "Scallions, finely diced",
+          "orig": "Scallions, finely diced",
+          "flour": false,
+          "water": 0,
+          "ru": "Зелёный лук, мелко нарезанный",
+          "pct": 1.6807
+        },
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 0.8403
+        },
+        {
+          "en": "Za'atar",
+          "orig": "Za'atar",
+          "flour": false,
+          "water": 0,
+          "ru": "Заатар",
+          "pct": 0.1681
+        },
+        {
+          "en": "Chili flakes",
+          "orig": "Chili flakes",
+          "flour": false,
+          "water": 0,
+          "ru": "Хлопья чили",
+          "pct": 0.1681
+        }
+      ],
+      "note": "Mix and refrigerate until needed; split evenly between the flatbreads. Not part of the dough weight.",
+      "note_ru": "Смешать и держать в холодильнике; поровну на все лепёшки. Не входит в вес теста.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to full gluten development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 250 g, preshape bâtards, rest 45 min covered. Mix the topping meanwhile and keep it cold.",
+    "Roll each into an oval about 22.5 × 10 cm and 1 cm thick.",
+    "Dock just before baking, then spread the raw topping over it, leaving a 1.25 cm rim.",
+    "Bake hot, as for naan: 2–5 min each — make sure the meat is cooked through. Serve immediately.",
+    "By hand instead: same order, autolyse 30 min, mix to low gluten development, then bulk 4½ h with 4 folds (one every hour after the first hour) and 30 min rest after the last fold."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и вымесить на средней до полного развития клейковины.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 250 г, предформовка батаром, отдых 45 мин под плёнкой. Тем временем смешать начинку и держать в холоде.",
+    "Раскатать в овал около 22,5 × 10 см толщиной 1 см.",
+    "Наколоть прямо перед выпечкой, распределить сырую начинку, оставив край 1,25 см.",
+    "Печь горячо, как наан: 2–5 мин каждую — мясо должно пропечься. Подавать сразу.",
+    "Вручную: тот же порядок, автолиз 30 мин, замес до слабого развития клейковины, затем брожение 4½ ч с 4 складываниями (каждый час после первого часа) и 30 мин отдыха после последнего."
+  ]
+}

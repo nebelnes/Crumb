@@ -1,0 +1,150 @@
+{
+  "id": "mb-tonis-puri",
+  "name": {
+    "en": "Tonis puri",
+    "ru": "Тонис пури",
+    "orig": "Tonis puri"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "flatbread",
+    "Georgian",
+    "yeasted"
+  ],
+  "tags_ru": [
+    "лепёшка",
+    "грузинская",
+    "дрожжевая"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 28",
+    "detail_ru": "Recipes II с. 28"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 250,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 200,
+      "max": 3500,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 50,
+      "max": 500,
+      "step": 5
+    }
+  },
+  "stages": [
+    {
+      "name": "① Water and yeast",
+      "name_ru": "① Вода и дрожжи",
+      "time": "",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "flour": false,
+          "water": 1,
+          "ru": "Вода",
+          "pct": 65.5462
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие",
+          "pct": 1.0084
+        }
+      ]
+    },
+    {
+      "name": "② Flour and sugar",
+      "name_ru": "② Мука и сахар",
+      "time": "autolyse 20–30 min",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Bread flour",
+          "orig": "Bread flour",
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная",
+          "pct": 100.0
+        },
+        {
+          "en": "Sugar",
+          "orig": "Sugar",
+          "flour": false,
+          "water": 0,
+          "ru": "Сахар",
+          "pct": 0.8403
+        }
+      ]
+    },
+    {
+      "name": "③ Salt",
+      "name_ru": "③ Соль",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая",
+          "pct": 2.0168
+        }
+      ]
+    },
+    {
+      "name": "Finish",
+      "name_ru": "Для смазывания",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло",
+          "pct": 0,
+          "asNeeded": true
+        }
+      ],
+      "note": "Brush on as soon as the bread comes out of the oven.",
+      "note_ru": "Смазать сразу после выпечки.",
+      "topping": true
+    }
+  ],
+  "method": [
+    "By machine: put ① in the bowl and stir until the yeast dissolves. Add ②, mix on low to a shaggy mass, autolyse 20–30 min. Add ③ and mix on medium to full gluten development.",
+    "Bulk 1 h in a lightly oiled, covered tub with one book fold after 30 min.",
+    "Divide into 250 g, preshape bâtards, rest 10 min covered. Roll each into a long oval, 45 × 10 cm.",
+    "Proof on a floured board or floured parchment 45 min–1 h at 27 °C or 1¼–1¾ h at 21 °C, covered.",
+    "Bake: convection/combi 10–13 min, home oven 12–15 min, tandoor 5–6 min, pizza oven 3–5 min, deck 5–7 min. Brush with olive oil straight away.",
+    "By hand instead: same order, autolyse 30 min, mix to low gluten development, then bulk 4½ h with 4 folds (one every hour after the first hour) and 30 min rest after the last fold."
+  ],
+  "method_ru": [
+    "В миксере: ① в чашу, размешать до растворения дрожжей. Добавить ②, замесить на низкой скорости до лохматой массы, автолиз 20–30 мин. Добавить ③ и вымесить на средней до полного развития клейковины.",
+    "Брожение 1 ч в слегка смазанном закрытом контейнере, одно складывание «книжкой» через 30 мин.",
+    "Разделить по 250 г, предформовка батаром, отдых 10 мин под плёнкой. Раскатать в длинный овал 45 × 10 см.",
+    "Расстойка на присыпанной доске или пергаменте 45 мин–1 ч при 27 °C или 1¼–1¾ ч при 21 °C, накрыть.",
+    "Выпечка: конвекция/пароконвектомат 10–13 мин, домашняя духовка 12–15 мин, тандыр 5–6 мин, печь для пиццы 3–5 мин, подовая 5–7 мин. Сразу смазать оливковым маслом.",
+    "Вручную: тот же порядок, автолиз 30 мин, замес до слабого развития клейковины, затем брожение 4½ ч с 4 складываниями (каждый час после первого часа) и 30 мин отдыха после последнего."
+  ],
+  "notes": "Best within 1–3 hours, warm. Freezes up to 2 months.",
+  "notes_ru": "Лучше всего в первые 1–3 часа, тёплым. Можно заморозить до 2 мес."
+}

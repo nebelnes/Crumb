@@ -1,0 +1,258 @@
+{
+  "id": "mb-calzone",
+  "name": {
+    "en": "Calzone",
+    "ru": "Кальцоне",
+    "orig": "Calzone"
+  },
+  "category": "Flatbreads",
+  "category_ru": "Лепёшки",
+  "tags": [
+    "pizza",
+    "calzone",
+    "filled"
+  ],
+  "tags_ru": [
+    "пицца",
+    "кальцоне",
+    "с начинкой"
+  ],
+  "status": "draft",
+  "source": {
+    "type": "book",
+    "title": "Modernist Bread",
+    "volume": 5,
+    "detail": "Recipes II p. 134–135 (Neapolitan dough p. 113)",
+    "detail_ru": "Recipes II с. 134–135 (неаполитанское тесто с. 113)"
+  },
+  "yield": {
+    "mode": "pieces",
+    "allowPieces": true,
+    "pieces": 4,
+    "pieceWeight": 250,
+    "total": 1000,
+    "loss": 0,
+    "slider": {
+      "min": 250,
+      "max": 3000,
+      "step": 10
+    },
+    "pieceSlider": {
+      "min": 150,
+      "max": 400,
+      "step": 10
+    }
+  },
+  "stages": [
+    {
+      "name": "② Poolish (made 12 h ahead)",
+      "time": "12 h",
+      "temp": "",
+      "note": "Mix 12 h before the dough and let it ferment in an airtight container (book p. 3·20).",
+      "ingredients": [
+        {
+          "en": "Bread flour or 00 pizza flour",
+          "orig": "Bread flour or 00 pizza flour",
+          "pct": 9.0909,
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная или мука 00 для пиццы"
+        },
+        {
+          "en": "Water",
+          "orig": "Water",
+          "pct": 9.0909,
+          "flour": false,
+          "water": 1,
+          "ru": "Вода"
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "pct": 0.0091,
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие"
+        }
+      ],
+      "name_ru": "② Пулиш (за 12 ч)",
+      "note_ru": "Замесить за 12 ч до теста и оставить бродить в герметичном контейнере (книга, с. 3·20)."
+    },
+    {
+      "name": "① Water and yeast",
+      "temp": "DDT 24–26 °C",
+      "ingredients": [
+        {
+          "en": "Water",
+          "orig": "Water",
+          "pct": 65.4545,
+          "flour": false,
+          "water": 1,
+          "ru": "Вода"
+        },
+        {
+          "en": "Instant dry yeast",
+          "orig": "Instant dry yeast",
+          "pct": 0.5455,
+          "flour": false,
+          "water": 0,
+          "ru": "Дрожжи сухие быстродействующие"
+        }
+      ],
+      "name_ru": "① Вода и дрожжи"
+    },
+    {
+      "name": "③ Flour",
+      "ingredients": [
+        {
+          "en": "Bread flour or 00 pizza flour",
+          "orig": "Bread flour or 00 pizza flour",
+          "pct": 90.9091,
+          "flour": true,
+          "water": 0,
+          "ru": "Мука хлебопекарная или мука 00 для пиццы"
+        },
+        {
+          "en": "Diastatic malt powder",
+          "orig": "Diastatic malt powder",
+          "pct": 1.8182,
+          "flour": false,
+          "water": 0,
+          "ru": "Диастатический солодовый порошок"
+        }
+      ],
+      "name_ru": "③ Мука"
+    },
+    {
+      "name": "④ Salt and oil",
+      "ingredients": [
+        {
+          "en": "Fine salt",
+          "orig": "Fine salt",
+          "pct": 2.0,
+          "flour": false,
+          "water": 0,
+          "ru": "Соль мелкая"
+        },
+        {
+          "en": "Olive oil",
+          "orig": "Olive oil",
+          "pct": 0.9091,
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло"
+        }
+      ],
+      "name_ru": "④ Соль и масло"
+    },
+    {
+      "name": "Filling",
+      "name_ru": "Начинка",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Fresh mozzarella, air-dried",
+          "orig": "Fresh mozzarella, air-dried",
+          "flour": false,
+          "water": 0,
+          "ru": "Свежая моцарелла, подсушенная на воздухе",
+          "pct": 37.7618
+        },
+        {
+          "en": "Ricotta",
+          "orig": "Ricotta",
+          "flour": false,
+          "water": 0,
+          "ru": "Рикотта",
+          "pct": 21.5782
+        },
+        {
+          "en": "Parmesan, finely grated",
+          "orig": "Parmesan, finely grated",
+          "flour": false,
+          "water": 0,
+          "ru": "Пармезан, мелко тёртый",
+          "pct": 9.89
+        },
+        {
+          "en": "Egg",
+          "orig": "Egg",
+          "flour": false,
+          "water": 0.75,
+          "ru": "Яйцо",
+          "note": "1 egg",
+          "note_ru": "1 яйцо",
+          "pct": 8.9909
+        },
+        {
+          "en": "Garlic, minced",
+          "orig": "Garlic, minced",
+          "flour": false,
+          "water": 0,
+          "ru": "Чеснок, рубленый",
+          "pct": 1.7982
+        }
+      ],
+      "note": "About 110 g per calzone. Per 1 kg of dough in the book.",
+      "note_ru": "Около 110 г на кальцоне. В книге — на 1 кг теста.",
+      "topping": true
+    },
+    {
+      "name": "To finish and serve",
+      "name_ru": "Для отделки и подачи",
+      "time": "",
+      "temp": "",
+      "ingredients": [
+        {
+          "en": "Olive oil (optional)",
+          "orig": "Olive oil (optional)",
+          "flour": false,
+          "water": 0,
+          "ru": "Оливковое масло (по желанию)",
+          "pct": 0,
+          "asNeeded": true
+        },
+        {
+          "en": "Parmesan, grated (optional)",
+          "orig": "Parmesan, grated (optional)",
+          "flour": false,
+          "water": 0,
+          "ru": "Пармезан тёртый (по желанию)",
+          "pct": 0,
+          "asNeeded": true
+        },
+        {
+          "en": "Tomato sauce, warmed, for dipping",
+          "orig": "Tomato sauce, warmed, for dipping",
+          "flour": false,
+          "water": 0,
+          "ru": "Томатный соус, тёплый, для подачи",
+          "link": "mb-tomato-sauce",
+          "pct": 43.1564
+        }
+      ],
+      "topping": true
+    }
+  ],
+  "method": [
+    "Make the Neapolitan pizza dough (same stages as the Pizza recipe): poolish 12 h ahead, mix, bulk 1½ h with one fold.",
+    "Divide into 250 g, preshape boules, oil lightly, put on well-oiled parchment and cover. Cold-proof at 4 °C for 1–2 days.",
+    "Mix the mozzarella, ricotta, Parmesan, egg and garlic; divide into 4 (about 110 g) and keep cold.",
+    "Press each ball into a 15 cm disc with a slightly thicker rim, then stretch over your knuckles to 30 cm.",
+    "Put the filling on one half, leaving a 2.5 cm border. Brush the border with water, fold the other half over and crimp with a fork. Cut 3 slits, brush with oil and sprinkle with Parmesan if you like. Don't overfill.",
+    "Bake: deck 245 °C 20 min (vent after 15); home oven 260 °C on a stone or steel 15–20 min — all four can go on one parchment-lined pan set on the stone, 2.5 cm apart; convection/combi 245 °C, highest fan, 20–25 min on a parchment-lined pan (no stone). Until golden.",
+    "Serve with warm tomato sauce on the side."
+  ],
+  "method_ru": [
+    "Замесить неаполитанское тесто (те же этапы, что в рецепте пиццы): пулиш за 12 ч, замес, брожение 1½ ч с одним складыванием.",
+    "Разделить по 250 г, сформовать шарики, слегка смазать маслом, выложить на хорошо смазанный пергамент и накрыть. Выдержать при 4 °C 1–2 дня.",
+    "Смешать моцареллу, рикотту, пармезан, яйцо и чеснок; разделить на 4 части (около 110 г) и держать в холоде.",
+    "Прижать шарик в диск 15 см с чуть более толстым краем, затем растянуть на костяшках до 30 см.",
+    "Выложить начинку на половину, оставив край 2,5 см. Смазать край водой, накрыть второй половиной и прижать вилкой. Сделать 3 надреза, смазать маслом и по желанию посыпать пармезаном. Не переполнять.",
+    "Выпечка: подовая 245 °C 20 мин (через 15 мин открыть заслонку); домашняя 260 °C на камне или стали 15–20 мин — все четыре можно на одном противне с пергаментом прямо на камне, на расстоянии 2,5 см; конвекция/пароконвектомат 245 °C, максимальный обдув, 20–25 мин на противне с пергаментом (без камня). До золотистого цвета.",
+    "Подавать с тёплым томатным соусом."
+  ],
+  "notes": "Other fillings from the book, per 1 kg of dough: ricotta 150 g + sautéed spinach 150 g; pepperoni 100 g + pickled peppers 50 g + mozzarella 25 g; roasted broccoli 30 g + chorizo 125 g + caramelized onion 50 g + mozzarella 50 g; jalapeño 5 g + olives 50 g + anchovies 20 g + Parmesan 50 g + mozzarella 50 g.",
+  "notes_ru": "Другие начинки из книги на 1 кг теста: рикотта 150 г + припущенный шпинат 150 г; пепперони 100 г + маринованный перец 50 г + моцарелла 25 г; печёная брокколи 30 г + чоризо 125 г + карамелизованный лук 50 г + моцарелла 50 г; халапеньо 5 г + оливки 50 г + анчоусы 20 г + пармезан 50 г + моцарелла 50 г."
+}
